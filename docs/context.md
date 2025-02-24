@@ -42,7 +42,7 @@ A Contextualização deve situar sem projeto em um determinado contexto de merca
 
 
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+
 
 ## Problema
 
