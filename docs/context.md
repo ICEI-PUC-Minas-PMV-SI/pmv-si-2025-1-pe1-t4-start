@@ -1,23 +1,46 @@
 # Introdução
 
-No Brasil e no mundo, as mães solo enfrentam uma realidade desafiadora ao tentar 
-equilibrar suas responsabilidades profissionais e familiares. Além de cuidar de seus 
-filhos, essas mulheres possuem diversas obrigações diárias dentro de casa, o que 
-aumenta significativamente sua carga de trabalho e limita suas oportunidades no 
-mercado de trabalho. 
-A sociedade frequentemente impõe às mães solo o papel de "donas dos lares", 
-colocando sobre elas a responsabilidade exclusiva pela organização da casa e cuidado 
-dos filhos. Essa visão tradicional e limitada restringe o progresso dessas mulheres em 
-suas carreiras e dificulta seu ingresso e permanência no mercado de trabalho. 
-Além disso, muitas empresas tendem a julgar negativamente as mães solo quando elas 
-buscam emprego. As empresas frequentemente assumem, de forma precipitada, que 
-essas mulheres não serão capazes de equilibrar suas responsabilidades domésticas e 
-profissionais. Isso resulta na indisponibilidade de vagas de emprego para mães solo, 
-mantendo-se um ciclo de discriminação e exclusão.
+Titulo do Projeto: Mães em foco 
 
+CURSO: Sistemas de Informação  
 
+DISCIPLINA: Projeto - Aplicações Web 
+
+SEMESTRE: 1º 
+
+Integrantes: 
+
+Laila Maria da Silva 
+
+Ana Clara Rocha Nolberto 
+
+Ava Fabian Oliveira da Cruz 
+
+Maria Clara Alves Reis 
+
+Thiago Muniz Santana 
+
+Lucas  
+
+ 
+
+Orientador: 
+
+Nome completo do professor1; Diego Augusto de Faria Barros 
+
+ 
+
+ 1 INTRODUÇÃO 
+
+No Brasil e no mundo, as mães solo enfrentam uma realidade desafiadora ao tentar equilibrar suas responsabilidades profissionais e familiares. Além de cuidar de seus filhos, essas mulheres possuem diversas obrigações diárias dentro de casa, o que aumenta significativamente sua carga de trabalho e limita suas oportunidades no mercado de trabalho. 
+
+A sociedade frequentemente impõe às mães solo o papel de "donas dos lares", colocando sobre elas a responsabilidade exclusiva pela organização da casa e cuidado dos filhos. Essa visão tradicional e limitada restringe o progresso dessas mulheres em suas carreiras e dificulta seu ingresso e permanência no mercado de trabalho. 
+
+Além disso, muitas empresas tendem a julgar negativamente as mães solo quando elas buscam emprego. As empresas frequentemente assumem, de forma precipitada, que essas mulheres não serão capazes de equilibrar suas responsabilidades
 
 A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+
+
 
 Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
