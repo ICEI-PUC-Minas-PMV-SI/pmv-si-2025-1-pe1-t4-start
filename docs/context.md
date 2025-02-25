@@ -44,18 +44,13 @@ No Brasil, pesquisas recentes mostram que o número de famílias monoparentais c
 
 É importante ressaltar também que a maternidade solo, apesar de relativamente comum na sociedade brasileira, é uma experiência única para cada mãe, com diferentes causas e consequências, mas também com algumas difuldades coletivas e que ao compreender e abordar esses desafios coletivos, podemos construir uma sociedade mais justa e igualitária para essas mulheres e suas familias. 
 
-## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+*3 Problema*
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+ As mães solos têm enfrentado grandes desafios para ingressar e/ou permanecer no mercado de trabalho devido a diversos preconceitos e falas discriminatórias principalmente de homens que possuem pensamentos precipitados e falas machistas como: “trabalho não é lugar para mulheres mães” e as rejeitam de qualquer contratação. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+As mesmas, não possuem apoio do genitor de seus filhos para que compartilhem as responsabilidades financeiras entre si, tendo que assim, encarregar-se de maneira sola ao cuidado da casa e dos filhos, muitas vezes, com pouco ganho financeiro. Ademais, não possuem remuneração suficiente para que possam arcar com despesas de cuidadores de crianças ou creches e, tampouco, recebem ajuda financeira ou apoio para mães solos, do governo. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
