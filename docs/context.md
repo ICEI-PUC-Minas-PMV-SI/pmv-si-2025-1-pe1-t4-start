@@ -1,4 +1,4 @@
-# Introdução
+
 
 Titulo do Projeto: Mães em foco 
 
@@ -30,7 +30,7 @@ Nome completo do professor1; Diego Augusto de Faria Barros
 
  
 
- 1 INTRODUÇÃO 
+ *1 INTRODUÇÃO*
 
 No Brasil e no mundo, as mães solo enfrentam uma realidade desafiadora ao tentar equilibrar suas responsabilidades profissionais e familiares. Além de cuidar de seus filhos, essas mulheres possuem diversas obrigações diárias dentro de casa, o que aumenta significativamente sua carga de trabalho e limita suas oportunidades no mercado de trabalho. 
 
