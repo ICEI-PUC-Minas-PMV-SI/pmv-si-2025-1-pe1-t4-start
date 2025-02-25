@@ -1,4 +1,4 @@
-# Título do Projeto
+# Mães em foco
 
 `CURSO: Sistemas de Informação`
 
@@ -6,20 +6,21 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto desenvolvido é o de Mães Solos dentro do Mercado de trabalho e seus principais desafios e preconceitos enfrentados pelas mesmas, pelo fato de serem mães solos. Estas, muitas vezes não possuem apoio dos genitores de seus filhos, seja para compartilhamento de finanças de seus lares a cuidados aos seus filhos.
+ Empresas, em casos de contratações de Mães Solos, tendem a julgar precipitadamente as mesmas com a justificativa de que, elas não poderão conciliar o tempo entre cuidado dos filhos e dedicação ao trabalho, o que, muitas das vezes, intenrrompe qualquer vínculo trabalhista com a empresa. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Laila Maria da Silva 
+* Maria Clara Alves Reis
+* Tiago Muniz Santana
+* Lucas Marques Zica
+* Ava Fabian Oliveira da Cruz
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Diego Augusto de Faria Barros
 
 # Planejamento
 
