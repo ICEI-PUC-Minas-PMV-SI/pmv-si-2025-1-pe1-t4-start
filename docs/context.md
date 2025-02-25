@@ -54,14 +54,17 @@ No Brasil, pesquisas recentes mostram que o número de famílias monoparentais c
 As mesmas, não possuem apoio do genitor de seus filhos para que compartilhem as responsabilidades financeiras entre si, tendo que assim, encarregar-se de maneira sola ao cuidado da casa e dos filhos, muitas vezes, com pouco ganho financeiro. Ademais, não possuem remuneração suficiente para que possam arcar com despesas de cuidadores de crianças ou creches e, tampouco, recebem ajuda financeira ou apoio para mães solos, do governo. 
 
 
-## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+*4 OBJETIVO*
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O projeto "Mães em Foco" tem como objetivo compreender as dificuldades enfrentadas pelas mães, especialmente as mães solos, e os desafios que elas encontram para se inserir no mercado de trabalho. A principal meta do projeto é propor soluções que visem minimizar e até mesmo resolver a questão da exclusão dessas mães do mercado de trabalho, contribuindo para a melhoria da sua qualidade de vida e da sua autonomia profissional e pessoal.
+Além disso, o projeto visa realizar uma pesquisa aprofundada sobre as dificuldades enfrentadas pelas mães, buscando uma abordagem específica, com a coleta de dados e informações diretamente com esse público-alvo. O projeto também se dedica à busca de materiais e estudos que ofereçam embasamento teórico para as nossas propostas, com a intenção de desenvolver soluções concretas para reduzir a exclusão das mães solo do mercado de trabalho.
+Objetivos Específicos
+• Desenvolver um sistema de rede colaborativa, onde haverá troca de serviços e apoio mutuo no cuidado infantil
+• Mapear as maiores dificuldades enfrentadas pelas mães solos ao tentar se ingressar no mercado de trabalho
+• Criar uma plataforma digital que oferecera vagas de empregos com horários flexíveis e com possibilidade remota
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
