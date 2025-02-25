@@ -38,6 +38,7 @@ A sociedade frequentemente impõe às mães solo o papel de "donas dos lares", c
 
 Além disso, muitas empresas tendem a julgar negativamente as mães solo quando elas buscam emprego. As empresas frequentemente assumem, de forma precipitada, que essas mulheres não serão capazes de equilibrar suas responsabilidades
 
+2 CONTEXTO
 No Brasil, pesquisas recentes mostram que o número de famílias monoparentais chefiadas por mulheres têm crescido exponelcialmente nas últimas decadas. Uma pesquisa realizada por Feijó (2023) aponta que, dos 75,3 milhões de domicílios brasileiros, cerca de 14,9%  (11,3 milhões) têm uma mãe solo como chefe de família ou pessoa de referência, o que demostra um crescimento de 17,8% nesse número entre 2012 e 2022. Estima-se que dentre esses 11,3 milhões de mães solo, aproximadamente 29.4% estariam fora do mercado de trabalho, enquanto 7,2% estariam desempregadas e 63,3% estariam ocupadas. Quando analisado o total de mães solo com filhos de até 5 anos de idade, 32,4% estariam fora do mercado de trabalho, enquanto o número de desempregadas seria de 10%. 
 
 É importante ressaltar também que a maternidade solo, apesar de relativamente comum na sociedade brasileira, é uma experiência única para cada mãe, com diferentes causas e consequências, mas também com algumas difuldades coletivas e que ao compreender e abordar esses desafios coletivos, podemos construir uma sociedade mais justa e igualitária para essas mulheres e suas familias. 
