@@ -26,7 +26,7 @@ Lucas
 
 Orientador: 
 
-Nome completo do professor1; Diego Augusto de Faria Barros 
+Diego Augusto de Faria Barros 
 
  
 
@@ -66,13 +66,15 @@ Objetivos Específicos
 
 ## Justificativa
 
-O projeto “Mães em foco“, que aborda a dificuldade de inserção de mães solo no mercado de trabalho, carrega muita importância pois representa uma injustiça para a mãe e seu(s) filho(s), já que ela precisa dedicar muito tempo de sua vida à maternidade, que requer atenção e dinheiro. Isso, aliados ao preconceito que sofrem, dificultam a ascensão em suas carreiras, ou na recolocação no mercado de trabalho.
+O projeto “Mães em Foco“, que aborda a dificuldade de inserção de mães solo no mercado de trabalho, carrega muita importância pois representa uma injustiça para a mãe e seu(s) filho(s), já que ela precisa dedicar muito tempo de sua vida à maternidade, que requer atenção e dinheiro. Isso, aliados ao preconceito que sofrem, dificultam a ascensão em suas carreiras, ou na recolocação no mercado de trabalho.
 
 Ademais, o mercado de trabalho é um ambiente criado por homens e para homens, que não busca levar em conta as necessidades que a mulher tem como o fato de que mães solo representam cerca de 11,3 milhões de domicílios do Brasil (12,5% dos domicílios totais do país). Então, além do inerente julgamento com mães solo, há também uma dificuldade enfrentada para manejar o trabalho e a maternidade devido à falta de flexibilidade do mercado.
 
 
 ## Público-Alvo
 
-As principais pessoas que usarão de nossa aplicação, será o Público-Alvo de mães solos no ambito de trabalho, ou seja, mães solos no Mercado de Trabalho. Este público alvo, serão Mães solos entre 20 e 30 anos, solteiras e as quais estão ingressadas no mercado de trabalho em empresas não necessariamente grandes e com empregos fixos efetivos ou não fixos, sendo estes, não bem remunerados ou não flexíveis. Estas mães, possuem filhos entre 2 a 17 anos e buscam apoio para cuidado dos mesmos e para obterem empregos flexíveis e inclusivos a elas.
+O público-alvo da nossa aplicação são mães solos no mercado de trabalho, especificamente mulheres entre 20 e 30 anos, geralmente solteiras. Essas mulheres podem estar inseridas no mercado de trabalho em empresas de pequeno e médio porte, e com empregos fixos efetivos ou informais que, frequentemente, são pouco remunerados e sem flexibilidade de horários. 
+
+Essas mães, possuem filhos entre 2 a 17 anos e enfrentam dificuldades em encontrar soluções para o cuidado das crianças, além de buscarem oportunidades de trabalho mais flexíveis e inclusivas que possibilitem a conciliação entre suas responsabilidades profissionais e familiares. Elas procuram empregos que ofereçam maior autonomia, melhores condições de trabalho e a possibilidade de realizar suas funções de forma remota ou com horários flexíveis, buscando, assim, melhorar sua qualidade de vida e garantir autonomia financeira e profissional.
 
 
