@@ -1,6 +1,7 @@
 # Especificações do Projeto
 
 Definição do problema: Mães solos que tem dificuldades em ingressar ou permnecer no mercado de trabalho por sofrerem preconceitos dos contratantes. 
+
 Ideia de solução: 
 
 Neste documento de especificação, serão abordados tópicos sobre o problema em que estamos trabalhando (Mães Solos no Mercado de Trabalho), ideias de solução para este problema, histórico das personas com idade, profissão, objetivos e afins,Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto. Ademais, serão abordados tópicos de históra de usuários, requisitos funcionais e não funcionais da solução criada para o problema e restrições do projeto.
