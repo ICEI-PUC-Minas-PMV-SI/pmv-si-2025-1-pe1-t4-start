@@ -4,7 +4,7 @@ Definição do problema: Mães solos que tem dificuldades em ingressar ou permne
 
 Ideia de solução: ---
 
-Neste documento de especificação, serão abordados tópicos sobre o problema em que estamos trabalhando (Mães Solos no Mercado de Trabalho), ideias de solução para este problema, histórico das personas com idade, profissão, objetivos e afins. Serão utilizadas tópicos importantes como de história de usuários e as personas, por exemplo, e, todos estes, na ferramente de gerenciamento de projetos, Miro. Ademais, serão abordados tópicos de históra de usuários, requisitos funcionais e não funcionais da solução criada para o problema e restrições do projeto.
+Neste documento de especificação, serão abordados tópicos sobre o problema em que estamos trabalhando (Mães Solos no Mercado de Trabalho), ideias de solução para este problema, histórico das personas com idade, profissão, objetivos e afins. Sendo estes tópicos gerenciados e realizados na ferramente de gerenciamento de projetos, Miro. Ademais, serão abordados tópicos de requisitos funcionais e não funcionais da solução criada para o problema e restrições do projeto.
 
 
 ## Personas 
