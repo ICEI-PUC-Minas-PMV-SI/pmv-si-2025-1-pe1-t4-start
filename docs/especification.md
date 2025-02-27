@@ -1,26 +1,19 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Definição do problema: Mães solos que tem dificuldades em ingressar ou permnecer no mercado de trabalho por sofrerem preconceitos dos contratantes. 
+Ideia de solução: 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
+Neste documento de especificação, serão abordados tópicos sobre o problema em que estamos trabalhando (Mães Solos no Mercado de Trabalho), ideias de solução para este problema, histórico das personas com idade, profissão, objetivos e afins,Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto. Ademais, serão abordados tópicos de históra de usuários, requisitos funcionais e não funcionais da solução criada para o problema e restrições do projeto.
 
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 
-## Personas
+## Personas 
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+***Fabiana Rodrigues*** - ***(Persona 1)*** tem 30 anos, mãe solo de um filho de 2 anos e sem formação acadêmica.  Funcionária intermitente (freelancer) de um restaurante e pensa em adquirir mais reconhecimento no mercado de trabalho sem sofrer preconceitos precipitados pelo fato de ser mãe solo. É solteira e está em busca de empresas que trabalhem com a inclusão de mães solos e empregos flexíveis e que seja um trabalho dentro de sua cidade, pois seu trabalho atual, é distante em aproximadamente 1 hora. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+***Ana Maria*** - ***(Persona 2)*** tem 33 anos, mãe solo de um filho de 3 anos e sem graduação acadêmica. Funcionária e atendente freelancer de um restaurante e pensa em concluir sua primeira graduação além ser incluída no mercado de trabalho sem ocorrências de preconceitos vindos das empresas, por ser mãe solo. É solteira e está em busca de empregos flexíveis para ter mais tempo de lazer com seu filho e com boa remuneração para sustentar seu lar.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+***Maria Helena*** - ***(Persona 3)*** tem 27 anos, é mãe solo de um filho de 17 anos e com graduação completa em Administração. Funcionária de uma farmácia de manipulação com o cargo de balconista e caixa na mesma. Pensa em ganhar mais reconhecimento no mercado de trabalho para que consiga uma vaga em sua área de formação, que, pelo fato de sofrer preconceitos precipitados e equivocados por ser mãe solo, não consegue essas vagas. É solteira e está em busca de empregos flexíveis para ter mais tempo de lazer com o filho e cuidar da casa.
+
 
 ## Histórias de Usuários
 
@@ -48,7 +41,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
+|RF-001| A aplicação deve permitir network e conexões com empresas inclusivas a mães solos | ALTA |  
 |RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
 
 
@@ -56,7 +49,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
+|RNF-001| A aplicação deve solucionar os desafios das mães solo | MÉDIA | 
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
