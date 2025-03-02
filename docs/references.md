@@ -7,11 +7,11 @@ Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvo
 
 Exemplos de referências bibliográficas:
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[1]** - _Feijó, Janaína. **Mães Solo no Mercado de Trabalho**. Blog do IBRE, c2023. 
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+**[2]** - _Morena. **São 11 Milhões de Mães Solo no Brasil: Como fica a saúde mental dessas mulheres?**. IstoÉ Mulher, c2023. 
 
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
+**[3]** - _Aranha, Débora. **Cúpula de mulheres cobra igualdade no mercado de trabalho e outros avanços do países do G20**.  IstoÉ Mulher, c2024. 
 
 **[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
 
