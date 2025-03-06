@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-O projeto desenvolvido é o de Mães Solos dentro do Mercado de trabalho e seus principais desafios e preconceitos enfrentados pelas mesmas, pelo fato de serem mães solos. Estas, muitas vezes não possuem apoio dos genitores de seus filhos, seja para compartilhamento de finanças de seus lares a cuidados aos seus filhos.
+O projeto desenvolvido é o de Mães Solos dentro do Mercado de trabalho e seus principais desafios e preconceitos enfrentados pelas mesmas, pelo fato de serem mães solos. Estas, muitas vezes não possuem apoio dos genitores de seus filhos, seja para compartilhamento de finanças de seus lares e cuidados aos seus filhos.
  Empresas, em casos de contratações de Mães Solos, tendem a julgar precipitadamente as mesmas com a justificativa de que, elas não poderão conciliar o tempo entre cuidado dos filhos e dedicação ao trabalho, o que, muitas das vezes, intenrrompe qualquer vínculo trabalhista com a empresa. 
 
 ## Integrantes
