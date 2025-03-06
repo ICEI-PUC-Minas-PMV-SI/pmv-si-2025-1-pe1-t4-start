@@ -17,6 +17,7 @@ O projeto desenvolvido é o de Mães Solos dentro do Mercado de trabalho e seus 
 * Lucas Marques Zica
 * Ava Fabian Oliveira da Cruz
 * Ana Clara Rocha Nolberto
+* Gustavo Motta
 
 
 ## Orientador
