@@ -10,19 +10,19 @@ SEMESTRE: 1º
 
 Integrantes: 
 
-Laila Maria da Silva 
+1- Laila Maria da Silva 
 
-Ana Clara Rocha Nolberto 
+2- Ana Clara Rocha Nolberto 
 
-Ava Fabian Oliveira da Cruz 
+3- Ava Fabian Oliveira da Cruz 
 
-Maria Clara Alves Reis 
+4- Maria Clara Alves Reis 
 
-Thiago Muniz Santana 
+5- Thiago Muniz Santana 
 
-Lucas  
+6- Lucas  
 
-Gustavo Motta
+7- Gustavo Motta
 
  
 
