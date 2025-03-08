@@ -58,9 +58,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                           | Prioridade
 |------|-----------------------------------------|----|----------------   | 
-|RF-001| A aplicação deve permitir divulgações de empregos inclusivos     |ALTA                           
-                                                                          
-|RF-002| Empresas devem poder criar contas para postar vagas de emprego.  | MÉDIA                                 
+|RF-001| A aplicação deve permitir divulgações de empregos inclusivos     |ALTA                                                      
+ |RF-002| Empresas devem poder criar contas para postar vagas de emprego. | MÉDIA                                 
                                                                                          
 
 
@@ -70,8 +69,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|-----------------|
 |RNF-001| A plataforma deve ser rápida e responsiva | MÉDIA 
                                                     |
-|RNF-002|   A plataforma deve ter um design atraente
-                                                    |  BAIXA     
+|RNF-002|   A plataforma deve ter um design atraente BAIXA     
                                                  
                       
                                                   
