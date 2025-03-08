@@ -4,12 +4,14 @@
 
 
 
-**Definição do problema:** Mães solos que tem dificuldades em ingressar ou permnecer no mercado de trabalho por sofrerem preconceitos dos contratantes. 
+## Definição do problema:
+Mães solos que tem dificuldades em ingressar ou permnecer no mercado de trabalho por sofrerem preconceitos dos contratantes. 
 
 
 
 
- **Ideia de solução:** A ideia de solução escolhida, foi a de criação de uma aplicação/plataforma que tenha o principal objetivo de divulgação de empregos inclusivos a mães solos, ou seja, para que elas não sofram com preconceitos e sejam bem inclusas pela organização e tenham suas dores relacionadas ao problema de serem mães solos e cuidarem dos lares e filhos sozinhas, abraçadas.
+  # Ideia de solução:
+  A ideia de solução escolhida, foi a de criação de uma aplicação/plataforma que tenha o principal objetivo de divulgação de empregos inclusivos a mães solos, ou seja, para que elas não sofram com preconceitos e sejam bem inclusas pela organização e tenham suas dores relacionadas ao problema de serem mães solos e cuidarem dos lares e filhos sozinhas, abraçadas.
 
 A plataforma também contará com a divulgação de centros de cuidados infantis (Creches) para que, as mãe saibam exatamente os lugares disponíveis e com vagas em aberto para deixarem seus filhos no momento em que trabalham. Ademais, a plataforma contará com uma rede de feedbacks para estas empresas e creches, para que as mães possam ter conhecimento da política das mesmas, se são confiáveis e seguras para seus bem estar e bem estar de seus filhos.
 
