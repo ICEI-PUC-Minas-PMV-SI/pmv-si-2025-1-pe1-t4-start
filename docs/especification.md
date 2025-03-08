@@ -1,10 +1,10 @@
-# Especificações do Projeto
+# Especificações do Projeto:
 **Introdução:** Neste documento de especificação, serão abordados tópicos sobre o problema em que estamos trabalhando (Mães Solos no Mercado de Trabalho), ideias de solução para este problema, histórico das personas com idade, profissão, objetivos e afins. Sendo estes tópicos gerenciados e realizados na ferramente de gerenciamento de projetos, Miro. Ademais, serão abordados tópicos de requisitos funcionais e não funcionais da solução criada para o problema e restrições do projeto.
 
 
 
 
-## Definição do problema:
+# Definição do problema:
 Mães solos que tem dificuldades em ingressar ou permnecer no mercado de trabalho por sofrerem preconceitos dos contratantes. 
 
 
@@ -23,7 +23,7 @@ Nossa solução gera menor Custo, pois: é virtual, eliminando a necessidade de 
 
 
 
-### Personas 
+# Personas:
 
 ***Fabiana Rodrigues*** - ***(Persona 1)*** tem 30 anos, mãe solo de um filho de 2 anos e sem formação acadêmica.  Funcionária intermitente (freelancer) de um restaurante e pensa em adquirir mais reconhecimento no mercado de trabalho sem sofrer preconceitos precipitados pelo fato de ser mãe solo. É solteira e está em busca de empresas que trabalhem com a inclusão de mães solos e empregos flexíveis e que seja um trabalho totalmente inclusivo.
 
@@ -34,7 +34,7 @@ Nossa solução gera menor Custo, pois: é virtual, eliminando a necessidade de 
 
 
 
-### Histórias de Usuários
+# Histórias de Usuários:
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
@@ -56,19 +56,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Maria Helena        | Rede de feedbacks para empresas    | Para saber a experiência de outras mães
 
 
-A persona 1, com o nome de Fabiana Rodrigues, precisa de divulgação de empregos inclusivos para que, não sofra preconceitos e exclusões dentro das empresas, seja em momentos de entrevistas ou no momento de trabalho, pelo fato de ser mãe solo. As empresas inclusivas que divulgam empregos inclusivos são de extrema importância, já que, incluir não se deve somente ao fato de abraçar ás causas d mães solos e receber bem na equipe da empresa, mas também de disponiilizar empregos de acodo com a realidade das mesmas, ou seja, empregos flexíveis para que tenham tempo com seus filhos e com sua casa.
+A **persona 1**, com o nome de Fabiana Rodrigues, precisa de divulgação de empregos inclusivos para que, não sofra preconceitos e exclusões dentro das empresas, seja em momentos de entrevistas ou no momento de trabalho, pelo fato de ser mãe solo. As empresas inclusivas que divulgam empregos inclusivos são de extrema importância, já que, incluir não se deve somente ao fato de abraçar ás causas d mães solos e receber bem na equipe da empresa, mas também de disponiilizar empregos de acodo com a realidade das mesmas, ou seja, empregos flexíveis para que tenham tempo com seus filhos e com sua casa.
 
 
-A persona 2, com o nome de Ana Maria, busca uma plataforma que disponibilize uma rede exclusiva de feedbacks para creches, para que ela saiba onde deixar seu filho seguro e em boa mãos enquanto trabalha. Esses feedbacks podem ser tanto positivos quanto negativos. Vle ressaltar também, que, é de extrema importância já que, muitas crianças passam por problemas relacionados a exclusão, ou, muitas vezes, agressões dentro de centros de cuidado infantil e se outras mães, no passado, experimentaram isso com os filhos, depois de tomar as devidas medidas judicais, podem vir a divulgar casos negativos como feedback para que outras mães possam saber se seu filho estará seguro naquele ambiente.
+A **persona 2**, com o nome de Ana Maria, busca uma plataforma que disponibilize uma rede exclusiva de feedbacks para creches, para que ela saiba onde deixar seu filho seguro e em boa mãos enquanto trabalha. Esses feedbacks podem ser tanto positivos quanto negativos. Vle ressaltar também, que, é de extrema importância já que, muitas crianças passam por problemas relacionados a exclusão, ou, muitas vezes, agressões dentro de centros de cuidado infantil e se outras mães, no passado, experimentaram isso com os filhos, depois de tomar as devidas medidas judicais, podem vir a divulgar casos negativos como feedback para que outras mães possam saber se seu filho estará seguro naquele ambiente.
 
 
-A persona 3, com o nome de Maria Helena, busca uma rede de feedbacks de empresas, dentro da aplicação, para que as experiências de outras mães em momentos de trabalho ou entrevistas, dentro da empresa, possam ser divulgadas e a ajude a tomar decisões positivas para sua vida e bem estar profissional. Essas experiências em feedbacks podem ser tanto positivas quanto negativas e são importantes para que as mães saibam se a empresa abraçará suas causas e as incluirá na equipe, sem preconceitos.
+A **persona 3**, com o nome de Maria Helena, busca uma rede de feedbacks de empresas, dentro da aplicação, para que as experiências de outras mães em momentos de trabalho ou entrevistas, dentro da empresa, possam ser divulgadas e a ajude a tomar decisões positivas para sua vida e bem estar profissional. Essas experiências em feedbacks podem ser tanto positivas quanto negativas e são importantes para que as mães saibam se a empresa abraçará suas causas e as incluirá na equipe, sem preconceitos.
 
                                                                    
                                                                                                    
                                                                                                    
 
-### Requisitos
+# Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
@@ -104,7 +104,7 @@ Com base nas Histórias de Usuário, os requisitos funcionais e não funcionais,
 
 
 
-## Restrições
+# Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
