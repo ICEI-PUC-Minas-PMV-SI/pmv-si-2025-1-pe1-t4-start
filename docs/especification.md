@@ -58,7 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                      |Prioridade 
 |-------|-------------------------|----------------------------------|
-|RF-001| A aplicação deve permitir divulgações de empregos inclusivos|ALTA                                                      
+|RF-001| A aplicação deve permitir divulgações de empregos inclusivos| ALTA                                                      
 |RF-002| Empresas devem poder criar contas para postar vagas         | MÉDIA                                 
                                                                                          
 
