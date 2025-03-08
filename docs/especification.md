@@ -67,20 +67,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito                    |Prioridade 
 |-------|-------------------------|-----------------|
-|RNF-001| A plataforma deve ser rápida e responsiva | MÉDIA 
-|RNF-002|   A plataforma deve ter um design atraente| BAIXA     
+|RNF-001| A plataforma deve carregar páginas em menos de 3 segundos | MÉDIA 
+|RNF-002| A plataforma deve ter um design atraente| BAIXA     
                                                  
                       
                                                   
 
 Com base nas Histórias de Usuário, os requisitos funcionais e não funcionais, serão:
 ### Requisitos Funcionais
-1- A aplicação deve permitir divulgações de empregos inclusivos para mães solos pois isso facilitará para que as mães solo tenham conhecimento de quais empresas trabalham através da inclusão delas;
-2- Empresas devem poder criar contas para postar vagas de emprego, pois, assim, facilitará para que as mesmas possam identificar o nome e logo da empresa e pesquisar mais a fundo sobre esta.
+1- A aplicação deve permitir divulgações de empregos inclusivos para mães solos pois isso facilitará para que elas tenham conhecimento de quais empresas são ideias para as mesmas e as incluem abrçando suas causas e dores; (ALTA PRIORIDADE)
+
+2- Empresas devem poder criar contas para postar vagas de emprego, pois, assim, facilitará para que as mães solo em busca de empregos e empresas inclusivas possam identificar o nome e logo da empresa e pesquisar mais a fundo sobre esta. (BAIXA PRIORIDADE)
 
 ### Requisitos não Funcionais
-1- A aplicação deve ser rápida e responsiva;
-2- A plataforma deve ter um design visualmente atraente e moderno.
+1- A aplicação deve ser rápida e responsiva para que e permitir que as páginas carreguem em menos de 3 segundos mesmo com muitos usuários simultaneamente. Essa prioridade pode ser considerada média pelo fato de que, embora seja importante para a experiência do usuário, não é tão crítica quanto a funcionalidade básica da plataforma. A plataforma precisa ser rápida e responsiva, mas garantir que todas as funcionalidades essenciais estejam operacionais é a prioridade principal. 
+
+2- A plataforma deve ter um design visualmente atraente e moderno. Sua classificação de priorização foi considerada baixa pelo fato de que, embora um visual moderno e atraente melhore a experiência do usuário, ele não é essencial para o funcionamento básico da plataforma. A prioridade inicial geralmente é garantir que todas as funcionalidades principais estejam operacionais e que a plataforma seja segura e usável.
 
 
 ## Restrições
