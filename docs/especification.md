@@ -1,5 +1,5 @@
 # Especificações do Projeto
-Neste documento de especificação, serão abordados tópicos sobre o problema em que estamos trabalhando (Mães Solos no Mercado de Trabalho), ideias de solução para este problema, histórico das personas com idade, profissão, objetivos e afins. Sendo estes tópicos gerenciados e realizados na ferramente de gerenciamento de projetos, Miro. Ademais, serão abordados tópicos de requisitos funcionais e não funcionais da solução criada para o problema e restrições do projeto.
+**Introdução:** Neste documento de especificação, serão abordados tópicos sobre o problema em que estamos trabalhando (Mães Solos no Mercado de Trabalho), ideias de solução para este problema, histórico das personas com idade, profissão, objetivos e afins. Sendo estes tópicos gerenciados e realizados na ferramente de gerenciamento de projetos, Miro. Ademais, serão abordados tópicos de requisitos funcionais e não funcionais da solução criada para o problema e restrições do projeto.
 
 
 
