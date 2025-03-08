@@ -22,22 +22,22 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO:            |QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Fabiana Rodrigues   | Divulgação de empregos inclusivos  | Não sofrer preconceitos por ser 
-                                                                                mãe solo           |
+|Fabiana Rodrigues   | Divulgação de empregos inclusivos  | Não sofrer preconceitos  
+                                                                                       
 
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Ana Maria           | Divulgações de creches             | Para saber onde deixar meu filho seguro
-                                                                 enquanto trabalho                 |
+                                                                               
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Maria Helena        | Rede de feedbacks para empresas    | Para saber a experiência de outras mães
-                                                                 na empresa(positivas ou negativas)  
-                                                                                                   |
+                                                                   
+                                                                                                   
                                                                                                    
 
 ## Requisitos
