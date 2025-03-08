@@ -21,7 +21,7 @@ Nossa solução gera menor Custo, pois: é virtual, eliminando a necessidade de 
 
 
 
-## Personas 
+### Personas 
 
 ***Fabiana Rodrigues*** - ***(Persona 1)*** tem 30 anos, mãe solo de um filho de 2 anos e sem formação acadêmica.  Funcionária intermitente (freelancer) de um restaurante e pensa em adquirir mais reconhecimento no mercado de trabalho sem sofrer preconceitos precipitados pelo fato de ser mãe solo. É solteira e está em busca de empresas que trabalhem com a inclusão de mães solos e empregos flexíveis e que seja um trabalho totalmente inclusivo.
 
@@ -66,7 +66,7 @@ A persona 3, com o nome de Maria Helena, busca uma rede de feedbacks de empresas
                                                                                                    
                                                                                                    
 
-## Requisitos
+### Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
