@@ -29,13 +29,23 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana Maria           | Divulgações de creches             | Para saber onde deixar meu filho seguro
+|Ana Maria           | Rede de feedbacks para creches     | Para saber onde deixar meu filho seguro
                                                                                
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Maria Helena        | Rede de feedbacks para empresas    | Para saber a experiência de outras mães
+
+
+
+A persona 1, com o nome de Fabiana Rodrigues, precisa de divulgação de empregos inclusivos para que, não sofra preconceitos e exclusões dentro das empresas, seja em momentos de entrevistas ou no momento de trabalho, pelo fato de ser mãe solo. As empresas inclusivas que divulgam empregos inclusivos são de extrema importância, já que, incluir não se deve somente ao fato de abraçar ás causas d mães solos e receber bem na equipe da empresa, mas também de disponiilizar empregos de acodo com a realidade das mesmas, ou seja, empregos flexíveis para que tenham tempo com seus filhos e com sua casa.
+
+
+A persona 2, com o nome de Ana Maria, busca uma plataforma que disponibilize uma rede exclusiva de feedbacks para creches, para que ela saiba onde deixar seu filho seguro e em boa mãos enquanto trabalha. Esses feedbacks podem ser tanto positivos quanto negativos. Vle ressaltar também, que, é de extrema importância já que, muitas crianças passam por problemas relacionados a exclusão, ou, muitas vezes, agressões dentro de centros de cuidado infantil e se outras mães, no passado, experimentaram isso com os filhos, depois de tomar as devidas medidas judicais, podem vir a divulgar casos negativos como feedback para que outras mães possam saber se seu filho estará seguro naquele ambiente.
+
+
+A persona 3, com o nome de Maria Helena, busca uma rede de feedbacks de empresas, dentro da aplicação, para que as experiências de outras mães em momentos de trabalho ou entrevistas, dentro da empresa, possam ser divulgadas e a ajude a tomar decisões positivas para sua vida e bem estar profissional. Essas experiências em feedbacks podem ser tanto positivas quanto negativas e são importantes para que as mães saibam se a empresa abraçará suas causas e as incluirá na equipe, sem preconceitos.
                                                                    
                                                                                                    
                                                                                                    
