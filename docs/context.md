@@ -62,7 +62,7 @@ O projeto "Mães em Foco" tem como objetivo compreender as dificuldades enfrenta
 
 Além disso, o projeto visa realizar uma pesquisa aprofundada sobre as dificuldades enfrentadas pelas mães, buscando uma abordagem específica, com a coleta de dados e informações diretamente com esse público-alvo. O projeto também se dedica à busca de materiais e estudos que ofereçam embasamento teórico para as nossas propostas, com a intenção de desenvolver soluções concretas para reduzir a exclusão das mães solo do mercado de trabalho.
 
-**## Objetivos Específicos**
+**Objetivos Específicos**
  Os principais objetivos específicos de nosso problema, são os de:
  Realizar pesquisas sobre o tema, entendendo melhor as dificuldades das mães solos, mapear as maiores dificuldades enfrentadas pelas mães solos ao tentar se ingressar no mercado de trabalho e, de acordo com isso, criar uma aplicação de solução que venha a oferecer e facilitar a vida no mercado de trabalho e dentro de seus lares, das mães solos, possibilitando as mesmas, oportunidades de trabalhos mais coincidentes a sua rotina de cuidados aos filhos.
 
