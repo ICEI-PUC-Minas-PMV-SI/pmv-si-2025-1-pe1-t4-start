@@ -89,11 +89,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ter um baixo custo e gerar
-                        alto impacto 
-                                                           |
-|02| O projeto deve ser concluído dentro de um período
-                           específico                      |
+|01| O projeto deverá ter um baixo custo e gerar           |
+                        alto impacto                       |
+|02| O projeto deve ser concluído dentro de um período                  
 
 Dentre as restrições do projeto, duas de importante citação, são que: O projeto deverá ter um baixo custo (menos caro de ser realizado) e gerar mais impacto (resolver maioria dos problemas de mães solo no mercado de trabalho) e que, deverá ser concluído dentro de um período específico, ou seja, até a data prevista de entrega desta primeira etapa onde esá inclusa e especificação do projeto, a qual, está sendo escrito este relatório. 
 
