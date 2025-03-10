@@ -29,7 +29,7 @@ Nossa solução gera menor Custo, pois: é virtual, eliminando a necessidade de 
 
 ***Ana Maria*** - ***(Persona 2)*** tem 33 anos, mãe solo de um filho de 3 anos e sem graduação acadêmica. Funcionária e atendente freelancer de um restaurante e pensa em concluir sua primeira graduação além ser incluída no mercado de trabalho sem ocorrências de preconceitos vindos das empresas, por ser mãe solo. É solteira e está em busca de empregos flexíveis para ter mais tempo de lazer com seu filho e mais tempo de realizar a sua primeira graduação.
 
-***Maria Helena*** - ***(Persona 3)*** tem 27 anos, é mãe solo de um filho de 17 anos e com graduação completa em Administração. Funcionária de uma farmácia de manipulação com o cargo de balconista e caixa na mesma. Pensa em ganhar mais reconhecimento no mercado de trabalho para que consiga uma vaga em sua área de formação, que, pelo fato de sofrer preconceitos precipitados e equivocados por ser mãe solo, não consegue essas vagas. É solteira e está em busca de empregos flexíveis para ter mais tempo de lazer com o filho, com eus pais e que seja um emprego e empresa flexíveis.
+***Maria Helena*** - ***(Persona 3)*** tem 37 anos, é mãe solo de um filho de 17 anos e com graduação completa em Administração. Funcionária de uma farmácia de manipulação com o cargo de balconista e caixa na mesma. Pensa em ganhar mais reconhecimento no mercado de trabalho para que consiga uma vaga em sua área de formação, que, pelo fato de sofrer preconceitos precipitados e equivocados por ser mãe solo, não consegue essas vagas. É solteira e está em busca de empregos flexíveis para ter mais tempo de lazer com o filho, com eus pais e que seja um emprego e empresa flexíveis.
 
 
 
