@@ -63,7 +63,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                      |Prioridade 
 |-------|-------------------------|----------------------------------|
-|RF-001| A aplicação deve permitir fóruns de Conexão com prestadores de serviço| ALTA                                                   |RF-002| Permitir que as mães solo se cadastrem e acessem o hub.| MÉDIA                                 
+|RF-001| A aplicação deve permitir fóruns de Conexão com prestadores de serviço| ALTA                                                   |RF-002| Permitir que as mães solo se cadastrem e acessem o hub.               | MÉDIA                                 
                               
                                
                                                                                          
