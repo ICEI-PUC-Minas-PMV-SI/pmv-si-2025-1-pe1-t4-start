@@ -10,19 +10,19 @@ SEMESTRE: 1º
 
 Integrantes: 
 
-1- Laila Maria da Silva 
+1- Ana Clara Rocha Nolberto 
 
-2- Ana Clara Rocha Nolberto 
+2- Ava Fabian Oliveira da Cruz
 
-3- Ava Fabian Oliveira da Cruz 
+3- Gustavo Motta
 
-4- Maria Clara Alves Reis 
+4- Laila Maria da Silva 
 
-5- Thiago Muniz Santana 
+5- Lucas Marques Zica
 
-6- Lucas  
+6- Maria Clara Alves Reis
 
-7- Gustavo Motta
+7- Thiago Muniz Santana 
 
  
 
@@ -34,18 +34,18 @@ Diego Augusto de Faria Barros
 
 ## Introdução
 
-No Brasil e no mundo, as mães solo enfrentam uma realidade desafiadora ao tentar equilibrar suas responsabilidades profissionais e familiares. Além de cuidar de seus filhos, essas mulheres possuem diversas obrigações diárias dentro de casa, o que aumenta significativamente sua carga de trabalho e limita suas oportunidades e/ou crescimento no mercado de trabalho. 
+No Brasil, as mães solo enfrentam uma realidade desafiadora ao tentar equilibrar suas responsabilidades profissionais e familiares. Além de cuidar de seus filhos, essas mulheres possuem diversas obrigações diárias dentro de casa, o que aumenta significativamente sua carga de trabalho e limita suas oportunidades e/ou crescimento no mercado de trabalho. Pesquisas revelam em dados do 4º trimestre de 2022 que mais da metade (54,3%) das mães solo tem, no máximo, ensino fundamental completo, enquanto menos de 14% tem ensino superior evidenciando as barreiras educacionais que impactam diretamente as possibilidades de ascensão profissional dessas mulheres.
 
-A sociedade frequentemente impõe às mães solos o papel de "donas dos lares", colocando sobre elas a responsabilidade exclusiva pela organização da casa e cuidado dos filhos gerando uma pressão psicológica nas mesmas e induzindo pensamentos de que o mercado de trabalho não é inclusivo a elas. Além disso, muitas empresas tendem a julgar negativamente as mães solo quando elas buscam emprego. As empresas frequentemente assumem, de forma precipitada, que essas mulheres não serão capazes de equilibrar suas responsabilidades
+A sociedade frequentemente impõe às mães solos o papel de "donas dos lares", colocando sobre elas a responsabilidade exclusiva pela organização da casa e cuidado dos filhos gerando uma pressão psicológica nas mesmas e induzindo pensamentos de que o mercado de trabalho não é inclusivo a elas. Além disso, muitas empresas tendem a julgar negativamente as mães solo quando elas buscam emprego. As empresas frequentemente assumem, de forma precipitada, que essas mulheres não serão capazes de equilibrar suas responsabilidades.
 
-
+Diante dos desafios apresentados, a tecnologia, pode desempenhar um papel fundamental ao oferecer soluções acessíveis e eficientes para mães solo. Plataformas digitais podem ajudar a equilibrar suas responsabilidades profissionais e familiares de maneira mais eficaz, promovendo acesso à serviços, informações e suporte, reduzindo a sobrecarga que essas mulheres enfrentam.
 
 
 ## Contexto
 
 No Brasil, pesquisas recentes mostram que o número de famílias monoparentais chefiadas por mulheres têm crescido exponelcialmente nas últimas decadas. Uma pesquisa realizada por Feijó (2023) aponta que, dos 75,3 milhões de domicílios brasileiros, cerca de 14,9%  (11,3 milhões) têm uma mãe solo como chefe de família ou pessoa de referência, o que demostra um crescimento de 17,8% nesse número entre 2012 e 2022. Estima-se que dentre esses 11,3 milhões de mães solo, aproximadamente 29.4% estariam fora do mercado de trabalho, enquanto 7,2% estariam desempregadas e 63,3% estariam ocupadas. Quando analisado o total de mães solo com filhos de até 5 anos de idade, 32,4% estariam fora do mercado de trabalho, enquanto o número de desempregadas seria de 10%. 
 
-É importante ressaltar também que a maternidade solo, apesar de relativamente comum na sociedade brasileira, é uma experiência única para cada mãe, com diferentes causas e consequências, mas também com algumas difuldades coletivas e que ao compreender e abordar esses desafios coletivos, podemos construir uma sociedade mais justa e igualitária para essas mulheres e suas familias, ou, até mesmo, as ajudarem com implementação de soluções.
+É importante ressaltar também que a maternidade solo, apesar de relativamente comum na sociedade brasileira, é uma experiência única para cada mãe, com diferentes causas e consequências, mas também com algumas dificuldades coletivas e que ao compreender e abordar esses desafios coletivos, podemos construir uma sociedade mais justa e igualitária para essas mulheres e suas famílias, ou, até mesmo, as ajudarem com implementação de soluções.
 
 
 ## Problema
@@ -70,7 +70,7 @@ Além disso, o projeto visa realizar uma pesquisa aprofundada sobre as dificulda
 
 O projeto “Mães em Foco“, que aborda a dificuldade de inserção de mães solos no mercado de trabalho, carrega muita importância de realização pelo motivo de que, representa as injustiças e preconceitos sofridos pelas mães e seu(s) filho(s) especificamente no ambiente de trabalho já que elas precisam dedicar muito tempo de sua vida à maternidade, que requer atenção e dinheiro. Isso dificulta a ascensão em suas carreiras e/ou a recolocação no mercado de trabalho.
 
-Ademais, outro motivo de relevância para a realização deste projeto é o de que, o mercado de trabalho é um ambiente criado por homens e, alguns destes, tendem a ter  pensamentos machistas de que são criados apenas para homens, e que, em suma parte, não buscam levar em conta as necessidades financeiras que a mulher e mãe solo tem, já que, atualmente, se é visto o fato de que mães solos representam cerca de 11,3 milhões de domicílios do Brasil (12,5% dos domicílios totais do país). Então, além do inerente julgamento com mães solos, há também uma dificuldade enfrentada para manejar o trabalho e a maternidade devido à falta de flexibilidade do mercado.
+Além disso, outro motivo de relevância para a realização deste projeto é o de que, o mercado de trabalho é um ambiente criado por homens e, alguns destes, tendem a ter  pensamentos machistas de que são criados apenas para homens, e que, em suma parte, não buscam levar em conta as necessidades financeiras que a mulher e mãe solo tem, já que, atualmente, se é visto o fato de que mães solos representam cerca de 11,3 milhões de domicílios do Brasil (12,5% dos domicílios totais do país). Então, além do inerente julgamento com mães solos, há também uma dificuldade enfrentada para manejar o trabalho e a maternidade devido à falta de flexibilidade do mercado.
 
 
 ## Público-Alvo
