@@ -68,9 +68,9 @@ Além disso, o projeto visa realizar uma pesquisa aprofundada sobre as dificulda
 
 ## Justificativa
 
-O projeto “Mães em Foco“, que aborda a dificuldade de inserção de mães solos no mercado de trabalho, carrega muita importância de realização pelo motivo de que, representa as injustiças e preconceitos sofridos pelas mães e seu(s) filho(s) especificamente no ambiente de trabalho já que elas precisam dedicar muito tempo de sua vida à maternidade, que requer atenção e dinheiro. Isso dificulta a ascensão em suas carreiras e/ou a recolocação no mercado de trabalho.
+O projeto “Mães em foco“, que aborda a dificuldade de inserção de mães solo no mercado de trabalho, carrega muita importância pois essa dificuldade representa uma injustiça para a mãe e seu(s) filho(s), já que ela precisa dedicar muito tempo de sua vida à maternidade, que requer atenção e dinheiro. Isso, aliados ao preconceito que sofrem, dificultam a ascensão em suas carreiras, ou na recolocação no mercado de trabalho.
 
-Além disso, outro motivo de relevância para a realização deste projeto é o de que, o mercado de trabalho é um ambiente criado por homens e, alguns destes, tendem a ter  pensamentos machistas de que são criados apenas para homens, e que, em suma parte, não buscam levar em conta as necessidades financeiras que a mulher e mãe solo tem, já que, atualmente, se é visto o fato de que mães solos representam cerca de 11,3 milhões de domicílios do Brasil (12,5% dos domicílios totais do país). Então, além do inerente julgamento com mães solos, há também uma dificuldade enfrentada para manejar o trabalho e a maternidade devido à falta de flexibilidade do mercado.
+Além disso, segundo o IBGE, a participação das mulheres no mercado de trabalho em 2022 era de 53,3% enquanto a dos homens foi de 73,2%, e o seu rendimento foi cerca de 78% do salário de homens no mesmo cargo, ou seja, o mercado de trabalho é um ambiente criado por homens e para homens, que não busca levar em conta as necessidades que a mulher tem, como o fato de que mães solo representam cerca de 11,3 milhões de domicílios do Brasil (12,5% dos domicílios totais do país). Então, além do inerente julgamento com mães solo, há também uma dificuldade enfrentada para manejar o trabalho e a maternidade devido à falta de flexibilidade do mercado para atender às suas necessidades.
 
 
 ## Público-Alvo
