@@ -61,9 +61,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID     | Descrição do Requisito                                     |Prioridade 
-|-------|-------------------------|----------------------------------|
-|RF-001| A aplicação deve permitir fóruns de Conexão com prestadores de serviço| ALTA                                                   |RF-002| A aplicação deve Permitir as mães solo o cadastro e acesso ao hub.| MÉDIA        
+|ID      | Descrição do Requisito                                                                                       |Prioridade 
+|--------|-------------------------|----------------------------------------------------------------------------------|
+|RF-001| A aplicação deve permitir o cadastro de usuário como mãe ou prestador de serviço.                              | ALTA                                                      
+|RF-002| A aplicação deve permitir que o usuário faça o login                                                           | MÉDIA
+|RF-003| A aplicação fornecer informações sobre privacidade.                                                            | ALTA                                                      
+|RF-004| A aplicação deve permitir a busca por prestadores de serviço.                                                  | ALTA
+|RF-005| A aplicação deve permitir a vizualização de perfis dos prestadores de serviços.	                              | ALTA                                                      
+|RF-006| A aplicação deve permitir a troca de mensagens entre os usuários por meio de fórum.                            | ALTA
+|RF-007| A aplicação deve permitir a edição dos perfis das mães e prestadores.                                      	  | ALTA                                                      
+|RF-008| A aplicação deve permitir que as usuárias pesquisem serviços por localização, especialidade e outros filtros.  | ALTA
+|RF-009| A aplicação deve permitir que as usuárias avaliem e comentem os serviços.                                      | ALTA                                                      
+|RF-010| A aplicação deve permitir que as usuárias criem tópicos e respondam a outros tópicos.                          | ALTA
+|RF-011| A aplicação deve ser responsiva e funcionar em diferentes dispositivos.                                        | ALTA                                                      
+|RF-012| A aplicação deve ter uma seção de perguntas frequentes e um canal de contato para suporte ao usuário..         | ALTA
 
                                                                                          
 
