@@ -43,8 +43,16 @@ Diante dos desafios apresentados, a tecnologia, pode desempenhar um papel fundam
 
 ## Contexto
 
-No Brasil, pesquisas recentes mostram que o número de famílias monoparentais chefiadas por mulheres têm crescido exponelcialmente nas últimas decadas. Uma pesquisa realizada por Feijó (2023) aponta que, dos 75,3 milhões de domicílios brasileiros, cerca de 14,9%  (11,3 milhões) têm uma mãe solo como chefe de família ou pessoa de referência, o que demostra um crescimento de 17,8% nesse número entre 2012 e 2022. Estima-se que dentre esses 11,3 milhões de mães solo, aproximadamente 29.4% estariam fora do mercado de trabalho, enquanto 7,2% estariam desempregadas e 63,3% estariam ocupadas. Quando analisado o total de mães solo, com filhos de até 5 anos de idade, 32,4% estariam fora do mercado de trabalho, enquanto o número de desempregadas seria de 10%. 
+No Brasil, pesquisas recentes mostram que o número de famílias monoparentais chefiadas por mulheres têm crescido exponelcialmente nas últimas decadas. Uma pesquisa realizada por Feijó (2023) aponta que, dos 75,3 milhões de domicílios brasileiros, cerca de 14,9%  (11,3 milhões) têm uma mãe solo como chefe de família ou pessoa de referência, o que demostra um crescimento de 17,8% nesse número entre 2012 e 2022. Estima-se que dentre esses 11,3 milhões de mães solo, aproximadamente 29.4% estariam fora do mercado de trabalho, enquanto 7,2% estariam desempregadas e 63,3% estariam ocupadas. Quando analisado o total de mães solo, com filhos de até 5 anos de idade, 32,4% estariam fora do mercado de trabalho, enquanto o número de desempregadas seria de 10%.
 
+![Screenshot 2025-03-18 142306](https://github.com/user-attachments/assets/b855a421-f78c-4f79-8f23-7884c93d0735)   
+
+![Screenshot 2025-03-18 150520](https://github.com/user-attachments/assets/1156f10b-5d91-43f6-a489-04e247cacac3)
+
+Legenda: Os dados representados nos gráficos acima foram obtidos através de pesquisa realizada pelo IBGE no ano de 2023, levando em consideração um total de 11,3 milhões de mães solo.
+
+ 
+                                           
 É importante ressaltar também que a maternidade solo, apesar de relativamente comum na sociedade brasileira, é uma experiência única para cada mãe, com diferentes causas e consequências, mas também com algumas dificuldades coletivas e que ao compreender e abordar esses desafios coletivos, podemos construir uma sociedade mais justa e igualitária para essas mulheres e suas famílias, ou, até mesmo, as ajudarem com implementação de soluções.
 
 
