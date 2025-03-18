@@ -40,20 +40,20 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO:            |QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Mãe solo   | Centro de apoio a mães solo  | Receber serviços diversos de apoio a mães solo  
+|Mãe Solo   | Centro de apoio a mães solo  | Receber serviços diversos de apoio a mães solo  
                                                                                        
 
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana Maria           | Hub com presença de creches     | Saber onde deixar meu filho seguro
+|Mãe Solo           | Hub com presença de creches     | Saber onde deixar meu filho seguro
                                                                                
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Maria Helena        | Hub com presença de psicólogos    | Receber apoio psicológico e lidar com pressões de ser mãe solo                                                                                              
+|Mãe Solo        | Hub com presença de psicólogos    | Receber apoio psicológico e lidar com pressões de ser mãe solo                                                                                              
 
 # Requisitos
 
@@ -61,11 +61,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID     | Descrição do Requisito                                             |Prioridade 
+|ID     | Descrição do Requisito                                     |Prioridade 
 |-------|-------------------------|----------------------------------|
-|RF-001| A aplicação deve permitir fóruns de Conexão com prestadores de serviço| ALTA                                                   |RF-002| Permitir as mães solo o cadastro e acesso ao hub.| MÉDIA                                 
-                              
-                               
+|RF-001| A aplicação deve permitir fóruns de Conexão com prestadores de serviço| ALTA                                                   |RF-002| A aplicação deve Permitir as mães solo o cadastro e acesso ao hub.| MÉDIA        
+
                                                                                          
 
 
