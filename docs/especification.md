@@ -31,7 +31,13 @@ Nossa solução gera menor Custo, pois: é virtual, eliminando a necessidade de 
 
 ***Maria Helena*** - ***(Persona 3)*** tem 37 anos, é mãe solo de um filho de 17 anos e com graduação completa em Administração. Funcionária de uma farmácia de manipulação com o cargo de balconista e caixa na mesma. Pensa em ganhar mais reconhecimento no mercado de trabalho para que consiga uma vaga em sua área de formação, que, pelo fato de sofrer preconceitos precipitados e equivocados por ser mãe solo, não consegue essas vagas. É solteira e está em busca de empregos flexíveis para ter mais tempo de lazer com o filho, com eus pais e que seja um emprego e empresa flexíveis.
 
+***Pablo Díaz*** - ***(Persona 4)*** Pablo tem 40 anos e é psicólogo com formação específica em casos trabalhistas, ou seja, casos estes onde o ambiente de trabalho pode gerar estresses psicológicos para os colaboradores da empresa, seja qual for a situação ocorrida. Ele ajuda as pessoas que tiveram certo tipo de problemas no trabalho que geraram certo tipo de transtorno mental  a se sentirem mais alividas e apoiadas para superarem a cada dia, estes transtornos. Pablo é um psicólogo que antende as mães solos dentro do sistema criado e está presente dentro da mesma com o objetivo de ajudar as mesmas a superarem certos tipos de situações dificeis ocorridas por serem mães solos.
 
+***Dr. Pedro Paulo*** - ***(Persona 5)*** Pedro Paulo ou Dr. Pedro Paulo como chamado profissionalmente, tem 42 anos e é um psicólogo específico de áreas familiares. Seu principal objetivo de ingressar dentro da aplicação, é o de apoiar as mães para lidar melhor com a pressão de serem mães solo e seus filhos para que possam ter apoio emocional para não sofrerem tanto na medida que crescem com o fato de não terem uma presença paterna.
+
+***Dr. André*** - ***(Persona 6)*** André Paulo ou Dr. André como chamado em seu ambiente de trabalho, tem 50 anos e sua profissão é a profissão da advocacia trabalhista. Seu objetivo principal de vínculo ao sistema criado para apoiar as mães solo é o de apoiá-las em causas trabalhistas que tenham ocorrido dentro de qualquer empresa que tenham trabalhado ou trabalham. Ou seja, se por exmeplo estas mães passaram por problemas como o de preconceitos, assédio moral ou qualquer problema deste gênero, o advogado tem o objetivo de apoiá-las neste processo de transtornos.
+
+***Amanda de Souza*** - ***(Persoa 7)*** Amanda de Souza ou "Tia Amanda" apelidada carinhosamente pelos alunos da creche, tem 30 anos e é empresária e dona de uma creche a qual recebe positivamente as mães e seus filhos, os cuidando com maior segurança e capacitação. O objetivo principal de Amanda ao ingressar na plataforma é o de garantir a elas a maior segurança sobre a creche, mostrando a elas que seus filhos serão cuidados com segurança e que elas podem trabalhar sem maiores preocupações. Amanda, também garante que em casos de emergências com as crianças, como choros intensos ou adoecimento no momento de interação e estudo na creche, a mesma a contatará e a avisará com antencedência.
 
 
 # Histórias de Usuários:
@@ -54,6 +60,25 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Mãe Solo        | Hub com presença de psicólogos    | Receber apoio psicológico e lidar com pressões de ser mãe solo                                                                                              
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Advogado trabalhista    | Sistema que permite criação de meu perfil     | Divulgar meu trabalho a mães que precisem de apoio com causas trabalhistas 
+
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Psicólogo do trabalho    | Sistema que permita postagens     | Divulgar as mães que necessitam, minha ocupação de psicologia do trabalho
+
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Psicólogo da família   | Permissão para criação de um perfil | Que as mães conheçam meu trabalho
+
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Dona de creche    | Sistem que permite divulgação     |  Divulgar minha empresa, creche para mães conhecerem melhor
+
 
 # Requisitos
 
@@ -83,24 +108,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito                    |Prioridade 
 |-------|-------------------------|-----------------|
-|RNF-001| Garantir a segurança e privacidade das informações das mães solo  | MÉDIA 
-|RNF-002| A aplicação deve ter um design atraente| BAIXA     
-                                                 
-                      
-Com base nas Histórias de Usuário, os requisitos funcionais e não funcionais, serão:
-### Requisitos Funcionais
-1- A aplicação deve permitir divulgações de empregos inclusivos para mães solos pois isso facilitará para que elas tenham conhecimento de quais empresas são ideias para as mesmas e as incluem abrçando suas causas e dores; (ALTA PRIORIDADE)
+|RNF-001|Garantir a segurança e privacidade das informações das mães solo  | MÉDIA 
 
-2- Empresas devem poder criar contas para postar vagas de emprego, pois, assim, facilitará para que as mães solo em busca de empregos e empresas inclusivas possam identificar o nome e logo da empresa e pesquisar mais a fundo sobre esta. (BAIXA PRIORIDADE)
+|RNF-002| A aplicação deve ter um design atraente| BAIXA 
 
-### Requisitos não Funcionais
-1- A aplicação deve ser rápida e responsiva para que e permitir que as páginas carreguem em menos de 3 segundos mesmo com muitos usuários simultaneamente. Essa prioridade pode ser considerada média pelo fato de que, embora seja importante para a experiência do usuário, não é tão crítica quanto a funcionalidade básica da plataforma. A plataforma precisa ser rápida e responsiva, mas garantir que todas as funcionalidades essenciais estejam operacionais é a prioridade principal. 
+|RNF-003| Proteger dados das mães solo | ALTA
 
-2- A plataforma deve ter um design visualmente atraente e moderno. Sua classificação de priorização foi considerada baixa pelo fato de que, embora um visual moderno e atraente melhore a experiência do usuário, ele não é essencial para o funcionamento básico da plataforma. A prioridade inicial geralmente é garantir que todas as funcionalidades principais estejam operacionais e que a plataforma seja segura e usável.
+|RNF-004|  Interface fácil de usar | BAIXA
+
+|RNF-004|  Ser capaz de lidar com um aumento no número de usuários | BAIXA
 
 
 
 
+                                
 
 # Restrições
 
@@ -108,9 +129,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ter um baixo custo e gerar alto impacto |                      |
-|02| O projeto deve ser concluído dentro de um período                  
+|01| O projeto deverá ter um baixo custo e gerar alto impacto                       
+|02| O projeto deve ser concluído dentro de um período específico
+|03| O projeto deverá ser entregue em datas corretas e sem atraso
 
-Dentre as restrições do projeto, duas de importante citação, são que: O projeto deverá ter um baixo custo (menos caro de ser realizado) e gerar mais impacto (resolver maioria dos problemas de mães solo no mercado de trabalho) e que, deverá ser concluído dentro de um período específico, ou seja, até a data prevista de entrega desta primeira etapa onde esá inclusa e especificação do projeto, a qual, está sendo escrito este relatório. 
+Dentre as restrições do projeto, duas de importante citação, são que: O projeto deverá ter um baixo custo (menos caro de ser realizado) e gerar mais impacto (resolver maioria dos problemas de mães solo no mercado de trabalho) e que, deverá ser concluído dentro de um período específico, ou seja, até a data prevista de entrega desta primeira etapa onde esá inclusa e especificação do projeto, a qual, está sendo escrito documento.
 
 
