@@ -76,7 +76,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Dona de creche    | Sistem que permite divulgação     |  Divulgar minha empresa, creche para mães conhecerem melhor
+|Dona de creche    | Sistema que permite divulgação     |  Divulgar minha empresa, creche para mães conhecerem melhor
 
 
 # Requisitos
