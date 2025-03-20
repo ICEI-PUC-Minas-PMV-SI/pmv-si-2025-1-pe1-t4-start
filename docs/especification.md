@@ -56,7 +56,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Mãe Solo        | Hub com presença de psicólogos    | Receber apoio psicológico e lidar com pressões de ser mãe solo                                                                                              
+|Mãe Solo        | Hub com presença de psicólogos    | Receber apoio psicológico e lidar com pressões de ser mãe solo    
+
+
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Advogado trabalhista    | Sistema que permite criação de meu perfil     | Divulgar meu trabalho a mães que precisem de apoio com causas trabalhistas 
@@ -64,7 +66,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Psicólogo do trabalho    | Sistema que permita postagens     | Divulgar as mães que necessitam, minha ocupação de psicologia do trabalho
+|Babá    | Sistema que permita postagens   | Divulgar as mães interessadas, meu trabalho como babá
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
