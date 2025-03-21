@@ -11,13 +11,11 @@ Mães solo que tem dificuldades em ingressar ou permanecer no mercado de trabalh
 
 
   # Ideia de solução:
-  A ideia de solução escolhida, foi a da criação de uma aplicação/plataforma que tenha o principal objetivo de divulgação de empregos inclusivos a mães solos, ou seja, para que elas não sofram com preconceitos e sejam bem inclusas pela organização e tenham suas dores relacionadas ao problema de serem mães solos e cuidarem dos lares e filhos sozinhas, abraçadas.
+  A ideia de solução escolhida, foi a da criação de uma aplicação/plataforma que terá como principal objetivo ser um "centro de apoio" para mães solos, ou seja, nessa aplicação as mães poderão se conectar entre si e também buscar prestadores de serviços e apoiadores para facilitar suas vidas.
 
-A plataforma também contará com a divulgação de centros de cuidados infantis (Creches) para que, as mãe saibam exatamente os lugares disponíveis e com vagas em aberto para deixarem seus filhos no momento em que trabalham. Ademais, a plataforma contará com uma rede de feedbacks para estas empresas e creches, para que as mães possam ter conhecimento da política das mesmas, se são confiáveis e seguras para seus bem estar e bem estar de seus filhos.
+ A plataforma contará com a divulgação de centros de cuidados infantis, babás, psicólogos e advogados, para que, as mãe saibam exatamente os lugares disponíveis para deixarem seus filhos no momento em que trabalham, encontrem auxilio psicológico, caso necessitem e também apoio jurídico para questões trabalhistas que possam vir a enfrentar  . Ademais, a plataforma contará também com um fórum com o intuito de conectar mães solos que busquem dividir suas experiências e vivências.
 
-E, como conclusão, nossa solução gera maior impacto, pois: destaca-se por divulgar empregos inclusivos para mães solo e centros de cuidados infantis. Além de permissão de Feedbacks das mães sobre empresas e creches o que ajudam outras mães a tomar decisões informadas, garantindo segurança e bem-estar.
-
-Nossa solução gera menor Custo, pois: é virtual, eliminando a necessidade de um local físico, pode ser gerenciada por uma pequena equipe capacitada para sua criação, sem necessidade de contratações externas de programadores, e, utiliza ferramentas de desenvolvimento de software já disponíveis, ou seja, tecnologias já existentes, reduzindo custos adicionais.
+ Como conclusão, a solução gera maior impacto, pois, representa uma solução inovadora e de grande impacto social, centralizando em um só lugar o acesso à uma rede de apoio e à recursos essenciais, buscando assim proporcionar maior empoderamento, autonomia e qualidade de vida para essas mães. A solução também gera menor custo, pois é virtual, eliminando a necessidade de um local físico, pode ser gerenciada por uma pequena equipe capacitada para sua criação, sem necessidade de contratações externas de programadores, e, utiliza ferramentas de desenvolvimento de software já disponíveis, ou seja, tecnologias já existentes, reduzindo custos adicionais.
 
 
 
