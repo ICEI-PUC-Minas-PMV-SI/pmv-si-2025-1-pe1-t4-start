@@ -105,11 +105,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito                    |Prioridade 
 |-------|-------------------------|-----------------|
-|RNF-001|Garantir a segurança e privacidade das informações das mães solo  | MÉDIA 
-|RNF-002| A aplicação deve ter um design atraente| BAIXA 
+|RNF-001|Garantir a segurança e privacidade das informações das mães solo  | ALTA
+|RNF-002| A aplicação deve ter um design atraente| MÉDIA  
 |RNF-003| Proteger dados das mães solo | ALTA
-|RNF-004|  Interface fácil de usar | BAIXA
-|RNF-005|  Ser capaz de lidar com um aumento no número de usuários | BAIXA
+|RNF-004| Interface fácil de usar | BAIXA
+|RNF-005| Ser capaz de lidar com um aumento no número de usuários | BAIXA
 |RNF-006| A aplicação deve ser responsiva  | ALTA 
 |RNF-006| A aplicação deve funcionar em diferentes dispositivos | ALTA 
 
