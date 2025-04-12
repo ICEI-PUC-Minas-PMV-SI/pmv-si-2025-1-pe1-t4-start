@@ -6,7 +6,7 @@
  ![image](https://github.com/user-attachments/assets/adfdcabf-df5e-4b60-b71c-894bfdf2fbdb)
  ![image](https://github.com/user-attachments/assets/2e2215be-93d1-4671-8dd8-9f7bab8d8105)
  ![image](https://github.com/user-attachments/assets/68949089-775f-4d5a-bbdf-b34c82d4c8d7)
-A imagem 1 será o estilo de template seguido para interface de cadastro no sistema e de Login. A imagem 2 será o estilo de template utilizado para tela de início. A imagem 3 será o estilo de template para o fórum. A imagem 4 para sessão de serviços e, a imagem 4, para sessão de mapa, onde aparecerão os profissionais dentro do mapeamento das mães.
+A imagem 1 será o estilo de template seguido para interface de cadastro no sistema e de Login. A imagem 2 será o estilo de template utilizado para tela de início. A imagem 3 será o estilo de template para o fórum. A imagem 4 para sessão de serviços, a imagem 5 interface de perfis de cada profissional, separadamente e, a imagem 6, para sessão de mapa, onde aparecerão os profissionais dentro do mapeamento das mães.
 
 ## Design
 
