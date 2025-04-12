@@ -64,7 +64,8 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 
 
 Dentro de nosso User Flow, destacamos as principais funcionalidades de cada página/aba específica de nossa aplicação, mostrando ao usuário como ele poderá navegar sem muitas dificuldades. Dentro do projeto, nosso User Flow foi o anexado a seguir:
-![image (2)](https://github.com/user-attachments/assets/2b6c2387-9a4f-4189-88ce-f58995e07577)
+![image (2)](https://github.com/user-attachments/assets/af6189ea-364f-4527-bff8-057be124055c)
+
 
 
 ## Wireframes
