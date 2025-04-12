@@ -41,7 +41,6 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 ![image](https://github.com/user-attachments/assets/15cb3c5c-d5b6-4d70-80a1-408b2fdb481c)
 ![image](https://github.com/user-attachments/assets/0fe2e818-03ff-4fd8-94ef-eb38366b549f)
 ![image](https://github.com/user-attachments/assets/82a973ab-12d0-4e99-9762-82744bda6282)
- Logo em seguida, vemos, anexados acima, os perfis separados onde, cada sessão é um profissional diferente. No primeiro arquivo anexado, por exemplo, vemos os profissionais psicólogos com número de avaliações juntamente de seu nome e foto de perfil. 
 
  
 
