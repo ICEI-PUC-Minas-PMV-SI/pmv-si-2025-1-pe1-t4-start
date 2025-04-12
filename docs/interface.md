@@ -32,7 +32,7 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 
  
 ![image](https://github.com/user-attachments/assets/1f460ecf-f791-4aca-b3b5-0b4c309a2114)
- Esta, é a sessão de serviços, onde, previamente, aparecerão alguns dos muitos perfis profissionais cadastrados na plataforma e por especialidade.
+ Esta, acima, é a sessão de serviços, onde previamente, aparecerão alguns dos muitos perfis profissionais cadastrados na plataforma e por especialidade.
 
 
  
