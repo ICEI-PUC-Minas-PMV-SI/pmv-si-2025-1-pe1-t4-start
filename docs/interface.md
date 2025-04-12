@@ -17,9 +17,8 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 
  # Tela de cadastro profissional
  ![image](https://github.com/user-attachments/assets/98471184-ff51-43a0-b209-9887c9d7620e)
-
- 
- Essa é nossa interface de cadastro profissional, ou seja, onde os profissionais (Advogados, Psicólogos, Babás e Creches) poderão se cadastrar. Os dados pedidos dentro do sistema para que o profissional possa realizar seu cadastro, são parecidos aos dados pedidos as mães para que elas possam criar suas contas, porém, com dados adicionais relacionados a sua profissão, como especialidade e registro profissional.
+ Essa é nossa interface de cadastro profissional, onde os profissionais (Advogados, Psicólogos, Babás e Creches), poderão se cadastrar. 
+ Os dados solicitados pelo sistema para o cadastro do profissional são parecidos com os dados pedidos às mães, para que elas possam criar suas contas porém, com informações adicionais relacionadas à profissão, como especialidade e registro profissional.
 
 
   # Tela de início
@@ -47,17 +46,17 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 
   # Tela de perfil do profissional
 ![image](https://github.com/user-attachments/assets/82a973ab-12d0-4e99-9762-82744bda6282)
-Nesta sessão, vemos como será, dentro de nosso sistema, a interface de perfis separados. Ou seja, nas sessões anteriores, o usuário pode escolher qual perfil ele quer conhecer. O perfil mostrado no arquivo anexado acima, é o perfil do profissional psicólogo Dr. Pedro Paulo
- Dentro desta sessão, o perfil é mostrado de maneira mais completa. Além da foto e número de avaliações, também é possível ver a biogafria escrita pelo profissional para chamar a atenção das mães, relacionado a seu serivço e as avaliações feitas de formato escrito, pelas mães. Também, nesta sessão, podemos ver o botão de "Entrar em contato", onde, mais a frente, será listada esta interface aqui.
+ Nesta sessão, vemos como será, dentro de nosso sistema, a interface de perfis separados. Ou seja, nas sessões anteriores, o usuário pode escolher qual perfil ele quer conhecer. O perfil mostrado no arquivo anexado acima, é o perfil do profissional psicólogo Dr. Pedro Paulo.
+ Dentro desta sessão, o perfil é mostrado de maneira mais completa. Além da foto e número de avaliações, também é possível ver a biogafria escrita pelo profissional para chamar a atenção das mães, relacionado a seu serivço e as avaliações feitas em formato escrito, pelas mães. Também, nesta sessão, podemos ver o botão de "Entrar em contato", onde, mais a frente, será listada esta interface aqui.
  ![image](https://github.com/user-attachments/assets/98441d94-d824-4957-b3bb-5221674e7d6c)
 ![image](https://github.com/user-attachments/assets/590248f6-f27a-4fea-9686-ee7821745d69)
 ![image](https://github.com/user-attachments/assets/8b8c243f-845b-460b-8547-dd9967d96589)
-Seguindo o mesmo modelo, vemos as outras interfaces com perfis separados por profissionais, com fotos, biografia, botão de entrar em contato e avaliações escritas, dadas pelas mães, a eles.
+ Seguindo o mesmo modelo, vemos as outras interfaces com perfis separados por profissionais, com fotos, biografia, botão de entrar em contato e avaliações escritas, dadas pelas mães, a eles.
 
 
  # Tela de contatos do profissional
 ![image](https://github.com/user-attachments/assets/a2abb458-2235-40c0-b769-c72fb95f5eaf)
-Esta interface nos mostra como será quando os usuários clicarem no botão de "entrar em contato". Quando clicarem neste botão, aparecerá as plataformas que as mães podem utilizar para entrar em contato com esses profissionais. Também há plataormas adicionais, onde, as mães podem seguir esses profissionais e ver suas publicações, como Linkedin, Facebook e Instagram, por exemplo. Também será encaixado, se o profissional possuir, um site específico do mesmo, para agendamento de consultas, por exemplo. (Esta interface seguirá a mesma para todos os outros profissionais).
+ Esta interface nos mostra como será quando os usuários clicarem no botão de "entrar em contato". Quando clicarem neste botão, aparecerá as plataformas que as mães podem utilizar para entrar em contato com esses profissionais. Também há plataformas adicionais, onde, as mães podem seguir esses profissionais e ver suas publicações, como Linkedin, Facebook e Instagram, por exemplo. Também será encaixado, se o profissional possuir, um site específico do mesmo, para agendamento de consultas, por exemplo. (Esta interface seguirá a mesma para todos os outros profissionais).
 
 
 
@@ -65,7 +64,7 @@ Esta interface nos mostra como será quando os usuários clicarem no botão de "
 
 
 Dentro de nosso User Flow, destacamos as principais funcionalidades de cada página/aba específica de nossa aplicação, mostrando ao usuário como ele poderá navegar sem muitas dificuldades. Dentro do projeto, nosso User Flow foi o anexado a seguir:
-![image](https://github.com/user-attachments/assets/aba41cd1-2d65-4c40-a22c-4ebdd2a45db9)
+![image (2)](https://github.com/user-attachments/assets/2b6c2387-9a4f-4189-88ce-f58995e07577)
 
 
 ## Wireframes
