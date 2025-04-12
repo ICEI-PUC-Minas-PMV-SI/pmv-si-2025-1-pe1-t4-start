@@ -40,11 +40,10 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 ![image](https://github.com/user-attachments/assets/8ea7a8ee-b0fd-4a1d-b846-50b02170bdf3)
 ![image](https://github.com/user-attachments/assets/15cb3c5c-d5b6-4d70-80a1-408b2fdb481c)
 ![image](https://github.com/user-attachments/assets/0fe2e818-03ff-4fd8-94ef-eb38366b549f)
-![image](https://github.com/user-attachments/assets/82a973ab-12d0-4e99-9762-82744bda6282)
+
+
 
  
-
-
 ![image](https://github.com/user-attachments/assets/82a973ab-12d0-4e99-9762-82744bda6282)
 Nesta sessão, vemos como será, dentro de nosso sistema, a interface de perfis separados. Ou seja, nas sessões anteriores, o usuário pode escolher qual perfil ele quer conhecer. O perfil mostrado no arquivo anexado acima, é o perfil do profissional psicólogo Dr. Pedro Paulo
  Dentro desta sessão, o perfil é mostrado de maneira mais completa. Além da foto e número de avaliações, também é possível ver a biogafria escrita pelo profissional para chamar a atenção das mães, relacionado a seu serivço e as avaliações feitas de formato escrito, pelas mães. Também, nesta sessão, podemos ver o botão de "Entrar em contato", onde, mais a frente, será listada esta interface aqui.
