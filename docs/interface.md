@@ -50,7 +50,7 @@ Nesta sessão, vemos como será, dentro de nosso sistema, a interface de perfis 
  ![image](https://github.com/user-attachments/assets/98441d94-d824-4957-b3bb-5221674e7d6c)
 ![image](https://github.com/user-attachments/assets/590248f6-f27a-4fea-9686-ee7821745d69)
 ![image](https://github.com/user-attachments/assets/8b8c243f-845b-460b-8547-dd9967d96589)
-Seguindo a mesma lógica, vemos as outras interfaces com perfis separados por profissionais, com fotos, biografia, botão de entrar em contato e avaliações escritas, dadas pelas mães, a eles.
+Seguindo o mesmo modelo, vemos as outras interfaces com perfis separados por profissionais, com fotos, biografia, botão de entrar em contato e avaliações escritas, dadas pelas mães, a eles.
 
 
  # Tela de contatos do profissional
@@ -61,7 +61,6 @@ Esta interface nos mostra como será quando os usuários clicarem no botão de "
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
 
 Dentro de nosso User Flow, destacamos as principais funcionalidades de cada página/aba específica de nossa aplicação, mostrando ao usuário como ele poderá navegar sem muitas dificuldades. Dentro do projeto, nosso User Flow foi o anexado a seguir:
 ![image](https://github.com/user-attachments/assets/aba41cd1-2d65-4c40-a22c-4ebdd2a45db9)
