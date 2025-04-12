@@ -1,36 +1,33 @@
 # Template padrão do site
-
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
+ Seguimos um modelo de template feito no Software Figma. Exemplos de templates, são:
+ ![image](https://github.com/user-attachments/assets/e1c9fd07-04b1-40e9-9866-95f90df0c59f)
+ ![image](https://github.com/user-attachments/assets/a71a5d65-f8e2-409c-86ce-451d0542f5de)
+ ![image](https://github.com/user-attachments/assets/f7ab92e4-68aa-46da-a994-71a2dca452a5)
+ ![image](https://github.com/user-attachments/assets/adfdcabf-df5e-4b60-b71c-894bfdf2fbdb)
+ ![image](https://github.com/user-attachments/assets/2e2215be-93d1-4671-8dd8-9f7bab8d8105)
+ ![image](https://github.com/user-attachments/assets/68949089-775f-4d5a-bbdf-b34c82d4c8d7)
+A imagem 1 será o estilo de template seguido para interface de cadastro no sistema e de Login. A imagem 2 será o estilo de template utilizado para tela de início. A imagem 3 será o estilo de template para o fórum. A imagem 4 para sessão de serviços e, a imagem 4, para sessão de mapa, onde aparecerão os profissionais dentro do mapeamento das mães.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+Uma representação de onde será colocada a logo do sistema, é com as imagens anexadas abaixo. Onde, na tela de início e de cadastro, a logo ficará acima dos componentes de informações pessoais para cadastro e Login. Nas páginas posteriores, seguirá o modelo da segunda imagem anexada, onde a logo ficará no inferior esquerdo acima, próximo aos menus de Serviços, Mapas, Sobre o Mães em Foco e Fórum.
+![image](https://github.com/user-attachments/assets/a239379e-e318-4bf6-a0ed-529809d63f5f)
+![image](https://github.com/user-attachments/assets/083a7863-22a8-4a80-b2a7-463bc99b5e2f)
 
 
 ## Cores
+A paleta de cores utilizada em nosso projeto de interface, foi das cores anexadas no arquivo a seguir:
+![Imagem do WhatsApp de 2025-04-12 à(s) 12 23 30_a9e5ba2b](https://github.com/user-attachments/assets/70a649e0-5840-4c46-8e52-165870bf9ced)
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+Dentro das funções de nosso site, as fontes utilizadas em: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+Titulo da página: Roboto Bold, tamanhos 24 e 40; 
+Título de cada seção: Roboto Bold, tamanho 24; 
+E, Rótulo de componente de corpo de texto: Roboto regular, tamanhos 12, 14 e 20
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Os ícones que serão utilizados, serão: ícone de 'pessoa' para sinalizar onde o usuário deve por dados de E-mail, Nome e Sobrenome, ícone de 'cadeado' que sinaliza onde o usuário deve digitar/criar sua senha de acesso, ícone de '@' que mostra ao usuário onde ele deverá escrever seu e-mail de acesso e ícone de 'crachá' que serve para os cadastros de perfis profissionais, onde o profissional deverá digitar sua especialização e seu registro profissional (OAB, CRP)
