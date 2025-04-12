@@ -17,6 +17,8 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 
  # Tela de cadastro profissional
  ![image](https://github.com/user-attachments/assets/98471184-ff51-43a0-b209-9887c9d7620e)
+
+ 
  Essa é nossa interface de cadastro profissional, ou seja, onde os profissionais (Advogados, Psicólogos, Babás e Creches) poderão se cadastrar. Os dados pedidos dentro do sistema para que o profissional possa realizar seu cadastro, são parecidos aos dados pedidos as mães para que elas possam criar suas contas, porém, com dados adicionais relacionados a sua profissão, como especialidade e registro profissional.
 
 
