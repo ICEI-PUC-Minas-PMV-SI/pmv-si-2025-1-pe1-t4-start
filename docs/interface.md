@@ -39,7 +39,7 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
 ![image](https://github.com/user-attachments/assets/05752c4d-3475-4c56-ab54-b943cf73305d)
 ![image](https://github.com/user-attachments/assets/8ea7a8ee-b0fd-4a1d-b846-50b02170bdf3)
 ![image](https://github.com/user-attachments/assets/15cb3c5c-d5b6-4d70-80a1-408b2fdb481c)
-![image](https://github.com/user-attachments/assets/0fe2e818-03ff-4fd8-94ef-eb38366b549f)
+ Nesta sessão, vemos, os perfis dos profissionais por especialidades. Ou seja, os perfis de advogados em uma interface específica para advogado, os psicólogos em uma interface específica para psicólogos e assim por diante. Todos, seguindo o mesmo modelo de interface.
 
 
 
