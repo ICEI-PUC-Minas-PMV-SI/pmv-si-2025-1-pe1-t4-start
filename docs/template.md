@@ -32,5 +32,8 @@
 
    Os ícones que serão utilizados, serão: ícone de 'pessoa' para sinalizar onde o usuário deve por dados de E-mail, Nome e Sobrenome, ícone de 'cadeado' que sinaliza onde o usuário deve digitar/criar sua senha de acesso, ícone de '@' que mostra ao usuário onde ele deverá escrever seu e-mail de acesso e ícone de 'crachá' que serve para os cadastros de perfis profissionais, onde o profissional deverá digitar sua especialização e seu registro profissional (OAB, CRP). 
   Para uma visualização melhor, os ícones citados acima, estão todos presentes na imagem anexada a seguir:
+ 
+  
+  
   ![Imagem do WhatsApp de 2025-04-12 à(s) 10 52 45_3d1fc33e](https://github.com/user-attachments/assets/fb7ada03-0c7d-44dd-b1a9-8f0dcabb4da1)
 
