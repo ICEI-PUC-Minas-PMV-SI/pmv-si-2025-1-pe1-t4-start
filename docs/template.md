@@ -31,6 +31,7 @@
 ## Iconografia
 
    Os ícones que serão utilizados, serão: ícone de 'pessoa' para sinalizar onde o usuário deve por dados de E-mail, Nome e Sobrenome, ícone de 'cadeado' que sinaliza onde o usuário deve digitar/criar sua senha de acesso, ícone de '@' que mostra ao usuário onde ele deverá escrever seu e-mail de acesso e ícone de 'crachá' que serve para os cadastros de perfis profissionais, onde o profissional deverá digitar sua especialização e seu registro profissional (OAB, CRP). 
+ 
   Para uma visualização melhor, os ícones citados acima, estão todos presentes na imagem anexada a seguir:
  
   
