@@ -79,7 +79,7 @@
 
 
 ## Wireframes
-  Dentro de nosso Wireframes, realizamos diversas demonstrações de como imaginamos que nosso site poderia ser, em relação a sua interface e funcionalidade de cada botão e menu específico. Como utilização para realização desta etapa, usamos o Pencil que é um software gratuito de prototipagem. Segue, abaixo, as imagens usadas como referência para nossa aplicação:
+  Dentro de nosso Wireframes, realizamos diversas demonstrações de como imaginamos que nosso site poderia ser, em relação a sua interface e funcionalidade de cada botão e menu específico. Como utilização para realização desta etapa, usamos o Pencil que é um software gratuito de prototipagem. Segue, abaixo, as imagens usadas como referências para nossa aplicação:
 
 ![image](https://github.com/user-attachments/assets/9f81c9d9-912c-4894-a385-9c4229de3366)
 ![image](https://github.com/user-attachments/assets/cf291e1a-adfe-4428-84ff-2eba5e21be90)
