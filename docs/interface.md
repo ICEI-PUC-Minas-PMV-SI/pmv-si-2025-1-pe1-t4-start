@@ -1,9 +1,9 @@
 
 # Projeto de Interface
 
-O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, que é uma ferramenta de design de interface colaborativa. Utilizamos este Software para montagem de interface do sistema, ou seja, a conclusão final de como será nosso sistema em relação a suas telas.
+  O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, que é uma ferramenta de design de interface colaborativa. Utilizamos este Software para montagem de interface do sistema, ou seja, a conclusão final de como será nosso sistema em relação a suas telas.
 
- Nossos arquivos do projeto de interface, com todas as telas do sistema e como o mesmo será, são os anexados abaixo:
+  Nossos arquivos do projeto de interface, com todas as telas do sistema e como o mesmo será, são os anexados abaixo:
  
  # Tela de Login
  ![image](https://github.com/user-attachments/assets/42eb7805-e194-49cd-bded-88aa4fd18ee3)
