@@ -7,69 +7,93 @@ O projeto de interface de nosso sistema, foi feito utilizando o Software Figma, 
  
  # Tela de Login
  ![image](https://github.com/user-attachments/assets/42eb7805-e194-49cd-bded-88aa4fd18ee3)
- Dando início a esta interface, nos mostra a tela de Login do sistema, ou seja, onde o usuário, que já possui uma conta, colocará seus dados cadastrados e poderá ingressar no sistema, em casos de Logout do mesmo, por exemplo.
+´´´
+Dando início a esta interface, nos mostra a tela de Login do sistema, ou seja, onde o usuário, que já possui uma conta, colocará seus dados cadastrados e poderá ingressar no sistema, em casos de Logout do mesmo, por exemplo.
+´´´
 
 
  # Tela de cadastro 
 ![image](https://github.com/user-attachments/assets/329434e8-891f-43f7-9fdf-71e40624a5ad)
- Nesta interface, vemos como será nossa tela de cadastro, dentro do sistema. Nesta tela, o usuário (não profissional) que deseja ingressar em nosso sistema, poderá criar sua conta de acordo com os dados pedidos.
+´´´
+
+Nesta interface, vemos como será nossa tela de cadastro, dentro do sistema. Nesta tela, o usuário (não profissional) que deseja ingressar em nosso sistema, poderá criar sua conta de acordo com os dados pedidos.
+´´´
 
 
  # Tela de cadastro profissional
  ![image](https://github.com/user-attachments/assets/98471184-ff51-43a0-b209-9887c9d7620e)
- Essa é nossa interface de cadastro profissional, onde os profissionais (Advogados, Psicólogos, Babás e Creches), poderão se cadastrar. 
+´´´
+Essa é nossa interface de cadastro profissional, onde os profissionais (Advogados, Psicólogos, Babás e Creches), poderão se cadastrar. 
  Os dados solicitados pelo sistema para o cadastro do profissional são parecidos com os dados pedidos às mães, para que elas possam criar suas contas porém, com informações adicionais relacionadas à profissão, como especialidade e registro profissional.
+ ´´´
 
 
   # Tela de início
 ![image](https://github.com/user-attachments/assets/01ca2ba3-7709-4902-a082-1285870a351c)
- Esta interface, será nossa tela de início do sistema, onde, assim que o usuário ingressa, ele verá as informações inciais. Dentro dessa tela, temos uma prévia de profissionais presentes na aplicação e também uma prévia de nosso fórum de publicações. Além disso, também teremos uma breve explicação sobre o sistema e quem somos nós, pra quem serve o sistema, etc. Os menus acima, nesta tela, são os de serviços, onde as mães poderão encontrar os profissionais presentes na plataforma, Mapa, onde elas poderão encontrar os profissionais próximos a seus mapeamentos, Sobre os mães em foco, que, como listado acima, é uma beve explicação do sistema e sobre quem somos (os criadores) e, por último, o fórum, que é onde estão as publicações de profissionais e mães.
+´´
+
+Esta interface, será nossa tela de início do sistema, onde, assim que o usuário ingressa, ele verá as informações inciais. Dentro dessa tela, temos uma prévia de profissionais presentes na aplicação e também uma prévia de nosso fórum de publicações. Além disso, também teremos uma breve explicação sobre o sistema e quem somos nós, pra quem serve o sistema, etc. Os menus acima, nesta tela, são os de serviços, onde as mães poderão encontrar os profissionais presentes na plataforma, Mapa, onde elas poderão encontrar os profissionais próximos a seus mapeamentos, Sobre os mães em foco, que, como listado acima, é uma beve explicação do sistema e sobre quem somos (os criadores) e, por último, o fórum, que é onde estão as publicações de profissionais e mães.
+´´´
 
 
   # Tela de fórum
 ![image](https://github.com/user-attachments/assets/4c5c7a9d-eee0-4714-9f65-51ae93803ddc)
- Esta tela, é a sessão de fórum. Nesta interface, os usuários presentes, tanto os profissionais quanto as mães, poderão fazer publicações, sejam do seu dia a dia profissional e/ou pessoal.
-
+ ´´´
+ 
+Esta tela, é a sessão de fórum. Nesta interface, os usuários presentes, tanto os profissionais quanto as mães, poderão fazer publicações, sejam do seu dia a dia profissional e/ou pessoal.
+´´´
 
   # Tela geral de serviços profissionais
 ![image](https://github.com/user-attachments/assets/1f460ecf-f791-4aca-b3b5-0b4c309a2114)
- Esta, acima, é a sessão de serviços, onde previamente, aparecerão alguns dos muitos perfis profissionais cadastrados na plataforma e quais suas especialidades.
+´´´
+Esta, acima, é a sessão de serviços, onde previamente, aparecerão alguns dos muitos perfis profissionais cadastrados na plataforma e quais suas especialidades.
+´´´
 
 
   # Tela de serviços profissionais por especialidade
 ![image](https://github.com/user-attachments/assets/05752c4d-3475-4c56-ab54-b943cf73305d)
 ![image](https://github.com/user-attachments/assets/8ea7a8ee-b0fd-4a1d-b846-50b02170bdf3)
 ![image](https://github.com/user-attachments/assets/15cb3c5c-d5b6-4d70-80a1-408b2fdb481c)
- Nesta sessão, vemos, os perfis dos profissionais por especialidades. Ou seja, os perfis de advogados em uma interface específica para advogado, os psicólogos em uma interface específica para psicólogos e assim por diante. Todos, seguindo o mesmo modelo de interface.
+´´´
+
+Nesta sessão, vemos, os perfis dos profissionais por especialidades. Ou seja, os perfis de advogados em uma interface específica para advogado, os psicólogos em uma interface específica para psicólogos e assim por diante. Todos, seguindo o mesmo modelo de interface.
+´´´
 
 
 
   # Tela de perfil do profissional
 ![image](https://github.com/user-attachments/assets/82a973ab-12d0-4e99-9762-82744bda6282)
- Nesta sessão, vemos como será, dentro de nosso sistema, a interface de perfis separados. Ou seja, nas sessões anteriores, o usuário pode escolher qual perfil ele quer conhecer. O perfil mostrado no arquivo anexado acima, é o perfil do profissional psicólogo Dr. Pedro Paulo.
+´´´
+Nesta sessão, vemos como será, dentro de nosso sistema, a interface de perfis separados. Ou seja, nas sessões anteriores, o usuário pode escolher qual perfil ele quer conhecer. O perfil mostrado no arquivo anexado acima, é o perfil do profissional psicólogo Dr. Pedro Paulo.
  Dentro desta sessão, o perfil é mostrado de maneira mais completa. Além da foto e número de avaliações, também é possível ver a biogafria escrita pelo profissional para chamar a atenção das mães, relacionado a seu serivço e as avaliações feitas em formato escrito, pelas mães. Também, nesta sessão, podemos ver o botão de "Entrar em contato", onde, mais a frente, será listada esta interface aqui.
  ![image](https://github.com/user-attachments/assets/98441d94-d824-4957-b3bb-5221674e7d6c)
 ![image](https://github.com/user-attachments/assets/590248f6-f27a-4fea-9686-ee7821745d69)
 ![image](https://github.com/user-attachments/assets/8b8c243f-845b-460b-8547-dd9967d96589)
  Seguindo o mesmo modelo, vemos as outras interfaces com perfis separados por profissionais, com fotos, biografia, botão de entrar em contato e avaliações escritas, dadas pelas mães, a eles.
+ ´´´
 
 
  # Tela de contatos do profissional
 ![image](https://github.com/user-attachments/assets/a2abb458-2235-40c0-b769-c72fb95f5eaf)
+ ´´´
  Esta interface nos mostra como será quando os usuários clicarem no botão de "entrar em contato". Quando clicarem neste botão, aparecerá as plataformas que as mães podem utilizar para entrar em contato com esses profissionais. Também há plataformas adicionais, onde, as mães podem seguir esses profissionais e ver suas publicações, como Linkedin, Facebook e Instagram, por exemplo. Também será encaixado, se o profissional possuir, um site específico do mesmo, para agendamento de consultas, por exemplo. (Esta interface seguirá a mesma para todos os outros profissionais).
+ ´´´
 
 
 
 ## User Flow
 
 
+´´´
 Dentro de nosso User Flow, destacamos as principais funcionalidades de cada página/aba específica de nossa aplicação, mostrando ao usuário como ele poderá navegar sem muitas dificuldades. Dentro do projeto, nosso User Flow foi o anexado a seguir:
 ![image (2)](https://github.com/user-attachments/assets/af6189ea-364f-4527-bff8-057be124055c)
+´´´
 
 
 
 ## Wireframes
 
+´´´
 Dentro de nosso Wireframes, realizamos diversas demonstrações de como imaginamos que nosso site poderia ser, em relação a sua interface e funcionalidade de cada botão e menu específico. Como utilização para realização desta etapa, usamos o Pencil que é um software gratuito de prototipagem. Segue, abaixo, as imagens usadas como referência para nossa aplicação:
 
 ![image](https://github.com/user-attachments/assets/9f81c9d9-912c-4894-a385-9c4229de3366)
@@ -93,5 +117,6 @@ Dentro de nosso Wireframes, realizamos diversas demonstrações de como imaginam
   
   
   5- Tela de perfis profissionais: Logo após, teremos a tela de perfis profissionais que, mostrará a todos os usuários cadastrados, os profissionais presentes dentro do sistema, com fotos em seus perfis, avaliações de outras mães, especialização e biografias chamativas e receptivas. Esse modelo de interface, segue para todos os profissionais.
+  ´´´
 
  
