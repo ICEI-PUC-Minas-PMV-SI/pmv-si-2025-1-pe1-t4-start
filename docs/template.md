@@ -1,5 +1,6 @@
 # Template padrão do site
  Seguimos um modelo de template feito no Software Figma que é uma ferramenta de design colaborativa. Exemplos de templates, são:
+ 
  ![image](https://github.com/user-attachments/assets/e1c9fd07-04b1-40e9-9866-95f90df0c59f)
  ![image](https://github.com/user-attachments/assets/a71a5d65-f8e2-409c-86ce-451d0542f5de)
  ![image](https://github.com/user-attachments/assets/f7ab92e4-68aa-46da-a994-71a2dca452a5)
