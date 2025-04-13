@@ -19,6 +19,9 @@
 
  # Tela de cadastro profissional
  ![image](https://github.com/user-attachments/assets/98471184-ff51-43a0-b209-9887c9d7620e)
+  
+  
+  
   Essa é nossa interface de cadastro profissional, onde os profissionais (Advogados, Psicólogos, Babás e Creches), poderão se cadastrar. 
  Os dados solicitados pelo sistema para o cadastro do profissional são parecidos com os dados pedidos às mães, para que elas possam criar suas contas porém, com informações adicionais relacionadas à profissão, como especialidade e registro profissional.
  
