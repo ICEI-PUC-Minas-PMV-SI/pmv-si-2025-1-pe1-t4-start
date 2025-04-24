@@ -1,21 +1,7 @@
 # Programação de Funcionalidades
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+O sistema que está sendo realizado, com o intuito de resolver os problemas sofridos pelas mãe solo no mercado de trabalho, possui diversos requisitos funcionais presente no mesmo, e que serão citados abaixo. Vale-se ressaltar que, estes requisitos são extremamente essenciais para que a o sistema seja rico e completo para uso. 
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo.
-
-O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
 ## Exemplo
 
@@ -27,8 +13,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| A aplicação deve permitir que o usuário publique no fórum  | Gustavo | index.html |
+|RF-002| A aplicação deve permitir que usuários profissionais se cadastrem no sistema | Thiago | cadastro-noticia.html |
+|RF-003| A aplicação deve permitir que os usuários possuam seus perfis pessoais  | Maria Clara | index.html |
+|RF-004| A aplicação deve permitir que o usuário possa logar no sistema | Ava | index.html |
+|RF-005| A aplicação deve permitir que o usuário possa se cadastrar no sistema  | Ana Clara | index.html |
+|RF-001| A aplicação deve permitir página com perfis profissionais cadastrados no sistema | Laila | index.html |
+|RF-001| A aplicação deve permitir aba de perfis de psicólogos  | Laila | index.html |
+|RF-001| A aplicação deve permitir aba de perfis de advogados  | Maria Clara | index.html |
+|RF-001| A aplicação deve permitir aba de perfis de babás   | Ava | index.html |
+|RF-001| A aplicação deve permitir aba de perfis de creches  | Thiago | index.html |
+
 
 ## Descrição das estruturas:
 
