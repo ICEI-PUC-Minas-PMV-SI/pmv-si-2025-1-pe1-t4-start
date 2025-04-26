@@ -13,16 +13,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário publique no fórum  | Gustavo | index.html |
-|RF-002| A aplicação deve permitir que usuários profissionais se cadastrem no sistema | Thiago | cadastro-noticia.html |
-|RF-003| A aplicação deve permitir que os usuários possuam seus perfis pessoais  | Maria Clara | index.html |
-|RF-004| A aplicação deve permitir que o usuário possa logar no sistema | Ava | index.html |
-|RF-005| A aplicação deve permitir que o usuário possa se cadastrar no sistema  | Ana Clara | index.html |
-|RF-001| A aplicação deve permitir página com perfis profissionais cadastrados no sistema | Laila | index.html |
-|RF-001| A aplicação deve permitir aba de perfis de psicólogos  | Laila | index.html |
-|RF-001| A aplicação deve permitir aba de perfis de advogados  | Maria Clara | index.html |
-|RF-001| A aplicação deve permitir aba de perfis de babás   | Ava | index.html |
-|RF-001| A aplicação deve permitir aba de perfis de creches  | Thiago | index.html |
+|RF-001| A aplicação deve permitir que o usuário publique no fórum  | Gustavo | fórum.html |
+|RF-002| A aplicação deve permitir que usuários profissionais se cadastrem no sistema | Thiago |  cadastro profissional.html |
+|RF-003| A aplicação deve permitir que os usuários possuam seus perfis pessoais  | Maria Clara | perfis usuários.html |
+|RF-004| A aplicação deve permitir que o usuário possa logar no sistema | Ava | tela login.html |
+|RF-005| A aplicação deve permitir que o usuário possa se cadastrar no sistema  | Ana Clara | cadastro.html |
+|RF-001| A aplicação deve permitir página com perfis profissionais cadastrados | Laila | perfis profissionais.html |
+|RF-001| A aplicação deve permitir aba de perfis de psicólogos  | Laila | psicólogos.html |
+|RF-001| A aplicação deve permitir aba de perfis de advogados  | Maria Clara | advogados.html |
+|RF-001| A aplicação deve permitir aba de perfis de babás   | Ava | Babás.html |
+|RF-001| A aplicação deve permitir aba de perfis de creches  | Thiago | creches.html |
 
 
 ## Descrição das estruturas:
