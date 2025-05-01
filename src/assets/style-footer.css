@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: lato, sans-serif;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.nav-footer {
+    display: flex;
+    gap: 40px;
+    color: #726397;
+}
+
+.nav-footer ul {
+    list-style: none;
+}
+
+.nav-footer ul li:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.nav-footer ul li a {
+    text-decoration: none;
+    color: #726397;
+    font-size: 14px;
+}
+
+.footer-logo {
+    width: 150px;
+    height: auto;
+}
+
+.privacidade {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: lato, sans-serif;
+}
+
+.privacidade a {
+    text-decoration: none;
+    color: #726397;
+    font-size: 12px;
+}
+
+footer p {
+    color: #726397;
+    font-size: 14px;
+    text-align: center;
+}
