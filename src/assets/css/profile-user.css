@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@
 
 .edit-profile {
     display: flex;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: url('../../assets/.imagens/background.jpg');
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
 .profile-form {
     display: flex;
     flex-direction: column; 
-    gap: 20px; 
+    gap: 12px; 
     background-color: #FCFCFC;
     padding: 30px;
     border-radius: 16px;
@@ -37,14 +37,14 @@
 }
 
 .profile-form label {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #333;
 }
 
 .profile-form input,
 .profile-form select {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     padding: 10px 12px;
     border: 1px solid #ccc;
@@ -114,7 +114,7 @@
     padding: 20px 30px;
     border-radius: 16px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     width: 100%;
     max-width: 650px;
@@ -129,7 +129,7 @@
 }
 
 .bio-section input {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     padding: 10px 12px;
     border: 1px solid #ccc;
@@ -146,7 +146,7 @@
 }
 
 .bio-section textarea {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     padding: 10px 12px;
     border: 1px solid #ccc;
@@ -176,7 +176,7 @@
     background-color: #726397;
     color: white;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     border-radius: 8px;
     cursor: pointer;
