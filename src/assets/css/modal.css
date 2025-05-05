@@ -1,0 +1,181 @@
+/* modal.css - Estilos para o componente de Modal */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1001;
+}
+
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1002;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 6px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.audience-selector {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.chevron-icon {
+  margin-left: 5px;
+  width: 12px;
+  height: 12px;
+  fill: #555;
+}
+
+.close-button {
+  position: absolute;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #e0e0e0;
+}
+
+.modal-body {
+  padding: 16px;
+  min-height: 150px;
+}
+
+.post-content {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  font-family: inherit;
+}
+
+.post-content::placeholder {
+  color: #999;
+}
+
+.modal-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.media-options {
+  display: flex;
+  gap: 16px;
+}
+
+.media-option {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.media-option svg {
+  fill: #666;
+}
+
+.media-option:hover svg {
+  fill: #1877f2;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.post-button {
+  padding: 8px 20px;
+  background-color: #e0e0e0;
+  color: #999;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: not-allowed;
+  transition: all 0.2s;
+}
+
+.post-button.active {
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+}
+
+.post-button.active:hover {
+  background-color: #166fe5;
+}
