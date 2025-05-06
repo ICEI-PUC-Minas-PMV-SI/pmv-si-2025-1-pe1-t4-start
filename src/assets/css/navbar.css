@@ -9,7 +9,7 @@ a{
     
 }
 header{
-    background-color: white;
+    background-color: #FCFCFC;
     padding-inline: 16px;
     
 }
@@ -29,7 +29,7 @@ nav li a{
 nav li a:hover{
     background-color:#9388AD;
     border-radius: 8px;
-    color: white;
+    color: #FCFCFC;
     transition: background-color 0.3s ease, color 0.3s ease;
     
    
@@ -52,7 +52,7 @@ nav li a:hover{
     padding: 8px 12px;
     background-color:#9388AD;
     border-radius: 8px;
-    color:white;
+    color:#FCFCFC;
     text-decoration: none;
     transition: background-color 0.3s ease;
     display: inline-block;
