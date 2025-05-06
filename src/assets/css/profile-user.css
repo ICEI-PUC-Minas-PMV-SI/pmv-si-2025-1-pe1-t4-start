@@ -11,7 +11,7 @@
 .edit-profile {
     display: flex;
     font-family: 'Roboto', sans-serif;
-    background-image: url('../../assets/.imagens/background.jpg');
+    background-image: url('../../assets/images/background.jpg');
     justify-content: center;
     align-items: center;
     height: 100vh;
