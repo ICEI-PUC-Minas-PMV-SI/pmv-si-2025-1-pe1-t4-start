@@ -150,7 +150,7 @@ class NavBar extends HTMLElement {
     const html = `
       <header>
         <nav id="navbar">
-          <a href="/" class="logo">
+          <a href="index.html" class="logo">
             <img src="assets/images/logo.png" alt="Logo" />
           </a>
 
@@ -164,23 +164,23 @@ class NavBar extends HTMLElement {
             <li class="dropdown">
               <a href="#serviços">Serviços</a>
               <div class="dropdown-menu">
-                <a href="#creches">Creches</a>
-                <a href="#babas">Babás</a>
-                <a href="#psicologos">Psicólogos</a>
-                <a href="#advogados">Advogados</a>
+                <a href="creches.html">Creches</a>
+                <a href="babas.html">Babás</a>
+                <a href="psicologos.html">Psicólogos</a>
+                <a href="advogados.html">Advogados</a>
               </div>
             </li>
             <li class="nav-item">
-              <a href="#mapa">Mapa</a>
+              <a href="mapa.html">Mapa</a>
             </li>
             <li class="nav-item">
-              <a href="#sobre">Sobre o Mães em Foco</a>
+              <a href="sobre.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a href="#forum">Fórum</a>
+              <a href="forum.html">Fórum</a>
             </li>
             <li class="nav-login">
-              <a href="#login">Entrar</a>
+              <a href="login.html">Entrar</a>
             </li>
           </ul>
         </nav>
