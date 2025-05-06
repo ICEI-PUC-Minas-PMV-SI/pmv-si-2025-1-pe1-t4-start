@@ -9,6 +9,11 @@ body{
     padding: 6% 18% 2%;
 }
 
+.mais{
+    color: #726397;
+    
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -22,7 +27,10 @@ body{
     padding-top: 24px;
     padding-bottom: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.13);
-    width: 14%;
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card img{
@@ -34,7 +42,8 @@ body{
 }
 
 .linha-cima h1{
-    font-size: larger;  
+    font-size: larger; 
+
 
 }
 
@@ -48,4 +57,64 @@ h3{
 
 p{
     font-size: small
+}
+
+.card .profissao p {
+    align-self: flex-start;
+}
+
+.pesquisa-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px auto; 
+    width: 100%;
+    
+}
+
+.pesquisa input,
+.pesquisa .botao-pesquisa {
+    box-sizing: border-box;
+    padding: 0 12px;
+    border: 0.5px solid;
+    border-top: 0.5px solid;
+    border-bottom: 0.5px solid;
+    
+}
+
+.pesquisa input {
+    border-radius: 6px 0 0 6px;
+    border-right: none;
+    border-left: 0.5px solid;
+    width: 100%;
+
+}
+
+.pesquisa .botao-pesquisa{
+    border-radius: 0px 6px 6px 0px;
+    background-color: #9388AD;
+    border-left: 10px ;
+    border-right: 0.5px solid;
+    width: 15%;
+    cursor: pointer;
+}
+
+.pesquisa-rapida{
+    display: flex;
+    gap: 3px;
+    
+}
+.pesquisa-rapida button{
+    border: 1px solid;
+    background-color: #eaeaea;
+    padding: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+
+
 }
