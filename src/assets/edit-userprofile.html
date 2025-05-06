@@ -53,7 +53,8 @@
                 <label for="location">Localização</label>
                 <input type="text" id="location" name="location" placeholder="Digite sua cidade e estado">
 
-                <button type="submit" class="btn">Salvar</button>
+                <button type="button" class="btn" onclick="salvarPerfil(event)">Salvar</button>
+
             </form>
         </div>
         </div>
@@ -95,6 +96,29 @@
             };
             reader.readAsDataURL(event.target.files[0]);
         }
+        function salvarPerfil(event) {
+            event.preventDefault(); // impede que envie pro servidor
+
+            const nome = document.getElementById('name').value;
+            const bio = document.getElementById('bio').value;
+            const dataNasc = document.getElementById('birthdate').value;
+            const filhos = document.getElementById('children').value;
+            const localizacao = document.getElementById('location').value;
+
+            const profilePic = document.getElementById('profilePreview').src;
+            const formattedDate = new Date(dataNasc).toLocaleDateString('pt-BR');
+            
+            localStorage.setItem('name', nome);
+            localStorage.setItem('bio', bio);
+            localStorage.setItem('birthdate', formattedDate);
+            localStorage.setItem('children', filhos);
+            localStorage.setItem('location', localizacao);
+            localStorage.setItem('profilePic', profilePic);
+        
+            
+    
+    window.location.href = "userprofile.html";  
+  }
     </script>
 </body>
 

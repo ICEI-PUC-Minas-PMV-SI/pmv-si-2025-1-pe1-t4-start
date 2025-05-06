@@ -4,9 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
-
-
 
 .edit-profile {
     display: flex;
@@ -19,21 +19,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    gap: 60px; 
+    gap: 60px;
 }
 
 .profile-form {
     display: flex;
-    flex-direction: column; 
-    gap: 12px; 
+    flex-direction: column;
+    gap: 12px;
     background-color: #FCFCFC;
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    align-items: flex-start; 
+    align-items: flex-start;
     width: 100%;
     max-width: 500px;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 .profile-form label {
@@ -99,6 +99,7 @@
     transition: background-color 0.3s ease;
     align-self: center;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .form-title {
@@ -154,20 +155,18 @@
     font-size: 16px;
     background-color: #fff;
     color: #333;
-    height: 180px;          
-    resize: none;           
+    height: 180px;
+    resize: none;
     transition: border-color 0.3s ease;
 }
-
 
 .bio-section textarea:focus {
     border-color: #726397;
     outline: none;
 }
 
-
 .profile-picture input[type="file"] {
-    display: none; 
+    display: none;
 }
 
 .file-upload-btn {
@@ -186,4 +185,166 @@
 
 .file-upload-btn:hover {
     background-color: #5a4e77;
+}
+
+/* css user profile */
+.profile-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto;
+    gap: 40px;
+    padding: 40px;
+    background-color: #FCFCFC;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.profile-left {
+    background-color: #f2f0f8;
+    color: #333;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.profile-details label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #726397;
+    margin: 10px 0 5px 0;
+    display: block;
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #333;
+}
+
+.edit-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.edit-button .btn {
+    background-color: #726397;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button .btn:hover {
+    background-color: #5a507a;
+}
+
+.profile-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-header {
+    background-color: #726397;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.profile-header .btn {
+    background-color: #5a507a;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-header .btn:hover {
+    background-color: #8b7cb3;
+}
+
+/* área dos posts */
+.posts-section {
+    background-color: #f2f0f8;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.post-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.post-card h3 {
+    margin-top: 0;
+    color: #726397;
+}
+
+.post-card p {
+    margin: 15px 0 20px 0;
+}
+
+.post-card img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 400px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.post-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.post-actions .btn {
+    background-color: #726397;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.post-actions .btn:hover {
+    background-color: #5a507a;
+}
+
+/* responsividade */
+@media screen and (max-width: 768px) {
+    .profile-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .profile-left {
+        width: 100%;
+    }
+
+    .profile-right {
+        width: 100%;
+    }
 }
