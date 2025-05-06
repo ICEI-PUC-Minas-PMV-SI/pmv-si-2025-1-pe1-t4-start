@@ -84,7 +84,7 @@ p{
     border: 0.5px solid;
     border-top: 0.5px solid;
     border-bottom: 0.5px solid;
-    
+    height: 18px;
 }
 
 .pesquisa input {
@@ -92,6 +92,14 @@ p{
     border-right: none;
     border-left: 0.5px solid;
     width: 100%;
+
+}
+
+.clear-btn {
+    cursor: pointer;
+    border: solid 1px;
+    font-size: 14px;
+    transform: ;
 
 }
 
@@ -111,10 +119,15 @@ p{
 }
 .pesquisa-rapida button{
     border: 1px solid;
-    background-color: #eaeaea;
+    background-color: #ededede;
     padding: 2px;
     border-radius: 7px;
     cursor: pointer;
+    
 
 
+}
+
+.pesquisa-rapida button:hover{
+    background-color: #9388AD;
 }
