@@ -35,3 +35,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
 
+
+## Perfil Creches
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Nome           | Texto             | Nome da creche                            | Creche Encanto                                 |
+| Endereço       | Texto             | Endereço da creche                        | Rua Exemplo,                                   |
+| Contato        | Texto             | Whatsapp da Creche                        | 31-999999999                                   |
+| Latitude       | Numero (Decimal)  | Latitude para mapa                        | -19.9245                                       |
+| Laongitude     | Numero (Decimal)  | Longitude para mapa                       | -45.9245                                       |
+| Nota média     | Numero (Decimal)  | Média da avaliação de usuários            | 5                                              |
+| Comentário     | Texto             | Texto da avaliação                        | Ambiente seguro e acolhedor                    |
+
+
+-
