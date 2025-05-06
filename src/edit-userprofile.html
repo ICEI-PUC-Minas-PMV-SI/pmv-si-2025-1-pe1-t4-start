@@ -1,125 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Editar Perfil</title>
+        <link rel="stylesheet" href="assets/css/style-footer.css">
+        <link rel="stylesheet" href="assets/css/profile-user.css">
+        <link rel="stylesheet" href="assets/css/global.css"/>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar Perfil</title>
-    <link rel="stylesheet" href="assets/css/style-footer.css">
-    <link rel="stylesheet" href="assets/css/profile-user.css">
-</head>
+    <body>
+        <main>
+            <div class="edit-profile">
+                <div class="profile-info">
+                    <div class="profile-picture">
+                        <img src="assets/images/no-photo.jpg" alt="Foto de perfil" id="profilePreview">
+                        <input type="file" id="profile-pic" name="profile-pic" accept="image/*"
+                            onchange="previewProfilePicture(event)">
+                            <label for="profile-pic" class="file-upload-btn">Escolha sua foto</label>    
+                    </div>
 
-<body>
-    <header>
-<!-- adicionar navbar -->
+                    <div class="bio-section">
 
-    </header>
-    <main>
-        <div class="edit-profile">
-            <div class="profile-info">
-                <div class="profile-picture">
-                    <img src="assets/images/no-photo.jpg" alt="Foto de perfil" id="profilePreview">
-                    <input type="file" id="profile-pic" name="profile-pic" accept="image/*"
-                        onchange="previewProfilePicture(event)">
-                        <label for="profile-pic" class="file-upload-btn">Escolha sua foto</label>    
+                        <label for="bio">Sobre mim</label>
+                        <textarea id="bio" name="bio" placeholder="Escreva uma breve descrição sobre você"></textarea>
+                    </div>
                 </div>
 
-                <div class="bio-section">
+                <form class="profile-form" action="#" method="post" enctype="multipart/form-data">
+                    <div class="form-title">
+                        <h1>Editar Perfil</h1>
+                    </div>
 
-                    <label for="bio">Sobre mim</label>
-                    <textarea id="bio" name="bio" placeholder="Escreva uma breve descrição sobre você"></textarea>
-                </div>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" value="usuario@exemplo.com"
+                        readonly>
+
+                    <label for="birthdate">Data de Nascimento</label>
+                    <input type="date" id="birthdate" name="birthdate"
+                        placeholder="Digite sua data de nascimento dd/mm/aaaa">
+
+                    <label for="children">Quantos filhos você tem?</label>
+                    <input type="number" id="children" name="children" min="0" placeholder="Ex: 2">
+
+                    <label for="location">Localização</label>
+                    <input type="text" id="location" name="location" placeholder="Digite sua cidade e estado">
+
+                    <button type="button" class="btn" onclick="salvarPerfil(event)">Salvar</button>
+
+                </form>
             </div>
-
-            <form class="profile-form" action="#" method="post" enctype="multipart/form-data">
-                <div class="form-title">
-                    <h1>Editar Perfil</h1>
-                </div>
-
-                <label for="name">Nome</label>
-                <input type="text" id="name" name="name" placeholder="Digite seu nome">
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu email" value="usuario@exemplo.com"
-                    readonly>
-
-                <label for="birthdate">Data de Nascimento</label>
-                <input type="date" id="birthdate" name="birthdate"
-                    placeholder="Digite sua data de nascimento dd/mm/aaaa">
-
-                <label for="children">Quantos filhos você tem?</label>
-                <input type="number" id="children" name="children" min="0" placeholder="Ex: 2">
-
-                <label for="location">Localização</label>
-                <input type="text" id="location" name="location" placeholder="Digite sua cidade e estado">
-
-                <button type="button" class="btn" onclick="salvarPerfil(event)">Salvar</button>
-
-            </form>
-        </div>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <div class="nav-footer">
-                <ul>
-                    <li>Serviços</li>
-                    <li><a href="#">Profissionais</a></li>
-                    <li><a href="#">Mapa</a></li>
-                    <li><a href="#">Fórum</a></li>
-                </ul>
-                <ul>
-                    <li>Suporte</li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-                <ul>
-                    <li>Sobre</li>
-                    <li><a href="#">Sobre o projeto</a></li>
-                </ul>
             </div>
-            <img src="assets/images/logo.png" alt="Logo" class="footer-logo">
-        </div>
+        </main>
 
-        <div class="privacidade">
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Termos de Uso</a>
-        </div>
+        <footer-component></footer-component>
 
-        <p>2025 Mães em Foco</p>
-    </footer>
-    <script>
-        function previewProfilePicture(event) {
-            const reader = new FileReader();
-            reader.onload = function () {
-                document.getElementById('profilePreview').src = reader.result;
-            };
-            reader.readAsDataURL(event.target.files[0]);
-        }
-        function salvarPerfil(event) {
-            event.preventDefault(); // impede que envie pro servidor
+        <script src="assets/footer.js"></script>
+        <script>
+            function previewProfilePicture(event) {
+                const reader = new FileReader();
+                reader.onload = function () {
+                    document.getElementById('profilePreview').src = reader.result;
+                };
+                reader.readAsDataURL(event.target.files[0]);
+            }
+            function salvarPerfil(event) {
+                event.preventDefault(); // impede que envie pro servidor
 
-            const nome = document.getElementById('name').value;
-            const bio = document.getElementById('bio').value;
-            const dataNasc = document.getElementById('birthdate').value;
-            const filhos = document.getElementById('children').value;
-            const localizacao = document.getElementById('location').value;
+                const nome = document.getElementById('name').value;
+                const bio = document.getElementById('bio').value;
+                const dataNasc = document.getElementById('birthdate').value;
+                const filhos = document.getElementById('children').value;
+                const localizacao = document.getElementById('location').value;
 
-            const profilePic = document.getElementById('profilePreview').src;
-            const formattedDate = new Date(dataNasc).toLocaleDateString('pt-BR');
-            
-            localStorage.setItem('name', nome);
-            localStorage.setItem('bio', bio);
-            localStorage.setItem('birthdate', formattedDate);
-            localStorage.setItem('children', filhos);
-            localStorage.setItem('location', localizacao);
-            localStorage.setItem('profilePic', profilePic);
-        
-            
-    
-    window.location.href = "userprofile.html";  
-  }
-    </script>
-</body>
-
+                const profilePic = document.getElementById('profilePreview').src;
+                const formattedDate = new Date(dataNasc).toLocaleDateString('pt-BR');
+                
+                localStorage.setItem('name', nome);
+                localStorage.setItem('bio', bio);
+                localStorage.setItem('birthdate', formattedDate);
+                localStorage.setItem('children', filhos);
+                localStorage.setItem('location', localizacao);
+                localStorage.setItem('profilePic', profilePic);
+                window.location.href = "userprofile.html";  
+            }
+        </script>
+    </body>
 </html>

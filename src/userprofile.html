@@ -6,13 +6,12 @@
     <title>Meu Perfil</title>
     <link rel="stylesheet" href="assets/css/style-footer.css" />
     <link rel="stylesheet" href="assets/css/profile-user.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   </head>
 
   <body>
-    <header>
-      <!-- adicionar navbar aqui -->
-    </header>
+    <header-component></header-component>
 
     <main>
       <div class="profile-container">
@@ -92,35 +91,10 @@
       </div>
     </main>
 
-    <footer>
-      <div class="footer-content">
-        <div class="nav-footer">
-          <ul>
-            <li>Serviços</li>
-            <li><a href="#">Profissionais</a></li>
-            <li><a href="#">Mapa</a></li>
-            <li><a href="#">Fórum</a></li>
-          </ul>
-          <ul>
-            <li>Suporte</li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-          <ul>
-            <li>Sobre</li>
-            <li><a href="#">Sobre o projeto</a></li>
-          </ul>
-        </div>
-        <img src="assets/images/logo.png" alt="Logo" class="footer-logo" />
-      </div>
+    <footer-component></footer-component>
 
-      <div class="privacidade">
-        <a href="#">Política de Privacidade</a>
-        <a href="#">Termos de Uso</a>
-      </div>
-
-      <p>2025 Mães em Foco</p>
-    </footer>
+    <script src="assets/footer.js"></script>
+    <script src="assets/navbar.js"></script>
 
     <script>
       // recupera os dados do localStorage para exibição

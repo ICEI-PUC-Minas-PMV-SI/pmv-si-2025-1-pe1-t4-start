@@ -1,119 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Creche Encanto</title>
-  <link rel="stylesheet" href="assets/css/creches.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  
-  
-</head>
-
-<body>
-  <div class="layout-principal">
-    <section class="perfil">
-      <div class="topo-perfil">
-        <img src="assets/images/foto-creche.jpg" alt="Creche Encanto" class="foto-creche" />
-        <div class="info-perfil">
-          <h2 id="nome-creche">Creche Encanto</h2>
-          <p class="creche" id="bairro-creche">Encanto</p>
-          <div class="media-avaliacoes" id="media-avaliacoes">
-            <strong>5.0</strong>
-            <span class="estrela">★</span>
-            <span>(40 avaliações)</span>
-          </div>
-          <div class="tags">
-            <span>Montessori</span>
-            <span>A partir de 4 meses</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Creche Encanto</title>
+    <link rel="stylesheet" href="assets/css/creches.css"/>
+    <link rel="stylesheet" href="assets/css/global.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main>
+    <div class="layout-principal">
+      <section class="perfil">
+        <div class="topo-perfil">
+          <img src="assets/images/foto-creche.jpg" alt="Creche Encanto" class="foto-creche" />
+          <div class="info-perfil">
+            <h2 id="nome-creche">Creche Encanto</h2>
+            <p class="creche" id="bairro-creche">Encanto</p>
+            <div class="media-avaliacoes" id="media-avaliacoes">
+              <strong>5.0</strong>
+              <span class="estrela">★</span>
+              <span>(40 avaliações)</span>
+            </div>
+            <div class="tags">
+              <span>Montessori</span>
+              <span>A partir de 4 meses</span>
+            </div>
           </div>
         </div>
+        
+
+        <button onclick="window.open('https://wa.me/5581999999999','_blank')">
+          Entrar em contato pelo WhatsApp
+        </button>
+
+        <p class="descricao">
+          Cuidamos com carinho e dedicação do seu bem mais precioso! Nossa creche oferece um ambiente seguro, acolhedor e estimulante para o desenvolvimento das crianças.
+        </p>
+        <p class="endereco">
+          Endereço: R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG, 30535-901
+        </p>
+      </section>
+
+      
+      <section class="mapa">
+        <div id="mapa-creche"></div>
+      </section>
+
+    <section class="avaliacoes">
+      <h3>Avaliações</h3>
+
+      <div class="nota">
+        <span class="score">5.0 ★★★★★</span>
+        <ul>
+          <li><strong>Atendimento:</strong> 5.0</li>
+          <li><strong>Acessibilidade:</strong> 5.0</li>
+          <li><strong>Instalações:</strong> 5.0</li>
+          <li><strong>Outros:</strong> 5.0</li>
+        </ul>
+      </div>
+
+      <div class="filtros-avaliacoes">
+        <button>Relevantes</button>
+        <button>Recentes</button>
+        <button>Melhores Avaliações</button>
+        <button>Piores Avaliações</button>
+      </div>
+
+      
+      <div class="comentario">
+        <p><strong>Ana Maria</strong> <div class="nota">★★★★★</div></p>
+        <p class="texto-comentario">
+          Deixo meu filho todos os dias na creche do bairro nas mãos da Lúcia. Meu filho adora ela e o apelido que ele deu a ela é de “titá luchia”, e ela é uma ótima cuidadora!
+        </p>
+        <span class="data">21 de outubro de 2024 - 11:03h</span>
+      </div>
+
+      
+      <div id="lista-avaliacoes">
+        <h4>Avaliações Recentes:</h4>
+      </div>
+      <div class="comentario">
+        <p><strong>Joice Souza</strong> <div class="nota">★★★★★</div></p>
+        <p class="texto-comentario">
+          Minha filha ama os amiguinhos e as "tias" da creche, posso trabalhar tranquila sabendo que ela esta sendo bem cuidada.
+        </p>
+        <span class="data">28 de abril de 2025 - 13:19h</span>
       </div>
       
+      
+      <h3>Deixe sua avaliação</h3>
+      <form id="form-avaliacao">
+        <label for="nome">Seu nome:</label>
+        <input type="text" id="nome" required>
 
-      <button onclick="window.open('https://wa.me/5581999999999','_blank')">
-        Entrar em contato pelo WhatsApp
-      </button>
+        <label>Sua nota:</label>
+        <div class="estrelas">
+          <span class="estrela" data-valor="1">★</span>
+          <span class="estrela" data-valor="2">★</span>
+          <span class="estrela" data-valor="3">★</span>
+          <span class="estrela" data-valor="4">★</span>
+          <span class="estrela" data-valor="5">★</span>
+        </div>
 
-      <p class="descricao">
-        Cuidamos com carinho e dedicação do seu bem mais precioso! Nossa creche oferece um ambiente seguro, acolhedor e estimulante para o desenvolvimento das crianças.
-      </p>
-      <p class="endereco">
-        Endereço: R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG, 30535-901
-      </p>
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" required></textarea>
+
+        <button type="submit">Enviar Avaliação</button>
+      </form>
     </section>
-
-    
-    <section class="mapa">
-      <div id="mapa-creche"></div>
-    </section>
-
-  <section class="avaliacoes">
-    <h3>Avaliações</h3>
-
-    <div class="nota">
-      <span class="score">5.0 ★★★★★</span>
-      <ul>
-        <li><strong>Atendimento:</strong> 5.0</li>
-        <li><strong>Acessibilidade:</strong> 5.0</li>
-        <li><strong>Instalações:</strong> 5.0</li>
-        <li><strong>Outros:</strong> 5.0</li>
-      </ul>
     </div>
+    </main>
 
-    <div class="filtros-avaliacoes">
-      <button>Relevantes</button>
-      <button>Recentes</button>
-      <button>Melhores Avaliações</button>
-      <button>Piores Avaliações</button>
-    </div>
+    <footer-component></footer-component>
 
-    
-    <div class="comentario">
-      <p><strong>Ana Maria</strong> <div class="nota">★★★★★</div></p>
-      <p class="texto-comentario">
-        Deixo meu filho todos os dias na creche do bairro nas mãos da Lúcia. Meu filho adora ela e o apelido que ele deu a ela é de “titá luchia”, e ela é uma ótima cuidadora!
-      </p>
-      <span class="data">21 de outubro de 2024 - 11:03h</span>
-    </div>
-
-    
-    <div id="lista-avaliacoes">
-      <h4>Avaliações Recentes:</h4>
-    </div>
-    <div class="comentario">
-      <p><strong>Joice Souza</strong> <div class="nota">★★★★★</div></p>
-      <p class="texto-comentario">
-        Minha filha ama os amiguinhos e as "tias" da creche, posso trabalhar tranquila sabendo que ela esta sendo bem cuidada.
-      </p>
-      <span class="data">28 de abril de 2025 - 13:19h</span>
-    </div>
-    
-    
-    <h3>Deixe sua avaliação</h3>
-    <form id="form-avaliacao">
-      <label for="nome">Seu nome:</label>
-      <input type="text" id="nome" required>
-
-      <label>Sua nota:</label>
-      <div class="estrelas">
-        <span class="estrela" data-valor="1">★</span>
-        <span class="estrela" data-valor="2">★</span>
-        <span class="estrela" data-valor="3">★</span>
-        <span class="estrela" data-valor="4">★</span>
-        <span class="estrela" data-valor="5">★</span>
-      </div>
-
-      <label for="comentario">Comentário:</label>
-      <textarea id="comentario" required></textarea>
-
-      <button type="submit">Enviar Avaliação</button>
-    </form>
-  </section>
-
-  <script src="assets/js/creches.js"></script>
-</body>
+    <script src="assets/navbar.js"></script>
+    <script src="assets/footer.js"></script>
+    <script src="assets/js/creches.js"></script>
+  </body>
 </html>

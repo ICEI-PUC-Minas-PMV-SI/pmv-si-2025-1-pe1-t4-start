@@ -4,23 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style-footer.css" />
-    <title>Serviços</title>
     <link rel="stylesheet" href="assets/css/servicos.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <title>Serviços</title>
   </head>
 
   <body>
-    <header>
-      <!-- cabeçalho placeholder -->
-      <img src="assets/images/logo.png" />
-      <div class="pag">
-        <a id="srv" href="servicos.html"> Serviços </a>
-        <a id="mpa" href="mapa.html"> Mapa </a>
-        <a id="for" href="forum.html"> Fórum </a>
-        <a id="sbr" href="sobre.html"> Sobre </a>
-        <a href="login.html" id="btn2"> Entrar </a>
-      </div>
-      <!-- adicionar o caebçlho de verdade -->
-    </header>
+    <header-component></header-component>
+
     <div class="conteudo">
       <div class="linha-cima">
         <h1>Psicólogos</h1>
@@ -153,34 +144,9 @@
       </div>
     </div>
 
-    <footer>
-      <div class="footer-content">
-        <div class="nav-footer">
-          <ul>
-            <li>Serviços</li>
-            <li><a href="#">Profissionais</a></li>
-            <li><a href="#">Mapa</a></li>
-            <li><a href="#">Fórum</a></li>
-          </ul>
-          <ul>
-            <li>Suporte</li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-          <ul>
-            <li>Sobre</li>
-            <li><a href="#">Sobre o projeto</a></li>
-          </ul>
-        </div>
-        <img src="assets/images/logo.png" alt="Logo" class="footer-logo" />
-      </div>
+    <footer-component></footer-component>
 
-      <div class="privacidade">
-        <a href="#">Política de Privacidade</a>
-        <a href="#">Termos de Uso</a>
-      </div>
-
-      <p>2025 Mães em Foco</p>
-    </footer>
+    <script src="assets/footer.js"></script>
+    <script src="assets/navbar.js"></script>
   </body>
 </html>
