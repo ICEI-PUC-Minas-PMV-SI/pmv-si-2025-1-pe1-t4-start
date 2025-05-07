@@ -160,11 +160,11 @@ textarea {
     width: 100%;
   }
 
-  .mapa-direita #mapa-creche {
+  .mapa #mapa-creche {
     height: 200px;
   }
 
-  .mapa-direita {
+  .mapa {
     margin-top: 20px;
     width: 90%;
     height: 50vh;
