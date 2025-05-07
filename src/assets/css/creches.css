@@ -142,11 +142,12 @@ textarea {
   .layout-principal {
     flex-direction: column;
     align-items: center;
+    
   }
 
   .imagem-direita,
   .perfil {
-    width: 100%;
+    width: 100%; 
   }
 
   .topo-perfil {
@@ -157,6 +158,7 @@ textarea {
   .foto-creche {
     width: 100%;
     height: auto;
+   
   }
 
   button {
@@ -171,6 +173,7 @@ textarea {
     margin-top: 20px;
     width: 90%;
     height: 50vh;
+    margin-top: 250px;
   }
 
   .avaliacoes {
