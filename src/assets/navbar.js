@@ -75,6 +75,7 @@ class NavBar extends HTMLElement {
           display: none;
           background-color:#9388AD;
           border-radius: 8px;
+          z-index: 9999;
           
       }
       .dropdown-menu a {
