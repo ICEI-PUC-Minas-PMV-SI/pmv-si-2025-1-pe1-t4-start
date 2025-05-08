@@ -176,10 +176,15 @@ body {
 
  
 
-.criar-conta { 
+.profissional { 
 
-    font-size: 14px; 
+    font-size: 15px; 
 
     text-align: center; 
 
     margin: 20px 0 15px; 
+     
+}
+.paragrafo1{
+    text-align: center;
+}
