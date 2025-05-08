@@ -192,7 +192,7 @@ h1 {
 
  
 
-.criar-conta { 
+.cadastro { 
 
     font-size: 14px; 
 
@@ -206,7 +206,7 @@ h1 {
 
 .criar-conta a { 
 
-    text-decoration: none; 
+    text-decoration: underline; 
 
     color: #594F70; 
 
@@ -257,3 +257,9 @@ p {
     font-style: normal; 
 
     color: #9f90c3; 
+}
+
+#login{
+    align-items: center;
+    font-size: 50px;
+}
