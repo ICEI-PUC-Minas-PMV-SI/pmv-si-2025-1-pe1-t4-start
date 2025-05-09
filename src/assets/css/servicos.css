@@ -7,7 +7,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 6% 18% 2%;
+    padding: 16px;
 }
 
 .mais{
@@ -15,10 +15,17 @@ body{
     
 }
 
+.conteudo {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    column-gap: 2.5%;
+    column-gap: 20px;
 }
 
 .card{
@@ -36,6 +43,7 @@ body{
 }
 
 .card img{
+    width:  120px ;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -128,3 +136,4 @@ p{
 .pesquisa-rapida button:hover{
     background-color: #9388AD;
 }
+
