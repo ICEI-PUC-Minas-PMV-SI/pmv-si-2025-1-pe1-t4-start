@@ -1,117 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Perfil</title>
-    <link rel="stylesheet" href="assets/css/style-footer.css" />
-    <link rel="stylesheet" href="assets/css/profile-user.css" />
-    <link rel="stylesheet" href="assets/css/global.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  </head>
 
-  <body>
-    <header-component></header-component>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Perfil</title>
+  <link rel="stylesheet" href="assets/css/style-footer.css" />
+  <link rel="stylesheet" href="assets/css/profile-user.css" />
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
 
-    <main>
-      <div class="profile-container">
-        <section class="profile-left">
-          <div class="profile-picture">
-            <img src="assets/images/no-photo.jpg" alt="Foto de perfil" id="profilePreview" />
-          </div>
-          <div class="profile-details">
-            <label for="name">Nome:</label>
-            <p id="name">Nome do Usuário</p>
-            <label for="bio">Sobre mim:</label>
-            <p id="bio">Uma breve descrição sobre mim.</p>
-            <label for="birthdate">Data de Nascimento:</label>
-            <p id="birthdate">01/01/2000</p>
-            <label for="children">Filhos:</label>
-            <p id="children">2</p>
-            <label for="location">Localização:</label>
-            <p id="location">Cidade, Estado</p>
-          </div>
-          <div class="edit-button">
-            <a href="edit-userprofile.html" class="btn">Editar Perfil</a>
-          </div>
-        </section>
+<body>
+  <header-component></header-component>
 
-        <section class="profile-right">
-          <div class="profile-header">
-            <h2>Meus Posts</h2>
-            <button class="btn">Novo Post <i class="fa-solid fa-plus"></i></button>
-          </div>
+  <main>
+    <div class="profile-container">
+      <section class="profile-left">
+        <div class="profile-picturecenter">
+          <img src="assets/images/no-photo.jpg" alt="Foto de perfil" id="profilePreview" />
+        </div>
+        <div class="profile-details">
+          <label for="name">Nome:</label>
+          <p id="name">Nome do Usuário</p>
+          <label for="bio">Sobre mim:</label>
+          <p id="bio">Uma breve descrição sobre mim.</p>
+          <label for="birthdate">Data de Nascimento:</label>
+          <p id="birthdate">01/01/2000</p>
+          <label for="children">Filhos:</label>
+          <p id="children">2</p>
+          <label for="location">Localização:</label>
+          <p id="location">Cidade, Estado</p>
+        </div>
+        <div class="edit-button">
+          <a href="edit-userprofile.html" class="btn">Editar Perfil</a>
+        </div>
+      </section>
 
-          <div class="posts-section">
-            <div class="post-card">
-              <h3>Título do Post</h3>
-              <p>
-                Conteúdo do post... Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis perspiciatis possimus
-                laboriosam modi unde? Reiciendis pariatur provident deserunt ipsam libero praesentium iusto est fugit
-                temporibus?
-              </p>
-              <img src="https://picsum.photos/600/500" alt="Imagem do Post" />
-              <div class="post-actions">
-                <button class="btn"><i class="fa-solid fa-pen-to-square"></i></button>
-                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-              </div>
-            </div>
+      <section class="profile-right">
+        <div class="profile-header">
+          <h2>Meus Posts</h2>
+          <button class="btn">Novo Post <i class="fa-solid fa-plus"></i></button>
+        </div>
 
-            <div class="post-card">
-              <h3>Título do Post</h3>
-              <p>
-                Conteúdo do post... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod optio eaque quam
-                recusandae sint maiores praesentium quidem, beatae ab doloribus ducimus dolorem molestiae aut voluptatum
-                voluptate id harum nam tempore dicta aliquam. Ullam vero consequuntur reprehenderit, libero vitae
-                officiis totam provident, blanditiis error reiciendis alias necessitatibus. Aliquid sapiente quaerat
-                harum.
-              </p>
-
-              <div class="post-actions">
-                <button class="btn"><i class="fa-solid fa-pen-to-square"></i></button>
-                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-              </div>
-            </div>
-
-            <div class="post-card">
-              <h3>Título do Post</h3>
-              <p>
-                Conteúdo do post... Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque numquam rem
-                a mollitia voluptas ex ut dolore. Inventore temporibus, unde, quibusdam accusamus esse obcaecati quis,
-                reprehenderit exercitationem ab perspiciatis impedit consequuntur.
-              </p>
-              <img src="https://picsum.photos/300/200" alt="Imagem do Post" />
-              <div class="post-actions">
-                <button class="btn"><i class="fa-solid fa-pen-to-square"></i></button>
-                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-              </div>
+        <div class="posts-section">
+          <div class="post-card">
+            <h3>Título do Post</h3>
+            <p>
+              Conteúdo do post... Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis perspiciatis possimus
+              laboriosam modi unde? Reiciendis pariatur provident deserunt ipsam libero praesentium iusto est fugit
+              temporibus?
+            </p>
+            <img src="https://picsum.photos/600/500" alt="Imagem do Post" />
+            <div class="post-actions">
+              <button class="btn"><i class="fa-solid fa-comment"></i> Comentar</button>
+              <button class="btn"><i class="fa-solid fa-pen-to-square"></i></button>
+              <button class="btn"><i class="fa-solid fa-trash"></i></button>
             </div>
           </div>
-        </section>
-      </div>
-    </main>
 
-    <footer-component></footer-component>
+          <div class="post-card">
+            <h3>Título do Post</h3>
+            <p>
+              Conteúdo do post... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod optio eaque quam
+              recusandae sint maiores praesentium quidem, beatae ab doloribus ducimus dolorem molestiae aut voluptatum
+              voluptate id harum nam tempore dicta aliquam. Ullam vero consequuntur reprehenderit, libero vitae
+              officiis totam provident, blanditiis error reiciendis alias necessitatibus. Aliquid sapiente quaerat
+              harum.
+            </p>
 
-    <script src="assets/footer.js"></script>
-    <script src="assets/navbar.js"></script>
+            <div class="post-actions">
+              <button class="btn"><i class="fa-solid fa-comment"></i> Comentar</button>
+              <button class="btn"><i class="fa-solid fa-pen-to-square"></i></button>
+              <button class="btn"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+        </div>
 
-    <script>
-      // recupera os dados do localStorage para exibição
-      document.getElementById("name").innerText = localStorage.getItem("name") || "Nome não informado";
-      document.getElementById("bio").innerText = localStorage.getItem("bio") || "Bio não informada";
-      document.getElementById("birthdate").innerText =
-        localStorage.getItem("birthdate") || "Data de nascimento não informada";
-      document.getElementById("children").innerText =
-        localStorage.getItem("children") || "Número de filhos não informado";
-      document.getElementById("location").innerText = localStorage.getItem("location") || "Localização não informada";
+        <div class="post-card">
+          <h3>Título do Post</h3>
+          <p>
+            Conteúdo do post... Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque numquam rem
+            a mollitia voluptas ex ut dolore. Inventore temporibus, unde, quibusdam accusamus esse obcaecati quis,
+            reprehenderit exercitationem ab perspiciatis impedit consequuntur.
+          </p>
+          <img src="https://picsum.photos/300/200" alt="Imagem do Post" />
+          <div class="post-actions">
+            <button class="btn"><i class="fa-solid fa-comment"></i> Comentar</button>
+            <button class="btn"><i class="fa-solid fa-pen-to-square"></i></button>
+            <button class="btn"><i class="fa-solid fa-trash"></i></button>
 
-      var profilePic = localStorage.getItem("profilePic");
-      if (profilePic) {
-        document.getElementById("profilePreview").src = profilePic;
-      } else {
-        document.getElementById("profilePreview").src = "../assets/images/no-photo.jpg";
-      }
-    </script>
-  </body>
+          </div>
+        </div>
+    </div>
+    </section>
+    </div>
+  </main>
+
+  <footer-component></footer-component>
+
+  <script src="assets/footer.js"></script>
+  <script src="assets/navbar.js"></script>
+
+  <script>
+    // recupera os dados do localStorage para exibição
+    document.getElementById("name").innerText = localStorage.getItem("name") || "Nome não informado";
+    document.getElementById("bio").innerText = localStorage.getItem("bio") || "Bio não informada";
+    document.getElementById("birthdate").innerText =
+      localStorage.getItem("birthdate") || "Data de nascimento não informada";
+    document.getElementById("children").innerText =
+      localStorage.getItem("children") || "Número de filhos não informado";
+    document.getElementById("location").innerText = localStorage.getItem("location") || "Localização não informada";
+
+    var profilePic = localStorage.getItem("profilePic");
+    if (profilePic) {
+      document.getElementById("profilePreview").src = profilePic;
+    } else {
+      document.getElementById("profilePreview").src = "../assets/images/no-photo.jpg";
+    }
+  </script>
+</body>
+
 </html>

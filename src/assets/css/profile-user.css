@@ -196,6 +196,24 @@
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
+.profile-picturecenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto; 
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  border: 2px solid #ccc; 
+  overflow: hidden; 
+}
+
+.profile-picturecenter img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
 
 .profile-details label {
   font-weight: bold;
@@ -280,6 +298,59 @@
   padding: 16px;
   border-radius: 12px;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.comments-section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 400px; /* Limita a largura da seção de comentários */
+  position: absolute;
+  right: 0; /* Alinha à direita do post */
+  top: 100%; /* Coloca abaixo do post */
+}
+
+.comments-section h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.comments-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.comments-section ul li {
+  margin-bottom: 5px;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.comments-section button {
+  background-color: #726397;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.comments-section button:hover {
+  background-color: #5a4e77;
 }
 
 .post-card h3 {
