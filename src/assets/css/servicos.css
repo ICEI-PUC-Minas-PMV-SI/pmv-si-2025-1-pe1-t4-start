@@ -1,5 +1,5 @@
 body{
-    background-color: #fdfdfd;
+    background-color: #f9f9f9;
 }
 
 
@@ -7,12 +7,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
+    margin-bottom: 16px;
+    
 }
 
 .mais{
     color: #726397;
-    
+    text-align: right;
 }
 
 .conteudo {
@@ -26,6 +27,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 20px;
+    margin-bottom: 40px
 }
 
 .card{
@@ -34,12 +36,13 @@ body{
     padding-right: 24px;
     padding-top: 24px;
     padding-bottom: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.13);
+    margin-bottom: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
     width: 172px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .card img{
@@ -51,7 +54,7 @@ body{
     border-radius: 50%
 }
 
-.linha-cima h1{
+.titulo-profissao{
     font-size: larger; 
 
 
@@ -110,7 +113,7 @@ p{
 
 .pesquisa .botao-pesquisa{
     border-radius: 0px 6px 6px 0px;
-    background-color: #9388AD;
+    background-color: #9f90c3;
     border-left: 10px ;
     border-right: 0.5px solid;
     width: 15%;
@@ -120,6 +123,7 @@ p{
 .pesquisa-rapida{
     display: flex;
     gap: 3px;
+    margin-bottom: 50px;
     
 }
 .pesquisa-rapida button{
@@ -134,6 +138,7 @@ p{
 }
 
 .pesquisa-rapida button:hover{
-    background-color: #9388AD;
+    background-color: #9f90c3;
 }
+
 
