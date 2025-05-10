@@ -47,12 +47,12 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
 
     border-radius: 5px;
-    /* Corrigido */
+
 
     color: black;
 
     padding: 30px 40px;
-    /* Corrigido */
+
 
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 
@@ -65,7 +65,7 @@ body {
 .container h1 {
 
     font-size: 35px;
-    /* Corrigido */
+
 
     text-align: center;
 
@@ -98,7 +98,7 @@ body {
     height: 135%;
 
     background-color: white;
-    /* Corrigido */
+
 
     border: 2px solid rgba(255, 255, 255, .2);
 
@@ -135,7 +135,7 @@ body {
     font-size: 20px;
 
     transform: translateY(-50%);
-    /* Corrigido */
+
 
 }
 
@@ -148,7 +148,7 @@ input[type="password"],
 input[type="password-confirm"] {
 
     color: #000 !important;
-    /* Corrigido */
+
 
 }
 
@@ -157,7 +157,7 @@ input[type="password-confirm"] {
 h1 {
 
     font-size: 35px;
-    /* Corrigido */
+
 
     color: black;
 
@@ -166,13 +166,11 @@ h1 {
 
 
 .lembrar-senha {
-
+    display: flex;
     margin: -8px 0 15px;
-
     accent-color: #594f70;
-
     margin-right: 15px;
-
+    justify-content: space-between;
 }
 
 
