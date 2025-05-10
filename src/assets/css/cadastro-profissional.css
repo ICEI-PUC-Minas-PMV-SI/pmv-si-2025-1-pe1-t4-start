@@ -141,8 +141,18 @@ body {
 
     margin: 20px 0 15px;
 }
+p {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-size: 20px;
+
+    color: #594F70;
+
+}
 
 .paragrafo1 {
     text-align: center;
-    color: #9f90c3;
 }
