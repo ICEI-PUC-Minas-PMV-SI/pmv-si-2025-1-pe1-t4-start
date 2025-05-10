@@ -133,38 +133,38 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Conteúdo       | Elemento textarea | Campo de digitação                        | Escreva uma breve descrição sobre você         |
 
 ## Página de informações do perfil:
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                         |
-|:--------------:|-------------------|-------------------------------------------|-----------------------------------------------     -|
-| Título         | Texto             | Título inicial                            | Meus posts                                          |
-| Título         | Texto             | Título do post                            | Título colocado no post                             |
-| Conteúdo       | Texto             | Textos de post                            | Texto acompanhando imagens postadas                 |
-| Documento      | Imagem            | Imagem de post                            | Imagem de cada post                                 |
-| Documento      | ícone             | User                                      | ícone de user para demonstração                     |
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Título         | Texto             | Título inicial                            | Meus posts                                     |
+| Título         | Texto             | Título do post                            | Título colocado no post                        |
+| Conteúdo       | Texto             | Textos de post                            | Texto acompanhando imagens postadas            |
+| Documento      | Imagem            | Imagem de post                            | Imagem de cada post                            |
+| Documento      | ícone             | User                                      | ícone de user para demonstração                |
 | Conteúdo       | Inputs (placeholder)| Campos de dados                         | Nome, Sobre mim, Data de nascimento, Filhos e localização |
-| Conteúdo       | Botão             | Botão de edição                           | Editar perfil                                       |
-| Documento      | ícone             | User                                      | ícone de user para demonstração                     |
-| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo  |
+| Conteúdo       | Botão             | Botão de edição                           | Editar perfil                                  |
+| Documento      | ícone             | User                                      | ícone de user para demonstração                |
+| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo |
                               
 
 
 ## Página de fórum:
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                         |
-|:--------------:|-------------------|-------------------------------------------|-----------------------------------------------     -|
-| Título         | Texto             | Nome de cada usuário                      | Jéssica da silva e outros                           |
-| Documento      | Imagem            | Imagem de posts                           | Imagem vinculada a seus respectivos posts           |
-| Documento      | ícones            | Fotos de perfil                           | Fotos de identificação dos usuários                 |
-| Documento      | Texto             | Texto de cada post                        | Textos publicados em cada post                      |
-| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo  |
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Título         | Texto             | Nome de cada usuário                      | Jéssica da silva e outros                      |
+| Documento      | Imagem            | Imagem de posts                           | Imagem vinculada a seus respectivos posts      |
+| Documento      | ícones            | Fotos de perfil                           | Fotos de identificação dos usuários            |
+| Documento      | Texto             | Texto de cada post                        | Textos publicados em cada post                 |
+| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo |
 
 
 ## Página de serviços:
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                         |
-|:--------------:|-------------------|-------------------------------------------|-----------------------------------------------     -|
-| Título         | Texto             | Nome de usuário de cada perfil            | Jéssica da Soares, Lorena Magalhães e outros        |
-| Título         | Texto             | Título de cada sessão de serviços         | Título de cada serviço: Psicólogos, por exemplo.    |   
-| Conteúdo       | Input ("search")  | Elemento para pesquisa                    |Elemento para pesquisar serviços do sistema          |
-| Documento      | Texto             | Texto de cada post                        | Textos publicados em cada post                      |
-| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo  |
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Título         | Texto             | Nome de usuário de cada perfil            | Jéssica da Soares, Lorena Magalhães e outros   |
+| Título         | Texto             | Título de cada sessão de serviços         | Título de cada serviço: Psicólogos, por exemplo. |   
+| Conteúdo       | Input ("search")  | Elemento para pesquisa                    |Elemento para pesquisar serviços do sistema     |
+| Documento      | Texto             | Texto de cada post                        | Textos publicados em cada post                 |
+| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo |
 
 
 
