@@ -165,7 +165,7 @@ class NavBar extends HTMLElement {
 
           <ul class="nav-list">
             <li class="dropdown">
-              <a href="servicos.hmtl">Serviços</a>
+              <a href="servicos.html">Serviços</a>
               <div class="dropdown-menu">
                 <a href="creches.html">Creches</a>
                 <a href="babas.html">Babás</a>
