@@ -42,10 +42,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Título         | Texto             | Título da página                          | Bem vindos ao sistema                                            |
-| Botão          | Botões informativos  | Direções para outras páginas           | Cria sua conta, Para profissionais                                  |
+| Botão          | Botões informativos  | Direções para outras páginas           | Crie sua conta, Para profissionais                                  |
 | Descrições     | Texto             | Apresentação do site                      | Sobre nós, nosso objetivo e nossos serviços
 | Documento      | Imagem  | Logo    | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo
 
+## Página de Login:
+
+## Notícia
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Título         | Texto             | Título inicial                            | Login                                          |
+| Subtítulo      | Texto             | Segundo título                            | Bem vindos ao nosso sistema!                   |
+| Conteúdo       | Inputs (placeholder)| Campos de dados                         | E-mail e Senha                                 |
+| Conteúdo       | Checkbox          | Informações de acesso                     | Lembrar acesso                                 |
 
 
 
