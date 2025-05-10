@@ -1,22 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Relief:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-
     margin: 0;
 
     padding: 1%;
 
     box-sizing: border-box;
 
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
 
-
-
 body {
-
     display: flex;
 
     justify-content: center;
@@ -30,13 +25,9 @@ body {
     background-size: cover;
 
     background-position: top center;
-
 }
 
-
-
 .container {
-
     width: 500px;
 
     background-color: whitesmoke;
@@ -55,10 +46,7 @@ body {
 
 }
 
-
-
 .container h1 {
-
     font-size: 35px;
 
     text-align: center;
@@ -69,10 +57,7 @@ body {
 
 }
 
-
-
 .input-box {
-
     position: static;
 
     width: 100%;
@@ -81,12 +66,11 @@ body {
 
     margin: 30px 0;
 
+    color: #000000;
+
 }
 
-
-
 .input-box input {
-
     width: 100%;
 
     height: 135%;
@@ -104,10 +88,7 @@ body {
     color: black;
 
     padding: 20px 45px 20px 20px;
-
 }
-
-
 
 .input-box input::placeholder {
 
@@ -115,32 +96,14 @@ body {
 
 }
 
-
-
-input[type="email"],
-
-input[type="password"],
-
-input[type="text"] {
-
-    color: black !important;
-
-}
-
-
-
 h1 {
-
     font-size: 35px;
 
     color: black;
 
 }
 
-
-
 .lembrar-senha {
-
     margin: -8px 0 15px;
 
     accent-color: #594f70;
@@ -149,10 +112,7 @@ h1 {
 
 }
 
-
-
 .login {
-
     width: 100%;
 
     height: 45px;
@@ -174,25 +134,17 @@ h1 {
     box-shadow: 0 0 0 10px rgba(184, 146, 243, 0.1);
 
     margin-top: 15px;
-
 }
 
-
-
 .login:hover {
-
     background-color: #C7B8EA;
 
     border: 2px solid;
 
     transition: 0.2s;
-
 }
 
-
-
 .cadastro {
-
     font-size: 14px;
 
     text-align: center;
@@ -201,27 +153,19 @@ h1 {
 
 }
 
-
-
 .criar-conta a {
-
     text-decoration: underline;
 
     color: #594F70;
 
     font-weight: 600;
-
 }
-
-
 
 .criar-conta a:hover {
 
     text-decoration: underline;
 
 }
-
-
 
 p {
 
@@ -235,21 +179,9 @@ p {
 
 }
 
-
-
-.icon-link1 {
-
-    width: 5px;
-
-    height: 5%;
-
-}
-
-
-
 .paragrafo-1 {
 
-    font-family: "Merriweather", serif;
+    font-family: "Roboto", sans-serif;
 
     font-size: 19px;
 
