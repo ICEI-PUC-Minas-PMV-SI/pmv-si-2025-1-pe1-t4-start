@@ -41,10 +41,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Landing page
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Título         | Texto  | Título da página          | Bem vindos ao sistema                                            |
-| Botão       | Botões informativos           | Direções para outras páginas                         | Cria sua conta, Para profissionais                                  |
-| Descrições       | Texto             | Apresentação do site                      |                            | Sobre nós, nosso objetivo e nossos serviços
-| Documento  | Imagem  | Logo | Logo do sistema                                              | Logo nomeada mães em foco, canto superior esquerdo
+| Título         | Texto             | Título da página                          | Bem vindos ao sistema                                            |
+| Botão          | Botões informativos  | Direções para outras páginas           | Cria sua conta, Para profissionais                                  |
+| Descrições     | Texto             | Apresentação do site                      | Sobre nós, nosso objetivo e nossos serviços
+| Documento      | Imagem  | Logo    | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo
 
 
 
