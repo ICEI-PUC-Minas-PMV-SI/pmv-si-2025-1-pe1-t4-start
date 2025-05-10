@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-
-
 * {
 
     margin: 0;
@@ -10,11 +8,9 @@
 
     box-sizing: border-box;
 
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
-
-
 
 body {
 
@@ -26,7 +22,7 @@ body {
 
     min-height: 100vh;
 
-    background: url(/pmv-si-2025-1-pe1-t4-start/src/assets/images/logo-maes-em-foco.jpg);
+    background: url(/pmv-si-2025-1-pe1-t4-start/src/assets/images/logo-maes-foco.jpg);
 
     background-size: cover;
 
@@ -58,8 +54,6 @@ body {
 
 }
 
-
-
 .container h1 {
 
     font-size: 35px;
@@ -84,9 +78,9 @@ body {
 
     margin: 30px 0;
 
+    color: #000000;
+
 }
-
-
 
 .input-box input {
 
@@ -95,7 +89,7 @@ body {
     height: 135%;
 
     background-color: white;
-    /* Corrigido */
+
 
     border: 2px solid rgba(255, 255, 255, .2);
 
@@ -112,41 +106,11 @@ body {
 }
 
 
-
 .input-box input::placeholder {
 
     color: grey;
 
 }
-
-
-
-.input-box i {
-
-    position: absolute;
-
-    right: 20px;
-
-    top: 50%;
-
-    font-size: 20px;
-
-    transform: translateY(-50%);
-
-}
-
-
-
-input[type="email"],
-
-input[type="password"],
-
-input[type="password-confirm"] {
-
-    color: #000 !important;
-
-}
-
 
 
 h1 {
@@ -265,4 +229,5 @@ p {
 
     font-style: normal;
 
-    color: #9
+    color: #594F70;
+}
