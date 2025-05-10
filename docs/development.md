@@ -156,6 +156,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Documento      | Texto             | Texto de cada post                        | Textos publicados em cada post                      |
 | Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo  |
 
+
 ## Página de serviços:
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                         |
 |:--------------:|-------------------|-------------------------------------------|-----------------------------------------------     -|
@@ -164,6 +165,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Conteúdo       | Input ("search")  | Elemento para pesquisa                    |Elemento para pesquisar serviços do sistema          |
 | Documento      | Texto             | Texto de cada post                        | Textos publicados em cada post                      |
 | Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo  |
+
 
 
 ## Perfil Creches
