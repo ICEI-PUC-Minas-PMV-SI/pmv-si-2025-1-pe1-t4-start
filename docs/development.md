@@ -36,6 +36,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
 
 
+
+
+## Landing page
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Título         | Texto  | Título da página          | Bem vindos ao sistema                                            |
+| Botão       | Botões informativos           | Direções para outras páginas                         | Cria sua conta, Para profissionais                                  |
+| Descrições       | Texto             | Apresentação do site                      |                            | Sobre nós, nosso objetivo e nossos serviços
+| Documento  | Imagem  | Logo | Logo do sistema                                              | Logo nomeada mães em foco, canto superior esquerdo
+
+
+
+
 ## Perfil Creches
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
@@ -43,7 +56,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Endereço       | Texto             | Endereço da creche                        | Rua Exemplo,                                   |
 | Contato        | Texto             | Whatsapp da Creche                        | 31-999999999                                   |
 | Latitude       | Numero (Decimal)  | Latitude para mapa                        | -19.9245                                       |
-| Laongitude     | Numero (Decimal)  | Longitude para mapa                       | -45.9245                                       |
+| Longitude     | Numero (Decimal)  | Longitude para mapa                       | -45.9245                                       |
 | Nota média     | Numero (Decimal)  | Média da avaliação de usuários            | 5                                              |
 | Comentário     | Texto             | Texto da avaliação                        | Ambiente seguro e acolhedor                    |
 
