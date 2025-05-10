@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Relief:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
 * {
 
     margin: 0;
-
     padding: 1%;
 
     box-sizing: border-box;
 
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -26,7 +24,7 @@ body {
 
     min-height: 100vh;
 
-    background: url(/pmv-si-2025-1-pe1-t4-start/src/assets/images/logo-maes-em-foco.jpg);
+    background: url(/pmv-si-2025-1-pe1-t4-start/src/assets/images/logo-maes-foco.jpg);
 
     background-size: cover;
 
@@ -47,12 +45,11 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
 
     border-radius: 5px;
-    /* Corrigido */
 
     color: black;
 
     padding: 30px 40px;
-    /* Corrigido */
+
 
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 
@@ -65,7 +62,6 @@ body {
 .container h1 {
 
     font-size: 35px;
-    /* Corrigido */
 
     text-align: center;
 
@@ -86,7 +82,7 @@ body {
     height: 50px;
 
     margin: 30px 0;
-
+    color: #000000
 }
 
 
@@ -98,7 +94,6 @@ body {
     height: 135%;
 
     background-color: white;
-    /* Corrigido */
 
     border: 2px solid rgba(255, 255, 255, .2);
 
@@ -124,42 +119,9 @@ body {
 
 
 
-.input-box i {
-
-    position: absolute;
-
-    right: 20px;
-
-    top: 50%;
-
-    font-size: 20px;
-
-    transform: translateY(-50%);
-    /* Corrigido */
-
-}
-
-
-
-input[type="email"],
-
-input[type="password"],
-
-input[type="password-confirm"] {
-
-    color: #000 !important;
-    /* Corrigido */
-
-}
-
-
-
 h1 {
 
-    font-size: 35px;
-    /* Corrigido */
-
-    color: black;
+    font-size: 35px color: black;
 
 }
 
@@ -270,5 +232,4 @@ p {
     font-size: 19px;
 
     font-style: normal;
-
-    color: #9
+}
