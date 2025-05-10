@@ -120,17 +120,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo |
 
 ## Página para edição de perfil:
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                         |
-|:--------------:|-------------------|-------------------------------------------|-----------------------------------------------     -|
-| Título         | Texto             | Título inicial                            | Editar perfil                                       |
-| Subtítulo      | Texto             | Segundo título                            | Escolha sua nova senha                              |
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Título         | Texto             | Título inicial                            | Editar perfil                                  |
+| Subtítulo      | Texto             | Segundo título                            | Escolha sua nova senha                         |
 | Conteúdo       | Inputs (placeholder)| Campos de dados                         | Nome, E-mail, Quantos filhos você tem e Localização |
-| Conteúdo       | Botão             | Botão de confirmação                      | Salvar                                              |
-| Documento      | ícone             | User                                      | ícone de user para demonstração                     |
-| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo  |
-| Conteúdo       | Botão             | Botão de escolha de foto                  | Escolha sua foto                                    |
-| Título         | Texto             | Título-> elemento texttarea               | Sobre mim                                           |
-| Conteúdo       | Elemento textarea | Campo de digitação                        | Escreva uma breve descrição sobre você              |
+| Conteúdo       | Botão             | Botão de confirmação                      | Salvar                                         |
+| Documento      | ícone             | User                                      | ícone de user para demonstração                |
+| Documento      | Imagem            | Logo do sistema                           | Logo nomeada mães em foco, canto superior esquerdo |
+| Conteúdo       | Botão             | Botão de escolha de foto                  | Escolha sua foto                               |
+| Título         | Texto             | Título-> elemento texttarea               | Sobre mim                                      |
+| Conteúdo       | Elemento textarea | Campo de digitação                        | Escreva uma breve descrição sobre você         |
 
 ## Página de informações do perfil:
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                         |
