@@ -148,9 +148,27 @@ class NavBar extends HTMLElement {
           opacity: 1;
           transition: opacity 0.5s ease-in-out;
       }
+      .nav-user a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        background-color: #9388AD; 
+        border-radius: 50%;
+        color: #FCFCFC; 
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+}
+
+      .nav-user a:hover {
+         background-color: #6f6490; 
+         border-radius: 50%;
+}    
     `;
 
     const html = `
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
       <header>
         <nav id="navbar">
           <a href="index.html" class="logo">
@@ -184,6 +202,9 @@ class NavBar extends HTMLElement {
             </li>
             <li class="nav-login">
               <a href="login.html">Entrar</a>
+            </li>
+            <li class="nav-user">
+              <a href="userprofile.html"><i class="fa-solid fa-user"></i></a>
             </li>
           </ul>
         </nav>
