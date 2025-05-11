@@ -21,13 +21,23 @@ body {
     align-items: center;
 
     min-height: 100vh;
-
-    background: url(/pmv-si-2025-1-pe1-t4-start/src/assets/images/logo-maes-foco.jpg);
-
+    
     background-size: cover;
 
     background-position: top center;
 
+     background-color: #766985;
+}
+#entrar {
+    border: 1px solid rgb(215, 198, 230);
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #9388AD;
+    color: #FFFFFF
+}
+
+#entrar:hover {
+    background-color: rgb(104, 77, 126);
 }
 
 .container {
