@@ -91,9 +91,9 @@ class Footer extends HTMLElement {
           <div class="nav-footer">
             <ul>
               <li>Serviços</li>
-              <li><a href="#">Profissionais</a></li>
-              <li><a href="#">Mapa</a></li>
-              <li><a href="#">Fórum</a></li>
+              <li><a href="servicos.html">Profissionais</a></li>
+              <li><a href="creches.html">Mapa</a></li>
+              <li><a href="forum.html">Fórum</a></li>
             </ul>
             <ul>
               <li>Suporte</li>
