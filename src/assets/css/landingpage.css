@@ -56,7 +56,18 @@ a:hover {
     color: #FFFFFF
 }
 
+
 #profissao:hover {
+    background-color: rgb(104, 77, 126);
+}
+#logar {
+    border: 1px solid rgb(215, 198, 230);
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #9388AD;
+    color: #FFFFFF
+}
+#logar:hover {
     background-color: rgb(104, 77, 126);
 }
 
