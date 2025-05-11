@@ -19,11 +19,10 @@ body {
 
     min-height: 100vh;
 
-    background: url(/pmv-si-2025-1-pe1-t4-start/src/assets/images/logo-maes-foco.jpg);
-
     background-size: cover;
 
     background-position: top center;
+ background-color: #766985;
 }
 
 .container {
@@ -102,7 +101,7 @@ body {
 
 }
 
-.login {
+.prof {
     width: 100%;
 
     height: 45px;
@@ -126,7 +125,7 @@ body {
     margin-top: 15px;
 }
 
-.login:hover {
+.prof:hover {
     background-color: #C7B8EA;
 
     border: 2px solid;
