@@ -171,7 +171,7 @@ class NavBar extends HTMLElement {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
       <header>
         <nav id="navbar">
-          <a href="index.html" class="logo">
+          <a href="landing-page.html" class="logo">
             <img src="assets/images/logo.png" alt="Logo" />
           </a>
 
@@ -186,13 +186,13 @@ class NavBar extends HTMLElement {
               <a href="servicos.html">Serviços</a>
               <div class="dropdown-menu">
                 <a href="creches.html">Creches</a>
-                <a href="babas.html">Babás</a>
-                <a href="psicologos.html">Psicólogos</a>
-                <a href="advogados.html">Advogados</a>
+                <a href="servicos.html">Babás</a>
+                <a href="servicos.html">Psicólogos</a>
+                <a href="servicos.html">Advogados</a>
               </div>
             </li>
             <li class="nav-item">
-              <a href="mapa.html">Mapa</a>
+              <a href="creches.html">Mapa</a>
             </li>
             <li class="nav-item">
               <a href="sobre.html">Sobre</a>
@@ -201,7 +201,7 @@ class NavBar extends HTMLElement {
               <a href="forum.html">Fórum</a>
             </li>
             <li class="nav-login">
-              <a href="login.html">Entrar</a>
+              <a href="index.html">Entrar</a>
             </li>
             <li class="nav-user">
               <a href="userprofile.html"><i class="fa-solid fa-user"></i></a>
