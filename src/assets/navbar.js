@@ -11,7 +11,7 @@ class NavBar extends HTMLElement {
 
   render() {
     const style = `
-      *{
+      * {
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
@@ -39,13 +39,18 @@ class NavBar extends HTMLElement {
           color: black;
           display: inline-block;
       }
+      nav li a .dropdown-chevron {
+        margin-left: 4px;
+      }
       nav li a:hover {
-          background-color:#9388AD;
+          background-color: #9388AD;
           border-radius: 8px;
           color: #FCFCFC;
           transition: background-color 0.3s ease, color 0.3s ease;
-          
-        
+      }
+      nav li a:hover .dropdown-chevron path {
+        stroke: #FCFCFC;
+        transition: stroke 0.3s ease;
       }
       .logo img {
           height: 60px;
@@ -73,10 +78,10 @@ class NavBar extends HTMLElement {
       .dropdown-menu {
           position: absolute;
           display: none;
-          background-color:#9388AD;
+          background-color: #fff;
           border-radius: 8px;
           z-index: 9999;
-          
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
       }
       .dropdown-menu a {
           display: block;
@@ -159,12 +164,11 @@ class NavBar extends HTMLElement {
         color: #FCFCFC; 
         font-size: 18px;
         transition: background-color 0.3s ease;
-}
-
+      }
       .nav-user a:hover {
-         background-color: #6f6490; 
-         border-radius: 50%;
-}    
+          background-color: #6f6490; 
+          border-radius: 50%;
+      }    
     `;
 
     const html = `
@@ -183,7 +187,12 @@ class NavBar extends HTMLElement {
 
           <ul class="nav-list">
             <li class="dropdown">
-              <a href="servicos.html">Serviços</a>
+              <a href="servicos.html" style="display: flex; align-items: center">
+                <p>Serviços</p>
+                <svg class="dropdown-chevron" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M19 9L12 16L5 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
               <div class="dropdown-menu">
                 <a href="creches.html">Creches</a>
                 <a href="servicos.html">Babás</a>
@@ -198,7 +207,7 @@ class NavBar extends HTMLElement {
               <a href="sobre.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a href="forum.html">Fórum</a>
+              <a href="forum.html">Feed</a>
             </li>
             <li class="nav-login">
               <a href="index.html">Entrar</a>
