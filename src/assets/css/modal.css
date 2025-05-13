@@ -170,11 +170,7 @@
 }
 
 .post-button.active {
-  background-color: #1877f2;
+  background-color: #9388ad;
   color: white;
   cursor: pointer;
-}
-
-.post-button.active:hover {
-  background-color: #166fe5;
 }

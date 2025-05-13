@@ -22,7 +22,6 @@ class NavBar extends HTMLElement {
           
       }
       header {
-          background-color: #FCFCFC;
           padding-inline: 16px;
           
       }

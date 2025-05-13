@@ -47,6 +47,7 @@ body {
 
 .post-content {
   line-height: 1.6;
+  margin-bottom: 18px;
 }
 
 .post-image {
@@ -70,7 +71,7 @@ body {
   right: 30px;
   width: 60px;
   height: 60px;
-  background-color: #9370db;
+  background-color: #9388ad;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -82,12 +83,65 @@ body {
 
 .chat-icon:hover {
   transform: scale(1.1);
-  background-color: #8a5dc8;
 }
 
 .chat-icon svg {
   width: 30px;
   height: 30px;
+}
+
+.create-post {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-create-post {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-create-post input {
+    line-height: 1.6;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #afb8c5;
+}
+
+.likes {
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.line {
+  background-color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.like-button {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: ease background-color 0.3s;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.like-button svg {
+  margin-right: 6px;
+}
+
+.like-button:hover {
+  background-color: #f7f4f4;
 }
 
 @media (max-width: 768px) {
