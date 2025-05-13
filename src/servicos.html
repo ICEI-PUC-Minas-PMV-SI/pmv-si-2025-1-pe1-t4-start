@@ -1,178 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/servicos.css">
-    <link rel="stylesheet" href="assets/css/global.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/servicos.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="stylesheet" href="assets/css/modal.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <title>Serviços</title>
-</head>
+    <title>Serviços | Mães em Foco</title>
+  </head>
+  <body>
+    <header-component></header-component>
 
-<body>
-
-    <header>
-
-        <header-component></header-component>
-
-    </header>
     <div class="pesquisa-container">
-    <div class="pesquisa">
-        <input type="text" class="barra" placeholder="Pesquisar">
-        <span class="clear-btn" onclick="document.getElementsByClassName('barra').value = ''">×</span>
-        <button class="botao-pesquisa"> 🔍 </button> 
-    </div>
-        <div class="pesquisa-rapida">
+      <div class="pesquisa">
+        <input type="text" class="barra" placeholder="Pesquisar" />
+        <span class="clear-btn" onclick="document.querySelector('.barra').value = ''">×</span>
+        <button class="botao-pesquisa">🔍</button>
+      </div>
+      <div class="pesquisa-rapida">
         <button class="psicologos">Psicólogos</button>
-        <button class="Advogados">Advogados</button>
-        <button class="Babas">Babás</button>
+        <button class="advogados">Advogados</button>
+        <button class="babas">Babás</button>
         <button class="creches">Creches</button>
-        </div>
+      </div>
     </div>
 
- <div class="conteudo">
-    <div class="linha-cima">
-    <h1 class="titulo-profissao"> Psicólogos </h1>
-    <a href="psicologos.html" class="mais">ver todos</a>
+    <div class="conteudo">
+      <div class="linha-cima">
+        <h1 class="titulo-profissao">Psicólogos</h1>
+        <a href="psicologos.html" class="mais" style="text-decoration: underline">ver todos</a>
+      </div>
+      <div class="container">
+        <a href="profissional.html?id=psic-js" class="card">
+          <img src="assets/images/profissionais/Psic-JS.png" alt="Jéssica Soares" />
+          <h3 class="nome-de-usuario" style="margin-bottom: 4px">Jéssica Soares</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Psicólogo</p>
+        </a>
+        <a href="profissional.html?id=psic-lm" class="card">
+          <img src="assets/images/profissionais/Psic-LM.png" alt="Lorena Magalhães" />
+          <h3 class="nome-de-usuario">Lorena Magalhães</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Psicólogo</p>
+        </a>
+        <a href="profissional.html?id=psic-ra" class="card">
+          <img src="assets/images/profissionais/Psic-RA.png" alt="Ricardo Augusto" />
+          <h3 class="nome-de-usuario">Ricardo Augusto</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Psicólogo</p>
+        </a>
+        <a href="profissional.html?id=psic-lb" class="card">
+          <img src="assets/images/profissionais/Psic-LB.png" alt="Lila Bonetelli" />
+          <h3 class="nome-de-usuario">Lila Bonetelli</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Psicólogo</p>
+        </a>
+      </div>
     </div>
-    <div class="container">
-        <div class="card">
-            <img src="assets/images/profissionais/Psic-JS.png" />
-            <h3 class="nome-de-usuario">Jéssica Soares</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Psicólogo</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Psic-LM.png" />
-            <h3 class="nome-de-usuario">Lorena Magalhães</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Psicólogo</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Psic-RA.png" />
-            <h3 class="nome-de-usuario">Ricardo Augusto</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Psicólogo</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Psic-LB.png" />
-            <h3 class="nome-de-usuario">Lila Bonetelli</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Psicólogo</p>
-        </div>
-    </div>
-</div>
 
-<div class="conteudo">
-    <div class="linha-cima">
-    <h1 class="titulo-profissao"> Advogados </h1>
-    <a href="advogados.html" class="mais">ver todos</a>
+    <div class="conteudo">
+      <div class="linha-cima">
+        <h1 class="titulo-profissao">Advogados</h1>
+        <a href="advogados.html" class="mais" style="text-decoration: underline">ver todos</a>
+      </div>
+      <div class="container">
+        <a href="profissional.html?id=adv-fl" class="card">
+          <img src="assets/images/profissionais/Adv-FL.png" alt="Flaviana Longatti" />
+          <h3 class="nome-de-usuario">Flaviana Longatti</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Advogado</p>
+        </a>
+        <a href="profissional.html?id=adv-js" class="card">
+          <img src="assets/images/profissionais/Adv_JS.png" alt="Jessica dos Santos" />
+          <h3 class="nome-de-usuario">Jessica dos Santos</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Advogado</p>
+        </a>
+        <a href="profissional.html?id=adv-jj" class="card">
+          <img src="assets/images/profissionais/Adv-JJ.png" alt="José de Jesus Jr." />
+          <h3 class="nome-de-usuario">José de Jesus Jr.</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Advogado</p>
+        </a>
+        <a href="profissional.html?id=adv-co" class="card">
+          <img src="assets/images/profissionais/Adv-CO.png" alt="Cesar Oliveira" />
+          <h3 class="nome-de-usuario">Cesar Oliveira</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Advogado</p>
+        </a>
+      </div>
     </div>
-    <div class="container">
-        <div class="card">
-            <img src="assets/images/profissionais/Adv-FL.png" />
-            <h3 class="nome-de-usuario">Flaviana Longatti</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Advogado</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Adv_JS.png" />
-            <h3 class="nome-de-usuario">Jessica dos Santos</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Advogoado</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Adv-JJ.png" />
-            <h3 class="nome-de-usuario">José de Jesus Jr.</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Advogado</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Adv-CO.png" />
-            <h3 class="nome-de-usuario">Cesar Oliveira</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Advogado</p>
-        </div>
-    </div>
-</div>
-    
-<div class="conteudo">
-    <div class="linha-cima">
-    <h1 class="titulo-profissao"> Babás </h1>
-    <a href="babas.html" class="mais">ver todos</a>
-</div>
-    <div class="container">
-        <div class="card">
-            <img src="assets/images/profissionais/Babas-KS.png" />
-            <h3 class="nome-de-usuario">Karla de Sá</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Babá</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Babas-JA.png" />
-            <h3 class="nome-de-usuario">Júlia Almeida</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Babá</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Babas-LF.png" />
-            <h3 class="nome-de-usuario">Lúcia Figueiredo</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Babá</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Babas-EW.png" />
-            <h3 class="nome-de-usuario">Elizabeth Webber</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Babá</p>
-        </div>
-    </div>
-</div>
 
-<div class="conteudo">
-    <div class="linha-cima">
-    <h1 class="titulo-profissao"> Creches </h1>
-    <a href="creches.html" class="mais">ver todos</a>
+    <div class="conteudo">
+      <div class="linha-cima">
+        <h1 class="titulo-profissao">Babás</h1>
+        <a href="babas.html" class="mais" style="text-decoration: underline">ver todos</a>
+      </div>
+      <div class="container">
+        <a href="profissional.html?id=baba-ks" class="card">
+          <img src="assets/images/profissionais/Babas-KS.png" alt="Karla de Sá" />
+          <h3 class="nome-de-usuario">Karla de Sá</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Babá</p>
+        </a>
+        <a href="profissional.html?id=baba-ja" class="card">
+          <img src="assets/images/profissionais/Babas-JA.png" alt="Júlia Almeida" />
+          <h3 class="nome-de-usuario">Júlia Almeida</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Babá</p>
+        </a>
+        <a href="profissional.html?id=baba-lf" class="card">
+          <img src="assets/images/profissionais/Babas-LF.png" alt="Lúcia Figueiredo" />
+          <h3 class="nome-de-usuario">Lúcia Figueiredo</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Babá</p>
+        </a>
+        <a href="profissional.html?id=baba-ew" class="card">
+          <img src="assets/images/profissionais/Babas-EW.png" alt="Elizabeth Webber" />
+          <h3 class="nome-de-usuario">Elizabeth Webber</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Babá</p>
+        </a>
+      </div>
     </div>
-    <div class="container">
-        <div class="card">
-            <img src="assets/images/profissionais/Crch-AM.png" />
-            <h3 class="nome-de-usuario">Arte e Magia</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Creche</p>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Crch-PS.png" />
-            <h3 class="nome-de-usuario">Pequenos Sonhos</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Creche</p>
-        </div>
-        <div class="card">
-            <a href="creches.html" class="card-link">
-            <img src="assets/images/profissionais/Crch-CE.jpg" />
-            <a href="creches.html" class="card-link">
-            <h3 class="nome-de-usuario">Creche Encanto</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Creche</p>
-            </a>
-        </div>
-        <div class="card">
-            <img src="assets/images/profissionais/Crch-SM.png" />
-            <h3 class="nome-de-usuario">Santa Menefreda</h3> 
-            <p class="nota">5⭐</p> 
-            <p class="profissao">Creche</p>
-        </div>
-    </div>
-</div>
-    
-    <footer>
-        
-        <footer-component></footer-component>
 
-    </footer>
+    <div class="conteudo">
+      <div class="linha-cima">
+        <h1 class="titulo-profissao">Creches</h1>
+        <a href="creches.html" class="mais" style="text-decoration: underline">ver todos</a>
+      </div>
+      <div class="container">
+        <a href="profissional.html?id=creche-am" class="card">
+          <img src="assets/images/profissionais/Crch-AM.png" alt="Arte e Magia" />
+          <h3 class="nome-de-usuario">Arte e Magia</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Creche</p>
+        </a>
+        <a href="profissional.html?id=creche-ps" class="card">
+          <img src="assets/images/profissionais/Crch-PS.png" alt="Pequenos Sonhos" />
+          <h3 class="nome-de-usuario">Pequenos Sonhos</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Creche</p>
+        </a>
+        <a href="profissional.html?id=creche-ce" class="card">
+          <img src="assets/images/profissionais/Crch-CE.jpg" alt="Creche Encanto" />
+          <h3 class="nome-de-usuario">Creche Encanto</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Creche</p>
+        </a>
+        <a href="profissional.html?id=creche-sm" class="card">
+          <img src="assets/images/profissionais/Crch-SM.png" alt="Santa Menefreda" />
+          <h3 class="nome-de-usuario">Santa Menefreda</h3>
+          <p class="nota">5⭐</p>
+          <p class="profissao">Creche</p>
+        </a>
+      </div>
+    </div>
+
+    <footer-component></footer-component>
+
     <script src="assets/footer.js"></script>
     <script src="assets/navbar.js"></script>
     <script src="assets/js/modal.js"></script>
-</body>
+  </body>
 </html>

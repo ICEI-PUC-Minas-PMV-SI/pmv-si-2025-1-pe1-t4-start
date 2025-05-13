@@ -81,6 +81,7 @@ class NavBar extends HTMLElement {
           border-radius: 8px;
           z-index: 9999;
           box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          padding: 6px;
       }
       .dropdown-menu a {
           display: block;
