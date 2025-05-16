@@ -204,7 +204,7 @@ class NavBar extends HTMLElement {
               <a href="creches.html">Mapa</a>
             </li>
             <li class="nav-item">
-              <a href="sobre.html">Sobre</a>
+              <a href="landing-page.html">Sobre</a>
             </li>
             <li class="nav-item">
               <a href="forum.html">Feed</a>
@@ -251,3 +251,4 @@ class NavBar extends HTMLElement {
 }
 
 customElements.define("header-component", NavBar);
+
