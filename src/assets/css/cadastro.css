@@ -25,7 +25,7 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
     color: black;
-    padding: 40px;
+    padding: 35px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     backdrop-filter: blur(100px);
 }
@@ -101,5 +101,4 @@ p {
 }
 
 @media (max-width: 790px)
-
 
