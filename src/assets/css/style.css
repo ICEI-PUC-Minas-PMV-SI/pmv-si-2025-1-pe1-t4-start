@@ -28,23 +28,10 @@ body {
 
      background-color: #766985;
 }
-#entrar {
-    border: 1px solid rgb(215, 198, 230);
-    padding: 8px;
-    border-radius: 10px;
-    background-color: #9388AD;
-    color: #FFFFFF
-}
 
-#entrar:hover {
-    background-color: rgb(104, 77, 126);
-}
-
-.container {
-
+     
+     .container {
     width: 500px;
-
-    overflow: auto;
 
     background-color: whitesmoke;
 
@@ -52,11 +39,9 @@ body {
 
     border-radius: 5px;
 
-
     color: black;
 
     padding: 30px 40px;
-
 
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 
@@ -65,9 +50,7 @@ body {
 }
 
 .container h1 {
-
     font-size: 35px;
-
 
     text-align: center;
 
@@ -117,7 +100,11 @@ body {
     color: grey;
 
 }
+.input-box input::placeholder {
 
+    color: grey;
+
+}
 h1 {
 
     font-size: 35px;
@@ -125,8 +112,35 @@ h1 {
 
 }
 
+#entrar {
+    border: 1px solid rgb(215, 198, 230);
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #9388AD;
+    color: #FFFFFF
+}
+
+#entrar:hover {
+    background-color: rgb(104, 77, 126);
+}
+
+
+
+
 .lembrar-senha {
     display: flex;
+    margin: -8px 0 15px;
+    accent-color: #594f70;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+.lembrar-senha a{
+accent-color:#594f70;
+}
+
+.esqueci-senha{
+     display: flex;
     margin: -8px 0 15px;
     accent-color: #594f70;
     margin-right: 15px;
