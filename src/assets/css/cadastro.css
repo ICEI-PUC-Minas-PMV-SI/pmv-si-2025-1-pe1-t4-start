@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    width: 125%;
+    width: 112%;
     max-width: 750px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
