@@ -19,11 +19,11 @@ body {
 }
 
 .container {
-    width: 110%;
+    width: 100%;
     max-width: 750px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
+    border-radius: 17px;
     color: black;
     padding: 35px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
