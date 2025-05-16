@@ -19,8 +19,8 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 800px; 
+    width: 110%;
+    max-width: 750px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
@@ -101,4 +101,5 @@ p {
 }
 
 @media (max-width: 790px)
+
 
