@@ -123,16 +123,6 @@ h1 {
 
 
 
-.lembrar-senha {
-
-    margin: -8px 0 15px;
-
-    accent-color: #594f70;
-
-    margin-right: 15px;
-
-}
-
 
 
 .new {
@@ -174,39 +164,6 @@ h1 {
 }
 
 
-
-.criar-conta {
-
-    font-size: 14px;
-
-    text-align: center;
-
-    margin: 20px 0 15px;
-
-}
-
-
-
-.criar-conta a {
-
-    text-decoration: underline;
-
-    color: #594F70;
-
-    font-weight: 600;
-
-}
-
-
-
-.criar-conta a:hover {
-
-    text-decoration: underline;
-
-}
-
-
-
 p {
 
     text-align: center;
@@ -217,15 +174,4 @@ p {
 
     color: #594F70;
 
-}
-
-
-
-.paragrafo-1 {
-
-    font-family: "Roboto", sans-serif;
-
-    font-size: 19px;
-
-    font-style: normal;
 }
