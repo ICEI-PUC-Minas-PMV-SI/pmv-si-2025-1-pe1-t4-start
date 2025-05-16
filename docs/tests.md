@@ -25,21 +25,54 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Criar conta**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro.html <br> 2) Preencha todos os campos do formulário corretamente <br> 3) Clique no botão "Cadastrar".
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+**Resultado esperado** | Prosseguir para a página de edição de perfil do uauário
+**Dados de entrada** | Preencher os dados corretos necessário para realizar o cadastro
+**Resultado obtido** | -
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Criar conta (Para profissionais)**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro-profissional.html <br> 2) Preencha todos os campos do formulário corretamente <br> 2) Clique no botão "Cadastrar" <br> 
+**Requisitos associados** | RF-002
+**Resultado esperado** | Usuário profissional cadastrado
+**Dados de entrada** | Preencher os dados corretos necessários para realizar o cadastro
+**Resultado obtido** | -
+
+**Caso de Teste** | **CT03 - Logar no sistema**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/index.html <br> 2) Preencha todos os campos do formulário corretamente <br> 3) Clique no botão "Entrar".
+**Requisitos associados** | RF-003
+**Resultado esperado** | Prosseguir para a página inicial (Página do fórum)
+**Dados de entrada** | Preencher os dados corretos necessário para ingressar na conta.
+**Resultado obtido** | -
+
+**Caso de Teste** | **CT04 - Editar perfil**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/forum.html tendo já logado na conta <br> 2)Clique no ícone superior direito de uma pessoa; 3) Vá até a página de posts feitos e no canto esquerdo na sessão de dados do perfil, clique no botão de editar perfil; <br> 
+**Requisitos associados** | RF-004;
+**Resultado esperado** | Conseguir ingressar na página e prosseguir para edição do perfil;
+**Dados de entrada** | Clicar no botão de editar perfil;
+**Resultado obtido** | -
+
+**Caso de Teste** | **CT05 - Publicações realizadas pelo usuário**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/forum.html tendo já logado na conta <br> 2) Clique no ícone do canto superior direito de uma pessoa;
+**Requisitos associados** | RF-005;
+**Resultado esperado** | Conseguir ingressar na página prosseguindo para posts já feitos no perfil;
+**Dados de entrada** | Ter clicado no ícone de pessoa no canto superior direito da página (Navbar);
+**Resultado obtido** | -
+
+**Caso de Teste** | **CT06 - Tela inicial do sistema**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/index.html <br> 2) Preencha os dados corretos do formulário e clique no botão entrar <br> 3) Clique no ícone com um lápis (canto inferior direito) e no ícone de coração em cada post desejado.
+**Requisitos associados** | RF-006
+**Resultado esperado** | Conseguir ingressar na página, fazer posts e curtir os posts desejados, respectivamente 
+**Dados de entrada** | Ter inserido os dados de login corretos, escrever algo ou subir uma foto para que seja postada a publicação e clicar no ícone de like da publicação que deseja curtir, respectivamente.
+**Resultado obtido** | -
+
 
 ## Registro dos Testes de Software
 
