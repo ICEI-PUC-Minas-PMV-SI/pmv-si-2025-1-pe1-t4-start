@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 100%; 
+    width: 90%; 
     max-width: 310px; 
     overflow: auto;
     background-color: whitesmoke;
@@ -102,3 +102,4 @@ p {
 
 @media (max-width: 768px) 
    
+
