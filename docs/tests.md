@@ -35,43 +35,78 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Criar conta (Para profissionais)**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro-profissional.html <br> 2) Preencha todos os campos do formulário corretamente <br> 2) Clique no botão "Cadastrar" <br> 
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro-profissional.html <br> 2) Preencha todos os campos do formulário corretamente <br> 2) Clique no botão "Prosseguir" <br> 
 **Requisitos associados** | RF-002
-**Resultado esperado** | Usuário profissional cadastrado
-**Dados de entrada** | Preencher os dados corretos necessários para realizar o cadastro
+**Resultado esperado** | Direcionar para a segunda etapa do cadastro profissional
+**Dados de entrada** | Preencher os dados corretos necessários para ir para etapa dois do cadastro profissional
 **Resultado obtido** | -
 
-**Caso de Teste** | **CT03 - Logar no sistema**
+**Caso de Teste** | **CT03 - Criar conta (Para profissionais)**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastroprof.html <br> 2) Preencha todos os campos do formulário corretamente <br> 2) Clique no botão "Cadastar" <br> 
+**Requisitos associados** | RF-003
+**Resultado esperado** | Permitir ao profissional ingressar na página inicial do feed
+**Dados de entrada** | Preencher os dados corretos necessários para ser direcionado a tela inical do sistema
+**Resultado obtido** | -
+
+
+**Caso de Teste** | **CT04 - Logar no sistema**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/index.html <br> 2) Preencha todos os campos do formulário corretamente <br> 3) Clique no botão "Entrar".
-**Requisitos associados** | RF-003
+**Requisitos associados** | RF-004
 **Resultado esperado** | Prosseguir para a página inicial (Página do fórum)
 **Dados de entrada** | Preencher os dados corretos necessário para ingressar na conta.
 **Resultado obtido** | -
 
-**Caso de Teste** | **CT04 - Editar perfil**
+**Caso de Teste** | **CT05 - Editar perfil**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/forum.html tendo já logado na conta <br> 2)Clique no ícone superior direito de uma pessoa; 3) Vá até a página de posts feitos e no canto esquerdo na sessão de dados do perfil, clique no botão de editar perfil; <br> 
-**Requisitos associados** | RF-004;
+**Requisitos associados** | RF-005;
 **Resultado esperado** | Conseguir ingressar na página e prosseguir para edição do perfil;
 **Dados de entrada** | Clicar no botão de editar perfil;
 **Resultado obtido** | -
 
-**Caso de Teste** | **CT05 - Publicações realizadas pelo usuário**
+**Caso de Teste** | **CT06 - Publicações realizadas pelo usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/forum.html tendo já logado na conta <br> 2) Clique no ícone do canto superior direito de uma pessoa;
-**Requisitos associados** | RF-005;
+**Requisitos associados** | RF-006;
 **Resultado esperado** | Conseguir ingressar na página prosseguindo para posts já feitos no perfil;
 **Dados de entrada** | Ter clicado no ícone de pessoa no canto superior direito da página (Navbar);
 **Resultado obtido** | -
 
-**Caso de Teste** | **CT06 - Tela inicial do sistema**
+**Caso de Teste** | **CT06 - Publicações realizadas pelo usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/index.html <br> 2) Preencha os dados corretos do formulário e clique no botão entrar <br> 3) Clique no ícone com um lápis (canto inferior direito) e no ícone de coração em cada post desejado.
-**Requisitos associados** | RF-006
-**Resultado esperado** | Conseguir ingressar na página, fazer posts e curtir os posts desejados, respectivamente 
-**Dados de entrada** | Ter inserido os dados de login corretos, escrever algo ou subir uma foto para que seja postada a publicação e clicar no ícone de like da publicação que deseja curtir, respectivamente.
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/forum.html tendo já logado na conta <br> 2) Clique no ícone do canto superior direito de uma pessoa;  3) Vá até a página de publicações feitas 4) Clique nos ícones de lápis e de lixeira e clique em 'comentar'
+**Requisitos associados** | RF-006;
+**Resultado esperado** | Conseguir editar, exluir e comentar posts, respectivamente;
+**Dados de entrada** | Ter clicado no ícone de pessoa e após, dentro da página esperada, nos ícones de lápis, lixeira e clicar em 'comentar' (Navbar);
 **Resultado obtido** | -
+
+**Caso de Teste** | **CT07 - Tela inicial do sistema**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/index.html; <br> 2) Preencha os dados corretos do formulário e clique no botão entrar; <br> 3) Clique no ícone com um lápis (canto inferior direito) e no ícone de coração em cada post desejado;
+**Requisitos associados** | RF-007;
+**Resultado esperado** | Conseguir ingressar na página, fazer posts e curtir os posts desejados, respectivamente 
+**Dados de entrada** | Ter inserido os dados de login corretos, escrever algo ou subir uma foto para que seja postada a publicação e clicar no ícone de like da publicação que deseja curtir, respectivamente;
+**Resultado obtido** | -
+
+**Caso de Teste** | **CT08 - Sessão de serviços**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/forum.html após logado no sistema; <br> 2) Clique no botão de serviços da Navbar;
+**Requisitos associados** | RF-008;
+**Resultado esperado** | Ser direcionado para a página de serviços prestados no sistema (Psicólogos, Advogados e Babás);
+**Dados de entrada** | Ter clicado no botão de serviços da Navbar;
+**Resultado obtido** | -
+
+
+**Caso de Teste** | **CT09 - Sessão de mapa**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/forum.html após logado no sistema; <br> 2) Clique no botão de mapa da Navbar;
+**Requisitos associados** | RF-009;
+**Resultado esperado** | Ser direcionado para a página de serviços com mapa de localizações (Psicólogos, Advogados e Babás);
+**Dados de entrada** | Ter clicado no botão de mapa da Navbar;
+**Resultado obtido** | -
+
 
 
 ## Registro dos Testes de Software
