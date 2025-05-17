@@ -19,8 +19,8 @@ body {
 }
 
 .container {
-    width: 90%; 
-    max-width: 500px; 
+    width: 100%; 
+    max-width: 355px; 
     overflow: auto;
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -102,5 +102,7 @@ p {
 @media (max-width: 768px) 
    
 
+
+   
 
    
