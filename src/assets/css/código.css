@@ -20,7 +20,7 @@ body {
 
 .container {
     width: 100%; 
-    max-width: 355px; 
+    max-width: 450px; 
     overflow: auto;
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
