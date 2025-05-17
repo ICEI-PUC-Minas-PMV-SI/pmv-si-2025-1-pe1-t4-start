@@ -15,11 +15,12 @@ body {
     background-size: cover;
     background-position: top center;
     background-color: #766985;
+     transform: scale(0.9);
 }
 
 .container {
-    width: 90%; 
-    max-width: 345px; 
+    width: 110%; 
+    max-width: 340px; 
     overflow: auto;
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
