@@ -8,19 +8,20 @@
 }
 
 body {
-    display: flex;
+  display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-size: cover;
     background-position: top center;
     background-color: #766985;
-    padding: 20px;
+    transform: scale(0.9);
+  
 }
 
 .container {
-    width: 100%;
-    max-width: 500px;
+     width: 90%;
+    max-width: 370px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
@@ -63,20 +64,7 @@ h1 {
     color: black;
 }
 
-#entrar {
-    border: 1px solid rgb(215, 198, 230);
-    padding: 8px;
-    border-radius: 10px;
-    background-color: #9388AD;
-    color: #FFFFFF;
-}
-
-#entrar:hover {
-    background-color: rgb(104, 77, 126);
-}
-
-.lembrar-senha,
-.esqueci-senha {
+.lembrar-senha{
     display: flex;
     justify-content: space-between;
     margin: -8px 0 15px;
@@ -112,7 +100,7 @@ h1 {
 .criar-conta a {
     text-decoration: underline;
     color: #594F70;
-    font-weight: 550;
+    font-weight: 350;
 }
 
 .criar-conta a:hover {
@@ -131,32 +119,5 @@ p {
     font-style: normal;
 }
 
-/* Responsividade */
-@media (max-width: 600px) {
-    .container {
-        padding: 20px;
-    }
-
-    .container h1 {
-        font-size: 1.6rem;
-    }
-
-    .input-box input {
-        padding: 15px;
-        font-size: 14px;
-    }
-
-    .login {
-        font-size: 13px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    .criar-conta {
-        font-size: 13px;
-    }
-}
-
-
+@media (max-width: 600px) 
+    
