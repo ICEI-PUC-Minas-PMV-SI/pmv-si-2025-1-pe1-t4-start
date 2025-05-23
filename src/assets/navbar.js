@@ -155,7 +155,7 @@ class NavBar extends HTMLElement {
               
             
             <li class="nav-item">
-              <a href="creches.html">Mapa</a>
+              <a href="mapa.html">Mapa</a>
             </li>
             <li class="nav-item">
               <a href="landing-page.html">Sobre</a>
