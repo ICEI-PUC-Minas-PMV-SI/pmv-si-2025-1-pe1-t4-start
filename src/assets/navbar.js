@@ -150,12 +150,10 @@ class NavBar extends HTMLElement {
           </div>
 
           <ul class="nav-list">
-            <li class="dropdown">
-              <a href="servicos.html" style="display: flex; align-items: center">
-                <p>Serviços</p>
-              </a>
-              
+            <li class="nav-item"> <a href="servicos.html" style="display: flex; align-items: center">Serviços</a>
             </li>
+              
+            
             <li class="nav-item">
               <a href="creches.html">Mapa</a>
             </li>
@@ -193,16 +191,7 @@ class NavBar extends HTMLElement {
       });
     }
 
-    const dropdowns = this.shadowRoot.querySelectorAll(".dropdown");
-
-    dropdowns.forEach((dropdown) => {
-      dropdown.addEventListener("click", (e) => {
-        if (window.innerWidth <= 768) {
-          e.preventDefault();
-          dropdown.classList.toggle("active");
-        }
-      });
-    });
+   
   }
 }
 
