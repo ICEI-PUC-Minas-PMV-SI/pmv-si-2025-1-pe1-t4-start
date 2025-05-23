@@ -1,0 +1,69 @@
+const coresPorCategoria = {
+    Creche: '#009951',      
+    Baba: '#D732A8',     
+    Advogado: '#007AFF',
+    Psicólogo: '#BF6A02'   
+  };
+  
+ 
+  function criarMarcadorCor(corHex) {
+    return L.divIcon({
+      className: "",
+      html: `
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45">
+          <path fill="${corHex}" stroke="#000" stroke-width="2"
+                d="M16 0C7.2 0 0 7.2 0 16c0 11.2 16 29 16 29s16-17.8 16-29C32 7.2 24.8 0 16 0zM16 22c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z"/>
+        </svg>
+      `,
+      iconSize: [32, 45],
+      iconAnchor: [16, 45],
+      popupAnchor: [0, -45]
+    });
+  }
+  
+  
+  const usuarios = [
+    {
+      nome: "Dr Lucas Silveira",
+      lat: -19.92368338798214, 
+      lon: -43.936048081856,
+      categoria: "Advogado",
+      foto: "/",
+      descricao: "Especializado em advocacia do trabalho busco auxiliar mães com problemas referentes ao ambiente laboral que necessitem de apoio jurídico.",
+      perfilUrl: "/"
+    },
+    {
+      nome: "Lúcia Figueiredo",
+      lat: -19.922625142919983, 
+      lon: -43.99253063120594,
+      categoria: "Baba",
+      foto: "/",
+      descricao: "Especializada em cuidado infantil e atuante em centros infantis da região.",
+      perfilUrl: "/"
+    },
+    {
+      nome: "Creche Encanto",
+      lat: -19.91631679989123,
+      lon: -43.93468649349994,
+      categoria: "Creche",
+      foto: "/",
+      descricao: "Cuidamos com carinho e dedicação do seu bem mais precioso!",
+      perfilUrl: "/"
+      
+    },
+    {
+        nome: "Dr Pedro Paulo",
+        lat: -19.97268462468003, 
+        lon: -43.93759196461644,
+        categoria: "Psicólogo",
+        foto: "/",
+        descricao: "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+        whatsapp: "5511999999999" 
+    }
+    
+  ];
+  
+  
+  const map = L.map('map').setView([-19.912998, -43.940933], 12);
+  
+ 
