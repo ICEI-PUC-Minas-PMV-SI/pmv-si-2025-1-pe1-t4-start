@@ -28,7 +28,7 @@ const coresPorCategoria = {
       lat: -19.92368338798214, 
       lon: -43.936048081856,
       categoria: "Advogado",
-      foto: "/",
+      foto: "assets/images/profissionais/Adv-JJ.png",
       descricao: "Especializado em advocacia do trabalho busco auxiliar mães com problemas referentes ao ambiente laboral que necessitem de apoio jurídico.",
       perfilUrl: "/"
     },
@@ -37,7 +37,7 @@ const coresPorCategoria = {
       lat: -19.922625142919983, 
       lon: -43.99253063120594,
       categoria: "Baba",
-      foto: "/",
+      foto: "assets/images/profissionais/Babas-JA.png",
       descricao: "Especializada em cuidado infantil e atuante em centros infantis da região.",
       perfilUrl: "/"
     },
@@ -46,7 +46,7 @@ const coresPorCategoria = {
       lat: -19.91631679989123,
       lon: -43.93468649349994,
       categoria: "Creche",
-      foto: "assets/imagens/profissionais/foto-creche.png",
+      foto: "assets/images/foto-creche.jpg",
       descricao: "Cuidamos com carinho e dedicação do seu bem mais precioso!",
       perfilUrl: "http://127.0.0.1:5501/src/creches.html"
       
@@ -56,8 +56,9 @@ const coresPorCategoria = {
        lat: -19.97268462468003, 
        lon: -43.93759196461644,
        categoria: "Psicólogo",
-       foto: "/",
+       foto: "assets/images/profissionais/Psic-RA.png",
        descricao: "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+       perfilUrl: "/"
        
     }
     

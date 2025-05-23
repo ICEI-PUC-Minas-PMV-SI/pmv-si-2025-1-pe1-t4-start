@@ -1,7 +1,7 @@
 #map {
-      height: 99vh;
-      width: 99%;
-      border-radius: 30px;
+      height: 90vh;
+      width: 90%;
+      border-radius: 40px;
       margin-left: auto;
       margin-right: auto;
       margin-top: 30px;
@@ -9,31 +9,68 @@
 }
 .popup-container {
     display: flex;
-    align-items: center;
+    align-items:flex-start;;
     gap: 10px;
     max-width: 250px;
-  }
+}
   
 .popup-container img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
-  }
+    margin-top: 5px; 
+    
+}
   
-  .popup-container p {
+.popup-container p {
     margin: 5px 0;
     font-size: 15px;
-  }  
+}  
   
 .popup-container a {
     color: rgb(121, 112, 248);
     text-decoration: underline;
     font-size: 17px;
 
-  }
+}
 .popup-container strong{
     text-decoration: none;
     font-size: 20px;
     color: #9388AD;
+}
+.legenda {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    font-family: sans-serif;
+    font-size: 14px;
+    z-index: 1000;
+}
+  
+.legenda h1 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: #555;
+}
+  
+  
+.legenda li {
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    
+}
+  
+.legenda li span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 50%;
+    
 }
