@@ -66,4 +66,32 @@ const coresPorCategoria = {
   
   const map = L.map('map').setView([-19.912998, -43.940933], 12);
   
- 
+   
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+  
+  
+  usuarios.forEach(usuario => {
+    const cor = coresPorCategoria[usuario.categoria] || '#999';
+    const icone = criarMarcadorCor(cor);
+  
+    const popupHTML = `
+  <div style="display: flex; align-items: center; gap: 10px; max-width: 250px;">
+    <img src="${usuario.foto}" alt="Foto de ${usuario.nome}" width="50" height="50" style="border-radius: 50%; object-fit: cover;" />
+    <div>
+      <strong>${usuario.nome}</strong><br/>
+      <small>Categoria: <b>${usuario.categoria}</b></small><br/>
+      <p style="margin: 5px 0;">${usuario.descricao}</p>
+     <a href="${usuario.perfilUrl}" target="_blank" style="color: blue; text-decoration: underline;">
+  Perfil Completo
+     </a>
+      
+    </div>
+  </div>
+`;
+  
+    L.marker([usuario.lat, usuario.lon], { icon: icone })
+      .addTo(map)
+      .bindPopup(popupHTML);
+  });
