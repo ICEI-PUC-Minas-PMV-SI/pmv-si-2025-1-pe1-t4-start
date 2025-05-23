@@ -46,19 +46,19 @@ const coresPorCategoria = {
       lat: -19.91631679989123,
       lon: -43.93468649349994,
       categoria: "Creche",
-      foto: "/",
+      foto: "assets/imagens/profissionais/foto-creche.png",
       descricao: "Cuidamos com carinho e dedicação do seu bem mais precioso!",
-      perfilUrl: "/"
+      perfilUrl: "http://127.0.0.1:5501/src/creches.html"
       
     },
     {
-        nome: "Dr Pedro Paulo",
-        lat: -19.97268462468003, 
-        lon: -43.93759196461644,
-        categoria: "Psicólogo",
-        foto: "/",
-        descricao: "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
-        whatsapp: "5511999999999" 
+       nome: "Dr Pedro Paulo",
+       lat: -19.97268462468003, 
+       lon: -43.93759196461644,
+       categoria: "Psicólogo",
+       foto: "/",
+       descricao: "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+       
     }
     
   ];
