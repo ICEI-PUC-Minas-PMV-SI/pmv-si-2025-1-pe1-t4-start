@@ -1,12 +1,12 @@
-
 const form = document.getElementById('form-login');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  const nome = document.getElementById('nome').value;
   const email = document.getElementById('email').value;
   const senha = document.getElementById('senha').value;
   const confirmaSenha = document.getElementById('confirmar').value;
 
-  if (email === '' || senha === '' || confirmaSenha === '') {
+  if (nome === '' || email === '' || senha === '' || confirmaSenha === '') {
     alert('Preencha todos os campos!');
     return;
   }
@@ -28,3 +28,5 @@ form.addEventListener('submit', (e) => {
 
   window.location.href = 'cadastroprof.html';
 });
+
+
