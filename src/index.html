@@ -7,22 +7,21 @@
   <link rel="stylesheet" href="assets/css/style.css"/>
   <title>Login</title>
 </head>
-
 <body>
+  <img src="assets/images/logo.png"  alt="logo" id="logo-fundo">
   <header>
         <div id="title">
-            <img src="assets/images/logo.png" alt="logo"
-            width="165px"
-            style="position:initial"/>
+            </div>
+  </header>
   <main class="container">
-    <form>
+    <form id="form-login">
       <h1>Login</h1>
       <p class="paragrafo1">Bem-vindos ao nosso sistema!</p>
       <div class="input-box">
-        <input placeholder="E-mail" type="email" name="email" />
+        <input placeholder="E-mail" id="email" autocomplete="email">
       </div>
       <div class="input-box">
-        <input placeholder="Senha" type="password" maxlength="14">
+        <input placeholder="Senha" name="password" type="password" maxlength="14" id="senha">
       </div>
       <div class="lembrar-senha">
         <label>
@@ -31,11 +30,12 @@
         </label>
         <a href="senha.html">Esqueci senha</a>
       </div>
-      <button type="submit" class="login" formaction="forum.html">Entrar</button>
+      <button type="submit" class="login">Entrar</button>
       <div class="criar-conta">
         <p>Não possui uma conta? <a href="cadastro.html"><b>Cadastre-se</b></a></p>
       </div>
     </form>
   </main>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
