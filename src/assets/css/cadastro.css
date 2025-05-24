@@ -37,7 +37,7 @@ body {
 
 .container {
      width: 100%;
-    max-width: 330px; 
+    max-width: 385px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
@@ -46,7 +46,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     backdrop-filter: blur(100px);
 }
-
 
 .container h1 {
     font-size: 2rem;
@@ -129,6 +128,9 @@ p {
     font-size: 19px;
     font-style: normal;
 }
+
+@media (max-width: 700px)
+
 
 @media (max-width: 700px)
 
