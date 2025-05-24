@@ -22,12 +22,13 @@ body {
 
 #logo-fundo {
   position: fixed;
-  top: 0;
+  top: -70px; 
   left: 0;
-  width: 240px; 
-  height: auto; 
-  z-index: -1; 
+  width: 220px;
+  height: auto;
+  z-index: -1;
 }
+
 
 
 #title{
@@ -37,7 +38,7 @@ body {
 
 .container {
      width: 100%;
-    max-width: 385px; 
+    max-width: 365px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
@@ -128,9 +129,6 @@ p {
     font-size: 19px;
     font-style: normal;
 }
-
-@media (max-width: 700px)
-
 
 @media (max-width: 700px)
 
