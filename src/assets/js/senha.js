@@ -6,7 +6,7 @@ form.addEventListener('submit', (e) => {
     const email = document.getElementById('email').value;
 
     if (email === '') {
-        alert('Preencha todos os campos!');
+        alert('Preencha o campo de e-mail!');
         return;
     }
 
