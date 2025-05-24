@@ -37,4 +37,3 @@ button.addEventListener('click', (e) => {
 
   window.location.href = 'forum.html';
 });
-
