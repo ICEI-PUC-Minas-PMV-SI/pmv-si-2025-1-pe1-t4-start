@@ -28,3 +28,4 @@ form.addEventListener('submit', (e) => {
 
   window.location.href = 'forum.html';
 });
+
