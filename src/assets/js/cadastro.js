@@ -26,5 +26,5 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  window.location.href = 'cadastroprof.html';
+  window.location.href = 'forum.html';
 });
