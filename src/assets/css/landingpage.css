@@ -1,34 +1,32 @@
 body {
-    background-color: #766985;
     color: rgb(104, 77, 126);
     max-width: 1200px;
     margin: 0 auto;
-    width: 5000px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 #title {
     flex-direction: column;
-    line-height: 12px;
+    line-height: 1.2;
+    color: #726397;
 }
 
 li {
     display: inline-block;
     margin: 15px;
-    position: fixed width: 130px;
-    font-family: "Comic Relief", system-ui;
-    color: #f8f6fc
+    list-style: none;
 }
 
 a {
-    color: rgba(54, 35, 71, 0.733)
+    color: rgba(54, 35, 71, 0.733);
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 a:hover {
@@ -36,100 +34,52 @@ a:hover {
     transition: 0.3s all;
 }
 
-#entrar {
-    border: 1px solid rgb(215, 198, 230);
-    padding: 8px;
-    border-radius: 10px;
-    background-color: #9388AD;
-    color: #FFFFFF
-}
-
-#entrar:hover {
-    background-color: rgb(104, 77, 126);
-}
-
+#entrar,
 #profissao {
     border: 1px solid rgb(215, 198, 230);
-    padding: 8px;
+    padding: 8px 16px;
     border-radius: 10px;
     background-color: #9388AD;
-    color: #FFFFFF
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
-
+#entrar:hover,
 #profissao:hover {
-    background-color: rgb(104, 77, 126);
-}
-#logar {
-    border: 1px solid rgb(215, 198, 230);
-    padding: 8px;
-    border-radius: 10px;
-    background-color: #9388AD;
-    color: #FFFFFF
-}
-#logar:hover {
-    background-color: rgb(104, 77, 126);
-}
-
-#serviços {
-    border: 1px solid rgb(215, 198, 230);
-    padding: 8px;
-    border-radius: 10px;
-    background-color: #9388AD;
-    color: #FFFFFF
-}
-
-#serviços:hover {
     background-color: rgb(104, 77, 126);
 }
 
 h1 {
-    font-weight: 400px;
-    font-family: "Comic Relief", system-ui;
-    color: #d6d1e2;
+    font-weight: 400;
+    color: #726397;
 }
 
-main {
-    display: flex;
-    flex-direction: inherit;
-    margin-top: 60px;
-}
-
-h2 {
+h2, h3, h4, h5 {
     font-size: 30px;
-    line-height: 10px;
-    font-family: "Comic Relief", system-ui;
-    color: #362e52;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #726397;
 }
 
 .paragrafos {
     color: #bcb9c9;
-    font-family: "Comic Relief", system-ui;
     font-size: 20px;
+    max-width: 600px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.imglogo img {
+    max-width: 100%;
+    height: auto;
 }
 
 .title {
     max-width: 100%;
 }
-
-h3 {
-    font-size: 30px;
-    line-height: 10px;
-    clear: right;
-    font-family: "Comic Relief", system-ui;
-    color: #362e52;
-}
-
-h4 {
-    font-size: 30px;
-    line-height: 10px;
-    font-family: "Comic Relief", system-ui;
-    color: #362e52;
-}
-
-h5 {
-    font-size: 30px;
-    line-height: 10px;
-    color: #362e52;
-}
-
