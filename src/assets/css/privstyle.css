@@ -51,3 +51,22 @@ main {
   line-height: 1.6;
   color: #333;
 }
+
+.termosdeuso {
+    max-width: 1000px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.termosdeuso h2,
+.termosdeuso h3 {
+  color: #726397;
+  margin-bottom: 10px;  
+}
+.termosdeuso p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #333;
+}
