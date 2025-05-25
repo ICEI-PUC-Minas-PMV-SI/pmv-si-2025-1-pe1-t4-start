@@ -109,7 +109,7 @@ class Footer extends HTMLElement {
         </div>
 
         <div class="privacidade">
-          <a href="#">Política de Privacidade</a>
+          <a href="politicapriv.html">Política de Privacidade</a>
           <a href="#">Termos de Uso</a>
         </div>
 
