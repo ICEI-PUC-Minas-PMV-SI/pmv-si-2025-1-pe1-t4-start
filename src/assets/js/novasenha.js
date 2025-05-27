@@ -10,7 +10,9 @@ form.addEventListener('submit', (e) => {
   } else if (senha !== confirmeInput.value) {
     alert('As senhas não coincidem!');
   } else {
-    window.location.href = 'index.html'; 
-  }
-});
+        alert('Senha redefinida com sucesso!'); 
+        window.location.href = 'index.html'; 
+      }
+    });
+
 
