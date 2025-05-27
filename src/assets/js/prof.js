@@ -33,8 +33,10 @@ button.addEventListener('click', (e) => {
   const registro = registroInput.value;
   const localizacao = locInput.value;
 
-  if (especialidade === '') {
-    alert('Por favor, selecione uma especialidade!');
+  const especialidadesValidas = Object.keys(options);
+
+  if (!especialidadesValidas.includes(especialidade)) {
+    alert('Por favor, selecione uma das especialidades disponíveis!');
     return;
   }
 
