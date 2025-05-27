@@ -86,6 +86,9 @@ h1 {
     margin: -8px 0 15px;
     accent-color: #594f70;
 }
+.lembrar-senha a{
+      color: #7652ca;
+}
 
 .login {
     width: 100%;
@@ -134,5 +137,8 @@ p {
     font-size: 19px;
     font-style: normal;
 }
+
+@media (max-width: 600px) 
+    
 
 @media (max-width: 600px) 
