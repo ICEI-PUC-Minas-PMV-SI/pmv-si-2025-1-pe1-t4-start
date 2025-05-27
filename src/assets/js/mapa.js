@@ -48,7 +48,7 @@ const coresPorCategoria = {
       categoria: "Creche",
       foto: "assets/images/foto-creche.jpg",
       descricao: "Cuidamos com carinho e dedicação do seu bem mais precioso!",
-      perfilUrl: "http://127.0.0.1:5501/src/creches.html"
+      perfilUrl: "creches.html"
       
     },
     {
