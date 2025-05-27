@@ -18,8 +18,9 @@ form.addEventListener('submit', (e) => {
 
     alert('E-mail enviado com sucesso!');
 
-    window.location.href = 'nova-senha.html';
+    window.location.href = 'código.html';
 });
+
 
 
 
