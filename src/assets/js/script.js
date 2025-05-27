@@ -1,4 +1,3 @@
-
 const form = document.getElementById('form-login');
 
 form.addEventListener('submit', (e) => {
@@ -21,5 +20,11 @@ form.addEventListener('submit', (e) => {
         alert('A senha deve conter pelo menos 8 caracteres!');
         return;
     }
-    window.location.href = 'forum.html';
+
+    if (email === '0000907077@senaimgaluno.com.br' && senha === '12345678') {
+        window.location.href = 'forum.html';
+    } else {
+        alert('Essa conta não existe');
+    }
 });
+

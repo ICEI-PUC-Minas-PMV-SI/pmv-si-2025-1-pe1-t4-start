@@ -57,3 +57,4 @@ button.addEventListener('click', (e) => {
 });
 
 toggleRegistroInput();
+

@@ -1,5 +1,6 @@
 
 const form = document.getElementById('form-login');
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -15,6 +16,11 @@ form.addEventListener('submit', (e) => {
         return;
     }
 
+    alert('E-mail enviado com sucesso!');
+
     window.location.href = 'nova-senha.html';
 });
+
+
+
 
