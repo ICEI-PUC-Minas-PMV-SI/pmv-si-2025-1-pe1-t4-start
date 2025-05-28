@@ -190,10 +190,7 @@ class NavBar extends HTMLElement {
         mobileMenu.classList.toggle("active");
       });
     }
-
-   
   }
 }
 
 customElements.define("header-component", NavBar);
-

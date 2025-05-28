@@ -6,8 +6,8 @@ class PostModal {
       userAvatar = "/api/placeholder/40/40",
       tag = "Indefinido",
       placeholder = "Sobre o que você quer falar?",
-      onSubmit = () => {},
-      onClose = () => {},
+      onSubmit = () => { },
+      onClose = () => { },
     } = options;
 
     this.container = container;
