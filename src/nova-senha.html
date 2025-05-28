@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/nova-senha.css">
-  <title>Recuperação de senha</title>
-</head>
-<body>
-    <img src="assets/images/logo.png"  alt="logo" id="logo-fundo">
-     <header>
-        <div id="title">
-        </div>
-     </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/nova-senha.css" />
+    <title>Recuperar senha</title>
+  </head>
+  <body>
+    <div class="background-effect"></div>
+    <img src="assets/images/logo-branca.png" alt="logo" id="logo-fundo" />
     <main class="container">
-        <form id="form-login">
-      <h1>Redefinir senha</h1>
-      <p class="paragrafo1">Escolha sua nova senha</p>
-      <div class="input-box">
-        <input placeholder="Digite a nova senha" type="password" maxlength="14" id="senha nova">
-      </div>
-      <div class="input-box">
-        <input placeholder="Confirme a senha" type="password" maxlength="14" id="confirme">
-      </div>
-      <button type="submit" class="new">Confirmar</button>
-      </div>
-      <div class="cadastro">
-      </div>
-    </form>
-  </main>
-</body>
-<script src="assets/js/novasenha.js"></script>
+      <form id="form-login">
+        <h1>Redefinir senha</h1>
+        <p class="paragrafo1">Escolha sua nova senha</p>
+        <div class="input-box">
+          <fieldset>
+            <legend>Nova senha</legend>
+            <input
+              placeholder="Digite sua nova senha"
+              id="nova-senha"
+              type="password"
+              maxlength="14"
+            />
+          </fieldset>
+        </div>
+        <div class="input-box">
+          <fieldset>
+            <legend>Confirmar senha</legend>
+            <input
+              placeholder="Confirme a senha"
+              id="confirme"
+              type="password"
+              maxlength="14"
+            />
+          </fieldset>
+        </div>
+        <button type="submit" class="new">Confirmar</button>
+      </form>
+    </main>
+  </body>
+  <script src="assets/js/novasenha.js"></script>
 </html>
