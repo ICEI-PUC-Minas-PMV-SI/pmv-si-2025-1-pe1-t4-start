@@ -1,55 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Login</title>
-  </head>
-  <body>
-    <div class="background-effect"></div>
-    <img src="assets/images/logo-branca.png" alt="logo" id="logo-fundo" />
-    <main class="container">
-      <form id="form-login">
-        <h1>Login</h1>
-        <p class="paragrafo1">Bem-vindos ao nosso sistema!</p>
-        <div class="input-box">
-          <fieldset>
-            <legend>Email</legend>
-            <input
-              placeholder="Digite seu email"
-              id="email"
-              type="text"
-              autocomplete="email"
-            />
-          </fieldset>
-        </div>
-        <div class="input-box">
-          <fieldset>
-            <legend>Senha</legend>
-            <input
-              placeholder="Digite sua senha"
-              id="senha"
-              type="password"
-              maxlength="14"
-            />
-          </fieldset>
-        </div>
-        <div class="lembrar-senha">
-          <label>
-            <input type="checkbox" />
-            <p>Lembrar acesso</p>
-          </label>
-          <a id="esqueci" href="senha.html">Esqueci a senha</a>
-        </div>
-        <button type="submit" class="login">Entrar</button>
-        <div class="criar-conta">
-          <p>
-            Não possui uma conta? <a href="cadastro.html"><b>Cadastre-se</b></a>
-          </p>
-        </div>
-      </form>
-    </main>
-    <script src="assets/js/script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <title>Login</title>
+</head>
+<body>
+  <img src="assets/images/logo.png"  alt="logo" id="logo-fundo">
+  <header>
+        <div id="title">
+            </div>
+  </header>
+  <main class="container">
+    <form id="form-login">
+      <h1>Login</h1>
+      <p class="paragrafo1">Bem-vindos ao nosso sistema!</p>
+      <div class="input-box">
+        <input placeholder="E-mail" id="email" type="text" autocomplete="email">
+      </div>
+      <div class="input-box">
+        <input placeholder="Senha" type="password" maxlength="14" id="senha">
+      </div>
+      <div class="lembrar-senha">
+        <label>
+          <input type="checkbox">
+          Lembrar acesso
+        </label>
+        <a id="esqueci" href="senha.html">Esqueci a senha</a>
+      </div>
+      <button type="submit" class="login">Entrar</button>
+      <div class="criar-conta">
+        <p>Não possui uma conta? <a href="cadastro.html"><b>Cadastre-se</b></a></p>
+      </div>
+    </form>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
 </html>
