@@ -16,7 +16,7 @@ body {
   background-position: top center;
   background-color: #766985;
   position: relative; 
-  transform: scale(0.9);
+  transform: scale(0.8);
 
 }
 
@@ -36,8 +36,9 @@ body {
 }
 
 .container {
+    height: 540px;
      width: 100%;
-    max-width: 400px; 
+     max-width: 405px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
@@ -54,7 +55,7 @@ body {
 
 .input-box {
     width: 100%;
-    margin: 30px 0;
+    margin: 15px 0;
     color: #000000;
 }
 
@@ -138,6 +139,8 @@ p {
 }
 
 @media (max-width: 600px) 
+    
+
     
 
     
