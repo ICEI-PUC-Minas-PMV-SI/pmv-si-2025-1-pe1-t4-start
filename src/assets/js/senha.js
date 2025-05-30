@@ -1,4 +1,3 @@
-
 const form = document.getElementById('form-login');
 
 form.addEventListener('submit', (e) => {
@@ -95,15 +94,7 @@ form.addEventListener('submit', (e) => {
             "fabiana.costa@gmail.com",
             "carla.ferreira@gmail.com",
             "helena.santos@gmail.com",
-            "paula.alves@gmail.com",
-            "ananeves.silva@gmail.com",
-            "julietadasneves@gmail.com",
-            "lidianeaparecida@gmail.com",
-            "cassianemelo@gmail.com",
-            "luciasouza@gmail.com",
-            "sthercastrosz@gmail.com",
-            "milenacastro@gmail.com",
-            "eduardamelo@gmail.com"
+            "paula.alves@gmail.com"
         ]
     };
     function verificarEmail(email) {
@@ -117,6 +108,10 @@ form.addEventListener('submit', (e) => {
         }
         return false;
     }
+    if (!email.includes('@')) {
+    alert('E-mail inválido!');
+    return;
+  }
     if (verificarEmail(email)) {
         alert('E-mail enviado com sucesso!');
         window.location.href = 'código.html';
@@ -125,6 +120,4 @@ form.addEventListener('submit', (e) => {
         return;
     }
 });
-
-
 
