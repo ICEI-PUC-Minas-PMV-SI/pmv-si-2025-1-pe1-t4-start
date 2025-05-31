@@ -15,3 +15,31 @@ if (profilePic) {
 } else {
     document.getElementById("profilePreview").src = "../assets/images/no-photo.jpg";
 }
+
+function previewProfilePicture(event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                document.getElementById('profilePreview').src = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+        function salvarPerfil(event) {
+            event.preventDefault(); // impede que envie pro servidor
+
+            const nome = document.getElementById('name').value;
+            const bio = document.getElementById('bio').value;
+            const dataNasc = document.getElementById('birthdate').value;
+            const filhos = document.getElementById('children').value;
+            const localizacao = document.getElementById('location').value;
+
+            const profilePic = document.getElementById('profilePreview').src;
+            const formattedDate = new Date(dataNasc).toLocaleDateString('pt-BR');
+
+            localStorage.setItem('name', nome);
+            localStorage.setItem('bio', bio);
+            localStorage.setItem('birthdate', formattedDate);
+            localStorage.setItem('children', filhos);
+            localStorage.setItem('location', localizacao);
+            localStorage.setItem('profilePic', profilePic);
+            window.location.href = "userprofile.html";
+        }
