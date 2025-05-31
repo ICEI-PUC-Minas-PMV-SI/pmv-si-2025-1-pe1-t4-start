@@ -69,6 +69,10 @@ body {
     color: black;
     padding: 20px;
 }
+.input-box input::placeholder {
+    color: rgb(117, 102, 124);
+}
+
 
 
 h1 {
@@ -131,6 +135,8 @@ p {
 }
 
 @media (max-width: 600px) 
+    
+
     
 
 
