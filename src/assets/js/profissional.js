@@ -64,6 +64,18 @@ const dados = {
     { "email": "mundoencantado.creche@educamais.com" },
     { "email": "amorecarinho.creche@familiakids.com" },
     { "email": "creche.luzdavida@infantil.org" }
+  ],
+  maes: [
+    { "email": "maria.souza@gmail.com" },
+    { "email": "joana.pereira@gmail.com" },
+    { "email": "ana.lima@gmail.com" },
+    { "email": "patricia.silva@gmail.com" },
+    { "email": "lucia.martins@gmail.com" },
+    { "email": "renata.oliveira@gmail.com" },
+    { "email": "fabiana.costa@gmail.com" },
+    { "email": "carla.ferreira@gmail.com" },
+    { "email": "helena.santos@gmail.com" },
+    { "email": "paula.alves@gmail.com" }
   ]
 };
 
@@ -75,7 +87,7 @@ form.addEventListener('submit', (e) => {
   const confirmaSenha = document.getElementById('confirmar').value.trim();
   const name = document.getElementById('nome').value.trim();
 
-  if (!email || !senha || !confirmaSenha || !name ) {
+  if (!email || !senha || !confirmaSenha || !name) {
     alert('Preencha todos os campos!');
     return;
   }
@@ -95,14 +107,16 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  const emailExiste = Object.values(dados).some(categoria =>
+  const emailJaCadastrado = Object.values(dados).some(categoria =>
     categoria.some(usuario => usuario.email === email)
   );
 
-  if (emailExiste) {
+  if (emailJaCadastrado) {
     alert('Este e-mail já está cadastrado.');
     return;
   }
+
+
   window.location.href = 'cadastroprof.html';
 });
 
