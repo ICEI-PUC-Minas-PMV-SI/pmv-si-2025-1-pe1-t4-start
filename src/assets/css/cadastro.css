@@ -76,6 +76,7 @@ body {
 .input-box input::placeholder {
     color: rgb(117, 102, 124);
 }
+
 .lembrar-senha{
     display: flex;
     margin: -8px 0 15px;
@@ -133,6 +134,7 @@ p {
 
 @media (max-width: 600px) 
     
+
 
 
 
