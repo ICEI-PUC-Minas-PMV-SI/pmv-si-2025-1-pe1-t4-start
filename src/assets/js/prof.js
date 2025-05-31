@@ -1,8 +1,3 @@
-
-const especialidadeInput = document.getElementById('especialidade');
-const registroContainer = document.getElementById('registroContainer');
-const registroInput = document.getElementById('registro');
-const locInput = document.getElementById('loc');
 const button = document.querySelector('.prof');
 
 const options = {
@@ -59,4 +54,3 @@ button.addEventListener('click', (e) => {
 });
 
 toggleRegistroInput();
-
