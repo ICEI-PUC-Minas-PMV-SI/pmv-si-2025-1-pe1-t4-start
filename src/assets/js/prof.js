@@ -60,5 +60,3 @@ button.addEventListener('click', (e) => {
 
 toggleRegistroInput();
 
-
-toggleRegistroInput();
