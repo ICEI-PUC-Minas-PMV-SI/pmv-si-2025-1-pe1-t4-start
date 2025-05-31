@@ -120,4 +120,3 @@ form.addEventListener('submit', (e) => {
         return;
     }
 });
-
