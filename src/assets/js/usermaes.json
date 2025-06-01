@@ -7,7 +7,7 @@
             "children": 2,
             "location": "Belo Horizonte/MG",
             "bio": "Mãe apaixonada por seus dois filhos, estudante de administração e amante de jardinagem. Adoro compartilhar receitas, experiências de maternidade e momentos da vida simples.",
-            "image": "./images/profile/MariaSouza.png"
+            "image": "./assets/images/profile/MariaSouza.png"
         },
         {
             "name": "Joana Pereira",
@@ -16,7 +16,7 @@
             "children": 1,
             "location": "Uberlândia/MG",
             "bio": "Amo compartilhar dicas de maternidade, bem-estar e organização da vida. Artesã nas horas vagas, encontro na costura uma forma de relaxar e expressar minha criatividade.",
-            "image": "./images/profile/JoanaPereira.png"
+            "image": "./assets/images/profile/JoanaPereira.png"
         },
         {
             "name": "Ana Lima",
@@ -25,7 +25,7 @@
             "children": 3,
             "location": "Contagem/MG",
             "bio": "Mãe de três crianças, apaixonada por fotografia e viagens. Trabalho com fotografia de família e adoro eternizar momentos especiais. Também gosto de escrever sobre as alegrias e desafios da maternidade.",
-            "image": "./images/profile/AnaLima.png"
+            "image": "./assets/images/profile/AnaLima.png"
         },
         {
             "name": "Patricia Silva",
@@ -34,7 +34,7 @@
             "children": 2,
             "location": "Juiz de Fora/MG",
             "bio": "Apaixonada por artesanato, vida simples e maternidade. Estudante de pedagogia, acredito que a educação transforma. Nas horas vagas, gosto de produzir peças em crochê e decoração sustentável.",
-            "image": "./images/profile/PatriciaSilva.png"
+            "image": "./assets/images/profile/PatriciaSilva.png"
         },
         {
             "name": "Lucia Martins",
@@ -43,7 +43,7 @@
             "children": 1,
             "location": "Betim/MG",
             "bio": "Amante da natureza, da culinária mineira e de ser mãe. Gosto de trilhas, cultivo de plantas e acredito no poder da simplicidade. Maternidade, sustentabilidade e bem-estar são meus pilares de vida.",
-            "image": "./images/profile/LuciaMartins.png"
+            "image": "./assets/images/profile/LuciaMartins.png"
         },
         {
             "name": "Renata Oliveira",
@@ -52,7 +52,7 @@
             "children": 2,
             "location": "Montes Claros/MG",
             "bio": "Mãe, empreendedora e defensora da educação infantil. Tenho um pequeno negócio de brinquedos educativos feitos à mão e sou apaixonada por ajudar outras mães a encontrarem equilíbrio na rotina.",
-            "image": "./images/profile/RenataOliveira.png"
+            "image": "./assets/assets/images/profile/RenataOliveira.png"
         },
         {
             "name": "Fabiana Costa",
@@ -61,7 +61,7 @@
             "children": 3,
             "location": "Ipatinga/MG",
             "bio": "Apaixonada por leitura, maternidade e autocuidado. Estudante de psicologia, busco entender cada fase da vida e da criação dos meus filhos. Compartilho reflexões, desafios e conquistas da vida materna.",
-            "image": "./images/profile/FabianaCosta.png"
+            "image": "./assets/images/profile/FabianaCosta.png"
         },
         {
             "name": "Carla Ferreira",
@@ -70,7 +70,7 @@
             "children": 1,
             "location": "Divinópolis/MG",
             "bio": "Mãe de primeira viagem, apaixonada por plantas e decoração sustentável. Além de cuidar da minha filha, administro uma pequena loja online de produtos ecológicos e personalizados.",
-            "image": "./images/profile/CarlaFerreira.png"
+            "image": "./assets/images/profile/CarlaFerreira.png"
         },
         {
             "name": "Helena Santos",
@@ -79,7 +79,7 @@
             "children": 2,
             "location": "Governador Valadares/MG",
             "bio": "Apaixonada por viagens, culinária e por compartilhar experiências reais da maternidade. Também sou estudante de gastronomia, buscando transformar amor em receitas que aquecem o coração da minha família.",
-            "image": "./images/profile/HelenaSantos.png"
+            "image": "./assets/images/profile/HelenaSantos.png"
         },
         {
             "name": "Paula Alves",
@@ -88,7 +88,7 @@
             "children": 2,
             "location": "Sete Lagoas/MG",
             "bio": "Mãe dedicada, apaixonada por tecnologia, inovação e desenvolvimento pessoal. Sou estudante de desenvolvimento de sistemas e adoro criar soluções digitais que facilitam o dia a dia de mães como eu.",
-            "image": "./images/profile/PaulaAlves.png"
+            "image": "./assets/images/profile/PaulaAlves.png"
         }
     ]
 }
