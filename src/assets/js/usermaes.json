@@ -1,0 +1,84 @@
+{
+  "maes": [
+    {
+      "name": "Maria Souza",
+      "email": "maria.souza@gmail.com",
+      "birthdate": "1987-05-12",
+      "children": 2,
+      "location": "Belo Horizonte/MG",
+      "bio": "Mãe apaixonada por seus dois filhos, estudante de administração e amante de jardinagem. Adoro compartilhar receitas, experiências de maternidade e momentos da vida simples."
+    },
+    {
+      "name": "Joana Pereira",
+      "email": "joana.pereira@gmail.com",
+      "birthdate": "1990-03-22",
+      "children": 1,
+      "location": "Uberlândia/MG",
+      "bio": "Amo compartilhar dicas de maternidade, bem-estar e organização da vida. Artesã nas horas vagas, encontro na costura uma forma de relaxar e expressar minha criatividade."
+    },
+    {
+      "name": "Ana Lima",
+      "email": "ana.lima@gmail.com",
+      "birthdate": "1985-07-10",
+      "children": 3,
+      "location": "Contagem/MG",
+      "bio": "Mãe de três crianças, apaixonada por fotografia e viagens. Trabalho com fotografia de família e adoro eternizar momentos especiais. Também gosto de escrever sobre as alegrias e desafios da maternidade."
+    },
+    {
+      "name": "Patricia Silva",
+      "email": "patricia.silva@gmail.com",
+      "birthdate": "1992-11-05",
+      "children": 2,
+      "location": "Juiz de Fora/MG",
+      "bio": "Apaixonada por artesanato, vida simples e maternidade. Estudante de pedagogia, acredito que a educação transforma. Nas horas vagas, gosto de produzir peças em crochê e decoração sustentável."
+    },
+    {
+      "name": "Lucia Martins",
+      "email": "lucia.martins@gmail.com",
+      "birthdate": "1988-09-15",
+      "children": 1,
+      "location": "Betim/MG",
+      "bio": "Amante da natureza, da culinária mineira e de ser mãe. Gosto de trilhas, cultivo de plantas e acredito no poder da simplicidade. Maternidade, sustentabilidade e bem-estar são meus pilares de vida."
+    },
+    {
+      "name": "Renata Oliveira",
+      "email": "renata.oliveira@gmail.com",
+      "birthdate": "1991-06-30",
+      "children": 2,
+      "location": "Montes Claros/MG",
+      "bio": "Mãe, empreendedora e defensora da educação infantil. Tenho um pequeno negócio de brinquedos educativos feitos à mão e sou apaixonada por ajudar outras mães a encontrarem equilíbrio na rotina."
+    },
+    {
+      "name": "Fabiana Costa",
+      "email": "fabiana.costa@gmail.com",
+      "birthdate": "1986-02-18",
+      "children": 3,
+      "location": "Ipatinga/MG",
+      "bio": "Apaixonada por leitura, maternidade e autocuidado. Estudante de psicologia, busco entender cada fase da vida e da criação dos meus filhos. Compartilho reflexões, desafios e conquistas da vida materna."
+    },
+    {
+      "name": "Carla Ferreira",
+      "email": "carla.ferreira@gmail.com",
+      "birthdate": "1993-08-25",
+      "children": 1,
+      "location": "Divinópolis/MG",
+      "bio": "Mãe de primeira viagem, apaixonada por plantas e decoração sustentável. Além de cuidar da minha filha, administro uma pequena loja online de produtos ecológicos e personalizados."
+    },
+    {
+      "name": "Helena Santos",
+      "email": "helena.santos@gmail.com",
+      "birthdate": "1989-04-03",
+      "children": 2,
+      "location": "Governador Valadares/MG",
+      "bio": "Apaixonada por viagens, culinária e por compartilhar experiências reais da maternidade. Também sou estudante de gastronomia, buscando transformar amor em receitas que aquecem o coração da minha família."
+    },
+    {
+      "name": "Paula Alves",
+      "email": "paula.alves@gmail.com",
+      "birthdate": "1990-12-20",
+      "children": 2,
+      "location": "Sete Lagoas/MG",
+      "bio": "Mãe dedicada, apaixonada por tecnologia, inovação e desenvolvimento pessoal. Sou estudante de desenvolvimento de sistemas e adoro criar soluções digitais que facilitam o dia a dia de mães como eu."
+    }
+  ]
+}
