@@ -1,73 +1,49 @@
-// recupera os dados do localStorage para exibição
-document.getElementById("name").innerText =
-    localStorage.getItem("name") || "Nome não informado";
-document.getElementById("bio").innerText =
-    localStorage.getItem("bio") || "Bio não informada";
-document.getElementById("birthdate").innerText =
-    localStorage.getItem("birthdate") || "Data de nascimento não informada";
-document.getElementById("children").innerText =
-    localStorage.getItem("children") || "Número de filhos não informado";
-document.getElementById("location").innerText =
-    localStorage.getItem("location") || "Localização não informada";
-document.getElementById("email").innerText =
-    localStorage.getItem("email") || "Email não informado";
+const userEmail = "renata.oliveira@gmail.com";
 
-// exibe foto de perfil
+// carrega dados do JSON e localStorage
+function carregarDadosDoJson() {
+    fetch("./assets/js/usermaes.json")
+        .then(response => response.json())
+        .then(data => {
+            const user = data.maes.find(mae => mae.email === userEmail);
+            const dadosSalvos = verificarLocalStorage(userEmail);
+            const userData = dadosSalvos || user;
 
-var profilePic = localStorage.getItem("profilePic");
-if (profilePic) {
-    document.getElementById("profilePreview").src = profilePic;
-} else {
-    document.getElementById("profilePreview").src = "../assets/images/no-photo.jpg";
+            if (userData) {
+                preencherDados(userData);
+            } else {
+                console.error("Usuário não encontrado.");
+            }
+        })
+        .catch(error => console.error("Erro ao carregar dados:", error));
 }
 
-function previewProfilePicture(event) {
-    const reader = new FileReader();
-    reader.onload = function () {
-        document.getElementById('profilePreview').src = reader.result;
-    };
-    reader.readAsDataURL(event.target.files[0]);
+// verifica localStorage
+function verificarLocalStorage(email) {
+    return JSON.parse(localStorage.getItem(email));
 }
 
-// salva os dados do perfil 
-
-function salvarPerfil(event) {
-    event.preventDefault();
-
-    const nome = document.getElementById('name').value;
-    const bio = document.getElementById('bio').value;
-    const dataNasc = document.getElementById('birthdate').value;
-    const filhos = document.getElementById('children').value;
-    const localizacao = document.getElementById('location').value;
-    const email = document.getElementById('email').value;
-
-    const profilePic = document.getElementById('profilePreview').src;
-    const formattedDate = new Date(dataNasc).toLocaleDateString('pt-BR');
-
-    localStorage.setItem('name', nome);
-    localStorage.setItem('bio', bio);
-    localStorage.setItem('birthdate', formattedDate);
-    localStorage.setItem('children', filhos);
-    localStorage.setItem('location', localizacao);
-    localStorage.setItem('profilePic', profilePic);
-    localStorage.setItem('email', email);
-    window.location.href = "userprofile.html";
+// preenche dados na tela
+function preencherDados(user) {
+    document.getElementById("name").innerText = user.name;
+    document.getElementById("bio").innerText = user.bio;
+    document.getElementById("birthdate").innerText = new Date(user.birthdate).toLocaleDateString('pt-BR');
+    document.getElementById("children").innerText = user.children;
+    document.getElementById("location").innerText = user.location;
+    document.getElementById("email").innerText = user.email;
+    document.getElementById("profilePreview").src = user.image || "./assets/images/no-photo.jpg";
 }
-// botao para excluir perfil
 
+// excluir perfil
 function excluirPerfil() {
     const confirmacao = confirm("Tem certeza que deseja excluir seu perfil?");
     if (confirmacao) {
-        localStorage.removeItem("name");
-        localStorage.removeItem("bio");
-        localStorage.removeItem("birthdate");
-        localStorage.removeItem("children");
-        localStorage.removeItem("location");
-        localStorage.removeItem("profilePic");
-        localStorage.removeItem("email");
+        localStorage.removeItem(userEmail);
         alert("Perfil excluído com sucesso.");
         window.location.href = "landing-page.html";
     } else {
         alert("Exclusão cancelada.");
     }
 }
+
+carregarDadosDoJson();
