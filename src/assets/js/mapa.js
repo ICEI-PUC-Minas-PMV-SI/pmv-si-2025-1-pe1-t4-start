@@ -95,12 +95,6 @@ usuarios.forEach((usuario) => {
   const marker = L.marker([usuario.lat, usuario.lon], { icon: icone }).addTo(map);
 
   marker.on("click", () => {
-    const sidebar = document.getElementById("sidebar");
-    sidebar.innerHTML = infoHTML; // Supondo que infoHTML já foi definido
-    sidebar.classList.add("active");
-  });
-});
-
   const infoHTML = `
     <section class="profile-card">
             <div class="profile-header">
@@ -203,10 +197,10 @@ usuarios.forEach((usuario) => {
 
   const marker = L.marker([usuario.lat, usuario.lon], { icon: icone }).addTo(map);
 
-  marker.on("click", () => {
+  
     const sidebar = document.getElementById("sidebar");
     sidebar.innerHTML = infoHTML;
     sidebar.classList.add("active");
   });
   
-;
+});
