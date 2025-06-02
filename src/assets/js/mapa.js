@@ -179,4 +179,5 @@ usuarios.forEach((usuario) => {
     sidebar.innerHTML = infoHTML;
     sidebar.classList.add("active");
   });
+  
 });
