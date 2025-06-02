@@ -6,8 +6,8 @@ class PostModal {
       userAvatar = "/api/placeholder/40/40",
       tag = "Indefinido",
       placeholder = "Sobre o que você quer falar?",
-      onSubmit = () => { },
-      onClose = () => { },
+      onSubmit = () => {},
+      onClose = () => {},
     } = options;
 
     this.container = container;
@@ -99,6 +99,16 @@ class PostModal {
       this.updatePostButton();
     });
 
+    textarea.addEventListener("keydown", (e) => {
+      // isso permite que o post seja feito se o usuário clicar em ctrl+enter
+      if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        if (this.postContent.trim().length > 0) {
+          this.submit();
+        }
+      }
+    });
+
     postButton.addEventListener("click", () => {
       if (this.postContent.trim().length > 0) {
         this.submit();
@@ -118,6 +128,13 @@ class PostModal {
   open() {
     if (this.element) {
       this.element.style.display = "flex";
+      // isso vai fazer ele focar no textarea ao abrir o modal
+      setTimeout(() => {
+        const textarea = this.element.querySelector(".post-content");
+        if (textarea) {
+          textarea.focus();
+        }
+      }, 10);
     }
     return this;
   }
