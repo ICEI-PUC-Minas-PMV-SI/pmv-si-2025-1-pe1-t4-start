@@ -25,7 +25,6 @@ const initialPosts = [
       },
     ],
   },
-  // ...adicione outros posts aqui...
 ];
 
 function renderPosts(posts) {
@@ -89,7 +88,7 @@ function renderPosts(posts) {
 }
 
 function addPostListeners() {
-  // Like
+  // funcão de like
   document.querySelectorAll(".like-button").forEach(function (likeButton) {
     let isLiked = false;
     const svgPath = likeButton.querySelector("svg path");
@@ -108,7 +107,7 @@ function addPostListeners() {
     });
   });
 
-  // Comentário
+  // função de comentário
   document.querySelectorAll(".post").forEach(function (post) {
     const form = post.querySelector(".comment-form");
     const input = post.querySelector(".comment-input");
@@ -145,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const inputCreatePost = document.getElementById("inputCreatePost");
   const createPostBtn = document.getElementById("createPostBtn");
 
-  // Cria o modal apenas quando o DOM estiver pronto
+  // isso faz com que o modal so seja iniciado quando a DOM foi criado
   function initModal() {
     return new PostModal({
       userName: currentUser.name,
