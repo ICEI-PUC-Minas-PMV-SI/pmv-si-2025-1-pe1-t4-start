@@ -5,21 +5,38 @@ const coresPorCategoria = {
   Psicólogo: "#BF6A02",
 };
 
-function criarMarcadorCor(corHex) {
-  return L.divIcon({
-    className: "",
-    html: `
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45">
-          <path fill="${corHex}" stroke="#000" stroke-width="2"
-                d="M16 0C7.2 0 0 7.2 0 16c0 11.2 16 29 16 29s16-17.8 16-29C32 7.2 24.8 0 16 0zM16 22c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z"/>
-        </svg>
-      `,
-    iconSize: [32, 45],
-    iconAnchor: [16, 45],
-    popupAnchor: [0, -45],
-  });
+const iconeClassePorCategoria = {
+  Creche: "fa-solid fa-baby-carriage",
+  Baba: "fa-solid fa-baby",
+  Advogado: "fa-solid fa-scale-balanced",
+  Psicologo: "fa-solid fa-brain",
+};
+
+function normalizarCategoria(nome) {
+  return nome.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
 
+function criarMarcadorCor(corHex, iconeClasse, categoria) {
+  const classeCategoria = normalizarCategoria(categoria);
+
+return L.divIcon({
+  className: `custom-marker ${classeCategoria}`,
+  html: `
+    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="53" viewBox="0 0 32 45">
+      <path fill="${corHex}" stroke="#000" stroke-width="2"
+            d="M16 0C7.2 0 0 7.2 0 16c0 11.2 16 29 16 29s16-17.8 16-29C32 7.2 24.8 0 16 0z"/>
+      <foreignObject x="8" y="8" width="24" height="24"> <div xmlns="http://www.w3.org/1999/xhtml" class="marker-icon">
+          <i class="${iconeClasse}"></i>
+        </div>
+      </foreignObject>
+    </svg>
+  `,
+  iconSize: [38, 53],
+  iconAnchor: [19, 53], 
+  popupAnchor: [0, -53],
+});
+
+}
 const usuarios = [
   {
     nome: "Dr Lucas Silveira",
@@ -69,8 +86,20 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 usuarios.forEach((usuario) => {
+  const categoriaNormalizada = normalizarCategoria(usuario.categoria);
   const cor = coresPorCategoria[usuario.categoria] || "#999";
-  const icone = criarMarcadorCor(cor);
+  const iconeClasse = iconeClassePorCategoria[usuario.categoria] || "fa-solid fa-user";
+
+  const icone = criarMarcadorCor(cor, iconeClasse, usuario.categoria);
+
+  const marker = L.marker([usuario.lat, usuario.lon], { icon: icone }).addTo(map);
+
+  marker.on("click", () => {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.innerHTML = infoHTML; // Supondo que infoHTML já foi definido
+    sidebar.classList.add("active");
+  });
+});
 
   const infoHTML = `
     <section class="profile-card">
@@ -180,4 +209,4 @@ usuarios.forEach((usuario) => {
     sidebar.classList.add("active");
   });
   
-});
+;
