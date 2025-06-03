@@ -1,0 +1,276 @@
+{
+  "psicologos": [
+    {
+      "email": "karine.ferraz@gmail.com",
+      "senha": "profissao"
+    },
+    {
+      "email": "laiscarvalhoclinica@gmail.com",
+      "senha": "lais1999"
+    },
+    {
+      "email": "fernandacarvalho@gmail.com",
+      "senha": "clinicadoamor"
+    },
+    {
+      "email": "luana.silva.psi@gmail.com",
+      "senha": "centrodeajuda"
+    },
+    {
+      "email": "alicia.martins@gmail.com",
+      "senha": "AL812345"
+    },
+    {
+      "email": "bruno.silva@yahoo.com",
+      "senha": "Lua@2023!"
+    },
+    {
+      "email": "isabela.mendes@outlook.com",
+      "senha": "isabela25psi"
+    },
+    {
+      "email": "joao.pereira@yahoo.com",
+      "senha": "montanha32"
+    },
+    {
+      "email": "karla.alves@terra.com.br",
+      "senha": "123senha321k"
+    },
+    {
+      "email": "lucas.oliveira@gmail.com",
+      "senha": "psicologoluc"
+    },
+    {
+      "email": "mariana.rocha@hotmail.com",
+      "senha": "universo18"
+    },
+    {
+      "email": "nicolas.teixeira@bol.com.br",
+      "senha": "Flor#66!"
+    },
+    {
+      "email": "tiago.nunes@gmail.com",
+      "senha": "!9Estrela"
+    },
+    {
+      "email": "patricia.monteiro@psiemail.com",
+      "senha": "monte2022"
+    },
+    {
+      "email": "andressa.souza@clinicapsi.com",
+      "senha": "andre#89"
+    },
+    {
+      "email": "vinicius.martins@psicocuidado.com",
+      "senha": "vinipsico123"
+    },
+    {
+      "email": "caroline.ramos@saudemental.com",
+      "senha": "caro987654"
+    },
+    {
+      "email": "0000907077@senaimgaluno.com.br",
+      "senha": "12345678"
+    }
+  ],
+  "advogados": [
+    {
+      "email": "ana.campos@direitobrasil.com",
+      "senha": "Ana@8420"
+    },
+    {
+      "email": "ricardo.torres@jurispro.com",
+      "senha": "Rtorres2023"
+    },
+    {
+      "email": "fernando.lima@justmail.com",
+      "senha": "Ferlima#12"
+    },
+    {
+      "email": "tatiane.sousa@defensoria.org",
+      "senha": "Tatiane99!"
+    },
+    {
+      "email": "maria.gomes@advlegal.com",
+      "senha": "Maria2024#"
+    },
+    {
+      "email": "eduardo.silva@justonline.net",
+      "senha": "EduSilva88"
+    },
+    {
+      "email": "juliana.moura@advmail.org",
+      "senha": "JuMoura11"
+    },
+    {
+      "email": "bruno.castro@direitohoje.com",
+      "senha": "Bruno!987"
+    },
+    {
+      "email": "paula.ferraz@legalmente.com",
+      "senha": "Pf@122020"
+    },
+    {
+      "email": "vinicius.cardoso@juridiconet.com",
+      "senha": "ViniCard07"
+    },
+    {
+      "email": "lais.martins@direitoemail.com",
+      "senha": "LaisM23#"
+    },
+    {
+      "email": "marcos.alves@bradv.com",
+      "senha": "Marcos#76"
+    },
+    {
+      "email": "natalia.santos@advorg.com",
+      "senha": "NatyS2025"
+    },
+    {
+      "email": "camila.freitas@jusbrasil.org",
+      "senha": "Camila#81"
+    },
+    {
+      "email": "lucas.ribeiro@advcenter.com",
+      "senha": "Lucas12345"
+    },
+    {
+      "email": "aline.pereira@escritoriolegal.com",
+      "senha": "AlineP88!"
+    },
+    {
+      "email": "gustavo.ferreira@legis.net",
+      "senha": "Gferreira9"
+    },
+    {
+      "email": "helena.dias@jurisweb.com",
+      "senha": "Helena@12"
+    }
+  ],
+  "babas": [
+    {
+      "email": "camila.souza@cuidadoinfantil.com",
+      "senha": "CamiL@2024"
+    },
+    {
+      "email": "marcela.ramos@familiafeliz.net",
+      "senha": "Marce@2020"
+    },
+    {
+      "email": "juliana.mendes@babysafe.org",
+      "senha": "JuliSafe12"
+    },
+    {
+      "email": "renata.lima@cuidadoras.com",
+      "senha": "Re@123456"
+    },
+    {
+      "email": "lara.silva@babycare.com",
+      "senha": "Lara2023!"
+    },
+    {
+      "email": "tatiane.freitas@meubebe.net",
+      "senha": "TatiCuid@9"
+    },
+    {
+      "email": "roberta.pinto@casinha.com.br",
+      "senha": "Roberta11"
+    },
+    {
+      "email": "vanessa.almeida@cuidadorakids.com",
+      "senha": "VaneKids#8"
+    },
+    {
+      "email": "aline.costa@babysmile.org",
+      "senha": "AliCosta77"
+    },
+    {
+      "email": "sabrina.martins@bebeleve.com",
+      "senha": "Sabi@baby"
+    }
+  ],
+  "creches": [
+    {
+      "email": "creche.sorrisos@educabem.com",
+      "senha": "Sorrisos22!"
+    },
+    {
+      "email": "jardim.dosanjos@infantilbr.org",
+      "senha": "JdAnjos2023"
+    },
+    {
+      "email": "escolinha.solnascente@crecheemail.com",
+      "senha": "Sol#888888"
+    },
+    {
+      "email": "creche.bemmequer@cuidadoinfantil.com",
+      "senha": "Bmq2023@"
+    },
+    {
+      "email": "creche.pequenospassos@educar.org",
+      "senha": "Passinhos01"
+    },
+    {
+      "email": "nossolar.infantil@abracokids.com",
+      "senha": "LarInf@2025"
+    },
+    {
+      "email": "escolinha.arcoiris@infantnet.com",
+      "senha": "Arco!123"
+    },
+    {
+      "email": "mundoencantado.creche@educamais.com",
+      "senha": "Encanta2024"
+    },
+    {
+      "email": "amorecarinho.creche@familiakids.com",
+      "senha": "AmorCar10"
+    },
+    {
+      "email": "creche.luzdavida@infantil.org",
+      "senha": "Luz@vida22"
+    }
+  ],
+  "maes": [
+    {
+      "email": "maria.souza@gmail.com",
+      "senha": "Mae12345"
+    },
+    {
+      "email": "joana.pereira@gmail.com",
+      "senha": "MaeJoana2023"
+    },
+    {
+      "email": "ana.lima@gmail.com",
+      "senha": "AnaMae!789"
+    },
+    {
+      "email": "patricia.silva@gmail.com",
+      "senha": "PatriciaMae"
+    },
+    {
+      "email": "lucia.martins@gmail.com",
+      "senha": "LuciaMae2024"
+    },
+    {
+      "email": "renata.oliveira@gmail.com",
+      "senha": "ReOliveira#1"
+    },
+    {
+      "email": "fabiana.costa@gmail.com",
+      "senha": "FabianaMae!"
+    },
+    {
+      "email": "carla.ferreira@gmail.com",
+      "senha": "CarlaMae2023"
+    },
+    {
+      "email": "helena.santos@gmail.com",
+      "senha": "HelenaMae!"
+    },
+    {
+      "email": "paula.alves@gmail.com",
+      "senha": "PaulaMae#9"
+    }
+  ]
+}
