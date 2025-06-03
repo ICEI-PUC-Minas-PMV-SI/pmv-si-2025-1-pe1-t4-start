@@ -1,0 +1,64 @@
+{
+  "maes": [
+    {
+      "nome": "Maria Souza",
+      "email": "maria.souza@gmail.com",
+      "senha": "Mae12345",
+      "confirmar-senha": "Mae12345"
+    },
+    {
+      "nome": "Joana Pereira",
+      "email": "joana.pereira@gmail.com",
+      "senha": "MaeJoana2023",
+      "confirmar-senha": "MaeJoana2023"
+    },
+    {
+      "nome": "Ana Lima",
+      "email": "ana.lima@gmail.com",
+      "senha": "AnaMae!789",
+      "confirmar-senha": "AnaMae!789"
+    },
+    {
+      "nome": "Patricia Silva",
+      "email": "patricia.silva@gmail.com",
+      "senha": "PatriciaMae",
+      "confirmar-senha": "PatriciaMae"
+    },
+    {
+      "nome": "Lucia Martins",
+      "email": "lucia.martins@gmail.com",
+      "senha": "LuciaMae2024",
+      "confirmar-senha": "LuciaMae2024"
+    },
+    {
+      "nome": "Renata Oliveira",
+      "email": "renata.oliveira@gmail.com",
+      "senha": "ReOliveira#1",
+      "confirmar-senha": "ReOliveira#1"
+    },
+    {
+      "nome": "Fabiana Costa",
+      "email": "fabiana.costa@gmail.com",
+      "senha": "FabianaMae!",
+      "confirmar-senha": "FabianaMae!"
+    },
+    {
+      "nome": "Carla Ferreira",
+      "email": "carla.ferreira@gmail.com",
+      "senha": "CarlaMae2023",
+      "confirmar-senha": "CarlaMae2023"
+    },
+    {
+      "nome": "Helena Santos",
+      "email": "helena.santos@gmail.com",
+      "senha": "HelenaMae!",
+      "confirmar-senha": "HelenaMae!"
+    },
+    {
+      "nome": "Paula Alves",
+      "email": "paula.alves@gmail.com",
+      "senha": "PaulaMae#9",
+      "confirmar-senha": "PaulaMae#9"
+    }
+  ]
+}
