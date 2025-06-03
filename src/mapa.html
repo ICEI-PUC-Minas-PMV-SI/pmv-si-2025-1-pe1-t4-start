@@ -19,6 +19,14 @@
 
   <body>
     <header-component></header-component>
+    
+     <div id="filtros-categorias">
+  <button data-categoria="todos">Todos</button>
+  <button data-categoria="Psicólogo">Psicólogos</button>
+  <button data-categoria="Baba">Babás</button>
+  <button data-categoria="Creche">Creches</button>
+  <button data-categoria="Advogado">Advogados</button>
+  </div>
 
     <div id="sidebar" class="sidebar"></div>
     <button class="close-sidebar-btn" onclick="toggleSidebar()">✖</button>
@@ -36,6 +44,9 @@
         <li><span style="background-color: #bf6a02"><i class="fa-solid fa-brain"></i></span>Psicólogo(a)</li>
       </ul>
     </div>
+
+
+  
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="assets/js/mapa.js"></script>

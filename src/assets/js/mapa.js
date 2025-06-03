@@ -1,3 +1,7 @@
+let todosOsUsuarios = [];  
+let marcadoresAtuais = []; 
+
+
 const coresPorCategoria = {
   Creche: "#009951",
   Baba: "#D732A8",
@@ -85,18 +89,31 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
 }).addTo(map);
 
-usuarios.forEach((usuario) => {
-  const categoriaNormalizada = normalizarCategoria(usuario.categoria);
-  const cor = coresPorCategoria[usuario.categoria] || "#999";
-  const iconeClasse = iconeClassePorCategoria[usuario.categoria] || "fa-solid fa-user";
+// Salva todos os usuários carregados
+todosOsUsuarios = usuarios;
 
-  const icone = criarMarcadorCor(cor, iconeClasse, usuario.categoria);
+// Função que atualiza os marcadores com base na categoria selecionada
+function atualizarMapaPorCategoria(categoriaSelecionada) {
+  // Remove os marcadores atuais
+  marcadoresAtuais.forEach((marker) => map.removeLayer(marker));
+  marcadoresAtuais = [];
 
-  const marker = L.marker([usuario.lat, usuario.lon], { icon: icone }).addTo(map);
+  const usuariosFiltrados =
+    categoriaSelecionada === "todos"
+      ? todosOsUsuarios
+      : todosOsUsuarios.filter((u) => u.categoria === categoriaSelecionada);
 
-  marker.on("click", () => {
-  const infoHTML = `
-    <section class="profile-card">
+  usuariosFiltrados.forEach((usuario) => {
+    const cor = coresPorCategoria[usuario.categoria] || "#999";
+    const iconeClasse =
+      iconeClassePorCategoria[usuario.categoria] || "fa-solid fa-user";
+    const icone = criarMarcadorCor(cor, iconeClasse, usuario.categoria);
+
+    const marker = L.marker([usuario.lat, usuario.lon], { icon: icone }).addTo(map);
+    marcadoresAtuais.push(marker);
+
+    marker.on("click", () => {
+      const infoHTML = `  <section class="profile-card">
             <div class="profile-header">
                 <img src="${usuario.foto}" alt="Foto de ${usuario.nome}" class="profile - image">
     <div class="profile-details">
@@ -195,12 +212,19 @@ usuarios.forEach((usuario) => {
     </section>
   `;
 
-  const marker = L.marker([usuario.lat, usuario.lon], { icon: icone }).addTo(map);
-
-  
-    const sidebar = document.getElementById("sidebar");
-    sidebar.innerHTML = infoHTML;
-    sidebar.classList.add("active");
+      const sidebar = document.getElementById("sidebar");
+      sidebar.innerHTML = infoHTML;
+      sidebar.classList.add("active");
+    });
   });
-  
+}
+document.querySelectorAll("#filtros-categorias button").forEach((botao) => {
+  botao.addEventListener("click", () => {
+    const categoria = botao.getAttribute("data-categoria");
+    atualizarMapaPorCategoria(categoria);
+  });
 });
+
+
+atualizarMapaPorCategoria("todos");
+

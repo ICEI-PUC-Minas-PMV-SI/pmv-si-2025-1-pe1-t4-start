@@ -745,3 +745,38 @@
 .custom-marker .marker-icon i {
    color: white;
 }
+#filtros-categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 20px 16px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1000;
+  top: 80px;
+  right: 0; 
+  z-index: 1000;
+  max-width: 1000px; 
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  
+}
+
+#filtros-categorias button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+
+}
+
+#filtros-categorias button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#filtros-categorias button.active {
+  color: white;
+}
