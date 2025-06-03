@@ -1,0 +1,1907 @@
+[
+  {
+    "nome": "Dr. Luiza Oliveira",
+    "email": "karine.ferraz@gmail.com",
+    "lat": -19.957774771427503,
+    "lon": -43.95540307611624,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Rio Grande do Norte, 1500 - Funcionários",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-luiza-oliveira",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2025-02-15T09:23:45",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Patricia",
+        "nota": 4,
+        "data": "2024-11-20T14:05:10",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      },
+      {
+        "nome": "Gabriela",
+        "nota": 5,
+        "data": "2024-09-01T10:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. João Silva",
+    "email": "laiscarvalhoclinica@gmail.com",
+    "lat": -19.90793638426006,
+    "lon": -43.94520339943482,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Álvares Cabral, 300 - Centro",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-joao-silva",
+    "avaliacoes": [
+      {
+        "nome": "Juliana",
+        "nota": 5,
+        "data": "2025-01-28T16:55:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2024-10-10T11:40:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Fernando Martins",
+    "email": "fernandacarvalho@gmail.com",
+    "lat": -19.923414022830024,
+    "lon": -43.93175026922269,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Sergipe, 1200 - Savassi",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-fernando-martins",
+    "avaliacoes": [
+      {
+        "nome": "Mariana",
+        "nota": 4,
+        "data": "2025-04-01T08:15:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      },
+      {
+        "nome": "Débora",
+        "nota": 5,
+        "data": "2024-12-18T17:30:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      },
+      {
+        "nome": "Cristina",
+        "nota": 5,
+        "data": "2024-09-25T09:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Ana Souza",
+    "email": "luana.silva.psi@gmail.com",
+    "lat": -19.95079140954933,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida do Contorno, 8000 - Lourdes",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-ana-souza",
+    "avaliacoes": [
+      {
+        "nome": "Vanessa",
+        "nota": 5,
+        "data": "2025-03-05T12:00:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Daniel Lima",
+    "email": "alicia.martins@gmail.com",
+    "lat": -19.940798154181827,
+    "lon": -43.96068218151806,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Levindo Lopes, 250 - Santo Agostinho",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-daniel-lima",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2024-08-12T15:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      },
+      {
+        "nome": "Juliana",
+        "nota": 4,
+        "data": "2025-01-01T10:30:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Patricia",
+        "nota": 5,
+        "data": "2024-11-05T18:00:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Camila",
+        "nota": 5,
+        "data": "2025-03-20T09:45:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Laura Silva",
+    "email": "bruno.silva@yahoo.com",
+    "lat": -19.907312157508608,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Raja Gabaglia, 2000 - São Bento",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-laura-silva",
+    "avaliacoes": [
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2025-04-10T14:10:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      },
+      {
+        "nome": "Mariana",
+        "nota": 4,
+        "data": "2024-09-02T16:20:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Gustavo Oliveira",
+    "email": "isabela.mendes@outlook.com",
+    "lat": -19.92723048590858,
+    "lon": -43.90823674681604,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Pium-í, 100 - Cruzeiro",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-gustavo-oliveira",
+    "avaliacoes": [
+      {
+        "nome": "Vanessa",
+        "nota": 5,
+        "data": "2025-01-15T11:00:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      },
+      {
+        "nome": "Débora",
+        "nota": 5,
+        "data": "2024-08-28T13:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      },
+      {
+        "nome": "Cristina",
+        "nota": 4,
+        "data": "2025-02-05T10:00:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Isabela Rodrigues",
+    "email": "joao.pereira@yahoo.com",
+    "lat": -19.94903333190847,
+    "lon": -43.90795493208531,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Tomé de Souza, 500 - Boa Viagem",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-isabela-rodrigues",
+    "avaliacoes": [
+      {
+        "nome": "Gabriela",
+        "nota": 5,
+        "data": "2024-10-20T19:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      },
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2025-03-12T10:30:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Lucas Souza",
+    "email": "karla.alves@terra.com.br",
+    "lat": -19.897368682025064,
+    "lon": -43.9168051664426,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Getúlio Vargas, 1400 - Funcionários",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-lucas-souza",
+    "avaliacoes": [
+      {
+        "nome": "Juliana",
+        "nota": 4,
+        "data": "2024-09-08T14:45:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Patricia",
+        "nota": 5,
+        "data": "2025-02-28T16:00:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      },
+      {
+        "nome": "Camila",
+        "nota": 5,
+        "data": "2024-11-11T12:00:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      },
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2025-01-05T09:30:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Helena Costa",
+    "email": "lucas.oliveira@gmail.com",
+    "lat": -19.924849673629474,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Curitiba, 700 - Centro",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-helena-costa",
+    "avaliacoes": [
+      {
+        "nome": "Mariana",
+        "nota": 5,
+        "data": "2025-04-20T10:00:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      },
+      {
+        "nome": "Vanessa",
+        "nota": 4,
+        "data": "2024-10-01T15:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Felipe Martins",
+    "email": "mariana.rocha@hotmail.com",
+    "lat": -19.939228518972588,
+    "lon": -43.9168051664426,
+    "categoria": "Psicólogo",
+    "endereco": "Rua dos Inconfidentes, 850 - Savassi",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-felipe-martins",
+    "avaliacoes": [
+      {
+        "nome": "Débora",
+        "nota": 5,
+        "data": "2025-01-08T11:30:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      },
+      {
+        "nome": "Cristina",
+        "nota": 5,
+        "data": "2024-09-15T17:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Clara Silva",
+    "email": "nicolas.teixeira@bol.com.br",
+    "lat": -19.91418182744883,
+    "lon": -43.91924040941549,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Brasil, 120 - Santa Efigênia",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-clara-silva",
+    "avaliacoes": [
+      {
+        "nome": "Gabriela",
+        "nota": 4,
+        "data": "2025-03-25T13:00:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2024-08-01T08:00:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Juliana",
+        "nota": 5,
+        "data": "2025-02-10T15:30:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Pedro Santos",
+    "email": "tiago.nunes@gmail.com",
+    "lat": -19.944326508933203,
+    "lon": -43.92131972822154,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Grão Pará, 750 - Serra",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-pedro-santos",
+    "avaliacoes": [
+      {
+        "nome": "Patricia",
+        "nota": 5,
+        "data": "2025-04-05T11:00:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Sofia Martins",
+    "email": "patricia.monteiro@psiemail.com",
+    "lat": -19.907312157508608,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Cláudio Manoel, 600 - Funcionários",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-sofia-martins",
+    "avaliacoes": [
+      {
+        "nome": "Camila",
+        "nota": 5,
+        "data": "2024-08-20T14:30:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      },
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2025-01-20T10:00:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      },
+      {
+        "nome": "Mariana",
+        "nota": 4,
+        "data": "2024-11-01T16:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      },
+      {
+        "nome": "Vanessa",
+        "nota": 5,
+        "data": "2025-03-01T09:00:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Carlos Alves",
+    "email": "andressa.souza@clinicapsi.com",
+    "lat": -19.940798154181827,
+    "lon": -43.96068218151806,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Bias Fortes, 50 - Barro Preto",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-carlos-alves",
+    "avaliacoes": [
+      {
+        "nome": "Débora",
+        "nota": 5,
+        "data": "2024-10-15T11:45:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Beatriz Costa",
+    "email": "vinicius.martins@psicocuidado.com",
+    "lat": -19.92723048590858,
+    "lon": -43.90823674681604,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Padre Pedro Pinto, 1000 - Venda Nova",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-beatriz-costa",
+    "avaliacoes": [
+      {
+        "nome": "Cristina",
+        "nota": 4,
+        "data": "2025-02-20T14:00:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Gabriela",
+        "nota": 5,
+        "data": "2024-09-05T09:30:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2025-01-10T16:00:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Rafael Ferreira",
+    "email": "caroline.ramos@saudemental.com",
+    "lat": -19.957774771427503,
+    "lon": -43.95540307611624,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Sergipe, 1200 - Savassi",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-rafael-ferreira",
+    "avaliacoes": [
+      {
+        "nome": "Juliana",
+        "nota": 5,
+        "data": "2024-10-28T10:00:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      },
+      {
+        "nome": "Patricia",
+        "nota": 4,
+        "data": "2025-03-18T14:00:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Manuela Rodrigues",
+    "email": "0000907077@senaimgaluno.com.br",
+    "lat": -19.90793638426006,
+    "lon": -43.94520339943482,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Álvares Cabral, 300 - Centro",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-manuela-rodrigues",
+    "avaliacoes": [
+      {
+        "nome": "Camila",
+        "nota": 5,
+        "data": "2025-01-01T17:00:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      },
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2024-08-08T12:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      },
+      {
+        "nome": "Mariana",
+        "nota": 4,
+        "data": "2025-02-01T09:00:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Beatriz Lima",
+    "email": "bruno.silva@yahoo.com",
+    "lat": -19.923414022830024,
+    "lon": -43.93175026922269,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Rio Grande do Norte, 1500 - Funcionários",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-beatriz-lima",
+    "avaliacoes": [
+      {
+        "nome": "Vanessa",
+        "nota": 5,
+        "data": "2025-04-15T15:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      },
+      {
+        "nome": "Débora",
+        "nota": 5,
+        "data": "2024-09-20T10:00:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Cristina",
+        "nota": 4,
+        "data": "2025-03-08T11:00:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Gabriela",
+        "nota": 5,
+        "data": "2024-12-01T13:00:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. João Costa",
+    "email": "isabela.mendes@outlook.com",
+    "lat": -19.95079140954933,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida do Contorno, 8000 - Lourdes",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-joao-costa",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2025-01-25T16:30:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      },
+      {
+        "nome": "Juliana",
+        "nota": 5,
+        "data": "2024-10-05T09:00:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Maria Ferreira",
+    "email": "joao.pereira@yahoo.com",
+    "lat": -19.940798154181827,
+    "lon": -43.96068218151806,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Levindo Lopes, 250 - Santo Agostinho",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-maria-ferreira",
+    "avaliacoes": [
+      {
+        "nome": "Patricia",
+        "nota": 4,
+        "data": "2025-04-28T12:00:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      },
+      {
+        "nome": "Camila",
+        "nota": 5,
+        "data": "2024-09-18T18:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      },
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2025-02-08T10:00:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Fernando Rodrigues",
+    "email": "karla.alves@terra.com.br",
+    "lat": -19.907312157508608,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Raja Gabaglia, 2000 - São Bento",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-fernando-rodrigues",
+    "avaliacoes": [
+      {
+        "nome": "Mariana",
+        "nota": 5,
+        "data": "2024-11-22T14:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Clara Alves",
+    "email": "lucas.oliveira@gmail.com",
+    "lat": -19.92723048590858,
+    "lon": -43.90823674681604,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Pium-í, 100 - Cruzeiro",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-clara-alves",
+    "avaliacoes": [
+      {
+        "nome": "Vanessa",
+        "nota": 5,
+        "data": "2025-03-05T17:00:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Débora",
+        "nota": 4,
+        "data": "2024-10-08T09:30:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Cristina",
+        "nota": 5,
+        "data": "2025-01-18T11:00:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Daniel Martins",
+    "email": "mariana.rocha@hotmail.com",
+    "lat": -19.94903333190847,
+    "lon": -43.90795493208531,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Tomé de Souza, 500 - Boa Viagem",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-daniel-martins",
+    "avaliacoes": [
+      {
+        "nome": "Gabriela",
+        "nota": 5,
+        "data": "2024-11-01T15:00:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      },
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2025-03-01T10:00:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Manuela Santos",
+    "email": "nicolas.teixeira@bol.com.br",
+    "lat": -19.897368682025064,
+    "lon": -43.9168051664426,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Getúlio Vargas, 1400 - Funcionários",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-manuela-santos",
+    "avaliacoes": [
+      {
+        "nome": "Juliana",
+        "nota": 5,
+        "data": "2025-04-10T14:30:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Lucas Lima",
+    "email": "tiago.nunes@gmail.com",
+    "lat": -19.924849673629474,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Curitiba, 700 - Centro",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-lucas-lima",
+    "avaliacoes": [
+      {
+        "nome": "Patricia",
+        "nota": 4,
+        "data": "2024-09-25T11:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      },
+      {
+        "nome": "Camila",
+        "nota": 5,
+        "data": "2025-02-05T08:00:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      },
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2024-11-15T16:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Ana Costa",
+    "email": "patricia.monteiro@psiemail.com",
+    "lat": -19.939228518972588,
+    "lon": -43.9168051664426,
+    "categoria": "Psicólogo",
+    "endereco": "Rua dos Inconfidentes, 850 - Savassi",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-ana-costa",
+    "avaliacoes": [
+      {
+        "nome": "Mariana",
+        "nota": 5,
+        "data": "2025-01-10T13:00:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Vanessa",
+        "nota": 4,
+        "data": "2024-08-22T09:00:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Bruno Oliveira",
+    "email": "andressa.souza@clinicapsi.com",
+    "lat": -19.91418182744883,
+    "lon": -43.91924040941549,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Brasil, 120 - Santa Efigênia",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-bruno-oliveira",
+    "avaliacoes": [
+      {
+        "nome": "Débora",
+        "nota": 5,
+        "data": "2025-04-01T16:00:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      },
+      {
+        "nome": "Cristina",
+        "nota": 5,
+        "data": "2024-10-10T12:00:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      },
+      {
+        "nome": "Gabriela",
+        "nota": 4,
+        "data": "2025-01-15T09:00:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      },
+      {
+        "nome": "Fernanda",
+        "nota": 5,
+        "data": "2024-08-05T15:00:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      },
+      {
+        "nome": "Juliana",
+        "nota": 5,
+        "data": "2025-02-25T11:00:00",
+        "texto": "Atendimento impecável. Consigo ver minha evolução.",
+        "tags": ["Organizado", "Pontual"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Mariana Rocha",
+    "email": "vinicius.martins@psicocuidado.com",
+    "lat": -19.944326508933203,
+    "lon": -43.92131972822154,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Grão Pará, 750 - Serra",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-mariana-rocha",
+    "avaliacoes": [
+      {
+        "nome": "Patricia",
+        "nota": 5,
+        "data": "2025-04-20T10:30:00",
+        "texto": "Recomendo de olhos fechados. Excelente em tudo!",
+        "tags": ["Comunicativo", "Inteligente"]
+      },
+      {
+        "nome": "Camila",
+        "nota": 5,
+        "data": "2024-09-01T17:00:00",
+        "texto": "Me ajudou muito em momentos difíceis. Recomendo!",
+        "tags": ["Empático", "Atencioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Sofia Ferreira",
+    "email": "caroline.ramos@saudemental.com",
+    "lat": -19.907312157508608,
+    "lon": -43.90562916892305,
+    "categoria": "Psicólogo",
+    "endereco": "Rua Cláudio Manoel, 600 - Funcionários",
+    "foto": "assets/images/profissionais/Psic-F.png",
+    "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-sofia-ferreira",
+    "avaliacoes": [
+      {
+        "nome": "Amanda",
+        "nota": 5,
+        "data": "2025-01-01T12:00:00",
+        "texto": "Profissional excelente, muito atenciosa e compreensiva.",
+        "tags": ["Respeitoso", "Dedicado"]
+      },
+      {
+        "nome": "Mariana",
+        "nota": 4,
+        "data": "2024-08-15T15:30:00",
+        "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+        "tags": ["Paciente", "Compreensivo"]
+      },
+      {
+        "nome": "Vanessa",
+        "nota": 5,
+        "data": "2025-03-10T10:00:00",
+        "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+        "tags": ["Competente", "Inspirador"]
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Pedro Alves",
+    "email": "0000907077@senaimgaluno.com.br",
+    "lat": -19.92723048590858,
+    "lon": -43.90823674681604,
+    "categoria": "Psicólogo",
+    "endereco": "Avenida Bias Fortes, 50 - Barro Preto",
+    "foto": "assets/images/profissionais/Psic-M.png",
+    "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+    "perfilUrl": "/profile/dr-pedro-alves",
+    "avaliacoes": [
+      {
+        "nome": "Débora",
+        "nota": 5,
+        "data": "2024-11-05T14:00:00",
+        "texto": "Finalmente encontrei a ajuda que precisava. Grata!",
+        "tags": ["Acolhedor", "Profissional"]
+      },
+      {
+        "nome": "Cristina",
+        "nota": 5,
+        "data": "2025-01-20T11:00:00",
+        "texto": "Muito paciente e soube me guiar pelos meus pensamentos.",
+        "tags": ["Gentil", "Direto ao ponto"]
+      },
+      {
+        "nome": "Gabriela",
+        "nota": 4,
+        "data": "2024-08-01T08:00:00",
+        "texto": "Um anjo! Profissionalismo e empatia em cada sessão.",
+        "tags": ["Prestativo", "Criterioso"]
+      }
+    ]
+  },
+{
+    "nome": "Dra Ana Campos",
+    "lat": -19.95723483595273,
+    "lon": -43.95094364375314,
+    "categoria": "Advogado",
+    "endereço": "Rua da Bahia, 1000 - Lourdes",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Priscila Ferreira",
+        "nota": 2,
+        "data": "2024-12-28T22:24:51.630756",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Justa",
+          "Pontual"
+        ]
+      },
+      {
+        "nome": "Priscila Ferreira",
+        "nota": 4,
+        "data": "2024-06-16T22:24:51.630790",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Pontual",
+          "Clara"
+        ]
+      },
+      {
+        "nome": "Priscila Ferreira",
+        "nota": 2,
+        "data": "2025-03-19T22:24:51.630803",
+        "texto": "Me ajudou em um momento delicado.",
+        "tags": [
+          "Justa",
+          "Empática",
+          "Pontual"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Juliana Sousa",
+    "lat": -19.880216523639245,
+    "lon": -43.85085787693364,
+    "categoria": "Advogado",
+    "endereço": "Rua da Bahia, 1000 - Lourdes",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Dra Tatiane Gomes",
+    "lat": -19.971993648159017,
+    "lon": -43.92146490548344,
+    "categoria": "Advogado",
+    "endereço": "Av. Amazonas, 190 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Dra Maria Moura",
+    "lat": -19.907816493253815,
+    "lon": -43.90425174969769,
+    "categoria": "Advogado",
+    "endereço": "Rua Rio de Janeiro, 471 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Dra Paula Ferraz",
+    "lat": -19.93729770977531,
+    "lon": -43.89483642572407,
+    "categoria": "Advogado",
+    "endereço": "Rua da Bahia, 1000 - Lourdes",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Renata Dias",
+        "nota": 3,
+        "data": "2025-03-15T22:24:51.630847",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Clara"
+        ]
+      },
+      {
+        "nome": "Renata Dias",
+        "nota": 5,
+        "data": "2024-11-15T22:24:51.630869",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Honesta"
+        ]
+      },
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 4,
+        "data": "2025-02-20T22:24:51.630887",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Pontual"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Laís Martins",
+    "lat": -19.880497903755238,
+    "lon": -43.869914045570326,
+    "categoria": "Advogado",
+    "endereço": "Rua Rio de Janeiro, 471 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Jana Nascimento",
+        "nota": 3,
+        "data": "2024-12-23T22:24:51.630914",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Acolhedora",
+          "Honesta"
+        ]
+      },
+      {
+        "nome": "Jana Nascimento",
+        "nota": 5,
+        "data": "2025-01-14T22:24:51.630936",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Acolhedora",
+          "Pontual"
+        ]
+      },
+      {
+        "nome": "Priscila Ferreira",
+        "nota": 4,
+        "data": "2024-07-19T22:24:51.630950",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Acolhedora",
+          "Justa"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Natália Santos",
+    "lat": -19.96958831880135,
+    "lon": -43.949988771824515,
+    "categoria": "Advogado",
+    "endereço": "Av. Afonso Pena, 1212 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Jana Nascimento",
+        "nota": 3,
+        "data": "2025-01-22T22:24:51.630968",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Pontual",
+          "Empática",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 5,
+        "data": "2025-05-21T22:24:51.630978",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Honesta"
+        ]
+      },
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 4,
+        "data": "2025-05-13T22:24:51.631015",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Clara",
+          "Honesta",
+          "Empática"
+        ]
+      },
+      {
+        "nome": "Jana Nascimento",
+        "nota": 3,
+        "data": "2024-09-03T22:24:51.631030",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Clara",
+          "Pontual",
+          "Respeitosa"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Camila Freitas",
+    "lat": -19.90292977801817,
+    "lon": -43.85359948955218,
+    "categoria": "Advogado",
+    "endereço": "Rua Piauí, 125 - Funcionários",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Ana Maria",
+        "nota": 5,
+        "data": "2025-02-09T22:24:51.631048",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Acolhedora",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Roberta Silva",
+        "nota": 4,
+        "data": "2024-09-28T22:24:51.631057",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Respeitosa",
+          "Clara"
+        ]
+      },
+      {
+        "nome": "Roberta Silva",
+        "nota": 3,
+        "data": "2025-03-12T22:24:51.631066",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Respeitosa"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Aline Pereira",
+    "lat": -19.906946938048865,
+    "lon": -43.96877623421242,
+    "categoria": "Advogado",
+    "endereço": "Av. Afonso Pena, 1212 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 4,
+        "data": "2025-03-19T22:24:51.631079",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Clara",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 3,
+        "data": "2025-01-20T22:24:51.631088",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Roberta Silva",
+        "nota": 2,
+        "data": "2025-02-02T22:24:51.631097",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Clara",
+          "Respeitosa"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Helena Dias",
+    "lat": -19.9397555878661,
+    "lon": -44.017617900667474,
+    "categoria": "Advogado",
+    "endereço": "Rua Rio de Janeiro, 471 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Dra Ana Campos",
+    "lat": -19.956396164731803,
+    "lon": -43.97099617517769,
+    "categoria": "Advogado",
+    "endereço": "Av. do Contorno, 2905 - Santa Efigênia",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Dra Juliana Sousa",
+    "lat": -19.924824802734975,
+    "lon": -43.96123982498041,
+    "categoria": "Advogado",
+    "endereço": "Av. Cristóvão Colombo, 925 - Savassi",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Priscila Ferreira",
+        "nota": 2,
+        "data": "2024-07-31T22:24:51.631118",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Pontual"
+        ]
+      },
+      {
+        "nome": "Renata Dias",
+        "nota": 5,
+        "data": "2024-11-14T22:24:51.631128",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Clara",
+          "Empática"
+        ]
+      },
+      {
+        "nome": "Marina Torres",
+        "nota": 5,
+        "data": "2024-08-06T22:24:51.631139",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Justa"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Tatiane Gomes",
+    "lat": -19.87189310675758,
+    "lon": -44.02990858609084,
+    "categoria": "Advogado",
+    "endereço": "Av. Amazonas, 190 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Renata Dias",
+        "nota": 3,
+        "data": "2025-04-26T22:24:51.631152",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Acolhedora"
+        ]
+      },
+      {
+        "nome": "Jana Nascimento",
+        "nota": 2,
+        "data": "2024-07-31T22:24:51.631161",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Respeitosa",
+          "Empática"
+        ]
+      },
+      {
+        "nome": "Priscila Ferreira",
+        "nota": 4,
+        "data": "2025-04-07T22:24:51.631171",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Justa"
+        ]
+      },
+      {
+        "nome": "Marina Torres",
+        "nota": 3,
+        "data": "2024-08-03T22:24:51.631186",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Pontual"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Maria Moura",
+    "lat": -19.884743655379037,
+    "lon": -43.986052567687295,
+    "categoria": "Advogado",
+    "endereço": "Rua Piauí, 125 - Funcionários",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Renata Dias",
+        "nota": 2,
+        "data": "2024-11-04T22:24:51.631208",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Empática"
+        ]
+      },
+      {
+        "nome": "Roberta Silva",
+        "nota": 3,
+        "data": "2025-05-20T22:24:51.631227",
+        "texto": "Me ajudou em um momento delicado.",
+        "tags": [
+          "Empática",
+          "Respeitosa"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Paula Ferraz",
+    "lat": -19.86406305422304,
+    "lon": -44.04839175131407,
+    "categoria": "Advogado",
+    "endereço": "Rua Gonçalves Dias, 123 - Funcionários",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Ana Maria",
+        "nota": 3,
+        "data": "2024-07-05T22:24:51.631249",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Honesta",
+          "Pontual",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Renata Dias",
+        "nota": 4,
+        "data": "2024-10-15T22:24:51.631262",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Justa",
+          "Empática",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Roberta Silva",
+        "nota": 2,
+        "data": "2024-10-25T22:24:51.631278",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Pontual",
+          "Acolhedora"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Laís Martins",
+    "lat": -19.924602396954285,
+    "lon": -43.88060524985466,
+    "categoria": "Advogado",
+    "endereço": "Av. Amazonas, 190 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Ana Maria",
+        "nota": 3,
+        "data": "2025-04-28T22:24:51.631301",
+        "texto": "Atendimento excelente, recomendo!",
+        "tags": [
+          "Acolhedora",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Priscila Ferreira",
+        "nota": 2,
+        "data": "2024-08-22T22:24:51.631320",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Renata Dias",
+        "nota": 3,
+        "data": "2024-12-21T22:24:51.631332",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Empática"
+        ]
+      },
+      {
+        "nome": "Renata Dias",
+        "nota": 5,
+        "data": "2024-08-29T22:24:51.631342",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Empática",
+          "Respeitosa",
+          "Justa"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Natália Santos",
+    "lat": -19.96813093507121,
+    "lon": -43.977438428725264,
+    "categoria": "Advogado",
+    "endereço": "Rua Gonçalves Dias, 123 - Funcionários",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Marina Torres",
+        "nota": 3,
+        "data": "2024-08-08T22:24:51.631355",
+        "texto": "Muito atenciosa e profissional.",
+        "tags": [
+          "Empática",
+          "Clara",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 4,
+        "data": "2024-11-08T22:24:51.631365",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Roberta Silva",
+        "nota": 3,
+        "data": "2024-11-04T22:24:51.631372",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Respeitosa",
+          "Empática"
+        ]
+      },
+      {
+        "nome": "Marina Torres",
+        "nota": 5,
+        "data": "2024-06-11T22:24:51.631381",
+        "texto": "Resolveu meu caso com rapidez e eficiência.",
+        "tags": [
+          "Respeitosa",
+          "Empática",
+          "Acolhedora"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Dra Camila Freitas",
+    "lat": -19.878716907497626,
+    "lon": -43.96007203363407,
+    "categoria": "Advogado",
+    "endereço": "Rua Rio de Janeiro, 471 - Centro",
+    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Roberta Silva",
+        "nota": 3,
+        "data": "2025-03-17T22:24:51.631393",
+        "texto": "Boa, mas poderia ter sido mais clara.",
+        "tags": [
+          "Pontual",
+          "Respeitosa"
+        ]
+      },
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 5,
+        "data": "2025-02-16T22:24:51.633711",
+        "texto": "Me ajudou em um momento delicado.",
+        "tags": [
+          "Pontual"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Camila Souza",
+    "email": "camila.souza@cuidadoinfantil.com",
+    "lat": -19.9237,
+    "lon": -43.9341,
+    "categoria": "Baba",
+    "endereço": "Rua dos Timbiras, 2450 - Lourdes, Belo Horizonte",
+    "foto": "",
+    "descricao": "Babá com mais de 10 anos de experiência em cuidados com bebês e crianças pequenas, focada no bem-estar e desenvolvimento infantil.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Juliana Torres",
+        "nota": 5,
+        "data": "2025-04-10T09:30:00",
+        "texto": "Muito carinhosa com meus filhos. Super recomendo!",
+        "tags": ["Carinhosa", "Pontual"]
+      },
+      {
+        "nome": "Mariana Dias",
+        "nota": 4,
+        "data": "2025-03-22T15:10:00",
+        "texto": "Responsável e cuidadosa. Apenas atrasou uma vez.",
+        "tags": ["Atenciosa"]
+      }
+    ]
+  },
+  {
+    "nome": "Marcela Ramos",
+    "email": "marcela.ramos@familiafeliz.net",
+    "lat": -19.9201,
+    "lon": -43.9395,
+    "categoria": "Baba",
+    "endereço": "Rua Gonçalves Dias, 567 - Funcionários, Belo Horizonte",
+    "foto": "",
+    "descricao": "Profissional dedicada ao cuidado de crianças de até 6 anos, com foco em atividades educativas e lúdicas.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Juliana Mendes",
+    "email": "juliana.mendes@babysafe.org",
+    "lat": -19.9278,
+    "lon": -43.9373,
+    "categoria": "Baba",
+    "endereço": "Avenida Afonso Pena, 1050 - Centro, Belo Horizonte",
+    "foto": "",
+    "descricao": "Especialista em cuidados com recém-nascidos e acompanhamento pós-parto para mães de primeira viagem.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Patrícia Lemos",
+        "nota": 5,
+        "data": "2025-05-01T13:20:00",
+        "texto": "Ajudou muito no início da maternidade. Excelente babá.",
+        "tags": ["Experiente"]
+      }
+    ]
+  },
+  {
+    "nome": "Renata Lima",
+    "email": "renata.lima@cuidadoras.com",
+    "lat": -19.9254,
+    "lon": -43.9332,
+    "categoria": "Baba",
+    "endereço": "Rua Paraíba, 1340 - Savassi, Belo Horizonte",
+    "foto": "",
+    "descricao": "Babá com formação em pedagogia e experiência em berçários e creches.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Lara Silva",
+    "email": "lara.silva@babycare.com",
+    "lat": -19.9356,
+    "lon": -43.9381,
+    "categoria": "Baba",
+    "endereço": "Rua Cláudio Manoel, 350 - Savassi, Belo Horizonte",
+    "foto": "",
+    "descricao": "Foco em segurança, afeto e rotina saudável para crianças em idade pré-escolar.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda Rocha",
+        "nota": 4,
+        "data": "2025-04-12T10:45:00",
+        "texto": "Boa profissional. Atendeu bem as necessidades da minha filha.",
+        "tags": ["Confiável"]
+      }
+    ]
+  },
+  {
+    "nome": "Tatiane Freitas",
+    "email": "tatiane.freitas@meubebe.net",
+    "lat": -19.9122,
+    "lon": -43.9465,
+    "categoria": "Baba",
+    "endereço": "Avenida Brasil, 2000 - Santa Efigênia, Belo Horizonte",
+    "foto": "",
+    "descricao": "Experiência com gêmeos e crianças com necessidades especiais.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Roberta Pinto",
+    "email": "roberta.pinto@casinha.com.br",
+    "lat": -19.9148,
+    "lon": -43.9433,
+    "categoria": "Baba",
+    "endereço": "Rua da Bahia, 1600 - Lourdes, Belo Horizonte",
+    "foto": "",
+    "descricao": "Profissional afetuosa e comunicativa, com cursos em primeiros socorros e alimentação infantil.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Camila Andrade",
+        "nota": 5,
+        "data": "2025-03-01T08:10:00",
+        "texto": "Confiável e sempre disponível. Minhas filhas adoram ela.",
+        "tags": ["Confiável", "Afetuosa"]
+      }
+    ]
+  },
+  {
+    "nome": "Vanessa Almeida",
+    "email": "vanessa.almeida@cuidadorakids.com",
+    "lat": -19.9303,
+    "lon": -43.9422,
+    "categoria": "Baba",
+    "endereço": "Rua Espírito Santo, 789 - Centro, Belo Horizonte",
+    "foto": "",
+    "descricao": "Babá com referências, experiência em cuidados noturnos e apoio a mães solo.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Aline Costa",
+    "email": "aline.costa@babysmile.org",
+    "lat": -19.9186,
+    "lon": -43.9299,
+    "categoria": "Baba",
+    "endereço": "Rua Aimorés, 2121 - Lourdes, Belo Horizonte",
+    "foto": "",
+    "descricao": "Trabalha com métodos de educação positiva e estímulo sensorial para bebês.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Sabrina Martins",
+    "email": "sabrina.martins@bebeleve.com",
+    "lat": -19.9369,
+    "lon": -43.9194,
+    "categoria": "Baba",
+    "endereço": "Rua Marília de Dirceu, 60 - Lourdes, Belo Horizonte",
+    "foto": "",
+    "descricao": "Apaixonada pelo universo infantil, oferece suporte integral ao desenvolvimento das crianças.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Bruna Carvalho",
+        "nota": 5,
+        "data": "2025-02-15T17:20:00",
+        "texto": "Uma segunda mãe para minha filha. Super dedicada.",
+        "tags": ["Dedicada", "Atenciosa"]
+      }
+    ]
+  },
+  {
+    "nome": "Creche Sorrisos",
+    "email": "creche.sorrisos@educabem.com",
+    "lat": -19.923054,
+    "lon": -43.938446,
+    "categoria": "Creche",
+    "endereço": "Rua dos Timbiras, 2400 - Lourdes, Belo Horizonte",
+    "foto": "",
+    "descricao": "Oferecemos um ambiente seguro, educativo e acolhedor para o desenvolvimento integral das crianças.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Juliana Duarte",
+        "nota": 5,
+        "data": "2025-04-15T10:00:00",
+        "texto": "Minha filha adora! Ambiente acolhedor e profissionais dedicadas.",
+        "tags": ["Aconchegante", "Cuidadoso"]
+      },
+      {
+        "nome": "Patrícia Fernandes",
+        "nota": 4,
+        "data": "2025-05-01T14:30:00",
+        "texto": "Muito bom, mas o tempo de resposta poderia melhorar.",
+        "tags": ["Responsável", "Atencioso"]
+      }
+    ]
+  },
+  {
+    "nome": "Jardim dos Anjos",
+    "email": "jardim.dosanjos@infantilbr.org",
+    "lat": -19.931421,
+    "lon": -43.939199,
+    "categoria": "Creche",
+    "endereço": "Rua Sergipe, 1375 - Savassi, Belo Horizonte",
+    "foto": "",
+    "descricao": "Promovemos atividades lúdicas e educativas em um espaço seguro e divertido.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Escolinha Sol Nascente",
+    "email": "escolinha.solnascente@crecheemail.com",
+    "lat": -19.944073,
+    "lon": -43.932672,
+    "categoria": "Creche",
+    "endereço": "Rua Pouso Alegre, 1234 - Floresta, Belo Horizonte",
+    "foto": "",
+    "descricao": "Cuidamos com carinho e profissionalismo do bem-estar e desenvolvimento das crianças.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Roberta Lima",
+        "nota": 5,
+        "data": "2025-03-20T09:00:00",
+        "texto": "Profissionais incríveis! Sempre atentas às necessidades das crianças.",
+        "tags": ["Empática", "Competente"]
+      }
+    ]
+  },
+  {
+    "nome": "Creche Bem Me Quer",
+    "email": "creche.bemmequer@cuidadoinfantil.com",
+    "lat": -19.917564,
+    "lon": -43.934827,
+    "categoria": "Creche",
+    "endereço": "Av. Brasil, 3000 - Santa Efigênia, Belo Horizonte",
+    "foto": "",
+    "descricao": "Espaço lúdico e seguro com foco na socialização e aprendizagem das crianças.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Pequenos Passos",
+    "email": "creche.pequenospassos@educar.org",
+    "lat": -19.956024,
+    "lon": -43.945431,
+    "categoria": "Creche",
+    "endereço": "Av. Silva Lobo, 1820 - Nova Suíça, Belo Horizonte",
+    "foto": "",
+    "descricao": "Nosso compromisso é com o cuidado e o desenvolvimento infantil em todas as fases.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Lívia Moreira",
+        "nota": 4,
+        "data": "2025-02-12T16:45:00",
+        "texto": "Muito boa estrutura. Senti falta de mais feedback diário.",
+        "tags": ["Organizado", "Seguro"]
+      }
+    ]
+  },
+  {
+    "nome": "Creche Nosso Lar Infantil",
+    "email": "nossolar.infantil@abracokids.com",
+    "lat": -19.934538,
+    "lon": -43.912540,
+    "categoria": "Creche",
+    "endereço": "Rua da Bahia, 1450 - Centro, Belo Horizonte",
+    "foto": "",
+    "descricao": "Trabalhamos com amor, promovendo educação e cuidado para o futuro das crianças.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Escolinha Arco-Íris",
+    "email": "escolinha.arcoiris@infantnet.com",
+    "lat": -19.908427,
+    "lon": -43.982844,
+    "categoria": "Creche",
+    "endereço": "Rua Gávea, 650 - Buritis, Belo Horizonte",
+    "foto": "",
+    "descricao": "Ambiente colorido e divertido com propostas pedagógicas modernas.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda Castro",
+        "nota": 5,
+        "data": "2025-04-01T11:15:00",
+        "texto": "Atendimento excelente e estrutura incrível.",
+        "tags": ["Didática", "Afetiva"]
+      }
+    ]
+  },
+  {
+    "nome": "Mundo Encantado",
+    "email": "mundoencantado.creche@educamais.com",
+    "lat": -19.919313,
+    "lon": -43.949621,
+    "categoria": "Creche",
+    "endereço": "Rua Alagoas, 1320 - Funcionários, Belo Horizonte",
+    "foto": "",
+    "descricao": "Um mundo mágico de descobertas e aprendizado para os pequenos.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  },
+  {
+    "nome": "Amor e Carinho",
+    "email": "amorecarinho.creche@familiakids.com",
+    "lat": -19.980041,
+    "lon": -43.915507,
+    "categoria": "Creche",
+    "endereço": "Rua Platina, 1000 - Prado, Belo Horizonte",
+    "foto": "",
+    "descricao": "Valorizamos o cuidado afetuoso aliado a práticas pedagógicas criativas.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Cláudia Nogueira",
+        "nota": 3,
+        "data": "2025-03-18T13:00:00",
+        "texto": "Boa creche, mas o número de crianças por cuidadora é alto.",
+        "tags": ["Amável", "Paciência"]
+      }
+    ]
+  },
+  {
+    "nome": "Creche Luz da Vida",
+    "email": "creche.luzdavida@infantil.org",
+    "lat": -19.925841,
+    "lon": -43.963724,
+    "categoria": "Creche",
+    "endereço": "Av. Amazonas, 3100 - Santo Agostinho, Belo Horizonte",
+    "foto": "",
+    "descricao": "Com dedicação e carinho, cuidamos dos primeiros passos da infância.",
+    "perfilUrl": "/",
+    "avaliacoes": []
+  }
+]
+  

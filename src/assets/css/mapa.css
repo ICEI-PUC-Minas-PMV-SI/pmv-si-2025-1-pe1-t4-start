@@ -405,8 +405,8 @@
 }
 
 .profile-image {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -509,7 +509,7 @@
 }
 
 .profile-description p,
-.profile-address p {
+.profile-endereco {
   font-size: 0.95em;
   color: #555;
   margin-bottom: 10px;

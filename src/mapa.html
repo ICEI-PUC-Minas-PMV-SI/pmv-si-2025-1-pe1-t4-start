@@ -19,7 +19,7 @@
 
   <body>
     <header-component></header-component>
-    
+
      <div id="filtros-categorias">
   <button data-categoria="todos">Todos</button>
   <button data-categoria="Psicólogo">Psicólogos</button>
@@ -29,6 +29,7 @@
   </div>
 
     <div id="sidebar" class="sidebar"></div>
+    
     <button class="close-sidebar-btn" onclick="toggleSidebar()">✖</button>
 
     <div id="map"></div>
@@ -58,7 +59,9 @@
   function toggleSidebar() {
     const sidebar = document.querySelector('.sidebar');
     sidebar.classList.toggle('active');
+    
   }
 </script>
+
   </body>
 </html>

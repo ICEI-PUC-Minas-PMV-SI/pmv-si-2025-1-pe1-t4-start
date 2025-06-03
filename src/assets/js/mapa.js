@@ -1,7 +1,6 @@
 let todosOsUsuarios = [];  
 let marcadoresAtuais = []; 
 
-
 const coresPorCategoria = {
   Creche: "#009951",
   Baba: "#D732A8",
@@ -22,79 +21,66 @@ function normalizarCategoria(nome) {
 
 function criarMarcadorCor(corHex, iconeClasse, categoria) {
   const classeCategoria = normalizarCategoria(categoria);
-
-return L.divIcon({
-  className: `custom-marker ${classeCategoria}`,
-  html: `
-    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="53" viewBox="0 0 32 45">
-      <path fill="${corHex}" stroke="#000" stroke-width="2"
-            d="M16 0C7.2 0 0 7.2 0 16c0 11.2 16 29 16 29s16-17.8 16-29C32 7.2 24.8 0 16 0z"/>
-      <foreignObject x="8" y="8" width="24" height="24"> <div xmlns="http://www.w3.org/1999/xhtml" class="marker-icon">
-          <i class="${iconeClasse}"></i>
-        </div>
-      </foreignObject>
-    </svg>
-  `,
-  iconSize: [38, 53],
-  iconAnchor: [19, 53], 
-  popupAnchor: [0, -53],
-});
-
+  return L.divIcon({
+    className: `custom-marker ${classeCategoria}`,
+    html: `
+      <svg xmlns="http://www.w3.org/2000/svg" width="38" height="53" viewBox="0 0 32 45">
+        <path fill="${corHex}" stroke="#000" stroke-width="2"
+              d="M16 0C7.2 0 0 7.2 0 16c0 11.2 16 29 16 29s16-17.8 16-29C32 7.2 24.8 0 16 0z"/>
+        <foreignObject x="8" y="8" width="24" height="24">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="marker-icon">
+            <i class="${iconeClasse}"></i>
+          </div>
+        </foreignObject>
+      </svg>
+    `,
+    iconSize: [38, 53],
+    iconAnchor: [19, 53], 
+    popupAnchor: [0, -53],
+  });
 }
-const usuarios = [
-  {
-    nome: "Dr Lucas Silveira",
-    lat: -19.92368338798214,
-    lon: -43.936048081856,
-    categoria: "Advogado",
-    foto: "assets/images/profissionais/Adv-JJ.png",
-    descricao:
-      "Especializado em advocacia do trabalho busco auxiliar mães com problemas referentes ao ambiente laboral que necessitem de apoio jurídico.",
-    perfilUrl: "/",
-  },
-  {
-    nome: "Lúcia Figueiredo",
-    lat: -19.922625142919983,
-    lon: -43.99253063120594,
-    categoria: "Baba",
-    foto: "assets/images/profissionais/Babas-JA.png",
-    descricao:
-      "Especializada em cuidado infantil e atuante em centros infantis da região.",
-    perfilUrl: "/",
-  },
-  {
-    nome: "Creche Encanto",
-    lat: -19.91631679989123,
-    lon: -43.93468649349994,
-    categoria: "Creche",
-    foto: "assets/images/foto-creche.jpg",
-    descricao: "Cuidamos com carinho e dedicação do seu bem mais precioso!",
-    perfilUrl: "creches.html",
-  },
-  {
-    nome: "Dr Pedro Paulo",
-    lat: -19.97268462468003,
-    lon: -43.93759196461644,
-    categoria: "Psicólogo",
-    foto: "assets/images/profissionais/Psic-RA.png",
-    descricao:
-      "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
-    perfilUrl: "/",
-  },
-];
+
+function ordenarAvaliacoes(avaliacoes, criterio) {
+  switch (criterio) {
+    case "melhores":
+      return [...avaliacoes].sort((a, b) => b.nota - a.nota);
+    case "piores":
+      return [...avaliacoes].sort((a, b) => a.nota - b.nota);
+    case "recentes":
+      return [...avaliacoes].sort((a, b) => new Date(b.data) - new Date(a.data));
+    case "relevantes":
+    default:
+      return avaliacoes;
+  }
+}
+
+let usuarios = [];
+// ...
+
+fetch("assets/js/profissionais.json")
+  .then(response => response.json())
+  .then(data => {
+    todosOsUsuarios = data;
+    atualizarMapaPorCategoria("todos");
+  })
+  .catch(error => {
+    console.error("Erro ao carregar os usuários:", error);
+  });
 
 const map = L.map("map").setView([-19.912998, -43.940933], 12);
-
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
 }).addTo(map);
 
-// Salva todos os usuários carregados
 todosOsUsuarios = usuarios;
 
-// Função que atualiza os marcadores com base na categoria selecionada
+function calcularMediaAvaliacoes(avaliacoes) {
+  if (!avaliacoes || avaliacoes.length === 0) return 0;
+  const soma = avaliacoes.reduce((acc, a) => acc + a.nota, 0);
+  return soma / avaliacoes.length;}
+
+
 function atualizarMapaPorCategoria(categoriaSelecionada) {
-  // Remove os marcadores atuais
   marcadoresAtuais.forEach((marker) => map.removeLayer(marker));
   marcadoresAtuais = [];
 
@@ -105,119 +91,99 @@ function atualizarMapaPorCategoria(categoriaSelecionada) {
 
   usuariosFiltrados.forEach((usuario) => {
     const cor = coresPorCategoria[usuario.categoria] || "#999";
-    const iconeClasse =
-      iconeClassePorCategoria[usuario.categoria] || "fa-solid fa-user";
+    const iconeClasse = iconeClassePorCategoria[usuario.categoria] || "fa-solid fa-user";
     const icone = criarMarcadorCor(cor, iconeClasse, usuario.categoria);
 
     const marker = L.marker([usuario.lat, usuario.lon], { icon: icone }).addTo(map);
     marcadoresAtuais.push(marker);
 
     marker.on("click", () => {
-      const infoHTML = `  <section class="profile-card">
-            <div class="profile-header">
-                <img src="${usuario.foto}" alt="Foto de ${usuario.nome}" class="profile - image">
-    <div class="profile-details">
-                    <div class="name-actions">
-                        <h1>${usuario.nome}</h1>
-                        <button class="favorite-btn"><i class="far fa-heart"></i></button>
-                    </div>
-                    <div class="rating-line">
-                        <span class="stars">5.0 ★</span> <span class="reviews-count">(40 avaliações)</span>
-                    </div>
-                    <p class="profession">${usuario.categoria}</p>
-                    <div class="tags">
-                        <span class="tag">Libras</span>
-                        <span class="tag">LGBTQIA+ Friendly</span>
-                    </div>
-                    <div class="social-icons">
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Website"><i class="fas fa-link"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div >
-            </div >
-            <a href="${usuario.perfilUrl}" class="whatsapp-btn">
+      let criterioAtual = "recentes";
+
+      function renderizarAvaliacoes(criterio) {
+        const avaliacoesOrdenadas = ordenarAvaliacoes(usuario.avaliacoes || [], criterio);
+        if (!avaliacoesOrdenadas.length) {
+          return `<p class="sem-avaliacoes">Nenhuma avaliação ainda.</p>`;
+        }
+
+        return avaliacoesOrdenadas.map((a) => {
+          const estrelas = "★".repeat(a.nota) + "☆".repeat(5 - a.nota);
+          const tagsHTML = a.tags.map(tag => `<span class="tag">${tag}</span>`).join("");
+          return `
+            <div class="review-card">
+              <div class="review-author">
+                
+                <span class="author-name">${a.nome}</span>
+              </div>
+              <div class="author-tags">${tagsHTML}</div>
+              <div class="review-rating"><div class="stars">${estrelas}</div></div>
+              <p class="review-date">${new Date(a.data).toLocaleString('pt-BR')}</p>
+              <p class="review-text">${a.texto}</p>
+            </div>
+          `;
+        }).join("");
+      }
+
+      const media = calcularMediaAvaliacoes(usuario.avaliacoes);
+const quantidade = (usuario.avaliacoes || []).length;
+      const sidebar = document.getElementById("sidebar");
+      sidebar.innerHTML = `
+         <section class="profile-card">
+    <div class="profile-header">
+      <img src="${usuario.foto}" alt="${usuario.nome}" class="profile-image">
+      <div class="profile-details">
+        <h1>${usuario.nome}</h1>
+        <p class="profession">${usuario.categoria}</p>
+        <div class="rating-line">
+          <span class="stars">${media.toFixed(1)} ★</span> 
+          <span class="reviews-count">(${quantidade} ${quantidade === 1 ? 'avaliação' : 'avaliações'})</span>
+        </div>
+          
+      </div>
+    </div>
+    
+          </div>
+          <div class="profile-description"><p>${usuario.descricao}</p></div>
+           <div class="profile-buttons">
+
+       <a href="${usuario.perfilUrl}" class="whatsapp-btn">
                 <i class="fab fa-whatsapp"></i> Entrar em contato pelo WhatsApp
             </a>
-            <div class="profile-description">
-                <p>${usuario.descricao}</p>
-            </div>
-            <div class="profile-address">
+
+          
+           <div class="profile-endereco">
                 <p><strong>Endereço:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 50 - Lorem ipsum</p>
             </div>
-        </section >
 
-    <section class="reviews-section">
-      <h2>Avaliações</h2>
-      <div class="overall-rating">
-        <div class="main-rating-score">
-          <span class="score-value">5.0</span>
-          <div class="stars big-stars">★★★★★</div> </div>
-        <div class="rating-breakdown">
-          <div class="rating-item">
-            <span>atendimento</span>
-            <div class="progress-bar-container">
-              <div class="progress-bar" style="width: 100%;"></div>
-            </div>
-            <span>5.0</span>
-          </div>
-          <div class="rating-item">
-            <span>acessibilidade</span>
-            <div class="progress-bar-container">
-              <div class="progress-bar" style="width: 100%;"></div>
-            </div>
-            <span>5.0</span>
-          </div>
-          <div class="rating-item">
-            <span>instalações</span>
-            <div class="progress-bar-container">
-              <div class="progress-bar" style="width: 100%;"></div>
-            </div>
-            <span>5.0</span>
-          </div>
-          <div class="rating-item">
-            <span>outros</span>
-            <div class="progress-bar-container">
-              <div class="progress-bar" style="width: 100%;"></div>
-            </div>
-            <span>5.0</span>
-          </div>
-        </div>
       </div>
+        </section>
 
-      <div class="review-filters">
-        <button class="filter-btn">Relevantes</button>
-        <button class="filter-btn active"><i class="fas fa-check"></i> Recentes</button>
-        <button class="filter-btn">Melhores Avaliações</button>
-        <button class="filter-btn">Piores Avaliações</button>
-      </div>
+        <section class="reviews-section">
+          <h2>Avaliações</h2>
+          <div class="review-filters">
+            <button class="filter-btn" data-criterio="relevantes">Relevantes</button>
+            <button class="filter-btn active" data-criterio="recentes">Recentes</button>
+            <button class="filter-btn" data-criterio="melhores">Melhores</button>
+            <button class="filter-btn" data-criterio="piores">Piores</button>
+          </div>
+          <div id="avaliacoes-container">${renderizarAvaliacoes(criterioAtual)}</div>
+        </section>
+      `;
 
-      <div class="review-card">
-        <div class="review-author">
-          <img src="https://via.placeholder.com/40" alt="Foto de Ana Maria" class="author-avatar">
-            <span class="author-name">Ana Maria</span>
-        </div>
-        <div class="author-tags">
-          <span class="tag">Carinhosa</span>
-          <span class="tag">Respeitosa</span>
-          <span class="tag">Paciente</span>
-        </div>
-        <div class="review-rating">
-          <div class="stars">★★★★★</div> </div>
-        <p class="review-date">21 de outubro de 2024 - 11h30</p>
-        <p class="review-text">
-          Deixo meu filho todos os dias na creche do bairro nas mãos da Lúcia. Meu filho adora ela e o apelido que ele deu a ele é de "titia lucinha". ela é uma ótima cuidadora!
-        </p>
-      </div>
-    </section>
-  `;
-
-      const sidebar = document.getElementById("sidebar");
-      sidebar.innerHTML = infoHTML;
       sidebar.classList.add("active");
+
+      sidebar.querySelectorAll(".filter-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          criterioAtual = btn.dataset.criterio;
+          sidebar.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          document.getElementById("avaliacoes-container").innerHTML = renderizarAvaliacoes(criterioAtual);
+        });
+      });
     });
   });
 }
+
 document.querySelectorAll("#filtros-categorias button").forEach((botao) => {
   botao.addEventListener("click", () => {
     const categoria = botao.getAttribute("data-categoria");
@@ -225,6 +191,4 @@ document.querySelectorAll("#filtros-categorias button").forEach((botao) => {
   });
 });
 
-
 atualizarMapaPorCategoria("todos");
-
