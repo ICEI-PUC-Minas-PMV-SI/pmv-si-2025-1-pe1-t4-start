@@ -13,7 +13,7 @@ const iconeClassePorCategoria = {
   Creche: "fa-solid fa-baby-carriage",
   Baba: "fa-solid fa-baby",
   Advogado: "fa-solid fa-scale-balanced",
-  Psicologo: "fa-solid fa-brain",
+  Psicólogo: "fa-solid fa-brain",
 };
 
 function normalizarCategoria(nome) {
