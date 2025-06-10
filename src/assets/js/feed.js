@@ -33,7 +33,6 @@ function renderPosts(posts) {
   posts.forEach((post) => {
     const postElement = document.createElement("div");
     postElement.className = "post";
-    postElement.dataset.postId = post.id;
 
     const author = post.user;
     const isLikedByCurrentUser = post.likedBy.includes(CURRENT_USER_ID);
@@ -101,9 +100,9 @@ function renderComments(comments, postId) {
   if (!comments || comments.length === 0) return "";
   return comments.map((comment) => {
     const commenter = comment.user;
-    const canDelete = commenter.id === CURRENT_USER_ID;
+    const canInteract = commenter.id === CURRENT_USER_ID;
     return `
-      <div class="comment">
+      <div class="comment" data-comment-id="${comment.id}">
         <div class="comment-user-avatar">
             <img src="${commenter.avatar}" alt="${commenter.name}">
         </div>
@@ -113,18 +112,79 @@ function renderComments(comments, postId) {
                   <span class="comment-user-name">${commenter.name}</span>
                   <span class="comment-user-subtitle">${commenter.subtitle}</span>
                 </div>
-                ${canDelete ? `
-                  <button class="delete-comment-button" data-post-id="${postId}" data-comment-id="${comment.id}" title="Excluir comentário">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path></svg>
-                  </button>
-                ` : ''}
+                <div class="comment-actions">
+                  ${canInteract ? `
+                    <button class="edit-comment-button" data-post-id="${postId}" data-comment-id="${comment.id}" title="Editar comentário">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M17.657 6.343l-1.414-1.414L5 16.172V19h2.828L19.071 7.757l-1.414-1.414zM4 21h16" stroke="#9388ad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path></svg>
+                    </button>
+                    <button class="delete-comment-button" data-post-id="${postId}" data-comment-id="${comment.id}" title="Excluir comentário">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path></svg>
+                    </button>
+                  ` : ''}
+                </div>
             </div>
-            <p>${comment.text}</p>
+            <p class="comment-text">${comment.text}</p>
             ${comment.image ? `<div class="comment-image"><img src="${comment.image}" alt="Imagem do comentário" /></div>` : ""}
         </div>
       </div>
     `;
   }).join("");
+}
+
+function handleCommentEdit(event) {
+  const button = event.currentTarget;
+  const commentElement = button.closest('.comment');
+  const commentTextElement = commentElement.querySelector('.comment-text');
+  const currentText = commentTextElement.textContent;
+
+  // Previne múltiplas edições ao mesmo tempo
+  if (commentElement.querySelector('.edit-comment-container')) {
+    return;
+  }
+
+  const editContainer = document.createElement('div');
+  editContainer.className = 'edit-comment-container';
+  editContainer.innerHTML = `
+        <textarea class="edit-comment-textarea">${currentText}</textarea>
+        <button class="update-comment-button">Atualizar</button>
+    `;
+
+  commentTextElement.style.display = 'none'; // Esconde o texto original
+  commentTextElement.parentNode.insertBefore(editContainer, commentTextElement.nextSibling);
+
+  const updateButton = editContainer.querySelector('.update-comment-button');
+  updateButton.addEventListener('click', () => handleCommentUpdate(button.dataset.postId, button.dataset.commentId));
+}
+
+async function handleCommentUpdate(postId, commentId) {
+  const commentElement = document.querySelector(`.comment[data-comment-id='${commentId}']`);
+  const textarea = commentElement.querySelector('.edit-comment-textarea');
+  const newText = textarea.value.trim();
+
+  if (!newText) return;
+
+  try {
+    const response = await fetch(`${API_URL}/posts/${postId}`);
+    if (!response.ok) throw new Error('Post não encontrado!');
+    const postToUpdate = await response.json();
+
+    const commentToUpdate = postToUpdate.comments.find(comment => comment.id == commentId);
+    if (commentToUpdate) {
+      commentToUpdate.text = newText;
+    }
+
+    const updateResponse = await fetch(`${API_URL}/posts/${postId}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(postToUpdate),
+    });
+
+    if (!updateResponse.ok) throw new Error('Falha ao atualizar o comentário.');
+
+    fetchAndRenderPosts();
+  } catch (error) {
+    console.error("Erro ao atualizar o comentário:", error);
+  }
 }
 
 async function handleLikeClick(event) {
@@ -265,6 +325,11 @@ function addEventListeners() {
     button.addEventListener("click", handleCommentDelete);
   });
 
+  document.querySelectorAll(".edit-comment-button").forEach((button) => {
+    button.removeEventListener("click", handleCommentEdit);
+    button.addEventListener("click", handleCommentEdit);
+  });
+
   document.querySelectorAll(".delete-post-button").forEach((button) => {
     button.removeEventListener("click", handlePostDelete);
     button.addEventListener("click", handlePostDelete);
@@ -298,14 +363,12 @@ document.addEventListener("DOMContentLoaded", function () {
   function initModal() {
     return new PostModal({
       userName: currentUser.name,
-      tag: currentUser.subtitle,
       userAvatar: currentUser.avatar,
-      placeholder: "Sobre o que você quer falar?",
-      onSubmit: function (postContent, title) {
+      onSubmit: function (postData) {
         const newPost = {
           user: currentUser,
-          title: title,
-          content: postContent,
+          title: postData.title,
+          content: postData.content,
           image: "",
           date: new Date().toISOString().split("T")[0],
           comments: [],
