@@ -36,14 +36,20 @@ function preencherDados(user) {
 
 // excluir perfil
 function excluirPerfil() {
-    const confirmacao = confirm("Tem certeza que deseja excluir seu perfil?");
-    if (confirmacao) {
-        localStorage.removeItem(userEmail);
-        alert("Perfil excluído com sucesso.");
-        window.location.href = "landing-page.html";
-    } else {
-        alert("Exclusão cancelada.");
-    }
+  const confirmacao = confirm("Tem certeza que deseja excluir seu perfil?");
+  if (confirmacao) {
+    localStorage.removeItem("email");
+    localStorage.removeItem("nome");
+    localStorage.removeItem("bio");
+    localStorage.removeItem("foto");
+    localStorage.removeItem("localizacao");
+    localStorage.removeItem("userLogado");
+
+    alert("Perfil excluído com sucesso.");
+    window.location.href = "landing-page.html";
+  } else {
+    alert("Exclusão cancelada.");
+  }
 }
 
 carregarDadosDoJson();
