@@ -4,50 +4,59 @@ const currentUser = {
   subtitle: "Mãe solo",
 };
 
-const initialPosts = [
-  {
-    user: {
-      avatar: "assets/images/profile/jessicaSilva.png",
-      name: "Jéssica da Silva",
-      subtitle: "Mãe solo",
-    },
-    content:
-      "Hoje, depois de uma semana cansativa de trabalho e ocupações, foi dia de lazer com meu filho e sua primeira vez andando de bicicleta! Um momento muito emocionante ao seu lado, filho. É muito bom ver você crescendo!",
-    image: "assets/images/posts/child_bike.jpg",
-    comments: [
-      {
-        user: {
-          avatar: "assets/images/profile/jessicaSilva.png",
-          name: "Jéssica da Silva",
-          subtitle: "Mãe solo",
-        },
-        text: "Lindo momento, parabéns!",
-      },
-    ],
-  },
-];
+const API_URL = "http://localhost:3000";
+
+async function fetchAndRenderPosts() {
+  try {
+    const response = await fetch("./assets/js/posts.json");
+    if (!response.ok) {
+      throw new Error("Não foi possível buscar os posts!");
+    }
+    const postsFromServer = await response.json();
+
+    postsFromServer.sort((a, b) => new Date(b.date) - new Date(a.date));
+    console.log("posts: ", { postsFromServer });
+    renderPosts(postsFromServer);
+    console.log("chegou aqui");
+    addPostListeners();
+  } catch (error) {
+    console.error("Erro ao buscar os posts...");
+    const postFeed = document.getElementById("postFeed");
+    postFeed.innerHTML = "<p>Erro ao carregar o Feed. Tente novamente mais tarde</p>";
+  }
+}
 
 function renderPosts(posts) {
   const postFeed = document.getElementById("postFeed");
   postFeed.innerHTML = "";
+
   posts.forEach((post) => {
     const postElement = document.createElement("div");
     postElement.className = "post";
+
+    const author = post.user;
+
+    console.log(post);
+
     postElement.innerHTML = `
       <div class="user-info">
         <div class="user-avatar">
-          <img src="${post.user.avatar}" alt="${post.user.name}" />
+          <img src="${author.avatar}" alt="${author.name}" />
         </div>
         <div class="user-details">
-          <h3>${post.user.name}</h3>
-          <span>${post.user.subtitle}</span>
+          <h3>${author.name}</h3>
+          <span>${author.subtitle}</span>
         </div>
       </div>
       <div class="post-content">
+        <h4>${post.title}</h4>
         <p>${post.content}</p>
       </div>
       ${post.image ? `<div class="post-image"><img src="${post.image}" alt="Imagem do post" /></div>` : ""}
-      <div class="likes">1 likes</div>
+      <div style="display: flex">
+        <div class="likes" style="margin-right: 6px">1 likes</div>
+        <div class="likes">${post.comments.length} comentários</div>
+      </div>
       <hr class="line" />
       <div>
         <button class="like-button">
@@ -60,30 +69,93 @@ function renderPosts(posts) {
       </div>
       <div class="comments-section">
         <div class="comments-list">
-          ${post.comments
-            .map(
-              (comment) => `
-            <div class="comment">
-              <div class="comment-user-avatar">
-                <img src="${comment.user.avatar}" alt="${comment.user.name}">
-              </div>
-              <div class="comment-content">
-                <span class="comment-user-name">${comment.user.name}</span>
-                <span class="comment-user-subtitle">${comment.user.subtitle}</span>
-                <p>${comment.text}</p>
-              </div>
-            </div>
-          `
-            )
-            .join("")}
+          ${renderComments(post.comments)}
         </div>
-        <form class="comment-form">
+        <form class="comment-form" data-post-id="${post.id}">
           <input type="text" class="comment-input" placeholder="Adicionar um comentário..." required />
           <button type="submit">Comentar</button>
         </form>
       </div>
     `;
     postFeed.appendChild(postElement);
+  });
+  console.log("opa");
+  addEventListeners();
+}
+
+function renderComments(comments) {
+  if (!comments || comments.length === 0) return "";
+
+  return comments
+    .map((comment) => {
+      const commenter = comment.user;
+      return `
+      <div class="comment">
+        <div class="comment-user-avatar">
+            <img src="${commenter.avatar}" alt="${commenter.name}">
+          </div>
+          <div class="comment-content">
+            <div class="comment-header">
+              <span class="comment-user-name">${commenter.name}</span>
+              <span class="comment-user-subtitle">${commenter.subtitle}</span>
+            </div>
+            <p>${comment.text}</p>
+            ${
+              comment.image
+                ? `<div class="comment-image"><img src="${comment.image}" alt="Imagem do comentário" /></div>`
+                : ""
+            }
+          </div>
+      </div>
+    `;
+    })
+    .join("");
+}
+
+async function handleCommentSubmit(event) {
+  event.preventDefault();
+  const form = event.target;
+  const postId = form.dataset.postId;
+  const input = form.querySelector(".comment-input");
+  const commentText = input.value.trim();
+
+  if (!commentText) return;
+
+  try {
+    const postResponse = await fetch(`${API_URL}/posts/${postId}`);
+    const postToUpdate = await postResponse.json();
+
+    const newComment = {
+      id: Date.now(),
+      user: currentUser,
+      text: commentText,
+      image: "",
+    };
+
+    postToUpdate.comments.push(newComment);
+
+    const updateResponse = await fetch(`${API_URL}/posts/${postId}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(postToUpdate),
+    });
+
+    if (updateResponse.ok) {
+      input.value = "";
+      fetchAndRenderPosts();
+    } else {
+      console.error("Falha ao atualizar o post com o novo comentário.");
+    }
+  } catch (error) {
+    console.error("Erro ao adicionar comentário:", error);
+  }
+}
+
+function addEventListeners() {
+  document.querySelectorAll(".comment-form").forEach((form) => {
+    form.addEventListener("submit", handleCommentSubmit);
   });
 }
 
@@ -138,11 +210,31 @@ function addPostListeners() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  renderPosts(initialPosts);
-  addPostListeners();
+  fetchAndRenderPosts();
 
   const inputCreatePost = document.getElementById("inputCreatePost");
   const createPostBtn = document.getElementById("createPostBtn");
+
+  async function createNewPost(postData) {
+    console.log(postData);
+    try {
+      const response = await fetch(`${API_URL}/posts`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(postData),
+      });
+
+      if (response.ok) {
+        fetchAndRenderPosts();
+      } else {
+        console.error("Erro ao criar este post!");
+      }
+    } catch (error) {
+      console.error("Erro na requisição POST: ", error);
+    }
+  }
 
   // isso faz com que o modal so seja iniciado quando a DOM foi criado
   function initModal() {
@@ -151,14 +243,17 @@ document.addEventListener("DOMContentLoaded", function () {
       tag: currentUser.subtitle,
       userAvatar: currentUser.avatar,
       placeholder: "Sobre o que você quer falar?",
-      onSubmit: function (content) {
-        initialPosts.unshift({
-          user: { ...currentUser },
-          content,
+      onSubmit: function (postContent) {
+        const newPost = {
+          user: currentUser,
+          title: postContent.substring(0, 30) + "...",
+          content: postContent,
+          image: "",
+          date: new Date().toISOString().split("T")[0],
           comments: [],
-        });
-        renderPosts(initialPosts);
-        addPostListeners();
+        };
+
+        createNewPost(newPost);
       },
     });
   }

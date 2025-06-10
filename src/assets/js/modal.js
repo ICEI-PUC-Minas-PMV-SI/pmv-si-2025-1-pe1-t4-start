@@ -110,6 +110,7 @@ class PostModal {
     });
 
     postButton.addEventListener("click", () => {
+      /* event.preventDefault(); */
       if (this.postContent.trim().length > 0) {
         this.submit();
       }
