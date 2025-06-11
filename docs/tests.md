@@ -29,7 +29,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro.html <br> 2) Preencha todos os campos do formulário corretamente <br> 3) Clique no botão "Cadastrar".
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a página de edição de perfil do uauário
+**Resultado esperado** | Prosseguir para a página inicial ( feed )
 **Dados de entrada** | Preencher os dados corretos necessário para realizar o cadastro
 **Resultado obtido** | -
 
