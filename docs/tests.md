@@ -205,17 +205,29 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção tem como objetivo, mostrar os testes que foram realizados em cada página do sistema e seus respectivos resultados.
 
+
+|*Caso de Teste*                                 |*CC01 - Criar conta*                                         |
+|---|---|
+|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários (mães) possam criar suas contas |
+|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t](https://drive.google.com/file/d/1mGYQhQ1sYt8gTwPZR9zsdlOtSEra05_5/view?usp=sharing) | 
+
+
+
+
 |*Caso de Teste*                                 |*CC01 - Criar conta profissional parte 1*                                         |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários profissionais façam  a primeira etapa de criação de conta |
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1HzV5MdWYnBiXE_F2id2CsiEBf-GDHDWw/view?usp=sharing | 
+
+
 
 
 
 |*Caso de Teste*                                 |*CC02 - Criar conta profissional parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários profissionais criem uma conta |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1jnGctLGqszYfOzQ97jAclfDu94BsGNdq/view?usp=sharing | 
+
 
 
 
@@ -223,14 +235,14 @@ Esta seção tem como objetivo, mostrar os testes que foram realizados em cada p
 |*Caso de Teste*                                 |*LS02 - Logar no sistema*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam entrar no sistema com uma conta já cadastrada. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1YYEu9B7bxtcy8jN9oyCvJbgbJ-RgLy_C/view?usp=sharing |
 
 
 
 |*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 1*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam digitar o e-mail cadastrado para recebimento de um código. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SlfxBawCRwEiqB59uoGhD9qqNKAARZ2m/view?usp=sharing | 
 
 
 
@@ -246,7 +258,7 @@ Esta seção tem como objetivo, mostrar os testes que foram realizados em cada p
 |*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 3*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários escolham  e digitem suas novas senhas de acordo com os critérios de criação de senha. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1mZU9iKue30kj69vOusW79yjKgPfbDMpL/view?usp=sharing | 
 
 
 
