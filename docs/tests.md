@@ -36,6 +36,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+
+
+
+
 **Caso de Teste** | **CC02 - Criar conta ( para mães )**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro.html <br> 2) Preencha todos os campos do formulário corretamente; <br> 3) Clique no botão "Cadastrar";
@@ -47,6 +51,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+
+
+
+
 **Caso de Teste** | **CC03 - Criar conta profissional, etapa 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro-profissional.html <br> 2) Preencha todos os campos do formulário corretamente; <br> 2) Clique no botão "Prosseguir"; <br> 
@@ -54,6 +62,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Direcionar para a segunda etapa do cadastro profissional;
 **Dados de entrada** | Preencher todos os campos com os dados corretos necessários para ir para etapa dois do cadastro profissional e incluir um e-mail não cadastrado no sistema;
 **Resultado obtido** | Usuário acessou a etapa 2 do cadastro profissional.
+
+
+
+
 
 
 
@@ -71,6 +83,9 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+
+
+
 **Caso de Teste** | **EP05 - Editar perfil**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/userprofile.html <br> 2) No canto da tela, clicar no botão de 'Editar perfil' no campo de dados do perfil;
@@ -82,6 +97,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+
+
+
+
 **Caso de Teste** | **PB06 - Publicações realizadas pelo usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/userprofile.html <br> 2) Clique no ícone de balão para fazer um comentário; <br> 3) Clique no ícone de lápis para editar a publicação; <br> 4) Clique no ícone de lixeira para excluir a publicação; <br> 5) Clique em 'Novo Post' para postar algo novo no feed;
@@ -89,6 +108,9 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Conseguir comentar, editar e excluir publicações além de conseguir realizar um novo post;
 **Dados de entrada** | Ter clicado em cada respectivo ícone e seção;
 **Resultado obtido** | -
+
+
+
 
 
 
@@ -107,6 +129,9 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+
+
+
 **Caso de Teste** | **SV08 - Sessão de serviços**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/servicos.html <br>  2) Clique em 'Pesquisar' para pesquisar um perfil específico;
@@ -114,6 +139,8 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Ser direcionado para a página de serviços prestados no sistema ( Psicólogos, Advogados, Babás e Creches ) e conseguir realizar pesquisas;
 **Dados de entrada** |  Ter clicado em cada respectiva seção na página e ter ingressado na mesma;
 **Resultado obtido** | -
+
+
 
 
 
@@ -129,6 +156,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+
+
+
+
 **Caso de Teste** | **NS10 - Redefinição de senha- Etapa 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/senha.html <br> 2) Preencha o campo de e-mail com um e-mail cadastrado no sistema; <br> 3) Clique no botão confirmar;
@@ -136,6 +167,9 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Ser direcionado para a próxima etapa de redefinição de senha;
 **Dados de entrada** | Ter preenchido o campo de e-mail com um e-mail cadastrado no sistema e clicado no botão de confirmar;
 **Resultado obtido** | -
+
+
+
 
 
 
@@ -150,6 +184,9 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+
+
+
 **Caso de Teste** | **NS12 - Redefinição de senha- Etapa 3**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/nova-senha.html <br> 2) Escolha a nova senha de acordo com os critérios de criação de senha e confirme ( as senhas devem ser iguais e conter no minímo 8 carácteres  e máximo 14);
@@ -157,6 +194,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Ser direcionado para a página de login para utilizar a nova senha;
 **Dados de entrada** | Ter preenchido todos os campos com senhas iguais e com os critérios de criação de senha;
 **Resultado obtido** | -
+
 
 
 
