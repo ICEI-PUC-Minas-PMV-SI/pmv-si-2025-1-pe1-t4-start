@@ -16,7 +16,7 @@ body {
   background-position: top center;
   background-color: #766985;
   position: relative; 
-  transform: scale(0.8);
+  transform: scale(0.9);
 
 }
 #logo-fundo {
@@ -110,10 +110,11 @@ p {
     font-style: normal;
 }
 
-@media (max-width: 600px) 
+@media (max-width: 1200px) 
     
 
 
+   
    
     
 
