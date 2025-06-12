@@ -2,8 +2,9 @@
 
 Neste projeto serão realizados dois tipos de testes:
 
- - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
- - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
+ - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema. Verificar se todas as implementações realizadas nas páginas, funcionam adequadamente.
+   
+ - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. Nesse caso, o público alvo que realizará o teste das páginas, é o público alvo principal entrevistado em etapas anteriores, o público alvo de Mães Solo. Outras páginas que precisam ser testadas por usuários profissionais, também foram testadas por outros usuários que não tem relação com o público alvo.
 
 Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
 
@@ -18,9 +19,10 @@ A documentação dos testes é dividida nas seguintes seções:
 
 # Teste de Software
 
-Nesta seção, serão documentados os requisitos funcionais e não funcionais de nosso sistema, com o intuito de ressaltar os principais papéis de cada usabilidade do mesmo.
+Nesta seção, serão documentados os requisitos funcionais e não funcionais de nosso sistema, também abordando suas principais usabilidades.
 
 ## Plano de Testes de Software
+Realizados os seguintes testes nas tabelas abaixo, e descrevidos cada requisito funcional presente em cada página realizada em nosso sistema:
 
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
@@ -203,7 +205,8 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 ## Registro dos Testes de Software
 
-Esta seção tem como objetivo, mostrar os testes que foram realizados em cada página do sistema e seus respectivos resultados.
+Esta seção tem como objetivo, registrar todos os testes realizados em cada página criada do sistema, mostrando ao usuário os resultados de cada teste e o modo correto de se interagir com cada seção.
+Segue, abaixo, os resgistros dos testes:
 
 
 |*Caso de Teste*                                 |*CC01 - Criar conta*                                         |
@@ -306,6 +309,7 @@ Esta seção tem como objetivo, mostrar os testes que foram realizados em cada p
 
 
 ## Avaliação dos Testes de Software
+Como resultado das avaliações de cada teste, tivemos que:
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
@@ -313,13 +317,13 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
+O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral e se a maneira com a qual eles interagiram com cada seção do sistema, foi satisfatória.
 
 Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
 
 Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
 
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
+Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta em cada tela;
 
 Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
 
@@ -336,13 +340,15 @@ O público alvo principal que tivemos o foco para realização do sistema, é o 
 De acordo com os usuário entrevistados em estapas iniciais anteriores, estes nos puderam repassar feedbacks de acordo com cada teste de cada seção do sistema, realizado.
 
  As primeiras telas/seções do sistema testadas que obteram um feedback em relação a seu uso, foram:
- 1- Tela de login do sistema: Os usuários deram uma nota em escala 5, ou seja, ótima. Os usuários apresentaram satisfação com o layout da página pois entenderam claramente o que deveria ser feito nesta página e em relação ao layout e paleta de cores, que foi um dos pontos que um usuário citou positivamente, do sistema;
+ 1- Tela de login do sistema: Os usuários deram uma nota em escala 5, ou seja, ótima. Os usuários apresentaram satisfação com o layout da página pois entenderam claramente o que deveria ser feito nesta. E, em relação ao layout e paleta de cores, foi um dos pontos que um usuário citou ser positivo do sistema;
  
- 2- Tela de cadastro do sistema: Os usuários que realizaram um teste desta tela, apresentaram, também, grande satisfação com esta tela, tendo a nota em escala 5, ou seja, ótimo. O feedback principal foi de facilidade em entender o que deveria ser feito pois a tela/layout era limpo e de fácil entendimento;
+ 2- Tela de cadastro do sistema: Os usuários que realizaram um teste desta tela, apresentaram, também, grande satisfação com a mesma. A nota que cada usuário deu para esta seção, está em escala 5, ou seja, ótimo. O feedback principal foi de facilidade em entender o que deveria ser feito pois a tela/layout era limpo e de fácil entendimento;
 
- 3- Telas de cadastro profissional (etapa de cadastro 1 e 2): Em relação a esta tela, não obtivemos um público alvo de profissionais entrevistado anteriormente. Porém, com o teste realizado por outros usuários, os mesmo destacaram o feedback em escala 5, ou seja, ótimo. Os mesmos relataram que o layout é chamativo e os campos de digitação (placeholder) são de fácil entendimento;
+ 3- Telas de cadastro profissional (etapa de cadastro 1 e 2): Em relação a esta tela, não obtivemos um público alvo de profissionais entrevistado anteriormente. Porém, com o teste realizado por usuários, os mesmo destacaram o feedback em escala 5, ou seja, ótimo. Os mesmos relataram que o layout é chamativo e os campos de digitação (placeholder) são de fácil entendimento e visualização;
 
- 4- Telas de redefinição de senha (todas as etapas de redefinição de senha): Esta tela recebeu um feedback de layout em escala 5, ou seja, ótimo. Os usuários demonstraram estar contentes com a organização das telas e com a facilidade de realizar a possível mudança de senha;
+ 4- Telas de redefinição de senha (todas as etapas de redefinição de senha): Esta tela recebeu um feedback de layout em escala 5, ou seja, ótimo. Os usuários demonstraram estar contentes com a organização das telas e com a facilidade de realizar a mudança de senha;
+ 
+    (CONTINUAR COM OS PRÓXIMOS TESTES)
 
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
@@ -517,13 +523,13 @@ Cenário Você é um usuário que deseja ter acesso ás localizações de cada p
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Tomando como base os resultados obtidos, se observou que, de acordo com os feedbacks dados pelos usuários que testaram nosso sistema, o mesmo....
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Além disso, o sistema obteve também uma elevada satisfação no momento em que os usuários estavam interagindo com este. Se mostra a elevada satisfação, pois, em relação as médias das avaliações em cada um dos cenários, a variação apresentou resultado positivo, sendo entre 4 (bom) e 5 (ótimo). 
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Com relação ao tempo para conclusão de cada tarefa/cenário, notamos um bom resultado quando comparado ao tempo dos usuários e o tempo do desenvolvedor já que, foram praticamente iguais e de acordo com o esperado. Algumas poucas diferenças foram notadas, porém, não são diferenças que impactaram negativamente nos resultados dos testes e muito menos na utilização do sistema.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Contudo, tendo em vista que a diferença em relação ao tempo e a média durante a interção do usuário com o sistema foi relativamente baixa (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), notamos uma boa satisfação de uso do nosso sitema, levando em considerção a sua proposta. Porém, como desenvolvedores, sabemos que muitas melhorias em relação a usabilidade do sistema podem ser implementadas e queremos que o nosso sistema seja sempre o melhor para ajudar nosso público alvo e, estamos em busca dessa melhoria.
 
 
 
