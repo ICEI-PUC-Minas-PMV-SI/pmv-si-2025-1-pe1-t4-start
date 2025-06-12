@@ -16,7 +16,7 @@ body {
   background-position: top center;
   background-color: #766985;
   position: relative; 
-  transform: scale(0.8);
+  transform: scale(0.9);
 
 }
 
@@ -37,7 +37,7 @@ body {
 
 .container {
      width: 100%;
-     max-width: 450px; 
+     max-width: 400px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
@@ -139,4 +139,5 @@ p {
 
 @media (max-width: 2000px) 
     
+
 
