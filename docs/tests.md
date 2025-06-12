@@ -250,7 +250,7 @@ Esta seção tem como objetivo, mostrar os testes que foram realizados em cada p
 |*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários digitem o código recebido no e-mail cadastrado. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1NaaV4h-VJpzrmZU8BOmGqZCrOPajvhTI/view?usp=sharing | 
 
 
 
