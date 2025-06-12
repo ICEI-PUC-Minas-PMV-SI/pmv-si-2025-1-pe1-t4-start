@@ -47,8 +47,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Resultado obtido** | -
-
 **Caso de Teste** | **CC03 - Criar conta profissional, etapa 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/cadastro-profissional.html <br> 2) Preencha todos os campos do formulário corretamente; <br> 2) Clique no botão "Prosseguir"; <br> 
