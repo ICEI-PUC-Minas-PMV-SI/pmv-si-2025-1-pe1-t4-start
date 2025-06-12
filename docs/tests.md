@@ -361,9 +361,8 @@ Cenário 1: Você é um usuário que deseja acessar sua conta sem problemas, de 
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 10 segundos                  |
 | 2       | SIM             | 5                    | 11 segundos                  |
-| 3       | SIM             | 5                    | 9 segundos                   |
 |  |  |  |  |
-| **Média**     | 98%           | 5                | 30 segundos                           |
+| **Média**     | 100%           | 5                | 21 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 9 segundos |
 
 
@@ -378,9 +377,8 @@ Cenário 2:  Você é um usuário profissional que deseja realizar um cadastro p
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 40 segundos                     |
 | 2       | SIM             | 5                    | 35 segundos                     |
-| 3       | SIM             | 5                    | 20 segundos                     |
 |  |  |  |  |
-| **Média**     | 100%           | 5.00               | 95 segundos                           |
+| **Média**     | 100%           | 5.00               | 75 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 1 minuto 5 segundos |
 
     Comentários dos usuários: Fácil uso e tela de fácil entendimento.
@@ -394,14 +392,11 @@ Cenário 3: Você é um usuário que deseja realizar a troca de senha em casos d
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 18                          |
 | 2       | SIM             | 5                    | 15                          |
-| 3       | SIM             | 5                    | 15                          |
 |  |  |  |  |
-| **Média**     | 99%           | 5.00               | 48 segundos                           |
+| **Média**     | 99%           | 5.00               | 33 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 16 segundos |
 
     Comentários dos usuários: De uso simples, não contendo dificuldade para mudança de senha. 
-
-
 
 
 
@@ -411,15 +406,18 @@ Cenário 4: Você é um usuário  que deseja realizar um cadastro no sistema sem
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 8 segundos                          |
 | 2       | SIM             | 5                    | 11 segundos                          |
-| 3       | SIM             | 4                    | 9 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5.00                | 28 segundos                           |
+| **Média**     | 100%           | 5.00                | 19 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
 
     Comentários dos usuários: Tela limpa e de fácil entendimento das escritas. 
 
 
+
+
+
     
+    OUTROS CENÁRIOS DE OUTRAS PÁGINAS:
 
 Cenário 2: Você é um usuário que deseja, ao logar no sistema, conseguir realizar publicações, exclui-lás, curti-lás e comentar nas mesmas.
 
@@ -437,7 +435,6 @@ Cenário 2: Você é um usuário que deseja, ao logar no sistema, conseguir real
 
 
 
-    OUTROS CENÁRIOS DE OUTRAS PÁGINAS:
 Cenário 2:  Você é um usuário que deseja editar seu perfil e seus dados adicionados no momento de criação de conta..
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
