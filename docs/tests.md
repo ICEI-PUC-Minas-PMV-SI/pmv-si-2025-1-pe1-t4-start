@@ -209,7 +209,7 @@ Esta seção tem como objetivo, mostrar os testes que foram realizados em cada p
 |*Caso de Teste*                                 |*CC01 - Criar conta*                                         |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários (mães) possam criar suas contas |
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t](https://drive.google.com/file/d/1mGYQhQ1sYt8gTwPZR9zsdlOtSEra05_5/view?usp=sharing) | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1mGYQhQ1sYt8gTwPZR9zsdlOtSEra05_5/view?usp=sharing | 
 
 
 
@@ -367,14 +367,14 @@ De acordo com os usuário entrevistados em estapas iniciais anteriores, estes no
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é um usuário que deseja acessar sua conta sem problemas, de acordo com os dados já cadastrados no sistema.
+Cenário 1: Você é um usuário que deseja logar em sua conta de acordo com os dados de cadastro armezenados no sistema.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 10 segundos                  |
+| 1       | SIM             | 5                    | 9 segundos                  |
 | 2       | SIM             | 5                    | 11 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 21 segundos                           |
+| **Média**     | 100%           | 5                | 20 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 9 segundos |
 
 
@@ -387,11 +387,11 @@ Cenário 2:  Você é um usuário profissional que deseja realizar um cadastro p
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 40 segundos                     |
-| 2       | SIM             | 5                    | 35 segundos                     |
+| 1       | SIM             | 5                    | 20 segundos                   |
+| 2       | SIM             | 5                    | 25 segundos segundos                     |
 |  |  |  |  |
-| **Média**     | 100%           | 5.00               | 75 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 1 minuto 5 segundos |
+| **Média**     | 100%           | 5.00               | 45 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 23.77 segundos |
 
     Comentários dos usuários: Fácil uso e tela de fácil entendimento.
 
@@ -402,11 +402,11 @@ Cenário 3: Você é um usuário que deseja realizar a troca de senha em casos d
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 18                          |
-| 2       | SIM             | 5                    | 15                          |
+| 1       | SIM             | 5                    | 40 segundos                         |
+| 2       | SIM             | 5                    | 43 segundos                          |
 |  |  |  |  |
-| **Média**     | 99%           | 5.00               | 33 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 16 segundos |
+| **Média**     | 99%           | 5.00               | 83 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 40.83 segundos |
 
     Comentários dos usuários: De uso simples, não contendo dificuldade para mudança de senha. 
 
@@ -416,11 +416,11 @@ Cenário 4: Você é um usuário  que deseja realizar um cadastro no sistema sem
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 8 segundos                          |
-| 2       | SIM             | 5                    | 11 segundos                          |
+| 1       | SIM             | 5                    | 15 segundos                          |
+| 2       | SIM             | 5                    | 18 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5.00                | 19 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
+| **Média**     | 100%           | 5.00                | 33 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 17.82 segundos |
 
     Comentários dos usuários: Tela limpa e de fácil entendimento das escritas. 
 
