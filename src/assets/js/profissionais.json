@@ -67,7 +67,7 @@
     "lon": -43.93175026922269,
     "categoria": "Psicólogo",
     "endereco": "Rua Sergipe, 1200 - Savassi",
-    "foto": "assets/images/profissionais/Psic-M.png",
+    "foto": "assets/images/profissionais/Psic-RA.png",
     "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-fernando-martins",
     "avaliacoes": [
@@ -101,7 +101,7 @@
     "lon": -43.90562916892305,
     "categoria": "Psicólogo",
     "endereco": "Avenida do Contorno, 8000 - Lourdes",
-    "foto": "assets/images/profissionais/Psic-F.png",
+    "foto": "assets/images/profissionais/Psic-AP.png",
     "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-ana-souza",
     "avaliacoes": [
@@ -162,7 +162,7 @@
     "lon": -43.90562916892305,
     "categoria": "Psicólogo",
     "endereco": "Avenida Raja Gabaglia, 2000 - São Bento",
-    "foto": "assets/images/profissionais/Psic-F.png",
+    "foto": "assets/images/profissionais/Psic-LB.png",
     "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-laura-silva",
     "avaliacoes": [
@@ -223,7 +223,7 @@
     "lon": -43.90795493208531,
     "categoria": "Psicólogo",
     "endereco": "Rua Tomé de Souza, 500 - Boa Viagem",
-    "foto": "assets/images/profissionais/Psic-F.png",
+    "foto": "assets/images/profissionais/Psic-JS.png",
     "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-isabela-rodrigues",
     "avaliacoes": [
@@ -250,7 +250,7 @@
     "lon": -43.9168051664426,
     "categoria": "Psicólogo",
     "endereco": "Avenida Getúlio Vargas, 1400 - Funcionários",
-    "foto": "assets/images/profissionais/Psic-M.png",
+    "foto": "assets/images/profissionais/Psic-LB.png",
     "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-lucas-souza",
     "avaliacoes": [
@@ -961,7 +961,7 @@
     "lon": -43.95094364375314,
     "categoria": "Advogado",
     "endereço": "Rua da Bahia, 1000 - Lourdes",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "foto": "assets/images/profissionais/Adv-JS.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1004,7 +1004,7 @@
     "lon": -43.85085787693364,
     "categoria": "Advogado",
     "endereço": "Rua da Bahia, 1000 - Lourdes",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "foto": "assets/images/profissionais/Adv-FL.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
     "avaliacoes": []
@@ -1015,7 +1015,7 @@
     "lon": -43.92146490548344,
     "categoria": "Advogado",
     "endereço": "Av. Amazonas, 190 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "foto": "assets/images/profissionais/Adv-JS.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
     "avaliacoes": []
@@ -1037,7 +1037,7 @@
     "lon": -43.89483642572407,
     "categoria": "Advogado",
     "endereço": "Rua da Bahia, 1000 - Lourdes",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "foto": "assets/images/profissionais/Adv-FL.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1072,375 +1072,11 @@
   },
   {
     "nome": "Dra Laís Martins",
-    "lat": -19.880497903755238,
-    "lon": -43.869914045570326,
-    "categoria": "Advogado",
-    "endereço": "Rua Rio de Janeiro, 471 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Jana Nascimento",
-        "nota": 3,
-        "data": "2024-12-23T22:24:51.630914",
-        "texto": "Resolveu meu caso com rapidez e eficiência.",
-        "tags": [
-          "Acolhedora",
-          "Honesta"
-        ]
-      },
-      {
-        "nome": "Jana Nascimento",
-        "nota": 5,
-        "data": "2025-01-14T22:24:51.630936",
-        "texto": "Muito atenciosa e profissional.",
-        "tags": [
-          "Acolhedora",
-          "Pontual"
-        ]
-      },
-      {
-        "nome": "Priscila Ferreira",
-        "nota": 4,
-        "data": "2024-07-19T22:24:51.630950",
-        "texto": "Resolveu meu caso com rapidez e eficiência.",
-        "tags": [
-          "Acolhedora",
-          "Justa"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Natália Santos",
-    "lat": -19.96958831880135,
-    "lon": -43.949988771824515,
-    "categoria": "Advogado",
-    "endereço": "Av. Afonso Pena, 1212 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Jana Nascimento",
-        "nota": 3,
-        "data": "2025-01-22T22:24:51.630968",
-        "texto": "Resolveu meu caso com rapidez e eficiência.",
-        "tags": [
-          "Pontual",
-          "Empática",
-          "Respeitosa"
-        ]
-      },
-      {
-        "nome": "Fernanda Lopes",
-        "nota": 5,
-        "data": "2025-05-21T22:24:51.630978",
-        "texto": "Atendimento excelente, recomendo!",
-        "tags": [
-          "Honesta"
-        ]
-      },
-      {
-        "nome": "Fernanda Lopes",
-        "nota": 4,
-        "data": "2025-05-13T22:24:51.631015",
-        "texto": "Atendimento excelente, recomendo!",
-        "tags": [
-          "Clara",
-          "Honesta",
-          "Empática"
-        ]
-      },
-      {
-        "nome": "Jana Nascimento",
-        "nota": 3,
-        "data": "2024-09-03T22:24:51.631030",
-        "texto": "Atendimento excelente, recomendo!",
-        "tags": [
-          "Clara",
-          "Pontual",
-          "Respeitosa"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Camila Freitas",
-    "lat": -19.90292977801817,
-    "lon": -43.85359948955218,
-    "categoria": "Advogado",
-    "endereço": "Rua Piauí, 125 - Funcionários",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Ana Maria",
-        "nota": 5,
-        "data": "2025-02-09T22:24:51.631048",
-        "texto": "Boa, mas poderia ter sido mais clara.",
-        "tags": [
-          "Acolhedora",
-          "Respeitosa"
-        ]
-      },
-      {
-        "nome": "Roberta Silva",
-        "nota": 4,
-        "data": "2024-09-28T22:24:51.631057",
-        "texto": "Resolveu meu caso com rapidez e eficiência.",
-        "tags": [
-          "Respeitosa",
-          "Clara"
-        ]
-      },
-      {
-        "nome": "Roberta Silva",
-        "nota": 3,
-        "data": "2025-03-12T22:24:51.631066",
-        "texto": "Boa, mas poderia ter sido mais clara.",
-        "tags": [
-          "Respeitosa"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Aline Pereira",
-    "lat": -19.906946938048865,
-    "lon": -43.96877623421242,
-    "categoria": "Advogado",
-    "endereço": "Av. Afonso Pena, 1212 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Fernanda Lopes",
-        "nota": 4,
-        "data": "2025-03-19T22:24:51.631079",
-        "texto": "Boa, mas poderia ter sido mais clara.",
-        "tags": [
-          "Clara",
-          "Respeitosa"
-        ]
-      },
-      {
-        "nome": "Fernanda Lopes",
-        "nota": 3,
-        "data": "2025-01-20T22:24:51.631088",
-        "texto": "Muito atenciosa e profissional.",
-        "tags": [
-          "Respeitosa"
-        ]
-      },
-      {
-        "nome": "Roberta Silva",
-        "nota": 2,
-        "data": "2025-02-02T22:24:51.631097",
-        "texto": "Muito atenciosa e profissional.",
-        "tags": [
-          "Clara",
-          "Respeitosa"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Helena Dias",
-    "lat": -19.9397555878661,
-    "lon": -44.017617900667474,
-    "categoria": "Advogado",
-    "endereço": "Rua Rio de Janeiro, 471 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": []
-  },
-  {
-    "nome": "Dra Ana Campos",
-    "lat": -19.956396164731803,
-    "lon": -43.97099617517769,
-    "categoria": "Advogado",
-    "endereço": "Av. do Contorno, 2905 - Santa Efigênia",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": []
-  },
-  {
-    "nome": "Dra Juliana Sousa",
-    "lat": -19.924824802734975,
-    "lon": -43.96123982498041,
-    "categoria": "Advogado",
-    "endereço": "Av. Cristóvão Colombo, 925 - Savassi",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Priscila Ferreira",
-        "nota": 2,
-        "data": "2024-07-31T22:24:51.631118",
-        "texto": "Atendimento excelente, recomendo!",
-        "tags": [
-          "Pontual"
-        ]
-      },
-      {
-        "nome": "Renata Dias",
-        "nota": 5,
-        "data": "2024-11-14T22:24:51.631128",
-        "texto": "Boa, mas poderia ter sido mais clara.",
-        "tags": [
-          "Clara",
-          "Empática"
-        ]
-      },
-      {
-        "nome": "Marina Torres",
-        "nota": 5,
-        "data": "2024-08-06T22:24:51.631139",
-        "texto": "Muito atenciosa e profissional.",
-        "tags": [
-          "Justa"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Tatiane Gomes",
-    "lat": -19.87189310675758,
-    "lon": -44.02990858609084,
-    "categoria": "Advogado",
-    "endereço": "Av. Amazonas, 190 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Renata Dias",
-        "nota": 3,
-        "data": "2025-04-26T22:24:51.631152",
-        "texto": "Muito atenciosa e profissional.",
-        "tags": [
-          "Acolhedora"
-        ]
-      },
-      {
-        "nome": "Jana Nascimento",
-        "nota": 2,
-        "data": "2024-07-31T22:24:51.631161",
-        "texto": "Resolveu meu caso com rapidez e eficiência.",
-        "tags": [
-          "Respeitosa",
-          "Empática"
-        ]
-      },
-      {
-        "nome": "Priscila Ferreira",
-        "nota": 4,
-        "data": "2025-04-07T22:24:51.631171",
-        "texto": "Muito atenciosa e profissional.",
-        "tags": [
-          "Justa"
-        ]
-      },
-      {
-        "nome": "Marina Torres",
-        "nota": 3,
-        "data": "2024-08-03T22:24:51.631186",
-        "texto": "Resolveu meu caso com rapidez e eficiência.",
-        "tags": [
-          "Pontual"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Maria Moura",
-    "lat": -19.884743655379037,
-    "lon": -43.986052567687295,
-    "categoria": "Advogado",
-    "endereço": "Rua Piauí, 125 - Funcionários",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Renata Dias",
-        "nota": 2,
-        "data": "2024-11-04T22:24:51.631208",
-        "texto": "Resolveu meu caso com rapidez e eficiência.",
-        "tags": [
-          "Empática"
-        ]
-      },
-      {
-        "nome": "Roberta Silva",
-        "nota": 3,
-        "data": "2025-05-20T22:24:51.631227",
-        "texto": "Me ajudou em um momento delicado.",
-        "tags": [
-          "Empática",
-          "Respeitosa"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Paula Ferraz",
-    "lat": -19.86406305422304,
-    "lon": -44.04839175131407,
-    "categoria": "Advogado",
-    "endereço": "Rua Gonçalves Dias, 123 - Funcionários",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Ana Maria",
-        "nota": 3,
-        "data": "2024-07-05T22:24:51.631249",
-        "texto": "Boa, mas poderia ter sido mais clara.",
-        "tags": [
-          "Honesta",
-          "Pontual",
-          "Respeitosa"
-        ]
-      },
-      {
-        "nome": "Renata Dias",
-        "nota": 4,
-        "data": "2024-10-15T22:24:51.631262",
-        "texto": "Atendimento excelente, recomendo!",
-        "tags": [
-          "Justa",
-          "Empática",
-          "Respeitosa"
-        ]
-      },
-      {
-        "nome": "Roberta Silva",
-        "nota": 2,
-        "data": "2024-10-25T22:24:51.631278",
-        "texto": "Atendimento excelente, recomendo!",
-        "tags": [
-          "Pontual",
-          "Acolhedora"
-        ]
-      }
-    ]
-  },
-  {
-    "nome": "Dra Laís Martins",
     "lat": -19.924602396954285,
     "lon": -43.88060524985466,
     "categoria": "Advogado",
     "endereço": "Av. Amazonas, 190 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "foto": "assets/images/profissionais/Adv-JS.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1491,7 +1127,7 @@
     "lon": -43.977438428725264,
     "categoria": "Advogado",
     "endereço": "Rua Gonçalves Dias, 123 - Funcionários",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
+    "foto": "assets/images/profissionais/Adv-FL.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1539,44 +1175,13 @@
     ]
   },
   {
-    "nome": "Dra Camila Freitas",
-    "lat": -19.878716907497626,
-    "lon": -43.96007203363407,
-    "categoria": "Advogado",
-    "endereço": "Rua Rio de Janeiro, 471 - Centro",
-    "foto": "assets/images/profissionais/Adv-JJ.png",
-    "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Roberta Silva",
-        "nota": 3,
-        "data": "2025-03-17T22:24:51.631393",
-        "texto": "Boa, mas poderia ter sido mais clara.",
-        "tags": [
-          "Pontual",
-          "Respeitosa"
-        ]
-      },
-      {
-        "nome": "Fernanda Lopes",
-        "nota": 5,
-        "data": "2025-02-16T22:24:51.633711",
-        "texto": "Me ajudou em um momento delicado.",
-        "tags": [
-          "Pontual"
-        ]
-      }
-    ]
-  },
-  {
     "nome": "Camila Souza",
     "email": "camila.souza@cuidadoinfantil.com",
     "lat": -19.9237,
     "lon": -43.9341,
     "categoria": "Baba",
     "endereço": "Rua dos Timbiras, 2450 - Lourdes, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Babas-Ks.png",
     "descricao": "Babá com mais de 10 anos de experiência em cuidados com bebês e crianças pequenas, focada no bem-estar e desenvolvimento infantil.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1603,7 +1208,7 @@
     "lon": -43.9395,
     "categoria": "Baba",
     "endereço": "Rua Gonçalves Dias, 567 - Funcionários, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Babas-JA.png",
     "descricao": "Profissional dedicada ao cuidado de crianças de até 6 anos, com foco em atividades educativas e lúdicas.",
     "perfilUrl": "/",
     "avaliacoes": []
@@ -1615,7 +1220,7 @@
     "lon": -43.9373,
     "categoria": "Baba",
     "endereço": "Avenida Afonso Pena, 1050 - Centro, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Babas-LF.png",
     "descricao": "Especialista em cuidados com recém-nascidos e acompanhamento pós-parto para mães de primeira viagem.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1635,7 +1240,7 @@
     "lon": -43.9332,
     "categoria": "Baba",
     "endereço": "Rua Paraíba, 1340 - Savassi, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Babas-EW.png",
     "descricao": "Babá com formação em pedagogia e experiência em berçários e creches.",
     "perfilUrl": "/",
     "avaliacoes": []
@@ -1647,7 +1252,7 @@
     "lon": -43.9381,
     "categoria": "Baba",
     "endereço": "Rua Cláudio Manoel, 350 - Savassi, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Babas-JA.png",
     "descricao": "Foco em segurança, afeto e rotina saudável para crianças em idade pré-escolar.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1667,7 +1272,7 @@
     "lon": -43.9465,
     "categoria": "Baba",
     "endereço": "Avenida Brasil, 2000 - Santa Efigênia, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Babas-LF.png",
     "descricao": "Experiência com gêmeos e crianças com necessidades especiais.",
     "perfilUrl": "/",
     "avaliacoes": []
@@ -1679,7 +1284,7 @@
     "lon": -43.9433,
     "categoria": "Baba",
     "endereço": "Rua da Bahia, 1600 - Lourdes, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Babas-Ks.png",
     "descricao": "Profissional afetuosa e comunicativa, com cursos em primeiros socorros e alimentação infantil.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1693,18 +1298,6 @@
     ]
   },
   {
-    "nome": "Vanessa Almeida",
-    "email": "vanessa.almeida@cuidadorakids.com",
-    "lat": -19.9303,
-    "lon": -43.9422,
-    "categoria": "Baba",
-    "endereço": "Rua Espírito Santo, 789 - Centro, Belo Horizonte",
-    "foto": "",
-    "descricao": "Babá com referências, experiência em cuidados noturnos e apoio a mães solo.",
-    "perfilUrl": "/",
-    "avaliacoes": []
-  },
-  {
     "nome": "Aline Costa",
     "email": "aline.costa@babysmile.org",
     "lat": -19.9186,
@@ -1713,7 +1306,7 @@
     "endereço": "Rua Aimorés, 2121 - Lourdes, Belo Horizonte",
     "foto": "",
     "descricao": "Trabalha com métodos de educação positiva e estímulo sensorial para bebês.",
-    "perfilUrl": "/",
+    "perfilUrl": "assets/images/profissionais/Babas-HS.png",
     "avaliacoes": []
   },
   {
@@ -1725,7 +1318,7 @@
     "endereço": "Rua Marília de Dirceu, 60 - Lourdes, Belo Horizonte",
     "foto": "",
     "descricao": "Apaixonada pelo universo infantil, oferece suporte integral ao desenvolvimento das crianças.",
-    "perfilUrl": "/",
+    "perfilUrl": "assets/images/profissionais/Babas-JA.png",
     "avaliacoes": [
       {
         "nome": "Bruna Carvalho",
@@ -1743,7 +1336,7 @@
     "lon": -43.938446,
     "categoria": "Creche",
     "endereço": "Rua dos Timbiras, 2400 - Lourdes, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Crch-PS.png",
     "descricao": "Oferecemos um ambiente seguro, educativo e acolhedor para o desenvolvimento integral das crianças.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1770,7 +1363,7 @@
     "lon": -43.939199,
     "categoria": "Creche",
     "endereço": "Rua Sergipe, 1375 - Savassi, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Crch-AM.png",
     "descricao": "Promovemos atividades lúdicas e educativas em um espaço seguro e divertido.",
     "perfilUrl": "/",
     "avaliacoes": []
@@ -1782,7 +1375,7 @@
     "lon": -43.932672,
     "categoria": "Creche",
     "endereço": "Rua Pouso Alegre, 1234 - Floresta, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Crch-SM.png",
     "descricao": "Cuidamos com carinho e profissionalismo do bem-estar e desenvolvimento das crianças.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1796,57 +1389,13 @@
     ]
   },
   {
-    "nome": "Creche Bem Me Quer",
-    "email": "creche.bemmequer@cuidadoinfantil.com",
-    "lat": -19.917564,
-    "lon": -43.934827,
-    "categoria": "Creche",
-    "endereço": "Av. Brasil, 3000 - Santa Efigênia, Belo Horizonte",
-    "foto": "",
-    "descricao": "Espaço lúdico e seguro com foco na socialização e aprendizagem das crianças.",
-    "perfilUrl": "/",
-    "avaliacoes": []
-  },
-  {
-    "nome": "Pequenos Passos",
-    "email": "creche.pequenospassos@educar.org",
-    "lat": -19.956024,
-    "lon": -43.945431,
-    "categoria": "Creche",
-    "endereço": "Av. Silva Lobo, 1820 - Nova Suíça, Belo Horizonte",
-    "foto": "",
-    "descricao": "Nosso compromisso é com o cuidado e o desenvolvimento infantil em todas as fases.",
-    "perfilUrl": "/",
-    "avaliacoes": [
-      {
-        "nome": "Lívia Moreira",
-        "nota": 4,
-        "data": "2025-02-12T16:45:00",
-        "texto": "Muito boa estrutura. Senti falta de mais feedback diário.",
-        "tags": ["Organizado", "Seguro"]
-      }
-    ]
-  },
-  {
-    "nome": "Creche Nosso Lar Infantil",
-    "email": "nossolar.infantil@abracokids.com",
-    "lat": -19.934538,
-    "lon": -43.912540,
-    "categoria": "Creche",
-    "endereço": "Rua da Bahia, 1450 - Centro, Belo Horizonte",
-    "foto": "",
-    "descricao": "Trabalhamos com amor, promovendo educação e cuidado para o futuro das crianças.",
-    "perfilUrl": "/",
-    "avaliacoes": []
-  },
-  {
     "nome": "Escolinha Arco-Íris",
     "email": "escolinha.arcoiris@infantnet.com",
     "lat": -19.908427,
     "lon": -43.982844,
     "categoria": "Creche",
     "endereço": "Rua Gávea, 650 - Buritis, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Crch-PS.png",
     "descricao": "Ambiente colorido e divertido com propostas pedagógicas modernas.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1866,7 +1415,7 @@
     "lon": -43.949621,
     "categoria": "Creche",
     "endereço": "Rua Alagoas, 1320 - Funcionários, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Crch-CE.png",
     "descricao": "Um mundo mágico de descobertas e aprendizado para os pequenos.",
     "perfilUrl": "/",
     "avaliacoes": []
@@ -1878,7 +1427,7 @@
     "lon": -43.915507,
     "categoria": "Creche",
     "endereço": "Rua Platina, 1000 - Prado, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Crch-AM.png",
     "descricao": "Valorizamos o cuidado afetuoso aliado a práticas pedagógicas criativas.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -1898,7 +1447,7 @@
     "lon": -43.963724,
     "categoria": "Creche",
     "endereço": "Av. Amazonas, 3100 - Santo Agostinho, Belo Horizonte",
-    "foto": "",
+    "foto": "assets/images/profissionais/Crch-PS.png",
     "descricao": "Com dedicação e carinho, cuidamos dos primeiros passos da infância.",
     "perfilUrl": "/",
     "avaliacoes": []
