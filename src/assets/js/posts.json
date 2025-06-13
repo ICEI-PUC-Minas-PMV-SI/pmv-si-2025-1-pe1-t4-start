@@ -1,79 +1,166 @@
 [
   {
     "id": 1,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Ser mãe solo é ser tudo",
-    "content": "Hoje, ao segurar a mão do meu filho a caminho da escola, percebi o quanto essa jornada me transformou. Ser mãe solo é viver no modo mil por hora, é acordar todos os dias com a certeza de que sou a base, o colo e o impulso desse pequeno ser que confia tanto em mim. Tem dias que parece impossível conciliar tudo — trabalho, casa, responsabilidades e, principalmente, estar emocionalmente disponível. Mas, no olhar dele, encontro uma força que não sabia que existia. Ser mãe solo é vestir diferentes capas durante o dia: cozinheira, motorista, psicóloga, enfermeira, professora... e ainda sorrir no final. Porque cada pequeno passo dele é também uma conquista minha. E apesar do cansaço, sigo firme, porque cada passo dele é também um passo meu. ✨💙",
+    "content": "Hoje, ao segurar a mão do meu filho a caminho da escola, percebi o quanto essa jornada me transformou...",
     "image": "https://media.gettyimages.com/id/2159965940/pt/foto/mother-accompanying-son-to-school-on-first-day.jpg?s=2048x2048&w=gi&k=20&c=53K7h8sV6arhO4VuO4kQLyeyLwm4rY9fndZb2JGnTds=",
-    "date": "2025-05-31"
+    "date": "2025-05-31",
+    "comments": [
+      {
+        "id": 1,
+        "user": {
+          "name": "Ana Beatriz",
+          "subtitle": "Psicóloga",
+          "avatar": "https://media.istockphoto.com/id/1288591323/pt/foto/portriat-of-a-beautiful-mature-woman-with-a-fresh-and-bright-look.jpg?s=612x612&w=0&k=20&c=j__gV2a42aFh9JtGq0hYk83vj6h2s5MRGNB5955e_g0="
+        },
+        "text": "Que lindo depoimento, Jéssica! A força que encontramos nos filhos é realmente incomparável. Você é uma inspiração!",
+        "image": ""
+      },
+      {
+        "id": 2,
+        "user": {
+          "name": "Carlos Andrade",
+          "subtitle": "Advogado",
+          "avatar": "https://media.istockphoto.com/id/1300512215/pt/foto/handsome-young-man-on-an-isolated-background.jpg?s=612x612&w=0&k=20&c=K592a986i2T52aP3w01V4q5Y293d3Y0c2OT92Z_i-c4="
+        },
+        "text": "Parabéns pela jornada! É uma luta diária, mas muito recompensadora.",
+        "image": ""
+      }
+    ]
   },
   {
     "id": 2,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Culpa de mãe?",
-    "content": "Não tem como negar: a culpa materna existe, e ela pesa. Me pego, às vezes, pensando se estou sendo boa o suficiente, se ele sente minha ausência quando estou trabalhando, se percebe quando estou exausta demais pra brincar. Mas, no meio desses pensamentos, também aprendi a me olhar com mais compaixão. Ser mãe solo é carregar o mundo nas costas e, mesmo assim, se cobrar por não fazer mais. Mas a verdade é que estamos dando nosso melhor, todos os dias. E sabe o que percebi? Que meu filho não precisa de uma mãe perfeita. Ele precisa de mim, do meu amor, da minha presença possível, dos momentos que criamos, mesmo que curtos. E isso é mais do que suficiente. 🫶",
+    "content": "Não tem como negar: a culpa materna existe, e ela pesa...",
     "image": "",
-    "date": "2025-04-01"
+    "date": "2025-04-01",
+    "comments": []
   },
   {
     "id": 3,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Dica para outras mães",
     "content": "Se eu pudesse dar um conselho pra quem é mãe solo: organize sua rotina, se permita descansar e não tenha medo de pedir ajuda, mesmo que seja pra um amigo ouvir você por 5 minutos. Isso salva. 🤍",
     "image": "",
-    "date": "2025-05-13"
+    "date": "2025-05-13",
+    "comments": []
   },
   {
     "id": 4,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Somos muito mais fortes do que imaginamos",
-    "content": "Quando me vi nessa jornada, confesso que o medo me paralisou por alguns dias. O peso das responsabilidades parecia esmagador. Imaginei milhares de vezes como seria dividir meu tempo entre trabalho, tarefas domésticas, cuidar do meu filho, das finanças e, ainda assim, manter a sanidade. E, pra ser bem honesta, os primeiros meses foram um verdadeiro caos. Mas, sabe, a vida tem uma forma incrível de nos mostrar que somos muito mais fortes do que imaginamos. Aos poucos, fui criando uma rotina, aprendendo a priorizar, entendendo que não preciso dar conta de tudo, o tempo todo. E, principalmente, aprendi a me perdoar nos dias em que não consigo. Se você é mãe solo e tá lendo isso, respira: você tá dando conta sim. E você não tá sozinha. 💪👩‍👧‍👦",
+    "content": "Quando me vi nessa jornada, confesso que o medo me paralisou por alguns dias. O peso das responsabilidades parecia esmagador...",
     "image": "",
-    "date": "2025-04-29"
+    "date": "2025-04-29",
+    "comments": []
   },
   {
     "id": 5,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Pequenas vitórias, grandes conquistas",
     "content": "Hoje consegui pagar todas as contas do mês, fazer almoço, brincar com meu filho e ainda entregar aquele projeto no trabalho. Quem vive sabe: isso é uma vitória gigantesca. 🏆",
     "image": "",
-    "date": "2025-03-10"
+    "date": "2025-03-10",
+    "comments": []
   },
   {
     "id": 6,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Rotina puxada, mas cheia de amor",
-    "content": "O despertador toca antes mesmo do sol aparecer. Preparo café, organizo a mochila da escola, confiro se não falta nada no lanche e, enquanto isso, tento colocar uma roupa decente pra começar meu dia. Depois da escola, é aquele corre pro trabalho, tentando não perder o horário, nem a cabeça. Entre planilhas, reuniões e tarefas, meu pensamento volta e meia foge: “Será que ele comeu direito? Será que tá bem?”. Saio do trabalho, passo no mercado, pego na escola, tem banho, janta, dever de casa e, se der sorte, uma historinha antes de dormir. E no meio desse turbilhão, sabe o que segura tudo? O amor. O amor que transborda nos olhinhos dele quando me vê na porta da escola. O abraço apertado que me faz esquecer o cansaço. A risada boba no meio do caos. É isso que faz tudo valer a pena. 💖",
+    "content": "O despertador toca antes mesmo do sol aparecer. Preparo café, organizo a mochila da escola...",
     "image": "https://media.istockphoto.com/id/79123089/pt/foto/m%C3%A3e-e-filha-a-ler.jpg?s=2048x2048&w=is&k=20&c=RHWKDyApbbQm1baEXiK_rrbKkUGzP0jQ1mrwcXww7KM=",
-    "date": "2025-03-16"
+    "date": "2025-03-16",
+    "comments": []
   },
   {
     "id": 7,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Autoamor também é prioridade",
     "content": "Demorei pra entender, mas hoje sei que cuidar de mim também é cuidar do meu filho. Tirei 30 min só pra mim hoje, sem culpa, sem pressão. Me sinto renovada. ✨",
     "image": "https://media.istockphoto.com/id/1999707381/pt/foto/movie-night-at-home.jpg?s=2048x2048&w=is&k=20&c=gPcWEvHL70z2IwOn3udQmY6qhBpOK977hTm4IJPLExc=",
-    "date": "2025-02-25"
+    "date": "2025-02-25",
+    "comments": []
   },
   {
     "id": 8,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "O medo do futuro... e a coragem do presente",
-    "content": "Se tem uma coisa que aprendi nessa jornada, é que o futuro assusta. Às vezes me pego pensando: e se eu não conseguir? E se faltar? E se... A lista de “e se” parece infinita quando se é mãe solo. Mas, ao mesmo tempo que o medo me visita, ele nunca fica por muito tempo. Porque basta eu olhar pro meu filho, pra aquele sorriso banguela, aquele olhar que confia tanto em mim, que tudo muda. Descubro uma coragem que não sei explicar. Não é que o medo vá embora — ele aprende a andar junto com a determinação, com a esperança, com o amor. E percebo que, enquanto tivermos um ao outro, não importa o que venha pela frente: somos invencíveis. ❤️‍🔥",
+    "content": "Se tem uma coisa que aprendi nessa jornada, é que o futuro assusta. Às vezes me pego pensando: e se eu não conseguir? E se faltar? E se...",
     "image": "https://media.istockphoto.com/id/1166338493/pt/foto/mother-driving-kids-to-school.jpg?s=2048x2048&w=is&k=20&c=poj3Rvybv8ICN5BSNUFYn4VHvr5heA4c-hFI8OUs08Y=",
-    "date": "2025-05-24"
+    "date": "2025-05-24",
+    "comments": []
   },
   {
     "id": 9,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Cansaço? Sim. Mas também gratidão.",
     "content": "Sim, estou exausta. Tem dias que queria só dormir por horas. Mas também sou grata. Grata por ser o mundo inteiro de um serzinho que me chama de mãe. 🥹💗",
     "image": "https://media.istockphoto.com/id/1130186653/pt/foto/mother-and-son-looking-out-of-window.jpg?s=2048x2048&w=is&k=20&c=0-aR6C7PQR1_s_ycqacxC5kAIZTG7Y7znJPd_mGbjlk=",
-    "date": "2025-03-23"
+    "date": "2025-03-23",
+    "comments": []
   },
   {
     "id": 10,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Você não está sozinha",
-    "content": "Se você também é mãe solo, deixa eu te lembrar: você é incrível. Você tá dando conta, mesmo quando acha que não. E tá tudo bem não ser perfeita. Seus filhos precisam de uma mãe real, não de uma mãe perfeita. 🤍✨",
+    "content": "Se você também é mãe solo, deixa eu te lembrar: você é incrível. Você tá dando conta, mesmo quando acha que não. E tá tudo bem não ser perfeita...",
     "image": "",
-    "date": "2025-03-15"
+    "date": "2025-03-15",
+    "comments": []
   },
   {
     "id": 11,
+    "user": {
+      "name": "Jéssica da Silva",
+      "subtitle": "Mãe solo",
+      "avatar": "assets/images/profile/jessicaSilva.png"
+    },
     "title": "Dica para outras mães",
-    "content": "Trabalhos manuais com massinha são uma delícia de fazer com os pequenos! Além de estimular a criatividade e a coordenação motora, é um momento de conexão pura 💛 Aqui em casa usamos ferramentas simples (até tampinha e garfo valem!) e deixamos a imaginação rolar solta. 👩‍👧‍👦🍂",
+    "content": "Trabalhos manuais com massinha são uma delícia de fazer com os pequenos! Além de estimular a criatividade e a coordenação motora...",
     "image": "https://media.istockphoto.com/id/1402411418/pt/foto/little-girl-working-with-clay.jpg?s=2048x2048&w=is&k=20&c=AxPrYMAlDoQd6cfv0UbHdZCdR7USw--b6Zl_j2iEAlQ=",
-    "date": "2025-04-21"
+    "date": "2025-04-21",
+    "comments": []
   }
 ]

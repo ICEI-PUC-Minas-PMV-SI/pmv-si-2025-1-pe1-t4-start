@@ -5,7 +5,8 @@ class PostModal {
       userName = "Usuário",
       userAvatar = "/api/placeholder/40/40",
       tag = "Indefinido",
-      placeholder = "Sobre o que você quer falar?",
+      inputPlaceholder = "Digite o título do seu post",
+      textAreaPlaceholder = "Sobre o que você quer falar?",
       onSubmit = () => {},
       onClose = () => {},
     } = options;
@@ -14,10 +15,12 @@ class PostModal {
     this.userName = userName;
     this.userAvatar = userAvatar;
     this.tag = tag;
-    this.placeholder = placeholder;
+    this.textAreaPlaceholder = textAreaPlaceholder;
+    this.inputPlaceholder = inputPlaceholder;
     this.onSubmit = onSubmit;
     this.onClose = onClose;
     this.element = null;
+    this.title = "";
     this.postContent = "";
 
     this.init();
@@ -52,7 +55,8 @@ class PostModal {
             </div>
           </div>
           <div class="modal-body">
-            <textarea class="post-content" placeholder="${this.placeholder}"></textarea>
+            <input type="text" class="post-title-input" placeholder="${this.inputPlaceholder}">
+            <textarea class="post-content" placeholder="${this.textAreaPlaceholder}"></textarea>
           </div>
           <div class="modal-footer">
             <div class="media-options">
@@ -89,6 +93,7 @@ class PostModal {
     const closeButton = this.element.querySelector(".close-button");
     const overlay = this.element.querySelector(".modal-overlay");
     const postButton = this.element.querySelector(".post-button");
+    const inputTitle = this.element.querySelector(".post-title-input");
     const textarea = this.element.querySelector(".post-content");
 
     closeButton.addEventListener("click", () => this.close());
@@ -96,6 +101,11 @@ class PostModal {
 
     textarea.addEventListener("input", (e) => {
       this.postContent = e.target.value;
+      this.updatePostButton();
+    });
+
+    inputTitle.addEventListener("input", (e) => {
+      this.title = e.target.value;
       this.updatePostButton();
     });
 
@@ -118,7 +128,7 @@ class PostModal {
 
   updatePostButton() {
     const postButton = this.element.querySelector(".post-button");
-    if (this.postContent.trim().length > 0) {
+    if (this.postContent.trim().length > 0 && this.title.trim().length > 0) {
       postButton.classList.add("active");
     } else {
       postButton.classList.remove("active");
@@ -130,7 +140,7 @@ class PostModal {
       this.element.style.display = "flex";
       // isso vai fazer ele focar no textarea ao abrir o modal
       setTimeout(() => {
-        const textarea = this.element.querySelector(".post-content");
+        const textarea = this.element.querySelector(".post-title-input");
         if (textarea) {
           textarea.focus();
         }
@@ -148,7 +158,7 @@ class PostModal {
   }
 
   submit() {
-    this.onSubmit(this.postContent);
+    this.onSubmit(this.postContent, this.title);
     this.close();
     return this;
   }

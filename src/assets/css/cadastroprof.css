@@ -36,8 +36,8 @@ body {
 
 
 .container {
-     width: 100%;
-     max-width: 400px; 
+     width: 200%;
+     max-width: 450px; 
     background-color: whitesmoke;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
@@ -134,8 +134,9 @@ p {
     font-style: normal;
 }
 
-@media (max-width: 600px) 
+@media (max-width: 1200px) 
     
+
 
 
     

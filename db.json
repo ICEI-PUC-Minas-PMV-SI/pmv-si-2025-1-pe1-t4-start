@@ -1,14 +1,81 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "id": "f4ce",
+      "title": "adfadsadfd...",
+      "content": "adfadsadfd",
+      "image": "",
+      "date": "2025-06-10"
+    },
+    {
+      "id": "a993",
+      "title": "dfadfasfd...",
+      "content": "dfadfasfd",
+      "image": "",
+      "date": "2025-06-10"
+    },
+    {
+      "id": "872e",
+      "title": "dafdsfsdf...",
+      "content": "dafdsfsdf",
+      "image": "",
+      "date": "2025-06-10"
+    },
+    {
+      "id": "5577",
+      "title": "fadfsd...",
+      "content": "fadfsd",
+      "image": "",
+      "date": "2025-06-10"
+    },
+    {
+      "id": "ed23",
+      "user": {
+        "avatar": "assets/images/profile/jessicaSilva.png",
+        "name": "Jéssica da Silva",
+        "subtitle": "Mãe solo"
+      },
+      "title": "fasddfad...",
+      "content": "fasddfad",
+      "image": "",
+      "date": "2025-06-10",
+      "comments": []
+    },
+    {
+      "id": "d344",
+      "user": {
+        "avatar": "assets/images/profile/jessicaSilva.png",
+        "name": "Jéssica da Silva",
+        "subtitle": "Mãe solo"
+      },
+      "title": "adsfasdfdfa...",
+      "content": "adsfasdfdfa",
+      "image": "",
+      "date": "2025-06-10",
+      "comments": []
+    },
+    {
+      "id": "8b28",
+      "user": {
+        "avatar": "assets/images/profile/jessicaSilva.png",
+        "name": "Jéssica da Silva",
+        "subtitle": "Mãe solo"
+      },
+      "title": "dadfsadf...",
+      "content": "dadfsadf",
+      "image": "",
+      "date": "2025-06-10",
+      "comments": []
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "body": "some comment",
       "postId": 1
     }

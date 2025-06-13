@@ -1,0 +1,241 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 1,
+        "name": "Jéssica da Silva",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/jessicaSilva.png"
+      },
+      "title": "Ser mãe solo é ser tudo",
+      "content": "Hoje, ao segurar a mão do meu filho a caminho da escola, percebi o quanto essa jornada me transformou...",
+      "image": "https://media.gettyimages.com/id/2159965940/pt/foto/mother-accompanying-son-to-school-on-first-day.jpg?s=2048x2048&w=gi&k=20&c=53K7h8sV6arhO4VuO4kQLyeyLwm4rY9fndZb2JGnTds=",
+      "date": "2025-05-31",
+      "likedBy": [
+        3,
+        5,
+        2,
+        1
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": {
+            "name": "Ana Beatriz",
+            "subtitle": "Psicóloga",
+            "avatar": "assets/images/profile/HelenaSantos.png"
+          },
+          "text": "Que lindo depoimento, Jéssica! A força que encontramos nos filhos é realmente incomparável. Você é uma inspiração!",
+          "image": ""
+        },
+        {
+          "id": 2,
+          "user": {
+            "name": "Carlos Andrade",
+            "subtitle": "Advogado",
+            "avatar": "assets/images/profile/lucasSilveira.png"
+          },
+          "text": "Parabéns pela jornada! É uma luta diária, mas muito recompensadora.",
+          "image": ""
+        },
+        {
+          "id": 1749594184873,
+          "user": {
+            "id": 1,
+            "avatar": "assets/images/profile/jessicaSilva.png",
+            "name": "Jéssica da Silva",
+            "subtitle": "Mãe solo"
+          },
+          "text": "Opa\neditado",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 1,
+        "name": "Jéssica da Silva",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/jessicaSilva.png"
+      },
+      "title": "Culpa de mãe?",
+      "content": "Não tem como negar: a culpa materna existe, e ela pesa...",
+      "image": "",
+      "date": "2025-04-01",
+      "likedBy": [
+        4,
+        2,
+        1
+      ],
+      "comments": []
+    },
+    {
+      "id": "3",
+      "user": {
+        "name": "Maria Souza",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/MariaSouza.png"
+      },
+      "title": "Dica para outras mães",
+      "content": "Se eu pudesse dar um conselho pra quem é mãe solo: organize sua rotina, se permita descansar e não tenha medo de pedir ajuda, mesmo que seja pra um amigo ouvir você por 5 minutos. Isso salva. 🤍",
+      "image": "",
+      "date": "2025-05-13",
+      "likedBy": [
+        1,
+        10,
+        11
+      ],
+      "comments": []
+    },
+    {
+      "id": "4",
+      "user": {
+        "name": "Paula Alves",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/PaulaAlves.jpeg"
+      },
+      "title": "Somos muito mais fortes do que imaginamos",
+      "content": "Quando me vi nessa jornada, confesso que o medo me paralisou por alguns dias. O peso das responsabilidades parecia esmagador...",
+      "image": "",
+      "date": "2025-04-29",
+      "likedBy": [
+        1,
+        7
+      ],
+      "comments": []
+    },
+    {
+      "id": "5",
+      "user": {
+        "name": "Joana Pereira",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/JoanaPereira.png"
+      },
+      "title": "Pequenas vitórias, grandes conquistas",
+      "content": "Hoje consegui pagar todas as contas do mês, fazer almoço, brincar com meu filho e ainda entregar aquele projeto no trabalho. Quem vive sabe: isso é uma vitória gigantesca. 🏆",
+      "image": "",
+      "date": "2025-03-10",
+      "likedBy": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        1,
+        7,
+        9,
+        6
+      ],
+      "comments": []
+    },
+    {
+      "id": "6",
+      "user": {
+        "name": "Fabiana Costa",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/FabianaCosta.png"
+      },
+      "title": "Rotina puxada, mas cheia de amor",
+      "content": "O despertador toca antes mesmo do sol aparecer. Preparo café, organizo a mochila da escola...",
+      "image": "https://media.istockphoto.com/id/79123089/pt/foto/m%C3%A3e-e-filha-a-ler.jpg?s=2048x2048&w=is&k=20&c=RHWKDyApbbQm1baEXiK_rrbKkUGzP0jQ1mrwcXww7KM=",
+      "date": "2025-03-16",
+      "likedBy": [
+        8
+      ],
+      "comments": []
+    },
+    {
+      "id": "7",
+      "user": {
+        "name": "Carla Ferreira",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/CarlaFerreira.png"
+      },
+      "title": "Autoamor também é prioridade",
+      "content": "Demorei pra entender, mas hoje sei que cuidar de mim também é cuidar do meu filho. Tirei 30 min só pra mim hoje, sem culpa, sem pressão. Me sinto renovada. ✨",
+      "image": "https://media.istockphoto.com/id/1999707381/pt/foto/movie-night-at-home.jpg?s=2048x2048&w=is&k=20&c=gPcWEvHL70z2IwOn3udQmY6qhBpOK977hTm4IJPLExc=",
+      "date": "2025-02-25",
+      "likedBy": [
+        1,
+        8,
+        9,
+        10
+      ],
+      "comments": []
+    },
+    {
+      "id": "8",
+      "user": {
+        "name": "Patrícia Silva",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/PatriciaSilva.png"
+      },
+      "title": "O medo do futuro... e a coragem do presente",
+      "content": "Se tem uma coisa que aprendi nessa jornada, é que o futuro assusta. Às vezes me pego pensando: e se eu não conseguir? E se faltar? E se...",
+      "image": "https://media.istockphoto.com/id/1166338493/pt/foto/mother-driving-kids-to-school.jpg?s=2048x2048&w=is&k=20&c=poj3Rvybv8ICN5BSNUFYn4VHvr5heA4c-hFI8OUs08Y=",
+      "date": "2025-05-24",
+      "likedBy": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "comments": []
+    },
+    {
+      "id": "9",
+      "user": {
+        "name": "Renata Oliveira",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/RenataOliveira.png"
+      },
+      "title": "Cansaço? Sim. Mas também gratidão.",
+      "content": "Sim, estou exausta. Tem dias que queria só dormir por horas. Mas também sou grata. Grata por ser o mundo inteiro de um serzinho que me chama de mãe. 🥹💗",
+      "image": "https://media.istockphoto.com/id/1130186653/pt/foto/mother-and-son-looking-out-of-window.jpg?s=2048x2048&w=is&k=20&c=0-aR6C7PQR1_s_ycqacxC5kAIZTG7Y7znJPd_mGbjlk=",
+      "date": "2025-03-23",
+      "likedBy": [
+        5
+      ],
+      "comments": []
+    },
+    {
+      "id": "10",
+      "user": {
+        "name": "Lucia Martins",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/LuciaMartins.png"
+      },
+      "title": "Você não está sozinha",
+      "content": "Se você também é mãe solo, deixa eu te lembrar: você é incrível. Você tá dando conta, mesmo quando acha que não. E tá tudo bem não ser perfeita...",
+      "image": "",
+      "date": "2025-03-15",
+      "likedBy": [
+        1,
+        2
+      ],
+      "comments": []
+    },
+    {
+      "id": "11",
+      "user": {
+        "name": "Ana Lima",
+        "subtitle": "Mãe solo",
+        "avatar": "assets/images/profile/AnaLima.png"
+      },
+      "title": "Dica para outras mães",
+      "content": "Trabalhos manuais com massinha são uma delícia de fazer com os pequenos! Além de estimular a criatividade e a coordenação motora...",
+      "image": "https://media.istockphoto.com/id/1402411418/pt/foto/little-girl-working-with-clay.jpg?s=2048x2048&w=is&k=20&c=AxPrYMAlDoQd6cfv0UbHdZCdR7USw--b6Zl_j2iEAlQ=",
+      "date": "2025-04-21",
+      "likedBy": [
+        1,
+        4,
+        10,
+        11,
+        5
+      ],
+      "comments": []
+    }
+  ]
+}
