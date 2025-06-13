@@ -1,0 +1,343 @@
+[
+    {
+        "nome": "Dr. Luiza Oliveira",
+        "email": "karine.ferraz@gmail.com",
+        "lat": -19.957774771427502,
+        "lon": -43.95540307611624,
+        "categoria": "Psicólogo",
+        "endereco": "Rua Rio Grande do Norte, 1500 - Funcionários",
+        "foto": "assets/images/profissionais/Psic-F.png",
+        "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
+        "perfilUrl": "/profile/dr-luiza-oliveira",
+        "avaliacoes": [
+            {
+                "nome": "Fernanda",
+                "nota": 5,
+                "data": "2025-02-15T09:23:45",
+                "texto": "Ótimo acolhimento e suporte. Sinto-me muito melhor.",
+                "tags": [
+                    "Paciente",
+                    "Compreensivo"
+                ]
+            },
+            {
+                "nome": "Patricia",
+                "nota": 4,
+                "data": "2024-11-20T14:05:10",
+                "texto": "As sessões são sempre muito produtivas e esclarecedoras.",
+                "tags": [
+                    "Competente",
+                    "Didática"
+                ]
+            }
+        ],
+        "id": 1,
+        "rating": 4.5
+    },
+    {
+        "nome": "Dr. Carlos Eduardo",
+        "email": "carlos.eduardo@psicologos.com",
+        "lat": -19.923838,
+        "lon": -43.935105,
+        "categoria": "Psicólogo",
+        "endereco": "Avenida Afonso Pena, 2000 - Centro",
+        "foto": "assets/images/profissionais/Psic-M.png",
+        "descricao": "Atendimento humanizado para adolescentes e adultos, com foco em ansiedade e depressão.",
+        "perfilUrl": "/profile/dr-carlos-eduardo",
+        "avaliacoes": [
+            {
+                "nome": "Mariana",
+                "nota": 5,
+                "data": "2025-01-10T10:00:00",
+                "texto": "Profissional excelente, muito atencioso e prestativo.",
+                "tags": [
+                    "Acolhedor",
+                    "Empático"
+                ]
+            }
+        ],
+        "id": 2,
+        "rating": 5.0
+    },
+    {
+        "nome": "Dra. Ana Paula",
+        "email": "ana.paula@psicologiaonline.com",
+        "lat": -19.932029,
+        "lon": -43.948281,
+        "categoria": "Psicólogo",
+        "endereco": "Rua Pernambuco, 1200 - Savassi",
+        "foto": "assets/images/profissionais/Psic-AP.png",
+        "descricao": "Especialista em terapia familiar e de casais, auxiliando na construção de relacionamentos saudáveis.",
+        "perfilUrl": "/profile/dra-ana-paula",
+        "avaliacoes": [],
+        "id": 3,
+        "rating": null
+    },
+    {
+        "nome": "Larissa Fernandes",
+        "email": "larissa.fernandes@advocacia.com",
+        "lat": -19.919838,
+        "lon": -43.938505,
+        "categoria": "Advogado",
+        "endereco": "Avenida Brasil, 1500 - Funcionários",
+        "foto": "assets/images/profissionais/Adv-LF.jpg",
+        "descricao": "Advogada especializada em direito de família, com foco em guarda e divórcio.",
+        "perfilUrl": "/profile/larissa-fernandes",
+        "avaliacoes": [
+            {
+                "nome": "Roberto Silva",
+                "nota": 5,
+                "data": "2024-10-01T11:00:00",
+                "texto": "Excelente profissional, muito competente e atenciosa.",
+                "tags": [
+                    "Eficiente",
+                    "Transparente"
+                ]
+            },
+            {
+                "nome": "Camila Costa",
+                "nota": 4,
+                "data": "2025-03-20T16:30:00",
+                "texto": "Me ajudou muito com meu processo, sempre muito clara.",
+                "tags": [
+                    "Ágil",
+                    "Comunicativa"
+                ]
+            }
+        ],
+        "id": 4,
+        "rating": 4.5
+    },
+    {
+        "nome": "Pedro Diniz",
+        "email": "pedro.diniz@direitocivil.com",
+        "lat": -19.928838,
+        "lon": -43.945505,
+        "categoria": "Advogado",
+        "endereco": "Rua da Bahia, 1000 - Centro",
+        "foto": "assets/images/profissionais/Adv-PD.png",
+        "descricao": "Advogado atuante em direito civil e consumidor, com foco em defesa de direitos.",
+        "perfilUrl": "/profile/pedro-diniz",
+        "avaliacoes": [],
+        "id": 5,
+        "rating": null
+    },
+    {
+        "nome": "Helena Souza",
+        "email": "helena.souza@babas.com",
+        "lat": -19.939838,
+        "lon": -43.928505,
+        "categoria": "Babá",
+        "endereco": "Rua Pium-í, 800 - Sion",
+        "foto": "assets/images/profissionais/Babas-HS.png",
+        "descricao": "Babá experiente e carinhosa, com referências e cursos de primeiros socorros.",
+        "perfilUrl": "/profile/helena-souza",
+        "avaliacoes": [
+            {
+                "nome": "Paula Martins",
+                "nota": 5,
+                "data": "2024-12-01T09:00:00",
+                "texto": "A Helena é incrível, meus filhos a amam. Muito responsável.",
+                "tags": [
+                    "Carinhosa",
+                    "Responsável"
+                ]
+            }
+        ],
+        "id": 6,
+        "rating": 5.0
+    },
+    {
+        "nome": "Mundo Encantado",
+        "email": "mundoencantado.creche@educamais.com",
+        "lat": -19.919313,
+        "lon": -43.949621,
+        "categoria": "Creche",
+        "endereco": "Rua Alagoas, 1320 - Funcionários, Belo Horizonte",
+        "foto": "assets/images/profissionais/Crch-CE.jpg",
+        "descricao": "Um mundo mágico de descobertas e aprendizado para os pequenos.",
+        "perfilUrl": "/",
+        "avaliacoes": [],
+        "id": 7,
+        "rating": null
+    },
+    {
+        "nome": "Amor e Carinho",
+        "email": "amorecarinho.creche@familiakids.com",
+        "lat": -19.980041,
+        "lon": -43.915507,
+        "categoria": "Creche",
+        "endereco": "Rua Platina, 1000 - Prado, Belo Horizonte",
+        "foto": "assets/images/profissionais/Crch-AM.png",
+        "descricao": "Valorizamos o cuidado afetuoso aliado a práticas pedagógicas criativas.",
+        "perfilUrl": "/",
+        "avaliacoes": [
+            {
+                "nome": "Cláudia Nogueira",
+                "nota": 3,
+                "data": "2025-03-10T14:00:00",
+                "texto": "Boas instalações, mas o atendimento poderia ser mais personalizado.",
+                "tags": [
+                    "Limpo",
+                    "Organizado"
+                ]
+            },
+            {
+                "nome": "João Pedro",
+                "nota": 4,
+                "data": "2024-11-25T10:00:00",
+                "texto": "Meu filho adora ir para a creche, aprendem brincando.",
+                "tags": [
+                    "Divertido",
+                    "Educativo"
+                ]
+            }
+        ],
+        "id": 8,
+        "rating": 3.5
+    },
+    {
+        "nome": "Dra. Ana Campos",
+        "email": "ana.campos@direitobrasil.com",
+        "lat": -19.943,
+        "lon": -43.9355,
+        "categoria": "Advogado",
+        "endereco": "Rua da Bahia, 1000 - Lourdes",
+        "foto": "assets/images/profissionais/Adv-FL.png",
+        "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
+        "perfilUrl": "/profile/dra-ana-campos",
+        "avaliacoes": [
+            {
+                "nome": "Priscila Ferreira",
+                "nota": 5,
+                "data": "2024-12-28T22:24:51.630756",
+                "texto": "Atendimento excelente, recomendo!",
+                "tags": [
+                    "Justa",
+                    "Pontual"
+                ]
+            },
+            {
+                "nome": "Priscila Ferreira",
+                "nota": 4,
+                "data": "2024-06-16T22:24:51.630790",
+                "texto": "Boa, mas poderia ter sido mais clara.",
+                "tags": [
+                    "Pontual",
+                    "Clara"
+                ]
+            }
+        ],
+        "id": 9,
+        "rating": 4.5
+    },
+    {
+        "nome": "Dr. Ricardo Augusto",
+        "email": "ricardo.torres@jurispro.com",
+        "lat": -19.93011,
+        "lon": -43.95021,
+        "categoria": "Advogado",
+        "endereco": "Avenida Afonso Pena, 1500 - Centro",
+        "foto": "assets/images/profissionais/Adv-JJ.png",
+        "descricao": "Atuação especializada em Direito Civil e Empresarial, prestando consultoria jurídica de alta qualidade e representação em disputas judiciais complexas.",
+        "perfilUrl": "/profile/dr-ricardo-augusto",
+        "avaliacoes": [
+            {
+                "nome": "Juliana Martins",
+                "nota": 5,
+                "data": "2025-02-20T12:00:00",
+                "texto": "Atendeu todas as minhas demandas com muita eficiência.",
+                "tags": [
+                    "Ágil",
+                    "Competente"
+                ]
+            },
+            {
+                "nome": "Carlos Eduardo",
+                "nota": 4,
+                "data": "2024-09-10T10:30:00",
+                "texto": "Bom atendimento, um pouco demorado para retorno.",
+                "tags": [
+                    "Eficiente",
+                    "Organizado"
+                ]
+            }
+        ],
+        "id": 10,
+        "rating": 4.5
+    },
+
+  {
+    
+    "nome": "Camila Souza",
+    "email": "camila.souza@cuidadoinfantil.com",
+    "lat": -19.9185,
+    "lon": -43.9372,
+    "categoria": "Babá",
+    "endereco": "Rua Rio de Janeiro, 200 - Centro",
+    "foto": "assets/images/profissionais/Babas-KS.png",
+    "descricao": "Profissional dedicada ao cuidado infantil, com experiência em bebês e crianças pequenas, oferecendo atenção e carinho durante toda a jornada.",
+    "perfilUrl": "/profile/baba-camila-souza",
+    
+    "avaliacoes": [
+      {
+        "nome": "Letícia Almeida",
+        "nota": 5,
+        "data": "2025-02-05T10:00:00",
+        "texto": "Excelente profissional, minha filha adora ficar com ela.",
+        "tags": [
+          "Cuidadosa",
+          "Carinhosa"
+        ]
+      },
+      {
+        "nome": "Fernanda Lopes",
+        "nota": 5,
+        "data": "2024-10-01T14:00:00",
+        "texto": "Sempre pontual e responsável.",
+        "tags": [
+          "Pontual",
+          "Responsável"
+        ]
+      }
+    ],
+    "id": 11,
+    "rating": 5.0
+  },
+  {
+    
+    "nome": "Juliana Mendes",
+    "email": "juliana.mendes@babysafe.org",
+    "lat": -19.93022,
+    "lon": -43.94512,
+    "categoria": "Babá",
+    "endereco": "Rua dos Otoni, 50 - Santa Efigênia",
+    "foto": "assets/images/profissionais/Babas-JA.png",
+    "descricao": "Babá experiente em desenvolvimento infantil, promovendo atividades lúdicas e educativas adaptadas à idade de cada criança.",
+    "perfilUrl": "/profile/baba-juliana-mendes",
+    "avaliacoes": [
+      {
+        "nome": "Bruno Ferreira",
+        "nota": 5,
+        "data": "2025-01-18T11:00:00",
+        "texto": "Muito dedicada e sempre atenta às necessidades da minha filha.",
+        "tags": [
+          "Atenta",
+          "Educativa"
+        ]
+      },
+      {
+        "nome": "Renata Oliveira",
+        "nota": 4,
+        "data": "2024-08-22T09:30:00",
+        "texto": "Atenciosa, mas com horários um pouco limitados.",
+        "tags": [
+          "Cuidadosa",
+          "Flexível"
+        ]
+      }
+    ],
+    "id": 12,
+    "rating": 4.5
+  }
+]
