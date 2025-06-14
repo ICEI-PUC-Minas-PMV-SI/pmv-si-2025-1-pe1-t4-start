@@ -7,7 +7,7 @@ const currentUser = {
   subtitle: "Mãe solo",
 };
 
-const API_URL = "https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/";
+const API_URL = "https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start";
 
 async function fetchAndRenderPosts() {
   try {
