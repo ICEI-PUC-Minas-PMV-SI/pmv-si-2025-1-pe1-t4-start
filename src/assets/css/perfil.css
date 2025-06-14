@@ -1,0 +1,198 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #f9f9f9;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  flex-direction: column; 
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  background: rgba(114, 99, 151, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  width: 100%;
+}
+
+.topo-perfil {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #9388ad;
+}
+
+.info-perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-grow: 1; 
+}
+
+.info-perfil h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #4a148c;
+}
+
+.info-perfil p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.info-perfil .nota {
+  font-size: 1.2rem;
+  color: #fbbf24;
+  font-weight: bold;
+}
+
+/* botão de contato */
+
+.botao-contato {
+  margin-top: 10px; 
+  padding: 10px 16px;
+  background-color: #726397;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  width: fit-content; 
+  display: inline-block; 
+  transition: background 0.3s;
+}
+
+.botao-contato:hover {
+  background-color: #8a79b2;
+}
+
+.email-contato {
+    background-color: #726397; 
+}
+
+.email-contato:hover {
+    background-color: #8a79b2;
+}
+
+
+/* endereço */
+.detalhes {
+  margin-top: 30px;
+}
+
+.detalhes h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #4a148c;
+}
+
+.detalhes p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* avaliações */
+.avaliacoes {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin: 40px 0;
+}
+
+.avaliacoes h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a148c;
+}
+
+.avaliacao-item {
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.avaliacao-item:first-child {
+  border-top: none;
+}
+
+.avaliacao-item strong {
+  color: #333;
+  font-size: 1rem;
+}
+
+.avaliacao-item small {
+  color: #999;
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.avaliacao-item p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.avaliacao-item .tags { 
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.avaliacao-item .tags span { 
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin-right: 5px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .perfil-container {
+    padding: 20px 10px;
+  }
+
+  .topo-perfil {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-perfil {
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .info-perfil .botao-contato {
+      width: 80%; 
+      max-width: 250px;
+  }
+  .avaliacoes {
+    margin: 20px 0;
+  }
+}

@@ -52,7 +52,7 @@ function exibirProfissionais(lista) {
 
     lista.forEach((prof) => {
         const card = document.createElement("a");
-        card.href = prof.perfilUrl;
+        card.href = `perfil.html?id=${prof.id}`; // Define o link para perfil.html com o ID na URL
         card.classList.add("card");
 
         
