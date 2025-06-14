@@ -219,97 +219,105 @@ Esta seção tem como objetivo, registrar todos os testes realizados em cada pá
 Segue, abaixo, os resgistros dos testes:
 
 
-|*Caso de Teste*                                 |*CC01 - Criar conta*                                         |
+|*Caso de Teste*                                 |*CC02 - Criar conta ( para mães )*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários (mães) possam criar suas contas |
+|Requisito Associado | RF-002 - A aplicação deve permitir que os usuários (mães) possam criar suas contas |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1mGYQhQ1sYt8gTwPZR9zsdlOtSEra05_5/view?usp=sharing | 
 
 
 
 
-|*Caso de Teste*                                 |*CC01 - Criar conta profissional parte 1*                                         |
+|*Caso de Teste*                                 |*CC03 - Criar conta profissional, etapa 1*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários profissionais façam  a primeira etapa de criação de conta |
+|Requisito Associado | RF-003 - A aplicação deve permitir que os usuários profissionais façam  a primeira etapa de criação de conta |
 |Link do vídeo do teste realizado: |https://drive.google.com/file/d/1HzV5MdWYnBiXE_F2id2CsiEBf-GDHDWw/view?usp=sharing | 
 
 
 
 
-
-|*Caso de Teste*                                 |*CC02 - Criar conta profissional parte 2*                                        |
+|*Caso de Teste*                                 |*CC04 - Criar conta profissional, etapa 2*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários profissionais criem uma conta |
+|Requisito Associado | RF-004 - A aplicação deve permitir que os usuários profissionais criem uma conta |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1jnGctLGqszYfOzQ97jAclfDu94BsGNdq/view?usp=sharing | 
 
 
 
 
-
-|*Caso de Teste*                                 |*LS02 - Logar no sistema*                                        |
+|*Caso de Teste*                                 |*LS01 - Logar no sistema*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam entrar no sistema com uma conta já cadastrada. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1YYEu9B7bxtcy8jN9oyCvJbgbJ-RgLy_C/view?usp=sharing |
 
 
 
-|*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 1*                                        |
+
+|*Caso de Teste*                                 |*NS11 - Redefinição de senha- Etapa 1*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam digitar o e-mail cadastrado para recebimento de um código. |
+|Requisito Associado | RF-011 - A aplicação deve permitir que os usuários possam digitar o e-mail cadastrado para recebimento de um código. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SlfxBawCRwEiqB59uoGhD9qqNKAARZ2m/view?usp=sharing | 
 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 2*                                        |
+|*Caso de Teste*                                 |*NS12 - Redefinição de senha- Etapa 2*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários digitem o código recebido no e-mail cadastrado. |
+|Requisito Associado | RF-012 - A aplicação deve permitir que os usuários digitem o código recebido no e-mail cadastrado. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1NaaV4h-VJpzrmZU8BOmGqZCrOPajvhTI/view?usp=sharing | 
 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 3*                                        |
+|*Caso de Teste*                                 |*NS13 - Redefinição de senha- Etapa 3*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários escolham  e digitem suas novas senhas de acordo com os critérios de criação de senha. |
+|Requisito Associado | RF-013 - A aplicação deve permitir que os usuários escolham  e digitem suas novas senhas de acordo com os critérios de criação de senha. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1mZU9iKue30kj69vOusW79yjKgPfbDMpL/view?usp=sharing | 
 
 
 
 
-
-
-|*Caso de Teste*                                 |*LS02 - Página inicial do sistema*                                        |
+|*Caso de Teste*                                 |*PI07 - Página inicial do sistema*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página inicial do sistema ( feed ) e interagir com a mesma. |
+|Requisito Associado | RF-007 - A aplicação deve permitir que os usuários possam acessar a página inicial do sistema ( feed ) e interagir com a mesma. |
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Página de serviços cadastrados no sistema*                                        |
+|*Caso de Teste*                                 |*SV08 - Sessão de serviços*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de perfis profissionais e possa interagir com a mesma. |
+|Requisito Associado | RF-008 - A aplicação deve permitir que os usuários possam acessar a página como todos profissionais cadastrados e possam interagir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1L98__MTESOb18pBEOhp7TKzDVtJA1fo3/view?usp=sharing | 
+
+
+
+
+|*Caso de Teste*                                 |*PV09 -  Visualização de Perfil de Profissional*                                        |
+|---|---|
+|Requisito Associado | RF-009 - A aplicação deve permitir que os usuários possam acessar a página de perfis profissionais e possam interagir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/15UaG-mFdpsd6VdnhzaYYrhD7FGrW_gr_/view?usp=sharing |
+
+
+
+
+|*Caso de Teste*                                 |*MP10 - Sessão de mapa*                                        |
+|---|---|
+|Requisito Associado | RF-010 - A aplicação deve permitir que os usuários possam acessar a página de mapas e possa interagir com a mesma. |
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Página de mapa*                                        |
+|*Caso de Teste*                                 |*PB06 - Publicações realizadas pelo usuário*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de mapas e possa interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-006 - A aplicação deve permitir que os usuários possam acessar a página de publicações já feitas e possa intergir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/18TFf6UC0Mna1G3Ov9YfW4xPGCPPOOSeZ/view?usp=sharing | 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Publicações feitas pelo usuário*                                        |
+
+|*Caso de Teste*                                 |*EP05 - Editar perfil*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de publicações já feitas e possa intergir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
-
-
-|*Caso de Teste*                                 |*LS02 - Página de edição de perfil*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de edição de perfil e possam interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-005 - A aplicação deve permitir que os usuários possam acessar a página de edição de perfil e possam interagir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1vi0l-TscEI2UcMKhSW_Mbgxav2Kxzoo7/view?usp=sharing | 
 
 
 
