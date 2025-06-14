@@ -302,7 +302,7 @@ Segue, abaixo, os resgistros dos testes:
 |*Caso de Teste*                                 |*MP10 - Sessão de mapa*                                        |
 |---|---|
 |Requisito Associado | RF-010 - A aplicação deve permitir que os usuários possam acessar a página de mapas e possa interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1UEWh6DrcKMm63oG0_k00P62ZLo5ZaVho/view?usp=sharing | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/14nXtbqCMLqU56SjYPzvGHgdXOdh-kjNb/view?usp=sharing | 
 
 
 
