@@ -164,7 +164,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-010;
 **Resultado esperado** | Mostrar onde o respectivo profissional está situado, filtrar os profissionais por categoria, mostrar o perfil pessoal de cada profissional, mostrar as avaliações de cada profissional e conseguir filtrar as mesmas e dar zoom e diminuir zoom do mapa.
 **Dados de entrada** | Ter clicado em cada respectivo ícone;
-**Resultado obtido** | 1) O mapa foi carregado corretamente e o zoom pôde ser ajustado com o mouse e botões; 2) Os filtros por categoria exibiram os profissionais corretamente; 3) Os pins foram clicáveis o perfil com informações de cada  profissional; 4) A filtragem das avaliação também funcionou corretamente, ordenando as avaliações baseado em cada critério selecionado; 5) Em profissionais sem avaliações foi recebida uma mensagem informando que o profissional ainda não havia sido avaliado.
+**Resultado obtido** | 1) O mapa foi carregado corretamente e o zoom pôde ser ajustado com o mouse e botões; 2) Os filtros por categoria exibiram os profissionais corretamente; 3) Os pins foram clicáveis e ao serem clicados exibiram o perfil com informações de cada  profissional; 4) A filtragem das avaliação também funcionou corretamente, ordenando as avaliações baseado em cada critério selecionado; 5) Em profissionais sem avaliações foi recebida uma mensagem informando que o profissional ainda não havia sido avaliado.
 
 
 
@@ -302,7 +302,7 @@ Segue, abaixo, os resgistros dos testes:
 |*Caso de Teste*                                 |*MP10 - Sessão de mapa*                                        |
 |---|---|
 |Requisito Associado | RF-010 - A aplicação deve permitir que os usuários possam acessar a página de mapas e possa interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1UEWh6DrcKMm63oG0_k00P62ZLo5ZaVho/view?usp=sharing | 
 
 
 
