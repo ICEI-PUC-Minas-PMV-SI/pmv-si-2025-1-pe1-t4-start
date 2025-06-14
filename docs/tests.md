@@ -102,7 +102,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-
 **Caso de Teste** | **PB06 - Publicações realizadas pelo usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/userprofile.html <br> 2) Clique em 'Novo Post' para postar algo novo no feed; <br> 3) Clique no ícone de lápis para editar a publicação; <br> 4) Clique no ícone de lixeira para excluir a publicação; <br> 
@@ -110,7 +109,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Conseguir adicionar postagem, editar e excluir publicações;
 **Dados de entrada** | Ter clicado em cada respectivo ícone e seção;
 **Resultado obtido** | 1) A página userprofile.html é carregada com sucesso, exibindo os posts existentes e o botão 'Novo Post'. <br> 2) Ao clicar no botão 'Novo Post', um formulário de criação de post aparece no topo da seção de posts. É possível preencher o título, conteúdo e URL de imagem. <br> 3) Ao clicar no botão "Salvar Novo Post", o formulário desaparece e um novo post com os dados preenchidos aparece no topo da lista de posts. Ao cancelar, o formulário desaparece sem adição. <br> 4) Em um post existente ou no recém-criado: <br>      a. Ao clicar no ícone de lápis (editar), o conteúdo do post é substituído por campos de entrada editáveis (input para título, textarea para conteúdo, input para URL da imagem) e botões "Salvar" e "Cancelar" aparecem. <br>      b. É possível modificar o título, conteúdo e/ou URL da imagem. <br>      c. Ao clicar em "Salvar", as alterações são aplicadas e o post retorna ao modo de visualização com os dados atualizados. Ao clicar em "Cancelar", as alterações são descartadas e o post volta ao estado original. <br> 5) Em um post existente ou no recém-criado: <br>      a. Ao clicar no ícone de lixeira (excluir), uma caixa de confirmação ("Tem certeza que deseja remover o post ...?") é exibida. <br>      b. Ao clicar em "OK" na confirmação, o post é removido imediatamente da interface do usuário. <br>      c. Ao clicar em "Cancelar" na confirmação, o post permanece visível na interface. <br> <br> Observação: As alterações de criação, edição e exclusão são apenas visíveis no navegador atual (client-side) e não são persistidas após um recarregamento da página, pois os dados são carregados de um arquivo JSON estático.
-
 
 
 
@@ -132,8 +130,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-
-
 **Caso de Teste** | **SV08 - Sessão de serviços**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/servicos.html <br>  2) Opcional: Na seção de categorias de serviço, clique em uma categoria específica (ex: "Psicólogos") para filtrar. <br>3) Opcional: No campo de busca, digite um termo de pesquisa (ex: "Dr. Luiza" para um psicólogo, ou "Mundo Encantado" para uma creche). <br>4) Clique no botão 'Pesquisar'. 5) Clique no card do profissional escolhido; 
@@ -148,11 +144,24 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
+**Caso de Teste** | **PV09 -  Visualização de Perfil de Profissional**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/servicos.html<br> 2) Na página de serviços, localize um card de profissional específico (utilizando a busca/filtros se necessário, ex: "Dr. Luiza Oliveira")<br> 3) Clique no card do profissional escolhido.<br> 4) Na página de perfil carregada, observe as informações exibidas (nome, descrição, avaliações, etc);
+**Requisitos associados** | RF-009;
+**Resultado esperado** | A página de perfil do profissional é carregada com sucesso, exibindo todas as informações detalhadas do profissional (nome, email, endereço, descrição, foto, avaliações e localização em mapa, se aplicável) de acordo com os dados do JSON, e a URL na barra de endereço reflete o profissional carregado;
+**Dados de entrada** | Ter clicado no card de um profissional específico na página de serviços;
+**Resultado obtido** | 1) A página servicos.html é carregada e os cards de profissionais são exibidos.<br> 2) Após clicar no card de um profissional (ex: "Dr. Luiza Oliveira"), o navegador redireciona para a URL configurada no perfilUrl.<br> 3) A página de perfil é carregada e exibe as informações completas do profissional clicado, como Nome, Email, Endereço, Descrição, Imagem de Perfil e todas as avaliações associadas.
 
-**Caso de Teste** | **MP09 - Sessão de mapa**
+
+
+
+
+
+
+**Caso de Teste** | **MP10 - Sessão de mapa**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/mapa.html <br> 2) Clique nos botões de cada profissional, como psicólogo, por exemplo; <br> 3) Clique nos ícones que representa cada profissional, no mapa; <br> 4) Clique nos ícones de + e -;
-**Requisitos associados** | RF-009;
+**Requisitos associados** | RF-010;
 **Resultado esperado** | Mostrar onde o respectivo profissional está situado, mostrar o perfil pessoal de cada profissional e dar zoom e diminuir zoom do mapa, respectivamente;
 **Dados de entrada** | Ter clicado em cada respectivo ícone;
 **Resultado obtido** | -
@@ -163,10 +172,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Caso de Teste** | **NS10 - Redefinição de senha- Etapa 1**
+**Caso de Teste** | **NS11 - Redefinição de senha- Etapa 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/senha.html <br> 2) Preencha o campo de e-mail com um e-mail cadastrado no sistema; <br> 3) Clique no botão confirmar;
-**Requisitos associados** | RF-10;
+**Requisitos associados** | RF-011;
 **Resultado esperado** | Ser direcionado para a próxima etapa de redefinição de senha;
 **Dados de entrada** | Ter preenchido o campo de e-mail com um e-mail cadastrado no sistema e clicado no botão de confirmar;
 **Resultado obtido** | -
@@ -177,10 +186,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Caso de Teste** | **NS11 - Redefinição de senha- Etapa 2**
+**Caso de Teste** | **NS12 - Redefinição de senha- Etapa 2**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/código.html; <br> 2) Digite o código de 4 digítos enviado ao e-mail cadastrado; <br> 3) Clique no botão confirmar;
-**Requisitos associados** | RF-11;
+**Requisitos associados** | RF-012;
 **Resultado esperado** | Ser direcionado para a próxima etapa de redefinição de senha;
 **Dados de entrada** | Ter preenchido o campo de código enviado ao e-mail, com 4 digítos;
 **Resultado obtido** | -
@@ -190,10 +199,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Caso de Teste** | **NS12 - Redefinição de senha- Etapa 3**
+**Caso de Teste** | **NS13 - Redefinição de senha- Etapa 3**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/nova-senha.html <br> 2) Escolha a nova senha de acordo com os critérios de criação de senha e confirme ( as senhas devem ser iguais e conter no minímo 8 carácteres  e máximo 14);
-**Requisitos associados** | RF-12;
+**Requisitos associados** | RF-013;
 **Resultado esperado** | Ser direcionado para a página de login para utilizar a nova senha;
 **Dados de entrada** | Ter preenchido todos os campos com senhas iguais e com os critérios de criação de senha;
 **Resultado obtido** | -
