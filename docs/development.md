@@ -13,7 +13,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-007| A aplicação deve permitir que o usuário publique no fórum  | Gustavo | fórum.html |
+|RF-007| A aplicação deve permitir que o usuário publique no fórum  | Gustavo | forum.html |
 |RF-003| A aplicação deve permitir que Advogados e Psicólogos se cadastrem no sistema | Laila |  cadastro-profissional.html |
 |RF-004| A aplicação deve permitir que Babas e Creches se cadastrem no sistema    | Laila |  cadastroprof.html |
 |RF-005| A aplicação deve permitir que os usuários editem seus perfis  | Maria Clara | edit-userprofile.html |
