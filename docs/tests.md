@@ -327,9 +327,8 @@ Segue, abaixo, os resgistros dos testes:
 
 
 ## Avaliação dos Testes de Software
-Como resultado das avaliações de cada teste, tivemos que:
+Como resultado das avaliações de cada teste, tivemos que todos os usuários conseguiram utilizar do sistema e interagir com o mesmo, como esperado. Em relação ao tempo para se cumprir cada etapa, foi relativamente como o esperado, em alguns casos poucos segundos ultrapassados, porém, sem prejudicar a interarividade com o sistema, tendo o mesmo, cumprido com a proposta esperada.
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
 
 
