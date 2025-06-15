@@ -52,7 +52,7 @@ function exibirProfissionais(lista) {
 
     lista.forEach((prof) => {
         const card = document.createElement("a");
-        card.href = `perfil.html?id=${prof.id}`; // Define o link para perfil.html com o ID na URL
+        card.href = `perfil.html?id=${prof.id}`; 
         card.classList.add("card");
 
         
@@ -72,35 +72,31 @@ function exibirProfissionais(lista) {
 // filtro e pesquisa
 
 function filtrarEExibirProfissionais() {
-    let listaFiltrada = [...profissionais]; 
+    let listaFiltrada = [...profissionais];
 
-    
     if (filtroAtivo && filtroAtivo !== "Todos") {
         listaFiltrada = listaFiltrada.filter((prof) => prof.categoria === filtroAtivo);
     }
 
-    
     if (termoPesquisaAtivo) {
         const termo = termoPesquisaAtivo.toLowerCase();
         listaFiltrada = listaFiltrada.filter(
             (prof) =>
-                prof.nome.toLowerCase().includes(termo) ||
-                prof.categoria.toLowerCase().includes(termo) ||
-                prof.endereco.toLowerCase().includes(termo) ||
-                (prof.descricao && prof.descricao.toLowerCase().includes(termo)) 
+                
+                (typeof prof.nome === 'string' && prof.nome.toLowerCase().includes(termo)) ||
+                (typeof prof.categoria === 'string' && prof.categoria.toLowerCase().includes(termo)) ||
+                (typeof prof.endereco === 'string' && prof.endereco.toLowerCase().includes(termo)) ||
+                (typeof prof.descricao === 'string' && prof.descricao.toLowerCase().includes(termo))
         );
     }
 
-    
     profissionaisAtualmenteExibidos = listaFiltrada;
 
-    
     tituloCategoriaAtual.textContent = filtroAtivo === "Todos" ? "Todos os Profissionais" : filtroAtivo + "s";
     if (termoPesquisaAtivo) {
         tituloCategoriaAtual.textContent += ` (Resultados para "${termoPesquisaAtivo}")`;
     }
 
-    
     exibirProfissionais(profissionaisAtualmenteExibidos);
 }
 
@@ -140,10 +136,8 @@ document.querySelector(".clear-btn").addEventListener("click", () => {
     filtrarEExibirProfissionais();
 });
 searchBar.addEventListener("input", () => {
-    if (searchBar.value.trim() === "") {
-        termoPesquisaAtivo = "";
-        filtrarEExibirProfissionais();
-    }
+    termoPesquisaAtivo = searchBar.value.trim(); 
+    filtrarEExibirProfissionais(); 
 });
 
 

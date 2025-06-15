@@ -13,18 +13,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário publique no fórum  | Gustavo | fórum.html |
-|RF-002| A aplicação deve permitir que Advogados e Psicólogos se cadastrem no sistema | Laila |  cadastro-profissional.html |
-|RF-002| A aplicação deve permitir que Babas e Creches se cadastrem no sistema    | Laila |  cadastroprof.html |
-|RF-003| A aplicação deve permitir que os usuários editem seus perfis  | Maria Clara | edit-userprofile.html |
-|RF-004| A aplicação deve permitir que o usuário possa logar no sistema | Laila   | index.html |
-|RF-005| A aplicação deve permitir que o usuário possa se cadastrar no sistema    | Laila | cadastro.html |
-|RF-001| A aplicação deve permitir página com profissionais cadastrados | Thiago  | servicos.html |
-|RF-001| A aplicação deve permitir aba de mapa com localizações dos profissionais | Ava | mapa.html |
-|RF-001| A aplicação deve permitir página para acessar publicações já feitas  | Maria Clara | userprofile.html |
-|RF-001| A aplicação deve permitir troca de senha por esquecimento | Laila | nova-senha.html |
-|RF-001|A aplicação deve permitir troca de senha por esquecimento  | Laila | senha.html|
-|RF-001| A aplicação deve permitir troca de senha por esquecimento | Laila | código.html |
+|RF-007| A aplicação deve permitir que o usuário publique no fórum  | Gustavo | forum.html |
+|RF-003| A aplicação deve permitir que Advogados e Psicólogos se cadastrem no sistema | Laila |  cadastro-profissional.html |
+|RF-004| A aplicação deve permitir que Babas e Creches se cadastrem no sistema    | Laila |  cadastroprof.html |
+|RF-005| A aplicação deve permitir que os usuários editem seus perfis  | Maria Clara | edit-userprofile.html |
+|RF-001| A aplicação deve permitir que o usuário possa logar no sistema | Laila   | index.html |
+|RF-002| A aplicação deve permitir que o usuário possa se cadastrar no sistema    | Laila | cadastro.html |
+|RF-008| A aplicação deve permitir página com profissionais cadastrados | Maria Clara  | servicos.html |
+|RF-006| A aplicação deve permitir página de perfil dos profissionais | Maria Clara  | perfil.html |
+|RF-010| A aplicação deve permitir aba de mapa com localizações dos profissionais | Ava | mapa.html |
+|RF-009| A aplicação deve permitir página para acessar publicações já feitas  | Maria Clara | userprofile.html |
+|RF-013| A aplicação deve permitir troca de senha por esquecimento | Laila | nova-senha.html |
+|RF-011|A aplicação deve permitir troca de senha por esquecimento  | Laila | senha.html|
+|RF-012| A aplicação deve permitir troca de senha por esquecimento | Laila | código.html |
 
 
 

@@ -102,7 +102,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-
 **Caso de Teste** | **PB06 - Publicações realizadas pelo usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/userprofile.html <br> 2) Clique em 'Novo Post' para postar algo novo no feed; <br> 3) Clique no ícone de lápis para editar a publicação; <br> 4) Clique no ícone de lixeira para excluir a publicação; <br> 
@@ -110,7 +109,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Conseguir adicionar postagem, editar e excluir publicações;
 **Dados de entrada** | Ter clicado em cada respectivo ícone e seção;
 **Resultado obtido** | 1) A página userprofile.html é carregada com sucesso, exibindo os posts existentes e o botão 'Novo Post'. <br> 2) Ao clicar no botão 'Novo Post', um formulário de criação de post aparece no topo da seção de posts. É possível preencher o título, conteúdo e URL de imagem. <br> 3) Ao clicar no botão "Salvar Novo Post", o formulário desaparece e um novo post com os dados preenchidos aparece no topo da lista de posts. Ao cancelar, o formulário desaparece sem adição. <br> 4) Em um post existente ou no recém-criado: <br>      a. Ao clicar no ícone de lápis (editar), o conteúdo do post é substituído por campos de entrada editáveis (input para título, textarea para conteúdo, input para URL da imagem) e botões "Salvar" e "Cancelar" aparecem. <br>      b. É possível modificar o título, conteúdo e/ou URL da imagem. <br>      c. Ao clicar em "Salvar", as alterações são aplicadas e o post retorna ao modo de visualização com os dados atualizados. Ao clicar em "Cancelar", as alterações são descartadas e o post volta ao estado original. <br> 5) Em um post existente ou no recém-criado: <br>      a. Ao clicar no ícone de lixeira (excluir), uma caixa de confirmação ("Tem certeza que deseja remover o post ...?") é exibida. <br>      b. Ao clicar em "OK" na confirmação, o post é removido imediatamente da interface do usuário. <br>      c. Ao clicar em "Cancelar" na confirmação, o post permanece visível na interface. <br> <br> Observação: As alterações de criação, edição e exclusão são apenas visíveis no navegador atual (client-side) e não são persistidas após um recarregamento da página, pois os dados são carregados de um arquivo JSON estático.
-
 
 
 
@@ -132,8 +130,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-
-
 **Caso de Teste** | **SV08 - Sessão de serviços**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/servicos.html <br>  2) Opcional: Na seção de categorias de serviço, clique em uma categoria específica (ex: "Psicólogos") para filtrar. <br>3) Opcional: No campo de busca, digite um termo de pesquisa (ex: "Dr. Luiza" para um psicólogo, ou "Mundo Encantado" para uma creche). <br>4) Clique no botão 'Pesquisar'. 5) Clique no card do profissional escolhido; 
@@ -148,14 +144,27 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-
-**Caso de Teste** | **MP09 - Sessão de mapa**
+**Caso de Teste** | **PV09 -  Visualização de Perfil de Profissional**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/mapa.html <br> 2) Clique nos botões de cada profissional, como psicólogo, por exemplo; <br> 3) Clique nos ícones que representa cada profissional, no mapa; <br> 4) Clique nos ícones de + e -;
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/servicos.html<br> 2) Na página de serviços, localize um card de profissional específico (utilizando a busca/filtros se necessário, ex: "Dr. Luiza Oliveira")<br> 3) Clique no card do profissional escolhido.<br> 4) Na página de perfil carregada, observe as informações exibidas (nome, descrição, avaliações, etc);
 **Requisitos associados** | RF-009;
-**Resultado esperado** | Mostrar onde o respectivo profissional está situado, mostrar o perfil pessoal de cada profissional e dar zoom e diminuir zoom do mapa, respectivamente;
+**Resultado esperado** | A página de perfil do profissional é carregada com sucesso, exibindo todas as informações detalhadas do profissional (nome, email, endereço, descrição, foto, avaliações e localização em mapa, se aplicável) de acordo com os dados do JSON, e a URL na barra de endereço reflete o profissional carregado;
+**Dados de entrada** | Ter clicado no card de um profissional específico na página de serviços;
+**Resultado obtido** | 1) A página servicos.html é carregada e os cards de profissionais são exibidos.<br> 2) Após clicar no card de um profissional (ex: "Dr. Luiza Oliveira"), o navegador redireciona para a URL configurada no perfilUrl.<br> 3) A página de perfil é carregada e exibe as informações completas do profissional clicado, como Nome, Email, Endereço, Descrição, Imagem de Perfil e todas as avaliações associadas.
+
+
+
+
+
+
+
+**Caso de Teste** | **MP10 - Sessão de mapa**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/mapa.html 2) Aumente ou diminua o zoom do mapa com o mouse ou nos ícones de + e -; 3)  Clique nos botões filtro para visualizar todos os profissionais cadastrados de cada categoria, como psicólogo, por exemplo; 3) Clique pin que representa cada profissional no mapa; 4) Clique nos filtros referente às avaliações de cada profissional cadastrado.
+**Requisitos associados** | RF-010;
+**Resultado esperado** | Mostrar onde o respectivo profissional está situado, filtrar os profissionais por categoria, mostrar o perfil pessoal de cada profissional, mostrar as avaliações de cada profissional e conseguir filtrar as mesmas e dar zoom e diminuir zoom do mapa.
 **Dados de entrada** | Ter clicado em cada respectivo ícone;
-**Resultado obtido** | -
+**Resultado obtido** | 1) O mapa foi carregado corretamente e o zoom pôde ser ajustado com o mouse e botões; 2) Os filtros por categoria exibiram os profissionais corretamente; 3) Os pins foram clicáveis e ao serem clicados exibiram o perfil com informações de cada  profissional; 4) A filtragem das avaliação também funcionou corretamente, ordenando as avaliações baseado em cada critério selecionado; 5) Em profissionais sem avaliações foi recebida uma mensagem informando que o profissional ainda não havia sido avaliado.
 
 
 
@@ -163,10 +172,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Caso de Teste** | **NS10 - Redefinição de senha- Etapa 1**
+**Caso de Teste** | **NS11 - Redefinição de senha- Etapa 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/senha.html <br> 2) Preencha o campo de e-mail com um e-mail cadastrado no sistema; <br> 3) Clique no botão confirmar;
-**Requisitos associados** | RF-10;
+**Requisitos associados** | RF-011;
 **Resultado esperado** | Ser direcionado para a próxima etapa de redefinição de senha;
 **Dados de entrada** | Ter preenchido o campo de e-mail com um e-mail cadastrado no sistema e clicado no botão de confirmar;
 **Resultado obtido** | -
@@ -177,10 +186,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Caso de Teste** | **NS11 - Redefinição de senha- Etapa 2**
+**Caso de Teste** | **NS12 - Redefinição de senha- Etapa 2**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/código.html; <br> 2) Digite o código de 4 digítos enviado ao e-mail cadastrado; <br> 3) Clique no botão confirmar;
-**Requisitos associados** | RF-11;
+**Requisitos associados** | RF-012;
 **Resultado esperado** | Ser direcionado para a próxima etapa de redefinição de senha;
 **Dados de entrada** | Ter preenchido o campo de código enviado ao e-mail, com 4 digítos;
 **Resultado obtido** | -
@@ -190,10 +199,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Caso de Teste** | **NS12 - Redefinição de senha- Etapa 3**
+**Caso de Teste** | **NS13 - Redefinição de senha- Etapa 3**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/nova-senha.html <br> 2) Escolha a nova senha de acordo com os critérios de criação de senha e confirme ( as senhas devem ser iguais e conter no minímo 8 carácteres  e máximo 14);
-**Requisitos associados** | RF-12;
+**Requisitos associados** | RF-013;
 **Resultado esperado** | Ser direcionado para a página de login para utilizar a nova senha;
 **Dados de entrada** | Ter preenchido todos os campos com senhas iguais e com os critérios de criação de senha;
 **Resultado obtido** | -
@@ -210,66 +219,63 @@ Esta seção tem como objetivo, registrar todos os testes realizados em cada pá
 Segue, abaixo, os resgistros dos testes:
 
 
-|*Caso de Teste*                                 |*CC01 - Criar conta*                                         |
+|*Caso de Teste*                                 |*CC02 - Criar conta ( para mães )*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários (mães) possam criar suas contas |
+|Requisito Associado | RF-002 - A aplicação deve permitir que os usuários (mães) possam criar suas contas |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1mGYQhQ1sYt8gTwPZR9zsdlOtSEra05_5/view?usp=sharing | 
 
 
 
 
-|*Caso de Teste*                                 |*CC01 - Criar conta profissional parte 1*                                         |
+|*Caso de Teste*                                 |*CC03 - Criar conta profissional, etapa 1*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários profissionais façam  a primeira etapa de criação de conta |
+|Requisito Associado | RF-003 - A aplicação deve permitir que os usuários profissionais façam  a primeira etapa de criação de conta |
 |Link do vídeo do teste realizado: |https://drive.google.com/file/d/1HzV5MdWYnBiXE_F2id2CsiEBf-GDHDWw/view?usp=sharing | 
 
 
 
 
-
-|*Caso de Teste*                                 |*CC02 - Criar conta profissional parte 2*                                        |
+|*Caso de Teste*                                 |*CC04 - Criar conta profissional, etapa 2*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários profissionais criem uma conta |
+|Requisito Associado | RF-004 - A aplicação deve permitir que os usuários profissionais criem uma conta |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1jnGctLGqszYfOzQ97jAclfDu94BsGNdq/view?usp=sharing | 
 
 
 
 
-
-|*Caso de Teste*                                 |*LS02 - Logar no sistema*                                        |
+|*Caso de Teste*                                 |*LS01 - Logar no sistema*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam entrar no sistema com uma conta já cadastrada. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1YYEu9B7bxtcy8jN9oyCvJbgbJ-RgLy_C/view?usp=sharing |
 
 
 
-|*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 1*                                        |
+
+|*Caso de Teste*                                 |*NS11 - Redefinição de senha- Etapa 1*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam digitar o e-mail cadastrado para recebimento de um código. |
+|Requisito Associado | RF-011 - A aplicação deve permitir que os usuários possam digitar o e-mail cadastrado para recebimento de um código. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SlfxBawCRwEiqB59uoGhD9qqNKAARZ2m/view?usp=sharing | 
 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 2*                                        |
+|*Caso de Teste*                                 |*NS12 - Redefinição de senha- Etapa 2*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários digitem o código recebido no e-mail cadastrado. |
+|Requisito Associado | RF-012 - A aplicação deve permitir que os usuários digitem o código recebido no e-mail cadastrado. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1NaaV4h-VJpzrmZU8BOmGqZCrOPajvhTI/view?usp=sharing | 
 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Redefinir senha- Etapa 3*                                        |
+|*Caso de Teste*                                 |*NS13 - Redefinição de senha- Etapa 3*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários escolham  e digitem suas novas senhas de acordo com os critérios de criação de senha. |
+|Requisito Associado | RF-013 - A aplicação deve permitir que os usuários escolham  e digitem suas novas senhas de acordo com os critérios de criação de senha. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1mZU9iKue30kj69vOusW79yjKgPfbDMpL/view?usp=sharing | 
 
 
 
 
-
-
-|*Caso de Teste*                                 |*LS02 - Página inicial do sistema*                                        |
+|*Caso de Teste*                                 |*PI07 - Página inicial do sistema*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página inicial do sistema ( feed ) e interagir com a mesma. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1qBeFJ0JepMTMIvzQKfIRwT5bgf3EKvrk/view?usp=sharing | 
@@ -277,30 +283,41 @@ Segue, abaixo, os resgistros dos testes:
 
 
 
-|*Caso de Teste*                                 |*LS02 - Página de serviços cadastrados no sistema*                                        |
+|*Caso de Teste*                                 |*SV08 - Sessão de serviços*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de perfis profissionais e possa interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-008 - A aplicação deve permitir que os usuários possam acessar a página como todos profissionais cadastrados e possam interagir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1L98__MTESOb18pBEOhp7TKzDVtJA1fo3/view?usp=sharing | 
 
 
 
-|*Caso de Teste*                                 |*LS02 - Página de mapa*                                        |
+
+|*Caso de Teste*                                 |*PV09 -  Visualização de Perfil de Profissional*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de mapas e possa interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-009 - A aplicação deve permitir que os usuários possam acessar a página de perfis profissionais e possam interagir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/15UaG-mFdpsd6VdnhzaYYrhD7FGrW_gr_/view?usp=sharing |
 
 
 
-|*Caso de Teste*                                 |*LS02 - Publicações feitas pelo usuário*                                        |
+
+|*Caso de Teste*                                 |*MP10 - Sessão de mapa*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de publicações já feitas e possa intergir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-010 - A aplicação deve permitir que os usuários possam acessar a página de mapas e possa interagir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/14nXtbqCMLqU56SjYPzvGHgdXOdh-kjNb/view?usp=sharing | 
 
 
-|*Caso de Teste*                                 |*LS02 - Página de edição de perfil*                                        |
+
+|*Caso de Teste*                                 |*PB06 - Publicações realizadas pelo usuário*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários possam acessar a página de edição de perfil e possam interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-006 - A aplicação deve permitir que os usuários possam acessar a página de publicações já feitas e possa intergir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/18TFf6UC0Mna1G3Ov9YfW4xPGCPPOOSeZ/view?usp=sharing | 
+
+
+
+
+|*Caso de Teste*                                 |*EP05 - Editar perfil*                                        |
+|---|---|
+|Requisito Associado | RF-005 - A aplicação deve permitir que os usuários possam acessar a página de edição de perfil e possam interagir com a mesma. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1vi0l-TscEI2UcMKhSW_Mbgxav2Kxzoo7/view?usp=sharing | 
 
 
 
@@ -432,12 +449,7 @@ Cenário 4: Você é um usuário  que deseja realizar um cadastro no sistema sem
     Comentários dos usuários: Tela limpa e de fácil entendimento das escritas. 
 
 
-
-
-
-    
-    OUTROS CENÁRIOS DE OUTRAS PÁGINAS:
-
+  
 Cenário 2: Você é um usuário que deseja, ao logar no sistema, conseguir realizar publicações, exclui-lás, curti-lás e comentar nas mesmas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
@@ -454,55 +466,67 @@ Cenário 2: Você é um usuário que deseja, ao logar no sistema, conseguir real
 
 
 
-Cenário 2:  Você é um usuário que deseja editar seu perfil e seus dados adicionados no momento de criação de conta..
+Cenário 6:  Você é um usuário que deseja editar seu perfil e seus dados adicionados no momento de criação de conta.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 35.84 segundos                          |
+| 2       | SIM             | 5                    | 55.36 segundos                          |
+| 3       | SIM             | 5                    | 32.41 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 41.20 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 29.88 segundos |
+
+    Comentários dos usuários: Uso bem simples. Facilidade na edição e preenchimento dos campos, inclusive da imagem de perfil. A interface auxilia bem o usuário a entender o que deve ser preenchido.
+
+
+
+
+Cenário 7: Você é um usuário que deseja excluir seu perfil caso desejado.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 8.08 segundos                          |
+| 2       | SIM             | 5                    | 4.27 segundos                          |
+| 3       | SIM             | 5                    | 5.13 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 5.83 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 6.29 segundos |
+
+    Comentários dos usuários: É bem rápido e tem poucos passos pra excluir os dados.  Fluxo objetivo, com confirmação de segurança antes da exclusão.
+
+
+
+
+Cenário 8: Você é um usuário que deseja visualizar todas suas publicações feitas e conseguir editar ou excluir elas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 2       | SIM             | 5                    | 58.64 segundos                          |
+| 3       | SIM             | 5                    | 18.22 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5                | 33.13 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15.49 segundos |
+
+    Comentários dos usuários: Gostei da possibilidade de editar e excluir as postagens. Botões são intuitivos.
 
 
 
-Cenário 2: Você é um usuário que deseja excluir seu perfil caso desejado.
+
+Cenário 9: Você é um usuário que deseja ter acesso aos profissionais cadastrados no sistema e seus perfis pessoais.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    |  31.52 segundos                          |
+| 2       | SIM             | 4.5                    | 28.58 segundos                          |
+| 3       | SIM             | 4.5                    | 20.14 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4.67                | 26.75 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |  22.36 segundos |
+    
+    Comentários dos usuários: A funcionalidade de busca e os filtros para encontrar profissionais operaram de forma eficaz. Observei que o contato de e-mail apareceu como 'undefined' em alguns perfis, o que dificultou a identificação dos meios de contato. 
 
-
-
-Cenário 2: Você é um usuário que deseja visualizar todas suas publicações feitas e conseguir editar ou excluir elas..
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-
-Cenário 2: Você é um usuário que deseja ter acesso aos profissionais cadastrados no sistema e seus perfis pessoais..
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
 
@@ -510,27 +534,26 @@ Cenário Você é um usuário que deseja ter acesso ás localizações de cada p
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                  |  27,52 segundos                       |
+| 2       | SIM             | 5                    | 37,24 segundos                         |
+| 3       | SIM             | 3                 | 54,34 segundos                         |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4,33             |  39,70 segundos                         |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 20,76 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: Duas usuárias relataram que a tela é fácil de acessar, intuitiva e satisfatória. Uma terceira usuária achou a legenda do mapa pouco intuitiva e se incomodou com o fato de que, ao filtrar os profissionais por categoria, não existia também uma opção de filtrar ou ordenar por avaliações. A mesma também relatou incômodo por ter que clicar em cada profissional para conseguir ver sua média de avaliações. Por fim, achou insatisfatório que o mapa não captasse sua localização automaticamente e mostrasse os estabelecimentos próximos a ela.
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, se observou que, de acordo com os feedbacks dados pelos usuários que testaram nosso sistema, o mesmo....
+Com base nos resultados obtidos durante a aplicação dos testes de usabilidade, observou-se que o sistema atendeu de forma satisfatória aos objetivos propostos, proporcionando uma experiência positiva para os usuários.
 
-Além disso, o sistema obteve também uma elevada satisfação no momento em que os usuários estavam interagindo com este. Se mostra a elevada satisfação, pois, em relação as médias das avaliações em cada um dos cenários, a variação apresentou resultado positivo, sendo entre 4 (bom) e 5 (ótimo). 
+De maneira geral, os participantes demonstraram facilidade na execução das tarefas e apresentaram alto grau de satisfação com o uso da interface. As avaliações subjetivas atribuídas pelos usuários variaram entre 4 (bom) e 5 (ótimo), refletindo uma aceitação bastante positiva em relação à usabilidade, clareza e fluidez das funcionalidades.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos um bom resultado quando comparado ao tempo dos usuários e o tempo do desenvolvedor já que, foram praticamente iguais e de acordo com o esperado. Algumas poucas diferenças foram notadas, porém, não são diferenças que impactaram negativamente nos resultados dos testes e muito menos na utilização do sistema.
+Em relação ao tempo de conclusão dos cenários, os resultados também foram positivos. Houve, na maioria dos casos, uma boa proximidade entre o tempo médio dos usuários e o tempo registrado pelo especialista, indicando que o fluxo das funcionalidades é intuitivo e não apresenta barreiras significativas para sua execução. Apesar de pequenas variações naturais entre usuários, nenhuma delas comprometeu a execução dos cenários ou gerou impacto negativo na experiência.
 
-Contudo, tendo em vista que a diferença em relação ao tempo e a média durante a interção do usuário com o sistema foi relativamente baixa (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), notamos uma boa satisfação de uso do nosso sitema, levando em considerção a sua proposta. Porém, como desenvolvedores, sabemos que muitas melhorias em relação a usabilidade do sistema podem ser implementadas e queremos que o nosso sistema seja sempre o melhor para ajudar nosso público alvo e, estamos em busca dessa melhoria.
+Embora os testes indiquem uma boa usabilidade de forma geral, identificamos algumas oportunidades de melhoria com base em observações dos participantes. Ajustes em funcionalidades como filtros adicionais nas buscas, maior automatização na localização dos usuários e melhorias na apresentação de informações (como a exibição de avaliações médias de forma mais direta) poderão ainda mais otimizar a experiência oferecida.
 
+Por fim, os resultados obtidos reforçam que o sistema cumpre bem sua proposta atual, mas permanece aberto a evoluções que possam proporcionar uma experiência cada vez mais eficiente, agradável e acessível ao seu público-alvo.
 
 
