@@ -546,13 +546,14 @@ Cenário Você é um usuário que deseja ter acesso ás localizações de cada p
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, se observou que, de acordo com os feedbacks dados pelos usuários que testaram nosso sistema, o mesmo....
+Com base nos resultados obtidos durante a aplicação dos testes de usabilidade, observou-se que o sistema atendeu de forma satisfatória aos objetivos propostos, proporcionando uma experiência positiva para os usuários.
 
-Além disso, o sistema obteve também uma elevada satisfação no momento em que os usuários estavam interagindo com este. Se mostra a elevada satisfação, pois, em relação as médias das avaliações em cada um dos cenários, a variação apresentou resultado positivo, sendo entre 4 (bom) e 5 (ótimo). 
+De maneira geral, os participantes demonstraram facilidade na execução das tarefas e apresentaram alto grau de satisfação com o uso da interface. As avaliações subjetivas atribuídas pelos usuários variaram entre 4 (bom) e 5 (ótimo), refletindo uma aceitação bastante positiva em relação à usabilidade, clareza e fluidez das funcionalidades.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos um bom resultado quando comparado ao tempo dos usuários e o tempo do desenvolvedor já que, foram praticamente iguais e de acordo com o esperado. Algumas poucas diferenças foram notadas, porém, não são diferenças que impactaram negativamente nos resultados dos testes e muito menos na utilização do sistema.
+Em relação ao tempo de conclusão dos cenários, os resultados também foram positivos. Houve, na maioria dos casos, uma boa proximidade entre o tempo médio dos usuários e o tempo registrado pelo especialista, indicando que o fluxo das funcionalidades é intuitivo e não apresenta barreiras significativas para sua execução. Apesar de pequenas variações naturais entre usuários, nenhuma delas comprometeu a execução dos cenários ou gerou impacto negativo na experiência.
 
-Contudo, tendo em vista que a diferença em relação ao tempo e a média durante a interção do usuário com o sistema foi relativamente baixa (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), notamos uma boa satisfação de uso do nosso sitema, levando em considerção a sua proposta. Porém, como desenvolvedores, sabemos que muitas melhorias em relação a usabilidade do sistema podem ser implementadas e queremos que o nosso sistema seja sempre o melhor para ajudar nosso público alvo e, estamos em busca dessa melhoria.
+Embora os testes indiquem uma boa usabilidade de forma geral, identificamos algumas oportunidades de melhoria com base em observações dos participantes. Ajustes em funcionalidades como filtros adicionais nas buscas, maior automatização na localização dos usuários e melhorias na apresentação de informações (como a exibição de avaliações médias de forma mais direta) poderão ainda mais otimizar a experiência oferecida.
 
+Por fim, os resultados obtidos reforçam que o sistema cumpre bem sua proposta atual, mas permanece aberto a evoluções que possam proporcionar uma experiência cada vez mais eficiente, agradável e acessível ao seu público-alvo.
 
 
