@@ -160,11 +160,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **MP10 - Sessão de mapa**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/mapa.html <br> 2) Clique nos botões de cada profissional, como psicólogo, por exemplo; <br> 3) Clique nos ícones que representa cada profissional, no mapa; <br> 4) Clique nos ícones de + e -;
+**Procedimento**  | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t4-start/src/mapa.html 2) Aumente ou diminua o zoom do mapa com o mouse ou nos ícones de + e -; 3)  Clique nos botões filtro para visualizar todos os profissionais cadastrados de cada categoria, como psicólogo, por exemplo; 3) Clique pin que representa cada profissional no mapa; 4) Clique nos filtros referente às avaliações de cada profissional cadastrado.
 **Requisitos associados** | RF-010;
-**Resultado esperado** | Mostrar onde o respectivo profissional está situado, mostrar o perfil pessoal de cada profissional e dar zoom e diminuir zoom do mapa, respectivamente;
+**Resultado esperado** | Mostrar onde o respectivo profissional está situado, filtrar os profissionais por categoria, mostrar o perfil pessoal de cada profissional, mostrar as avaliações de cada profissional e conseguir filtrar as mesmas e dar zoom e diminuir zoom do mapa.
 **Dados de entrada** | Ter clicado em cada respectivo ícone;
-**Resultado obtido** | -
+**Resultado obtido** | 1) O mapa foi carregado corretamente e o zoom pôde ser ajustado com o mouse e botões; 2) Os filtros por categoria exibiram os profissionais corretamente; 3) Os pins foram clicáveis e ao serem clicados exibiram o perfil com informações de cada  profissional; 4) A filtragem das avaliação também funcionou corretamente, ordenando as avaliações baseado em cada critério selecionado; 5) Em profissionais sem avaliações foi recebida uma mensagem informando que o profissional ainda não havia sido avaliado.
 
 
 
@@ -302,7 +302,7 @@ Segue, abaixo, os resgistros dos testes:
 |*Caso de Teste*                                 |*MP10 - Sessão de mapa*                                        |
 |---|---|
 |Requisito Associado | RF-010 - A aplicação deve permitir que os usuários possam acessar a página de mapas e possa interagir com a mesma. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/14nXtbqCMLqU56SjYPzvGHgdXOdh-kjNb/view?usp=sharing | 
 
 
 
@@ -534,17 +534,15 @@ Cenário Você é um usuário que deseja ter acesso ás localizações de cada p
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                  |  27,52 segundos                       |
+| 2       | SIM             | 5                    | 37,24 segundos                         |
+| 3       | SIM             | 3                 | 54,34 segundos                         |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4,33             |  39,70 segundos                         |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 20,76 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: Duas usuárias relataram que a tela é fácil de acessar, intuitiva e satisfatória. Uma terceira usuária achou a legenda do mapa pouco intuitiva e se incomodou com o fato de que, ao filtrar os profissionais por categoria, não existia também uma opção de filtrar ou ordenar por avaliações. A mesma também relatou incômodo por ter que clicar em cada profissional para conseguir ver sua média de avaliações. Por fim, achou insatisfatório que o mapa não captasse sua localização automaticamente e mostrasse os estabelecimentos próximos a ela.
 
 ## Avaliação dos Testes de Usabilidade
 
