@@ -527,17 +527,15 @@ Cenário Você é um usuário que deseja ter acesso ás localizações de cada p
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                  |  27,52 segundos                       |
+| 2       | SIM             | 5                    | 37,24 segundos                         |
+| 3       | SIM             | 3                 | 54,34 segundos                         |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4,33             |  39,70 segundos                         |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 20,76 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: Duas usuárias relataram que a tela é fácil de acessar, intuitiva e satisfatória. Uma terceira usuária achou a legenda do mapa pouco intuitiva e se incomodou com o fato de que, ao filtrar os profissionais por categoria, não existia também uma opção de filtrar ou ordenar por avaliações. A mesma também relatou incômodo por ter que clicar em cada profissional para conseguir ver sua média de avaliações. Por fim, achou insatisfatório que o mapa não captasse sua localização automaticamente e mostrasse os estabelecimentos próximos a ela.
 
 ## Avaliação dos Testes de Usabilidade
 
