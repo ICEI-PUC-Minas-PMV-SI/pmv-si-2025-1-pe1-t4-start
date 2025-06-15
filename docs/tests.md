@@ -449,12 +449,7 @@ Cenário 4: Você é um usuário  que deseja realizar um cadastro no sistema sem
     Comentários dos usuários: Tela limpa e de fácil entendimento das escritas. 
 
 
-
-
-
-    
-    OUTROS CENÁRIOS DE OUTRAS PÁGINAS:
-
+  
 Cenário 2: Você é um usuário que deseja, ao logar no sistema, conseguir realizar publicações, exclui-lás, curti-lás e comentar nas mesmas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
@@ -471,55 +466,67 @@ Cenário 2: Você é um usuário que deseja, ao logar no sistema, conseguir real
 
 
 
-Cenário 2:  Você é um usuário que deseja editar seu perfil e seus dados adicionados no momento de criação de conta..
+Cenário 6:  Você é um usuário que deseja editar seu perfil e seus dados adicionados no momento de criação de conta.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 35.84 segundos                          |
+| 2       | SIM             | 5                    | 55.36 segundos                          |
+| 3       | SIM             | 5                    | 32.41 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 41.20 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 29.88 segundos |
+
+    Comentários dos usuários: Uso bem simples. Facilidade na edição e preenchimento dos campos, inclusive da imagem de perfil. A interface auxilia bem o usuário a entender o que deve ser preenchido.
+
+
+
+
+Cenário 7: Você é um usuário que deseja excluir seu perfil caso desejado.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 8.08 segundos                          |
+| 2       | SIM             | 5                    | 4.27 segundos                          |
+| 3       | SIM             | 5                    | 5.13 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 5.83 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 6.29 segundos |
+
+    Comentários dos usuários: É bem rápido e tem poucos passos pra excluir os dados.  Fluxo objetivo, com confirmação de segurança antes da exclusão.
+
+
+
+
+Cenário 8: Você é um usuário que deseja visualizar todas suas publicações feitas e conseguir editar ou excluir elas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 2       | SIM             | 5                    | 58.64 segundos                          |
+| 3       | SIM             | 5                    | 18.22 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5                | 33.13 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15.49 segundos |
+
+    Comentários dos usuários: Gostei da possibilidade de editar e excluir as postagens. Botões são intuitivos.
 
 
 
-Cenário 2: Você é um usuário que deseja excluir seu perfil caso desejado.
+
+Cenário 9: Você é um usuário que deseja ter acesso aos profissionais cadastrados no sistema e seus perfis pessoais.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    |  31.52 segundos                          |
+| 2       | SIM             | 4.5                    | 28.58 segundos                          |
+| 3       | SIM             | 4.5                    | 20.14 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4.67                | 26.75 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |  22.36 segundos |
+    
+    Comentários dos usuários: A funcionalidade de busca e os filtros para encontrar profissionais operaram de forma eficaz. Observei que o contato de e-mail apareceu como 'undefined' em alguns perfis, o que dificultou a identificação dos meios de contato. 
 
-
-
-Cenário 2: Você é um usuário que deseja visualizar todas suas publicações feitas e conseguir editar ou excluir elas..
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-
-Cenário 2: Você é um usuário que deseja ter acesso aos profissionais cadastrados no sistema e seus perfis pessoais..
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
 
