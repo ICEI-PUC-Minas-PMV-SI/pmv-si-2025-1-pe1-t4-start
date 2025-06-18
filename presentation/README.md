@@ -5,17 +5,20 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
+* [Pitch inicial](https://drive.google.com/drive/folders/1PfSslrs2gYA_eAAAaDBn8MemrpY7J1pQ?usp=drive_link) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
-
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
+  
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Nome do projeto: Projeto aplicações web- Mães Solo no Mercado de trabalho;
+Marca do projeto: Mães em Foco.
 
 ## Identidade Visual (Marca, Design)
+Nossa equipe desenvolveu uma marca e identidade visual com dois objetivos principais: engajar nosso público-alvo e apresentar nossa equipe através da nossa identidade visual. 
+Nossa identidade visual está disponíveis para que o público a veja e reconheça.
+
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
@@ -35,7 +38,8 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ## Vídeo de demonstração
 
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
+Após a conclusão do sistema, disponibilizamos um vídeo que demonstra seu funcionamento. O objetivo é mostrar ao nosso público-alvo os principais recursos e funcionalidades que resolvem os problemas enfrentados por eles.
+
 
 > **Algumas informações úteis**
 > - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
