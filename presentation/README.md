@@ -29,8 +29,7 @@ Todos o processos de realização citados acima, foram anexados a seguir:
 **Marca do projeto:** Mães em Foco.
 
 ## Identidade Visual (Marca, Design)
-Nossa equipe desenvolveu uma marca e identidade visual com dois objetivos principais: engajar nosso público-alvo e apresentar nossa equipe através da nossa identidade visual. 
-Nossa identidade visual está disponíveis para que o público a veja e reconheça.
+Nossa equipe desenvolveu uma marca e identidade visual com dois objetivos principais: engajar nosso público-alvo e apresentar nossa equipe. A identidade visual da equipe está disponível para que o público a veja e reconheça.
 
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-branca.png
 
