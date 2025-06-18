@@ -1,13 +1,13 @@
 # Apresentação
 
-Desde o início, nossa equipe teve o objetivo principal de alcançar nosso público alvo através do desenvolvimento de nossa solução para resolução dos problemas vividos por eles. Incluímos várias etapas antes da conclusão de qual solução se enquadraria melhor levando em consideração os desafios enfrentados pelo público alvo escolhido. As etapas que nos fizeram chegar até a solução definida, foram:
-1- Definição do público alvo e do problema, de acordo com os objetivos da ONU; 
-2- Estudos sobre os temas que relatam os desafios enfrentados pelo público alvo;
-3- Discussão em equipe com o compartilhamento de ideias que melhor se encaixariam como solução do problema;
-4- Definição de solução;
-5- Início do processo de realização da solução;
-6- Averiguação de todo o processo realizado;
-7- Término de realização final da solução;
+Desde o início, nossa equipe teve o objetivo principal de alcançar nosso público alvo através do desenvolvimento de nossa solução para resolução dos problemas vividos por eles. Incluímos várias etapas antes da conclusão de qual solução se enquadraria melhor levando em consideração os desafios enfrentados pelo público alvo escolhido. As etapas que nos fizeram chegar até a solução definida, foram:<br>
+1- Definição do público alvo e do problema, de acordo com os objetivos da ONU; <br>
+2- Estudos sobre os temas que relatam os desafios enfrentados pelo público alvo;<br>
+3- Discussão em equipe com o compartilhamento de ideias que melhor se encaixariam como solução do problema;<br>
+4- Definição de solução;<br>
+5- Início do processo de realização da solução;<br>
+6- Averiguação de todo o processo realizado;<br>
+7- Término de realização final da solução;<br>
 
 Todos o processos de realização citados acima, foram anexados a seguir:
 
