@@ -12,8 +12,8 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 ## Título do Projeto
 
-Nome do projeto: Projeto aplicações web- Mães Solo no Mercado de trabalho;<br>
-Marca do projeto: Mães em Foco.
+**Nome do projeto:** Projeto aplicações web- Mães Solo no Mercado de trabalho;<br>
+**Marca do projeto:** Mães em Foco.
 
 ## Identidade Visual (Marca, Design)
 Nossa equipe desenvolveu uma marca e identidade visual com dois objetivos principais: engajar nosso público-alvo e apresentar nossa equipe através da nossa identidade visual. 
