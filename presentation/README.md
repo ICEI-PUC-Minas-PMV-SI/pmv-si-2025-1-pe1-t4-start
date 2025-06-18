@@ -12,12 +12,14 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 ## Título do Projeto
 
-Nome do projeto: Projeto aplicações web- Mães Solo no Mercado de trabalho;
+Nome do projeto: Projeto aplicações web- Mães Solo no Mercado de trabalho;<br>
 Marca do projeto: Mães em Foco.
 
 ## Identidade Visual (Marca, Design)
 Nossa equipe desenvolveu uma marca e identidade visual com dois objetivos principais: engajar nosso público-alvo e apresentar nossa equipe através da nossa identidade visual. 
 Nossa identidade visual está disponíveis para que o público a veja e reconheça.
+
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-branca.png
 
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
