@@ -25,7 +25,7 @@ Todos o processos de realização citados acima, foram anexados a seguir:
 
 ## Título do Projeto
 
-**Nome do projeto:** Projeto aplicações web- Mães Solo no Mercado de trabalho;<br>
+**Nome do projeto:** Projeto Aplicações Web- Mães Solo no Mercado de trabalho;<br>
 **Marca do projeto:** Mães em Foco.
 
 ## Identidade Visual (Marca, Design)
