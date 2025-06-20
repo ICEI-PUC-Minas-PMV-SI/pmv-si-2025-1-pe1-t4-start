@@ -19,7 +19,7 @@ Desde o início, nossa equipe teve o objetivo principal de alcançar nosso públ
 Todos o processos de realização citados acima, foram anexados a seguir:
 
 * [Pitch inicial](https://drive.google.com/drive/folders/1PfSslrs2gYA_eAAAaDBn8MemrpY7J1pQ?usp=drive_link) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
+* [Apresentação final](https://drive.google.com/file/d/1HAT0U_AD1cxF7BLCy1NB7N32SqiJ5Ec7/view?usp=sharing) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
   
 
