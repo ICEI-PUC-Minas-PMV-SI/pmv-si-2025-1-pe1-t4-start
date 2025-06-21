@@ -46,6 +46,6 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ## Vídeo de demonstração
 
-Após a conclusão do sistema, disponibilizamos um vídeo que demonstra seu funcionamento. O objetivo é mostrar ao nosso público-alvo os principais recursos e funcionalidades que resolvem os problemas enfrentados por eles. O mesmo está disponibilizado na pasta https://drive.google.com/drive/folders/1CJxKoYcq-JhtlYe-exqKPvxUdVg94cRW?usp=drive_link.
+Após a conclusão do sistema, disponibilizamos um vídeo que demonstra seu funcionamento. O objetivo é mostrar ao nosso público-alvo os principais recursos e funcionalidades que resolvem os problemas enfrentados por eles. O mesmo está disponibilizado na pasta https://drive.google.com/drive/folders/1CJxKoYcq-JhtlYe-exqKPvxUdVg94cRW?usp=drive_link. Os vídeos presentes dentro da pasta são dois vídeos, sendo um deles legendado e o outro sem legenda.
 
 
