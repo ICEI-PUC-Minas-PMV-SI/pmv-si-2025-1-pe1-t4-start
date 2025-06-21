@@ -41,11 +41,11 @@ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/sr
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
+O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation).
  
 
 ## Vídeo de demonstração
 
-Após a conclusão do sistema, disponibilizamos um vídeo que demonstra seu funcionamento. O objetivo é mostrar ao nosso público-alvo os principais recursos e funcionalidades que resolvem os problemas enfrentados por eles. O mesmo está disponibilizado na pasta 
+Após a conclusão do sistema, disponibilizamos um vídeo que demonstra seu funcionamento. O objetivo é mostrar ao nosso público-alvo os principais recursos e funcionalidades que resolvem os problemas enfrentados por eles. O mesmo está disponibilizado na pasta https://drive.google.com/file/d/1HAT0U_AD1cxF7BLCy1NB7N32SqiJ5Ec7/view?usp=sharing.
 
 
