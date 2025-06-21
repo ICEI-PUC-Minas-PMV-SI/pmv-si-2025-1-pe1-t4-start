@@ -20,7 +20,7 @@ Todos o processos de realização citados acima, foram anexados a seguir:
 
 * [Pitch inicial](https://drive.google.com/drive/folders/1PfSslrs2gYA_eAAAaDBn8MemrpY7J1pQ?usp=drive_link) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](https://drive.google.com/file/d/1HAT0U_AD1cxF7BLCy1NB7N32SqiJ5Ec7/view?usp=sharing) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
+* [Vídeo de demonstração](https://drive.google.com/drive/u/1/folders/1CJxKoYcq-JhtlYe-exqKPvxUdVg94cRW) -- arquivo com a demonstração do funcionamento do sistema (vídeos com e sem legenda).
   
 
 ## Título do Projeto
