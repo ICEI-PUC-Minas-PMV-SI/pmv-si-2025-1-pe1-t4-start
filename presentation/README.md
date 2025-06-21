@@ -20,7 +20,7 @@ Todos o processos de realização citados acima, foram anexados a seguir:
 
 * [Pitch inicial](https://drive.google.com/drive/folders/1PfSslrs2gYA_eAAAaDBn8MemrpY7J1pQ?usp=drive_link) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](https://drive.google.com/file/d/1HAT0U_AD1cxF7BLCy1NB7N32SqiJ5Ec7/view?usp=sharing) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](https://drive.google.com/drive/u/1/folders/1CJxKoYcq-JhtlYe-exqKPvxUdVg94cRW) -- arquivo com a demonstração do funcionamento do sistema (vídeos com e sem legenda).
+* [Vídeo de demonstração](https://drive.google.com/drive/folders/1CJxKoYcq-JhtlYe-exqKPvxUdVg94cRW?usp=drive_link) -- arquivo com a demonstração do funcionamento do sistema (vídeos com e sem legenda).
   
 
 ## Título do Projeto
@@ -46,6 +46,6 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ## Vídeo de demonstração
 
-Após a conclusão do sistema, disponibilizamos um vídeo que demonstra seu funcionamento. O objetivo é mostrar ao nosso público-alvo os principais recursos e funcionalidades que resolvem os problemas enfrentados por eles. O mesmo está disponibilizado na pasta https://drive.google.com/file/d/1HAT0U_AD1cxF7BLCy1NB7N32SqiJ5Ec7/view?usp=sharing.
+Após a conclusão do sistema, disponibilizamos um vídeo que demonstra seu funcionamento. O objetivo é mostrar ao nosso público-alvo os principais recursos e funcionalidades que resolvem os problemas enfrentados por eles. O mesmo está disponibilizado na pasta https://drive.google.com/drive/folders/1CJxKoYcq-JhtlYe-exqKPvxUdVg94cRW?usp=drive_link.
 
 
