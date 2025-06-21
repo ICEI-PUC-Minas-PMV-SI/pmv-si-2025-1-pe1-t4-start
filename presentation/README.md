@@ -35,6 +35,8 @@ Nossa equipe desenvolveu uma marca e identidade visual com dois objetivos princi
 
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-branca.png
 
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo.png
+
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-simbolo.png
 
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/tela%20de%20fundo.jpg
