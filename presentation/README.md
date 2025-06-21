@@ -34,10 +34,12 @@ Todos o processos de realização citados acima, foram anexados a seguir:
 Nossa equipe desenvolveu uma marca e identidade visual com dois objetivos principais: engajar nosso público-alvo e apresentar nossa equipe. As principais identidades visuais de nossa equipe, está disponível para que o público a veja e reconheça.
 
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-branca.png
+
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-simbolo.png
+
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/tela%20de%20fundo.jpg
 
-
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-texto.png
 
 ## Conjunto de Slides (Estrutura)
 
