@@ -44,8 +44,8 @@ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/sr
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-start/blob/main/src/assets/images/logo-texto.png
 
 ## Conjunto de Slides (Estrutura)
+Nesta etapa final, apresentaremos o conteúdo detalhado nos slides anexados acima. A equipe fará uma apresentação abrangente, abordando todas as etapas do projeto, desde o início até a conclusão. O foco será destacar a importância de uma descrição clara do andamento do projeto, incluindo os insumos gerados e os requisitos atendidos.
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation).
  
 
 ## Vídeo de demonstração
