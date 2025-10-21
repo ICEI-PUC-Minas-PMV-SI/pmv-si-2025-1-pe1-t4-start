@@ -1,49 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="assets/css/cadastro.css" />
+    
+    <!-- Aqui você coloca o nome do arquivo CSS que criou (ex: style.css) -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-    <img src="assets/images/logo.png"  alt="logo" id="logo-fundo">
-     <header>
+    <!-- Se quiser colocar uma imagem de fundo, salve a imagem no VS Code e chame aqui -->
+    <img src="assets/images/logo.png" alt="logo" id="logo-fundo">
+
+    <header>
         <div id="title">
+            <!-- Você pode colocar o título ou o nome da sua página aqui -->
         </div>
-     </header>
+    </header>
+
     <main class="container">
         <form id="form-login">
+
+            <!-- h1, h2, etc. são títulos. h1 é o título principal da página -->
             <h1>Cadastro</h1>
-            <p class="paragrafo1">Bem-vindos ao nosso sistema!</p>
+            
+            <!-- O p serve para escrever parágrafos (textos explicativos, descrições, etc.) -->
+            <p class="paragrafo1"></p>
+
+            <!-- As divs abaixo são usadas para agrupar os campos e aplicar estilos via CSS -->
             <div class="input-box">
                 <input placeholder="Nome completo" autocomplete="name" id="nome">
             </div>
+
             <div class="input-box">
                 <input placeholder="E-mail" type="text" autocomplete="email" id="email">
             </div>
+
             <div class="input-box">
                 <input placeholder="Senha" type="password" maxlength="14" id="senha">
             </div>
+
             <div class="input-box">
-                <input placeholder="Confirmar senha" type="password"  maxlength="14" id="confirmar">
+                <input placeholder="Confirmar senha" type="password" maxlength="14" id="confirmar">
             </div>
+
+            <!-- Checkbox (caixinha de marcar) para lembrar o login -->
             <div class="lembrar-senha">
                 <label>
                     <input type="checkbox"> Lembrar acesso
                 </label>
             </div>
+
+            <!-- Botão principal de cadastro -->
             <button type="submit" class="cadastrar">Cadastrar</button>
+
             <div class="cadastro">
+                <!-- Aqui você pode adicionar um link para outra página, como a tela de login -->
                 <p><a href="index.html"><b>Faça login</b></a></p>
-                <p>Ou<br><a href="cadastro-profissional.html"><b>Cadastre-se como
-                        profissional</b></a></p>
             </div>
         </form>
     </main>
-</body>
-<script src="assets/js/cadastro.js"></script>
-</html>
 
+    <!-- Só precisa dessa parte se você tiver um arquivo JavaScript (por exemplo, cadastro.js) -->
+    <script src="assets/js/cadastro.js"></script>
+</body>
+</html>
