@@ -1,4 +1,8 @@
 const form = document.getElementById('form-login');
+const campoEspecialidade = document.getElementById('especialidade');
+const containerRegistro = document.getElementById('registroContainer');
+const inputRegistro = document.getElementById('registro');
+const telaSucesso = document.getElementById('tela-sucesso');
 
 const dados = {
   psicologos: [
@@ -49,7 +53,7 @@ const dados = {
     { "email": "lara.silva@babycare.com" },
     { "email": "tatiane.freitas@meubebe.net" },
     { "email": "roberta.pinto@casinha.com.br" },
-    { "email": "vanessa.almeida@cuidadorakids.com" },
+    { "email": "vanessa.almeida@cuidadoras-kids.com" },
     { "email": "aline.costa@babysmile.org" },
     { "email": "sabrina.martins@bebeleve.com" }
   ],
@@ -79,16 +83,36 @@ const dados = {
   ]
 };
 
+campoEspecialidade.addEventListener('input', () => {
+  const valor = campoEspecialidade.value;
+  if (valor === 'Psicólogo' || valor === 'Advogado') {
+    containerRegistro.style.display = 'flex';
+    inputRegistro.setAttribute('required', 'true');
+  } else {
+    containerRegistro.style.display = 'none';
+    inputRegistro.removeAttribute('required');
+    inputRegistro.value = '';
+  }
+});
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
+  const name = document.getElementById('nome').value.trim();
   const email = document.getElementById('email').value.trim();
   const senha = document.getElementById('senha').value.trim();
-  const confirmaSenha = document.getElementById('confirmar').value.trim();
-  const name = document.getElementById('nome').value.trim();
+  const cidade = document.getElementById('cidade').value.trim();
+  const especialidade = campoEspecialidade.value.trim();
+  const registro = inputRegistro.value.trim();
+  const termos = document.getElementById('termos').checked;
 
-  if (!email || !senha || !confirmaSenha || !name) {
+  if (!name || !email || !senha || !cidade || !especialidade) {
     alert('Preencha todos os campos!');
+    return;
+  }
+
+  if ((especialidade === 'Psicólogo' || especialidade === 'Advogado') && !registro) {
+    alert('Preencha o seu registro profissional!');
     return;
   }
 
@@ -102,23 +126,27 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  if (senha !== confirmaSenha) {
-    alert('As senhas não coincidem!');
+  if (!termos) {
+    alert('Você deve aceitar os termos de privacidade.');
     return;
   }
 
-  const emailJaCadastrado = Object.values(dados).some(categoria =>
-    categoria.some(usuario => usuario.email === email)
-  );
+  const emailJaCadastrado = Object.entries(dados).some(([categoria, lista]) => {
+    if (categoria === 'maes') return false;
+    return lista.some(usuario => usuario.email.toLowerCase() === email.toLowerCase());
+  });
 
   if (emailJaCadastrado) {
     alert('Este e-mail já está cadastrado.');
     return;
   }
 
-
-  window.location.href = 'cadastroprof.html';
+  telaSucesso.style.display = 'flex';
 });
 
-
-
+const btnFecharSucesso = document.getElementById('btn-fechar-sucesso');
+btnFecharSucesso.addEventListener('click', () => {
+  telaSucesso.style.display = 'none';
+  form.reset();
+  window.location.href = 'index.html';
+});

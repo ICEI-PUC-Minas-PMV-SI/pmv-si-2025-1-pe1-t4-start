@@ -3,48 +3,97 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="assets/css/cadastro-profissional.css">
+    <title>Cadastro Profissional - Mães em Foco</title>
 </head>
 
 <body>
-    <img src="assets/images/logo.png"  alt="logo" id="logo-fundo">
-     <header>
-        <div id="title">
-        </div>
-     </header>
-    <main class="container">
+    <div class="topo-pagina">
+        <img src="assets/images/logo.png" alt="Mães em Foco" id="logo-fundo">
+        <a href="javascript:history.back()" class="voltar-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+        </a>
+    </div>
+    
+    <main class="container" id="conteudo-principal">
         <form id="form-login">
-            <h1>Cadastro<br>profissional</h1>
-            <p class="paragrafo1">Informações pessoais.</p>
+            <h1>Cadastro profissional</h1>
+            <p class="paragrafo1 secao-dados">Dados básicos</p>
+            
             <div class="input-box">
-                <input placeholder="Nome completo" type="text" name="name" id="nome">
+                <label for="nome">Nome completo</label>
+                <input placeholder="Thiago Castro" type="text" name="name" id="nome">
             </div>
+            
             <div class="input-box">
-                <input placeholder="E-mail" type="text" autocomplete="email" id="email">
+                <label for="email">Email</label>
+                <input placeholder="exemplo@email.com" type="email" autocomplete="email" id="email">
             </div>
+            
             <div class="input-box">
-                <input placeholder="Senha" type="password" maxlength="14" id="senha">
+                <label for="senha">Senha</label>
+                <div class="senha-wrapper">
+                    <input placeholder="****************" type="password" maxlength="14" id="senha">
+                    <span class="olho-senha">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </span>
+                </div>
             </div>
+            <p class="aviso-senha">Mínimo de 8 caracteres e uma letra maiúscula</p>
+            
             <div class="input-box">
-                <input placeholder="Confirmar senha" type="password" maxlength="14" id="confirmar">
+                <label for="cidade">Cidade</label>
+                <input placeholder="Belo Horizonte, Minas Gerais" id="cidade">
             </div>
+            
+            <p class="paragrafo1 secao-profissionais">Dados profissionais</p>
+            
+            <div class="input-box">
+                <label for="especialidade">Especialidade</label>
+                <input placeholder="Ex: Psicólogo ou Advogado" id="especialidade" list="opcoes-especialidade">
+                <datalist id="opcoes-especialidade">
+                    <option value="Psicólogo">
+                    <option value="Advogado">
+                    <option value="Babá">
+                    <option value="Creche">
+                </datalist>
+            </div>
+
+            <div class="input-box" id="registroContainer" style="display: none;">
+                <label for="registro">Registro profissional (OAB, CRP)</label>
+                <input placeholder="000000/UF" type="text" id="registro">
+            </div>
+            
             <div class="lembrar-senha">
-                <label>
-                    <input type="checkbox">
-                    Lembrar acesso
+                <input type="checkbox" id="termos">
+                <label for="termos">
+                    Eu concordo com os <a href="#">termos de privacidade e serviço</a>
                 </label>
             </div>
-            <button type="submit" class="prof">Prosseguir</button>
+            
+            <button type="submit" class="prof">Enviar cadastro para análise</button>
+            
             <div class="profissional">
-                <p>Já possui uma conta? <a href="index.html" class="conta"><b><br>Fazer
-                        Login</b></a></p>
+                <span>Já tem uma conta? <a href="index.html" class="conta"><b>Fazer login</b></a></span>
             </div>
         </form>
     </main>
-</body>
-<script src="assets/js/profissional.js"></script>
-</html>
 
+   <div id="tela-sucesso" class="tela-sucesso" style="display: none;">
+    <div class="card-notificacao">
+        <div class="mensagem-sucesso">
+            Sucesso! Seu cadastro foi enviado para análise. Em breve você receberá um retorno no seu e-mail.
+        </div>
+        <button type="button" id="btn-fechar-sucesso" class="btn-ok">OK</button>
+    </div>
+</div>
+
+    <script src="assets/js/profissional.js"></script>
+</body>
+</html>
