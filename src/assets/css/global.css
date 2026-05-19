@@ -6,3 +6,11 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+header-component button, 
+header-component a,
+.btn-entrar,
+.botao-entrar {
+    background-color: #9388AD !important;
+    color: #ffffff !important;
+}
